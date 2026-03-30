@@ -1,0 +1,99 @@
+{
+  "crosswords": [
+    {
+      "level": 1,
+      "topic": "animals",
+      "title": "Animal Crossword",
+      "title_vi": "Ô chữ Động vật",
+      "size": 8,
+      "words": [
+        {"word": "cat", "clue": "It says meow 🐱", "clue_vi": "Nó kêu meo meo", "row": 0, "col": 2, "direction": "across"},
+        {"word": "dog", "clue": "It says woof 🐶", "clue_vi": "Nó kêu gâu gâu", "row": 0, "col": 0, "direction": "down"},
+        {"word": "fish", "clue": "Lives in water 🐟", "clue_vi": "Sống dưới nước", "row": 2, "col": 0, "direction": "across"},
+        {"word": "bird", "clue": "It can fly 🐦", "clue_vi": "Nó biết bay", "row": 1, "col": 3, "direction": "down"},
+        {"word": "duck", "clue": "Says quack 🦆", "clue_vi": "Kêu quạc quạc", "row": 4, "col": 0, "direction": "across"},
+        {"word": "pig", "clue": "Pink farm animal 🐷", "clue_vi": "Con vật màu hồng ở nông trại", "row": 3, "col": 5, "direction": "down"},
+        {"word": "cow", "clue": "Gives us milk 🐄", "clue_vi": "Cho chúng ta sữa", "row": 6, "col": 0, "direction": "across"},
+        {"word": "hen", "clue": "Lays eggs 🐔", "clue_vi": "Đẻ trứng", "row": 5, "col": 2, "direction": "across"}
+      ]
+    },
+    {
+      "level": 1,
+      "topic": "fruits",
+      "title": "Fruit Crossword",
+      "title_vi": "Ô chữ Trái cây",
+      "size": 8,
+      "words": [
+        {"word": "apple", "clue": "Red or green fruit 🍎", "clue_vi": "Trái cây đỏ hoặc xanh", "row": 0, "col": 0, "direction": "across"},
+        {"word": "banana", "clue": "Yellow and curved 🍌", "clue_vi": "Màu vàng và cong", "row": 0, "col": 3, "direction": "down"},
+        {"word": "grape", "clue": "Small and purple 🍇", "clue_vi": "Nhỏ và tím", "row": 2, "col": 0, "direction": "across"},
+        {"word": "mango", "clue": "Tropical fruit 🥭", "clue_vi": "Trái cây nhiệt đới", "row": 4, "col": 0, "direction": "across"},
+        {"word": "lemon", "clue": "Yellow and sour 🍋", "clue_vi": "Vàng và chua", "row": 3, "col": 5, "direction": "down"},
+        {"word": "peach", "clue": "Fuzzy skin fruit 🍑", "clue_vi": "Trái cây da lông tơ", "row": 6, "col": 1, "direction": "across"}
+      ]
+    },
+    {
+      "level": 3,
+      "topic": "school",
+      "title": "School Crossword",
+      "title_vi": "Ô chữ Trường học",
+      "size": 10,
+      "words": [
+        {"word": "teacher", "clue": "A person who teaches 👩‍🏫", "clue_vi": "Người dạy học", "row": 0, "col": 0, "direction": "across"},
+        {"word": "pencil", "clue": "You write with this ✏️", "clue_vi": "Bạn viết bằng cái này", "row": 0, "col": 0, "direction": "down"},
+        {"word": "eraser", "clue": "Removes pencil marks", "clue_vi": "Xóa vết bút chì", "row": 2, "col": 2, "direction": "across"},
+        {"word": "ruler", "clue": "Used to measure 📏", "clue_vi": "Dùng để đo", "row": 4, "col": 1, "direction": "across"},
+        {"word": "notebook", "clue": "Write notes in it 📓", "clue_vi": "Viết ghi chú vào đây", "row": 1, "col": 7, "direction": "down"},
+        {"word": "backpack", "clue": "Carry books in it 🎒", "clue_vi": "Đựng sách trong đó", "row": 6, "col": 0, "direction": "across"}
+      ]
+    },
+    {
+      "level": 3,
+      "topic": "weather",
+      "title": "Weather Crossword",
+      "title_vi": "Ô chữ Thời tiết",
+      "size": 10,
+      "words": [
+        {"word": "sunny", "clue": "Bright and warm ☀️", "clue_vi": "Sáng và ấm", "row": 0, "col": 0, "direction": "across"},
+        {"word": "cloudy", "clue": "Sky is covered ☁️", "clue_vi": "Bầu trời bị che phủ", "row": 2, "col": 0, "direction": "across"},
+        {"word": "rainy", "clue": "Water falls from sky 🌧️", "clue_vi": "Nước rơi từ trời", "row": 0, "col": 2, "direction": "down"},
+        {"word": "windy", "clue": "Air moves fast 💨", "clue_vi": "Không khí di chuyển nhanh", "row": 4, "col": 3, "direction": "across"},
+        {"word": "snowy", "clue": "White and cold ❄️", "clue_vi": "Trắng và lạnh", "row": 6, "col": 0, "direction": "across"},
+        {"word": "rainbow", "clue": "Colorful arc after rain 🌈", "clue_vi": "Vòng cung nhiều màu sau mưa", "row": 8, "col": 0, "direction": "across"}
+      ]
+    },
+    {
+      "level": 5,
+      "topic": "nature",
+      "title": "Nature Crossword",
+      "title_vi": "Ô chữ Thiên nhiên",
+      "size": 12,
+      "words": [
+        {"word": "mountain", "clue": "Very tall land 🏔️", "clue_vi": "Vùng đất rất cao", "row": 0, "col": 0, "direction": "across"},
+        {"word": "waterfall", "clue": "Water falling from high 💧", "clue_vi": "Nước rơi từ trên cao", "row": 0, "col": 0, "direction": "down"},
+        {"word": "volcano", "clue": "Mountain with lava 🌋", "clue_vi": "Núi có dung nham", "row": 2, "col": 3, "direction": "across"},
+        {"word": "ocean", "clue": "Largest body of water 🌊", "clue_vi": "Vùng nước lớn nhất", "row": 4, "col": 0, "direction": "across"},
+        {"word": "forest", "clue": "Many trees 🌲", "clue_vi": "Nhiều cây cối", "row": 6, "col": 2, "direction": "across"},
+        {"word": "desert", "clue": "Sandy and dry 🏜️", "clue_vi": "Nhiều cát và khô", "row": 8, "col": 0, "direction": "across"},
+        {"word": "earthquake", "clue": "Ground shaking 🌍", "clue_vi": "Mặt đất rung chuyển", "row": 10, "col": 0, "direction": "across"},
+        {"word": "hurricane", "clue": "Strong storm 🌀", "clue_vi": "Bão mạnh", "row": 4, "col": 4, "direction": "down"}
+      ]
+    },
+    {
+      "level": 5,
+      "topic": "science",
+      "title": "Science Crossword",
+      "title_vi": "Ô chữ Khoa học",
+      "size": 12,
+      "words": [
+        {"word": "experiment", "clue": "A test to learn 🧪", "clue_vi": "Một bài kiểm tra để học", "row": 0, "col": 0, "direction": "across"},
+        {"word": "microscope", "clue": "Makes tiny things big 🔬", "clue_vi": "Phóng to vật nhỏ", "row": 2, "col": 0, "direction": "across"},
+        {"word": "telescope", "clue": "Sees far away 🔭", "clue_vi": "Nhìn xa", "row": 4, "col": 1, "direction": "across"},
+        {"word": "gravity", "clue": "Pulls things down", "clue_vi": "Kéo mọi thứ xuống", "row": 6, "col": 0, "direction": "across"},
+        {"word": "satellite", "clue": "Orbits Earth 🛰️", "clue_vi": "Bay quanh Trái Đất", "row": 8, "col": 0, "direction": "across"},
+        {"word": "dinosaur", "clue": "Extinct giant reptile 🦕", "clue_vi": "Bò sát khổng lồ đã tuyệt chủng", "row": 10, "col": 1, "direction": "across"},
+        {"word": "electricity", "clue": "Powers devices ⚡", "clue_vi": "Cung cấp năng lượng cho thiết bị", "row": 0, "col": 0, "direction": "down"}
+      ]
+    }
+  ]
+}

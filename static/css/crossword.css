@@ -1,0 +1,112 @@
+/* ===== Crossword Styles ===== */
+.crossword-area {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 2rem;
+    align-items: start;
+}
+
+.crossword-grid {
+    display: inline-grid;
+    gap: 2px;
+    background: var(--text);
+    padding: 2px;
+    border-radius: var(--radius-sm);
+    justify-self: center;
+}
+
+.cw-cell {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    background: white;
+}
+
+.cw-cell.blocked {
+    background: var(--text);
+}
+
+.cw-cell input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--font);
+    background: transparent;
+    color: var(--text);
+}
+
+.cw-cell input:focus {
+    outline: none;
+    background: rgba(79, 70, 229, 0.1);
+}
+
+.cw-cell .cw-number {
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    font-size: 0.6rem;
+    color: var(--text-light);
+    font-weight: 600;
+    pointer-events: none;
+}
+
+.cw-cell.correct input {
+    background: rgba(16, 185, 129, 0.15);
+    color: var(--success);
+}
+
+.cw-cell.wrong input {
+    background: rgba(239, 68, 68, 0.15);
+    color: var(--danger);
+}
+
+.crossword-clues {
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+}
+
+.crossword-clues h3 {
+    font-size: 1rem;
+    color: var(--primary);
+    margin-bottom: 0.8rem;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+}
+
+.clue-item {
+    padding: 0.4rem 0;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.clue-item:hover {
+    color: var(--primary);
+}
+
+.clue-item .clue-number {
+    font-weight: 700;
+    color: var(--primary);
+    margin-right: 0.3rem;
+}
+
+@media (max-width: 768px) {
+    .crossword-area {
+        grid-template-columns: 1fr;
+    }
+
+    .cw-cell {
+        width: 35px;
+        height: 35px;
+    }
+
+    .cw-cell input {
+        font-size: 1rem;
+    }
+}

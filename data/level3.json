@@ -1,0 +1,335 @@
+{
+  "level": 3,
+  "label": "Lớp 3",
+  "description": "Từ vựng nâng cao cho học sinh lớp 3",
+  "topics": [
+    {
+      "id": "school",
+      "name": "School",
+      "name_vi": "Trường học",
+      "icon": "🏫",
+      "words": [
+        {
+          "word": "teacher",
+          "meaning": "giáo viên",
+          "phonetic": "/ˈtiːtʃər/",
+          "image": "https://cdn-icons-png.flaticon.com/512/1995/1995574.png",
+          "audio": "",
+          "example": "The teacher is kind.",
+          "hint": "A person who teaches"
+        },
+        {
+          "word": "student",
+          "meaning": "học sinh",
+          "phonetic": "/ˈstuːdənt/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2784/2784403.png",
+          "audio": "",
+          "example": "I am a student.",
+          "hint": "A person who learns"
+        },
+        {
+          "word": "pencil",
+          "meaning": "bút chì",
+          "phonetic": "/ˈpensəl/",
+          "image": "https://cdn-icons-png.flaticon.com/512/1170/1170577.png",
+          "audio": "",
+          "example": "I write with a pencil.",
+          "hint": "You write with this"
+        },
+        {
+          "word": "ruler",
+          "meaning": "thước kẻ",
+          "phonetic": "/ˈruːlər/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2541/2541986.png",
+          "audio": "",
+          "example": "Use a ruler to draw a line.",
+          "hint": "Used to measure length"
+        },
+        {
+          "word": "eraser",
+          "meaning": "cục tẩy",
+          "phonetic": "/ɪˈreɪsər/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2541/2541961.png",
+          "audio": "",
+          "example": "I need an eraser.",
+          "hint": "Removes pencil marks"
+        },
+        {
+          "word": "notebook",
+          "meaning": "vở",
+          "phonetic": "/ˈnoʊtbʊk/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2541/2541984.png",
+          "audio": "",
+          "example": "Write in your notebook.",
+          "hint": "You write notes in it"
+        },
+        {
+          "word": "backpack",
+          "meaning": "ba lô",
+          "phonetic": "/ˈbækpæk/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3860/3860288.png",
+          "audio": "",
+          "example": "My backpack is heavy.",
+          "hint": "Carry books in it"
+        },
+        {
+          "word": "classroom",
+          "meaning": "lớp học",
+          "phonetic": "/ˈklæsruːm/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2232/2232688.png",
+          "audio": "",
+          "example": "Our classroom is big.",
+          "hint": "Room where you study"
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "name": "Body Parts",
+      "name_vi": "Bộ phận cơ thể",
+      "icon": "🦴",
+      "words": [
+        {
+          "word": "head",
+          "meaning": "đầu",
+          "phonetic": "/hed/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588614.png",
+          "audio": "",
+          "example": "I wear a hat on my head.",
+          "hint": "Top of your body"
+        },
+        {
+          "word": "hand",
+          "meaning": "bàn tay",
+          "phonetic": "/hænd/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588658.png",
+          "audio": "",
+          "example": "I wave my hand.",
+          "hint": "You hold things with this"
+        },
+        {
+          "word": "finger",
+          "meaning": "ngón tay",
+          "phonetic": "/ˈfɪŋɡər/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588650.png",
+          "audio": "",
+          "example": "I have ten fingers.",
+          "hint": "On your hand"
+        },
+        {
+          "word": "shoulder",
+          "meaning": "vai",
+          "phonetic": "/ˈʃoʊldər/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588636.png",
+          "audio": "",
+          "example": "My shoulder hurts.",
+          "hint": "Between neck and arm"
+        },
+        {
+          "word": "elbow",
+          "meaning": "khuỷu tay",
+          "phonetic": "/ˈelboʊ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588642.png",
+          "audio": "",
+          "example": "Bend your elbow.",
+          "hint": "Middle joint of arm"
+        },
+        {
+          "word": "stomach",
+          "meaning": "bụng/dạ dày",
+          "phonetic": "/ˈstʌmək/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588622.png",
+          "audio": "",
+          "example": "My stomach is full.",
+          "hint": "Where food goes"
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "name_vi": "Thời tiết",
+      "icon": "⛅",
+      "words": [
+        {
+          "word": "sunny",
+          "meaning": "nắng",
+          "phonetic": "/ˈsʌni/",
+          "image": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
+          "audio": "",
+          "example": "It is sunny today.",
+          "hint": "Bright and warm"
+        },
+        {
+          "word": "cloudy",
+          "meaning": "nhiều mây",
+          "phonetic": "/ˈklaʊdi/",
+          "image": "https://cdn-icons-png.flaticon.com/512/414/414927.png",
+          "audio": "",
+          "example": "It is cloudy outside.",
+          "hint": "Sky is covered"
+        },
+        {
+          "word": "rainy",
+          "meaning": "mưa",
+          "phonetic": "/ˈreɪni/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2469/2469994.png",
+          "audio": "",
+          "example": "Take an umbrella, it is rainy.",
+          "hint": "Water falls from sky"
+        },
+        {
+          "word": "windy",
+          "meaning": "gió",
+          "phonetic": "/ˈwɪndi/",
+          "image": "https://cdn-icons-png.flaticon.com/512/959/959711.png",
+          "audio": "",
+          "example": "It is very windy.",
+          "hint": "Air is moving fast"
+        },
+        {
+          "word": "snowy",
+          "meaning": "tuyết",
+          "phonetic": "/ˈsnoʊi/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2315/2315309.png",
+          "audio": "",
+          "example": "It is snowy in winter.",
+          "hint": "White and cold"
+        },
+        {
+          "word": "rainbow",
+          "meaning": "cầu vồng",
+          "phonetic": "/ˈreɪnboʊ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2930/2930100.png",
+          "audio": "",
+          "example": "I see a rainbow.",
+          "hint": "Colorful arc in sky after rain"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "name": "Food & Drinks",
+      "name_vi": "Đồ ăn & thức uống",
+      "icon": "🍔",
+      "words": [
+        {
+          "word": "bread",
+          "meaning": "bánh mì",
+          "phonetic": "/bred/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3348/3348089.png",
+          "audio": "",
+          "example": "I eat bread for breakfast.",
+          "hint": "Made from flour"
+        },
+        {
+          "word": "cheese",
+          "meaning": "phô mai",
+          "phonetic": "/tʃiːz/",
+          "image": "https://cdn-icons-png.flaticon.com/512/517/517561.png",
+          "audio": "",
+          "example": "Cheese is yellow.",
+          "hint": "Made from milk"
+        },
+        {
+          "word": "chicken",
+          "meaning": "gà",
+          "phonetic": "/ˈtʃɪkɪn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/1046/1046751.png",
+          "audio": "",
+          "example": "I like fried chicken.",
+          "hint": "A bird you can eat"
+        },
+        {
+          "word": "rice",
+          "meaning": "cơm/gạo",
+          "phonetic": "/raɪs/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3174/3174880.png",
+          "audio": "",
+          "example": "We eat rice every day.",
+          "hint": "White grain food"
+        },
+        {
+          "word": "water",
+          "meaning": "nước",
+          "phonetic": "/ˈwɔːtər/",
+          "image": "https://cdn-icons-png.flaticon.com/512/824/824239.png",
+          "audio": "",
+          "example": "Drink more water.",
+          "hint": "You drink it every day"
+        },
+        {
+          "word": "juice",
+          "meaning": "nước ép",
+          "phonetic": "/dʒuːs/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3050/3050158.png",
+          "audio": "",
+          "example": "I like orange juice.",
+          "hint": "Made from fruit"
+        },
+        {
+          "word": "sandwich",
+          "meaning": "bánh sandwich",
+          "phonetic": "/ˈsænwɪtʃ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/1046/1046784.png",
+          "audio": "",
+          "example": "I eat a sandwich for lunch.",
+          "hint": "Bread with food inside"
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "name": "Transport",
+      "name_vi": "Phương tiện",
+      "icon": "🚗",
+      "words": [
+        {
+          "word": "bicycle",
+          "meaning": "xe đạp",
+          "phonetic": "/ˈbaɪsɪkəl/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2972/2972185.png",
+          "audio": "",
+          "example": "I ride a bicycle.",
+          "hint": "Two wheels, you pedal"
+        },
+        {
+          "word": "airplane",
+          "meaning": "máy bay",
+          "phonetic": "/ˈerpleɪn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3125/3125713.png",
+          "audio": "",
+          "example": "The airplane is fast.",
+          "hint": "Flies in the sky"
+        },
+        {
+          "word": "train",
+          "meaning": "tàu hỏa",
+          "phonetic": "/treɪn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3202/3202926.png",
+          "audio": "",
+          "example": "The train is long.",
+          "hint": "Runs on tracks"
+        },
+        {
+          "word": "helicopter",
+          "meaning": "trực thăng",
+          "phonetic": "/ˈhelɪkɒptər/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3125/3125826.png",
+          "audio": "",
+          "example": "A helicopter can hover.",
+          "hint": "Flies with spinning blades"
+        },
+        {
+          "word": "ambulance",
+          "meaning": "xe cứu thương",
+          "phonetic": "/ˈæmbjələns/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
+          "audio": "",
+          "example": "The ambulance is fast.",
+          "hint": "Takes sick people to hospital"
+        }
+      ]
+    }
+  ]
+}

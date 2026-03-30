@@ -1,0 +1,83 @@
+{
+  "site_name": "English Practice",
+  "site_name_vi": "Luyện Tiếng Anh",
+  "description": "Mini games to practice English vocabulary for Vietnamese students",
+  "base_url": "",
+  "levels": ["data/level1.json", "data/level3.json", "data/level5.json"],
+  "crosswords": "data/crosswords.json",
+  "output_dir": "docs",
+  "games": [
+    {
+      "id": "word-image",
+      "name": "Choose Word for Image",
+      "name_vi": "Chọn từ với hình ảnh",
+      "icon": "🖼️",
+      "description": "See an image, pick the correct word",
+      "description_vi": "Xem hình ảnh, chọn từ đúng"
+    },
+    {
+      "id": "image-word",
+      "name": "Choose Image for Word",
+      "name_vi": "Chọn hình ảnh ứng với từ",
+      "icon": "🔍",
+      "description": "See a word, pick the correct image",
+      "description_vi": "Xem từ, chọn hình ảnh đúng"
+    },
+    {
+      "id": "fill-letter",
+      "name": "Fill in the Letter",
+      "name_vi": "Điền chữ cái",
+      "icon": "✏️",
+      "description": "Complete the word by filling missing letters",
+      "description_vi": "Hoàn thành từ bằng cách điền chữ cái còn thiếu"
+    },
+    {
+      "id": "crossword",
+      "name": "Crossword Puzzle",
+      "name_vi": "Ô chữ",
+      "icon": "📝",
+      "description": "Solve crossword puzzles by topic",
+      "description_vi": "Giải ô chữ theo chủ đề"
+    },
+    {
+      "id": "word-guess",
+      "name": "Guess the Word",
+      "name_vi": "Đoán từ",
+      "icon": "💡",
+      "description": "Guess the word from hints",
+      "description_vi": "Đoán từ từ các gợi ý"
+    },
+    {
+      "id": "memory-cards",
+      "name": "Memory Cards",
+      "name_vi": "Lật thẻ ghi nhớ",
+      "icon": "🃏",
+      "description": "Match word cards with image cards",
+      "description_vi": "Ghép thẻ từ với thẻ hình ảnh"
+    },
+    {
+      "id": "word-scramble",
+      "name": "Word Scramble",
+      "name_vi": "Xáo trộn chữ cái",
+      "icon": "🔀",
+      "description": "Unscramble letters to form the correct word",
+      "description_vi": "Sắp xếp lại chữ cái thành từ đúng"
+    },
+    {
+      "id": "speed-challenge",
+      "name": "Speed Challenge",
+      "name_vi": "Thử thách tốc độ",
+      "icon": "⚡",
+      "description": "Answer as many as you can before time runs out!",
+      "description_vi": "Trả lời nhiều nhất có thể trước khi hết giờ!"
+    },
+    {
+      "id": "sentence-builder",
+      "name": "Sentence Builder",
+      "name_vi": "Xây dựng câu",
+      "icon": "📖",
+      "description": "Arrange words to build correct sentences",
+      "description_vi": "Sắp xếp từ thành câu đúng"
+    }
+  ]
+}

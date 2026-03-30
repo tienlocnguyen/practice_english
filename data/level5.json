@@ -1,0 +1,407 @@
+{
+  "level": 5,
+  "label": "Nâng cao",
+  "description": "Thử thách nâng cao - từ vựng khó và câu phức tạp",
+  "topics": [
+    {
+      "id": "emotions",
+      "name": "Emotions & Feelings",
+      "name_vi": "Cảm xúc",
+      "icon": "😊",
+      "words": [
+        {
+          "word": "excited",
+          "meaning": "hào hứng",
+          "phonetic": "/ɪkˈsaɪtɪd/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3688/3688598.png",
+          "audio": "",
+          "example": "She is excited about the trip.",
+          "hint": "Very happy and eager"
+        },
+        {
+          "word": "nervous",
+          "meaning": "lo lắng",
+          "phonetic": "/ˈnɜːrvəs/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3688/3688618.png",
+          "audio": "",
+          "example": "He feels nervous before the test.",
+          "hint": "Worried and anxious"
+        },
+        {
+          "word": "confused",
+          "meaning": "bối rối",
+          "phonetic": "/kənˈfjuːzd/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3688/3688625.png",
+          "audio": "",
+          "example": "I am confused by this question.",
+          "hint": "Don't understand something"
+        },
+        {
+          "word": "surprised",
+          "meaning": "ngạc nhiên",
+          "phonetic": "/sərˈpraɪzd/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3688/3688601.png",
+          "audio": "",
+          "example": "We were surprised by the news.",
+          "hint": "Unexpected feeling"
+        },
+        {
+          "word": "disappointed",
+          "meaning": "thất vọng",
+          "phonetic": "/ˌdɪsəˈpɔɪntɪd/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3688/3688637.png",
+          "audio": "",
+          "example": "He was disappointed with his grade.",
+          "hint": "Sad because something didn't happen"
+        },
+        {
+          "word": "embarrassed",
+          "meaning": "xấu hổ",
+          "phonetic": "/ɪmˈbærəst/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3688/3688610.png",
+          "audio": "",
+          "example": "She felt embarrassed in front of everyone.",
+          "hint": "Feeling shy or ashamed"
+        },
+        {
+          "word": "jealous",
+          "meaning": "ghen tị",
+          "phonetic": "/ˈdʒeləs/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3688/3688644.png",
+          "audio": "",
+          "example": "He is jealous of his friend's new toy.",
+          "hint": "Wanting what others have"
+        },
+        {
+          "word": "grateful",
+          "meaning": "biết ơn",
+          "phonetic": "/ˈɡreɪtfəl/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3688/3688590.png",
+          "audio": "",
+          "example": "I am grateful for your help.",
+          "hint": "Thankful feeling"
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "name": "Nature & Environment",
+      "name_vi": "Thiên nhiên",
+      "icon": "🌿",
+      "words": [
+        {
+          "word": "mountain",
+          "meaning": "núi",
+          "phonetic": "/ˈmaʊntən/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2938/2938245.png",
+          "audio": "",
+          "example": "We climbed the mountain.",
+          "hint": "Very tall land formation"
+        },
+        {
+          "word": "waterfall",
+          "meaning": "thác nước",
+          "phonetic": "/ˈwɔːtərfɔːl/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3076/3076129.png",
+          "audio": "",
+          "example": "The waterfall is beautiful.",
+          "hint": "Water falling from high"
+        },
+        {
+          "word": "volcano",
+          "meaning": "núi lửa",
+          "phonetic": "/vɒlˈkeɪnoʊ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2938/2938270.png",
+          "audio": "",
+          "example": "The volcano erupted last year.",
+          "hint": "Mountain that can explode with lava"
+        },
+        {
+          "word": "earthquake",
+          "meaning": "động đất",
+          "phonetic": "/ˈɜːrθkweɪk/",
+          "image": "https://cdn-icons-png.flaticon.com/512/4005/4005754.png",
+          "audio": "",
+          "example": "An earthquake shook the city.",
+          "hint": "Ground shaking violently"
+        },
+        {
+          "word": "hurricane",
+          "meaning": "bão",
+          "phonetic": "/ˈhɜːrɪkeɪn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/1779/1779807.png",
+          "audio": "",
+          "example": "The hurricane destroyed many houses.",
+          "hint": "Very strong wind storm"
+        },
+        {
+          "word": "desert",
+          "meaning": "sa mạc",
+          "phonetic": "/ˈdezərt/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2938/2938207.png",
+          "audio": "",
+          "example": "The desert is very hot and dry.",
+          "hint": "Sandy place with no water"
+        },
+        {
+          "word": "ocean",
+          "meaning": "đại dương",
+          "phonetic": "/ˈoʊʃən/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2938/2938286.png",
+          "audio": "",
+          "example": "The Pacific Ocean is the largest.",
+          "hint": "Very large body of salt water"
+        },
+        {
+          "word": "forest",
+          "meaning": "rừng",
+          "phonetic": "/ˈfɔːrɪst/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2938/2938229.png",
+          "audio": "",
+          "example": "Many animals live in the forest.",
+          "hint": "Area with many trees"
+        }
+      ]
+    },
+    {
+      "id": "professions",
+      "name": "Professions",
+      "name_vi": "Nghề nghiệp",
+      "icon": "👨‍💼",
+      "words": [
+        {
+          "word": "scientist",
+          "meaning": "nhà khoa học",
+          "phonetic": "/ˈsaɪəntɪst/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3135/3135810.png",
+          "audio": "",
+          "example": "The scientist discovered a new species.",
+          "hint": "Studies and experiments"
+        },
+        {
+          "word": "architect",
+          "meaning": "kiến trúc sư",
+          "phonetic": "/ˈɑːrkɪtekt/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3135/3135768.png",
+          "audio": "",
+          "example": "The architect designed a beautiful building.",
+          "hint": "Designs buildings"
+        },
+        {
+          "word": "astronaut",
+          "meaning": "phi hành gia",
+          "phonetic": "/ˈæstrənɔːt/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3135/3135789.png",
+          "audio": "",
+          "example": "The astronaut traveled to space.",
+          "hint": "Goes to space"
+        },
+        {
+          "word": "journalist",
+          "meaning": "nhà báo",
+          "phonetic": "/ˈdʒɜːrnəlɪst/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3135/3135826.png",
+          "audio": "",
+          "example": "The journalist wrote an important article.",
+          "hint": "Writes news stories"
+        },
+        {
+          "word": "photographer",
+          "meaning": "nhiếp ảnh gia",
+          "phonetic": "/fəˈtɒɡrəfər/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3135/3135853.png",
+          "audio": "",
+          "example": "The photographer took amazing photos.",
+          "hint": "Takes pictures professionally"
+        },
+        {
+          "word": "veterinarian",
+          "meaning": "bác sĩ thú y",
+          "phonetic": "/ˌvetərɪˈneriən/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3135/3135841.png",
+          "audio": "",
+          "example": "The veterinarian healed my sick cat.",
+          "hint": "Animal doctor"
+        },
+        {
+          "word": "firefighter",
+          "meaning": "lính cứu hỏa",
+          "phonetic": "/ˈfaɪərfaɪtər/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3135/3135800.png",
+          "audio": "",
+          "example": "The firefighter saved children from the fire.",
+          "hint": "Puts out fires"
+        },
+        {
+          "word": "mechanic",
+          "meaning": "thợ cơ khí",
+          "phonetic": "/mɪˈkænɪk/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3135/3135857.png",
+          "audio": "",
+          "example": "The mechanic fixed my car.",
+          "hint": "Repairs machines and cars"
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "name_vi": "Khoa học",
+      "icon": "🔬",
+      "words": [
+        {
+          "word": "experiment",
+          "meaning": "thí nghiệm",
+          "phonetic": "/ɪkˈsperɪmənt/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2490/2490391.png",
+          "audio": "",
+          "example": "We did an experiment in class.",
+          "hint": "A test to learn something new"
+        },
+        {
+          "word": "microscope",
+          "meaning": "kính hiển vi",
+          "phonetic": "/ˈmaɪkrəskoʊp/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2490/2490352.png",
+          "audio": "",
+          "example": "Use a microscope to see tiny things.",
+          "hint": "Makes small things look big"
+        },
+        {
+          "word": "telescope",
+          "meaning": "kính viễn vọng",
+          "phonetic": "/ˈtelɪskoʊp/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2490/2490411.png",
+          "audio": "",
+          "example": "We used a telescope to see the stars.",
+          "hint": "Looks at things far away in the sky"
+        },
+        {
+          "word": "temperature",
+          "meaning": "nhiệt độ",
+          "phonetic": "/ˈtemprətʃər/",
+          "image": "https://cdn-icons-png.flaticon.com/512/1843/1843544.png",
+          "audio": "",
+          "example": "The temperature is 30 degrees today.",
+          "hint": "How hot or cold something is"
+        },
+        {
+          "word": "electricity",
+          "meaning": "điện",
+          "phonetic": "/ɪˌlekˈtrɪsəti/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3104/3104635.png",
+          "audio": "",
+          "example": "We need electricity to power our homes.",
+          "hint": "Powers lights and machines"
+        },
+        {
+          "word": "gravity",
+          "meaning": "trọng lực",
+          "phonetic": "/ˈɡrævəti/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3076/3076041.png",
+          "audio": "",
+          "example": "Gravity keeps us on the ground.",
+          "hint": "Force that pulls things down"
+        },
+        {
+          "word": "dinosaur",
+          "meaning": "khủng long",
+          "phonetic": "/ˈdaɪnəsɔːr/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3136/3136505.png",
+          "audio": "",
+          "example": "Dinosaurs lived millions of years ago.",
+          "hint": "Giant reptiles that are extinct"
+        },
+        {
+          "word": "satellite",
+          "meaning": "vệ tinh",
+          "phonetic": "/ˈsætəlaɪt/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3076/3076083.png",
+          "audio": "",
+          "example": "A satellite orbits the Earth.",
+          "hint": "Object that circles the Earth in space"
+        }
+      ]
+    },
+    {
+      "id": "phrasal-verbs",
+      "name": "Action Phrases",
+      "name_vi": "Cụm động từ",
+      "icon": "🏃",
+      "words": [
+        {
+          "word": "wake up",
+          "meaning": "thức dậy",
+          "phonetic": "/weɪk ʌp/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3094/3094837.png",
+          "audio": "",
+          "example": "I wake up at 6 o'clock.",
+          "hint": "Stop sleeping"
+        },
+        {
+          "word": "look for",
+          "meaning": "tìm kiếm",
+          "phonetic": "/lʊk fɔːr/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3094/3094877.png",
+          "audio": "",
+          "example": "I am looking for my keys.",
+          "hint": "Try to find"
+        },
+        {
+          "word": "turn off",
+          "meaning": "tắt",
+          "phonetic": "/tɜːrn ɒf/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3094/3094861.png",
+          "audio": "",
+          "example": "Please turn off the lights.",
+          "hint": "Make something stop working"
+        },
+        {
+          "word": "put on",
+          "meaning": "mặc vào",
+          "phonetic": "/pʊt ɒn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3094/3094843.png",
+          "audio": "",
+          "example": "Put on your jacket, it's cold.",
+          "hint": "Wear clothing"
+        },
+        {
+          "word": "take off",
+          "meaning": "cởi ra",
+          "phonetic": "/teɪk ɒf/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3094/3094849.png",
+          "audio": "",
+          "example": "Take off your shoes inside.",
+          "hint": "Remove clothing"
+        },
+        {
+          "word": "pick up",
+          "meaning": "nhặt lên",
+          "phonetic": "/pɪk ʌp/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3094/3094855.png",
+          "audio": "",
+          "example": "Pick up the ball from the ground.",
+          "hint": "Lift something from a surface"
+        },
+        {
+          "word": "throw away",
+          "meaning": "vứt đi",
+          "phonetic": "/θroʊ əˈweɪ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3094/3094867.png",
+          "audio": "",
+          "example": "Throw away the trash.",
+          "hint": "Put in the garbage"
+        },
+        {
+          "word": "give back",
+          "meaning": "trả lại",
+          "phonetic": "/ɡɪv bæk/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3094/3094871.png",
+          "audio": "",
+          "example": "Please give back my book.",
+          "hint": "Return something"
+        }
+      ]
+    }
+  ]
+}

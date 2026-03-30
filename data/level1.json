@@ -1,0 +1,335 @@
+{
+  "level": 1,
+  "label": "Lớp 1",
+  "description": "Từ vựng cơ bản cho học sinh lớp 1",
+  "topics": [
+    {
+      "id": "animals",
+      "name": "Animals",
+      "name_vi": "Động vật",
+      "icon": "🐾",
+      "words": [
+        {
+          "word": "cat",
+          "meaning": "con mèo",
+          "phonetic": "/kæt/",
+          "image": "https://cdn-icons-png.flaticon.com/512/1864/1864514.png",
+          "audio": "",
+          "example": "I have a cat.",
+          "hint": "It says meow"
+        },
+        {
+          "word": "dog",
+          "meaning": "con chó",
+          "phonetic": "/dɒɡ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/616/616408.png",
+          "audio": "",
+          "example": "The dog is big.",
+          "hint": "It says woof"
+        },
+        {
+          "word": "fish",
+          "meaning": "con cá",
+          "phonetic": "/fɪʃ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2630/2630478.png",
+          "audio": "",
+          "example": "A fish can swim.",
+          "hint": "It lives in water"
+        },
+        {
+          "word": "bird",
+          "meaning": "con chim",
+          "phonetic": "/bɜːrd/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3069/3069170.png",
+          "audio": "",
+          "example": "The bird can fly.",
+          "hint": "It can fly"
+        },
+        {
+          "word": "duck",
+          "meaning": "con vịt",
+          "phonetic": "/dʌk/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3940/3940414.png",
+          "audio": "",
+          "example": "The duck is yellow.",
+          "hint": "It says quack"
+        },
+        {
+          "word": "pig",
+          "meaning": "con lợn",
+          "phonetic": "/pɪɡ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2810/2810055.png",
+          "audio": "",
+          "example": "The pig is pink.",
+          "hint": "It says oink"
+        },
+        {
+          "word": "hen",
+          "meaning": "con gà mái",
+          "phonetic": "/hen/",
+          "image": "https://cdn-icons-png.flaticon.com/512/1448/1448158.png",
+          "audio": "",
+          "example": "The hen has eggs.",
+          "hint": "It lays eggs"
+        },
+        {
+          "word": "cow",
+          "meaning": "con bò",
+          "phonetic": "/kaʊ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2219/2219677.png",
+          "audio": "",
+          "example": "The cow gives milk.",
+          "hint": "It says moo"
+        }
+      ]
+    },
+    {
+      "id": "colors",
+      "name": "Colors",
+      "name_vi": "Màu sắc",
+      "icon": "🎨",
+      "words": [
+        {
+          "word": "red",
+          "meaning": "màu đỏ",
+          "phonetic": "/red/",
+          "image": "https://cdn-icons-png.flaticon.com/512/7680/7680848.png",
+          "audio": "",
+          "example": "The apple is red.",
+          "hint": "Color of an apple"
+        },
+        {
+          "word": "blue",
+          "meaning": "màu xanh dương",
+          "phonetic": "/bluː/",
+          "image": "https://cdn-icons-png.flaticon.com/512/7680/7680860.png",
+          "audio": "",
+          "example": "The sky is blue.",
+          "hint": "Color of the sky"
+        },
+        {
+          "word": "green",
+          "meaning": "màu xanh lá",
+          "phonetic": "/ɡriːn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/7680/7680856.png",
+          "audio": "",
+          "example": "The grass is green.",
+          "hint": "Color of grass"
+        },
+        {
+          "word": "yellow",
+          "meaning": "màu vàng",
+          "phonetic": "/ˈjeloʊ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/7680/7680852.png",
+          "audio": "",
+          "example": "The sun is yellow.",
+          "hint": "Color of the sun"
+        },
+        {
+          "word": "pink",
+          "meaning": "màu hồng",
+          "phonetic": "/pɪŋk/",
+          "image": "https://cdn-icons-png.flaticon.com/512/7680/7680844.png",
+          "audio": "",
+          "example": "I like pink.",
+          "hint": "Light red color"
+        },
+        {
+          "word": "black",
+          "meaning": "màu đen",
+          "phonetic": "/blæk/",
+          "image": "https://cdn-icons-png.flaticon.com/512/7680/7680832.png",
+          "audio": "",
+          "example": "The cat is black.",
+          "hint": "Color of night"
+        },
+        {
+          "word": "white",
+          "meaning": "màu trắng",
+          "phonetic": "/waɪt/",
+          "image": "https://cdn-icons-png.flaticon.com/512/7680/7680836.png",
+          "audio": "",
+          "example": "Snow is white.",
+          "hint": "Color of snow"
+        },
+        {
+          "word": "orange",
+          "meaning": "màu cam",
+          "phonetic": "/ˈɔːrɪndʒ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/7680/7680864.png",
+          "audio": "",
+          "example": "The orange is orange.",
+          "hint": "A fruit and a color"
+        }
+      ]
+    },
+    {
+      "id": "fruits",
+      "name": "Fruits",
+      "name_vi": "Trái cây",
+      "icon": "🍎",
+      "words": [
+        {
+          "word": "apple",
+          "meaning": "quả táo",
+          "phonetic": "/ˈæpəl/",
+          "image": "https://cdn-icons-png.flaticon.com/512/415/415682.png",
+          "audio": "",
+          "example": "I eat an apple.",
+          "hint": "Red or green fruit"
+        },
+        {
+          "word": "banana",
+          "meaning": "quả chuối",
+          "phonetic": "/bəˈnænə/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2909/2909761.png",
+          "audio": "",
+          "example": "The banana is yellow.",
+          "hint": "Yellow and curved"
+        },
+        {
+          "word": "grape",
+          "meaning": "quả nho",
+          "phonetic": "/ɡreɪp/",
+          "image": "https://cdn-icons-png.flaticon.com/512/765/765560.png",
+          "audio": "",
+          "example": "I like grapes.",
+          "hint": "Small and purple"
+        },
+        {
+          "word": "mango",
+          "meaning": "quả xoài",
+          "phonetic": "/ˈmæŋɡoʊ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/5008/5008459.png",
+          "audio": "",
+          "example": "Mango is sweet.",
+          "hint": "Tropical yellow fruit"
+        },
+        {
+          "word": "lemon",
+          "meaning": "quả chanh",
+          "phonetic": "/ˈlemən/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2909/2909808.png",
+          "audio": "",
+          "example": "Lemon is sour.",
+          "hint": "Yellow and sour"
+        },
+        {
+          "word": "peach",
+          "meaning": "quả đào",
+          "phonetic": "/piːtʃ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/590/590685.png",
+          "audio": "",
+          "example": "The peach is soft.",
+          "hint": "Fuzzy skin fruit"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "name": "Family",
+      "name_vi": "Gia đình",
+      "icon": "👨‍👩‍👧‍👦",
+      "words": [
+        {
+          "word": "mom",
+          "meaning": "mẹ",
+          "phonetic": "/mɒm/",
+          "image": "https://cdn-icons-png.flaticon.com/512/4729/4729610.png",
+          "audio": "",
+          "example": "I love my mom.",
+          "hint": "She takes care of you"
+        },
+        {
+          "word": "dad",
+          "meaning": "bố",
+          "phonetic": "/dæd/",
+          "image": "https://cdn-icons-png.flaticon.com/512/4729/4729592.png",
+          "audio": "",
+          "example": "My dad is strong.",
+          "hint": "He is your father"
+        },
+        {
+          "word": "baby",
+          "meaning": "em bé",
+          "phonetic": "/ˈbeɪbi/",
+          "image": "https://cdn-icons-png.flaticon.com/512/4729/4729653.png",
+          "audio": "",
+          "example": "The baby is small.",
+          "hint": "Very young child"
+        },
+        {
+          "word": "boy",
+          "meaning": "con trai",
+          "phonetic": "/bɔɪ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/4729/4729637.png",
+          "audio": "",
+          "example": "The boy runs fast.",
+          "hint": "A young male"
+        },
+        {
+          "word": "girl",
+          "meaning": "con gái",
+          "phonetic": "/ɡɜːrl/",
+          "image": "https://cdn-icons-png.flaticon.com/512/4729/4729645.png",
+          "audio": "",
+          "example": "The girl is smart.",
+          "hint": "A young female"
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "name": "Numbers",
+      "name_vi": "Số đếm",
+      "icon": "🔢",
+      "words": [
+        {
+          "word": "one",
+          "meaning": "một",
+          "phonetic": "/wʌn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3579/3579916.png",
+          "audio": "",
+          "example": "I have one pen.",
+          "hint": "The first number"
+        },
+        {
+          "word": "two",
+          "meaning": "hai",
+          "phonetic": "/tuː/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3579/3579920.png",
+          "audio": "",
+          "example": "I have two hands.",
+          "hint": "After one"
+        },
+        {
+          "word": "three",
+          "meaning": "ba",
+          "phonetic": "/θriː/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3579/3579924.png",
+          "audio": "",
+          "example": "Three cats play.",
+          "hint": "After two"
+        },
+        {
+          "word": "four",
+          "meaning": "bốn",
+          "phonetic": "/fɔːr/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3579/3579928.png",
+          "audio": "",
+          "example": "A dog has four legs.",
+          "hint": "After three"
+        },
+        {
+          "word": "five",
+          "meaning": "năm",
+          "phonetic": "/faɪv/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3579/3579932.png",
+          "audio": "",
+          "example": "I have five fingers.",
+          "hint": "After four"
+        }
+      ]
+    }
+  ]
+}

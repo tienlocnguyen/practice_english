@@ -1,0 +1,792 @@
+/* ===== Game-specific Styles ===== */
+
+/* Game Controls */
+.game-controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.game-controls label {
+    font-weight: 600;
+}
+
+.game-controls select {
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm);
+    border: 2px solid var(--border);
+    font-size: 1rem;
+    font-family: var(--font);
+    background: white;
+    cursor: pointer;
+}
+
+.game-controls select:focus {
+    outline: none;
+    border-color: var(--primary);
+}
+
+/* Game Header */
+.game-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.game-header h1 {
+    font-size: 1.8rem;
+    color: var(--primary-dark);
+}
+
+.game-header p {
+    color: var(--text-light);
+}
+
+/* Score Bar */
+.score-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 1.5rem;
+}
+
+#score-text {
+    font-weight: 700;
+    color: var(--primary);
+    font-size: 1.1rem;
+}
+
+#progress-text {
+    color: var(--text-light);
+}
+
+.progress-bar {
+    flex: 1;
+    min-width: 150px;
+    height: 8px;
+    background: var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary), var(--success));
+    border-radius: 4px;
+    transition: width 0.3s ease;
+    width: 0%;
+}
+
+/* Game Area */
+.game-area {
+    min-height: 300px;
+}
+
+.game-placeholder {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--text-light);
+    font-size: 1.2rem;
+}
+
+/* ===== Word-Image Game ===== */
+.question-image {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin: 0 auto 1.5rem;
+    padding: 1rem;
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.question-word {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.question-meaning {
+    text-align: center;
+    color: var(--text-light);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.option-btn {
+    padding: 1rem;
+    border-radius: var(--radius);
+    border: 2px solid var(--border);
+    background: var(--bg-card);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: var(--font);
+    text-align: center;
+}
+
+.option-btn:hover {
+    border-color: var(--primary);
+    background: rgba(79, 70, 229, 0.05);
+    transform: translateY(-2px);
+}
+
+.option-btn.correct {
+    border-color: var(--success);
+    background: rgba(16, 185, 129, 0.1);
+    color: var(--success);
+}
+
+.option-btn.wrong {
+    border-color: var(--danger);
+    background: rgba(239, 68, 68, 0.1);
+    color: var(--danger);
+    animation: shake 0.4s ease-in-out;
+}
+
+.option-btn.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+/* Image options */
+.image-options-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.image-option {
+    padding: 1rem;
+    border-radius: var(--radius);
+    border: 3px solid var(--border);
+    background: var(--bg-card);
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+}
+
+.image-option:hover {
+    border-color: var(--primary);
+    transform: translateY(-2px);
+}
+
+.image-option img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.image-option.correct {
+    border-color: var(--success);
+    background: rgba(16, 185, 129, 0.1);
+}
+
+.image-option.wrong {
+    border-color: var(--danger);
+    background: rgba(239, 68, 68, 0.1);
+    animation: shake 0.4s ease-in-out;
+}
+
+.image-option.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+/* ===== Fill Letter Game ===== */
+.fill-word-display {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.letter-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 60px;
+    margin: 0 4px;
+    border-radius: var(--radius-sm);
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.letter-box.filled {
+    background: var(--primary);
+    color: white;
+}
+
+.letter-box.blank {
+    background: var(--bg-card);
+    border: 3px dashed var(--primary-light);
+    color: var(--primary);
+}
+
+.letter-box.blank.correct {
+    border-color: var(--success);
+    background: rgba(16, 185, 129, 0.15);
+    color: var(--success);
+    border-style: solid;
+}
+
+.letter-box.blank.wrong {
+    border-color: var(--danger);
+    background: rgba(239, 68, 68, 0.15);
+    color: var(--danger);
+    animation: shake 0.4s ease-in-out;
+}
+
+.letter-input {
+    width: 50px;
+    height: 60px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 3px dashed var(--primary-light);
+    border-radius: var(--radius-sm);
+    background: var(--bg-card);
+    color: var(--primary);
+    font-family: var(--font);
+    outline: none;
+}
+
+.letter-input:focus {
+    border-color: var(--primary);
+    border-style: solid;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+.fill-hint {
+    text-align: center;
+    color: var(--text-light);
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}
+
+.fill-image {
+    display: block;
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin: 0 auto 1rem;
+}
+
+.fill-submit-area {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+/* ===== Word Guess Game ===== */
+.guess-area {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.hint-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.hint-item {
+    background: var(--bg-card);
+    border-radius: var(--radius-sm);
+    padding: 0.8rem 1.2rem;
+    margin-bottom: 0.5rem;
+    box-shadow: var(--shadow);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.hint-item.visible {
+    opacity: 1;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.hint-number {
+    background: var(--primary);
+    color: white;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.guess-input-area {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.guess-input {
+    padding: 0.8rem 1.2rem;
+    border: 2px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-size: 1.2rem;
+    font-family: var(--font);
+    text-align: center;
+    width: 200px;
+}
+
+.guess-input:focus {
+    outline: none;
+    border-color: var(--primary);
+}
+
+.guess-feedback {
+    font-weight: 600;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.hint-more-btn {
+    margin-top: 1rem;
+}
+
+/* ===== Memory Cards ===== */
+.memory-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.memory-card {
+    aspect-ratio: 1;
+    border-radius: var(--radius);
+    cursor: pointer;
+    perspective: 800px;
+    min-height: 100px;
+}
+
+.memory-card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.memory-card.flipped .memory-card-inner {
+    transform: rotateY(180deg);
+}
+
+.memory-card-front, .memory-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--border);
+}
+
+.memory-card-front {
+    background: linear-gradient(135deg, var(--primary), var(--primary-light));
+    color: white;
+    font-size: 2rem;
+}
+
+.memory-card-back {
+    transform: rotateY(180deg);
+    background: var(--bg-card);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.memory-card-back img {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain;
+}
+
+.memory-card-back .card-word {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+}
+
+.memory-card.matched {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.memory-card.matched .memory-card-inner {
+    transform: rotateY(180deg);
+}
+
+.memory-stats {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: var(--text-light);
+}
+
+/* ===== Word Scramble ===== */
+.scramble-area {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.scramble-image {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin: 0 auto 1rem;
+    display: block;
+}
+
+.scramble-hint {
+    color: var(--text-light);
+    margin-bottom: 1rem;
+}
+
+.scramble-letters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.scramble-letter {
+    width: 50px;
+    height: 55px;
+    border-radius: var(--radius-sm);
+    border: 2px solid var(--primary);
+    background: var(--bg-card);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: var(--font);
+    color: var(--primary);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scramble-letter:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-3px);
+}
+
+.scramble-letter.used {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.scramble-answer {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+    min-height: 60px;
+}
+
+.scramble-slot {
+    width: 50px;
+    height: 55px;
+    border-radius: var(--radius-sm);
+    border: 2px dashed var(--border);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary-dark);
+    background: var(--bg-card);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.scramble-slot.filled {
+    border-style: solid;
+    border-color: var(--primary-light);
+    background: rgba(79, 70, 229, 0.05);
+}
+
+.scramble-slot:hover {
+    border-color: var(--danger);
+}
+
+.scramble-controls {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+/* ===== Result Area ===== */
+.result-area {
+    text-align: center;
+    padding: 2rem;
+}
+
+.result-card {
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    padding: 2rem 3rem;
+    box-shadow: var(--shadow-lg);
+    display: inline-block;
+    max-width: 400px;
+}
+
+.result-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.result-card p {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    margin-bottom: 1rem;
+}
+
+.result-stars {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.result-card .btn {
+    margin: 0.3rem;
+}
+
+/* ===== Responsive (games) ===== */
+@media (max-width: 768px) {
+    .options-grid, .image-options-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .memory-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .letter-box, .letter-input {
+        width: 40px;
+        height: 50px;
+        font-size: 1.4rem;
+    }
+
+    .scramble-letter, .scramble-slot {
+        width: 40px;
+        height: 45px;
+        font-size: 1.2rem;
+    }
+
+    .question-image {
+        width: 140px;
+        height: 140px;
+    }
+
+    .question-word {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .memory-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+
+    .scramble-letter, .scramble-slot {
+        width: 35px;
+        height: 40px;
+        font-size: 1rem;
+    }
+}
+
+/* ===== Speed Challenge ===== */
+.speed-type-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--secondary), #F97316);
+    color: white;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+}
+
+/* ===== Sentence Builder ===== */
+.sentence-builder-area {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sentence-context {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    background: var(--bg-card);
+    padding: 1rem 1.5rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.sentence-img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.sentence-target-word {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+}
+
+.sentence-meaning {
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+.sentence-instruction {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+}
+
+.sentence-answer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    min-height: 55px;
+    padding: 1rem;
+    background: rgba(79, 70, 229, 0.04);
+    border: 2px dashed var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 1.5rem;
+}
+
+.sentence-slot {
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm);
+    border: 2px dashed var(--border);
+    min-width: 50px;
+    min-height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    background: var(--bg-card);
+}
+
+.sentence-slot.filled {
+    border-style: solid;
+    border-color: var(--primary-light);
+    background: white;
+    color: var(--primary-dark);
+}
+
+.sentence-slot:hover {
+    border-color: var(--danger);
+}
+
+.sentence-words {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.sentence-word-btn {
+    padding: 0.5rem 1.2rem;
+    border-radius: var(--radius-sm);
+    border: 2px solid var(--primary);
+    background: var(--bg-card);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: var(--font);
+    color: var(--primary);
+}
+
+.sentence-word-btn:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.sentence-word-btn.used {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.sentence-controls {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+    .sentence-slot, .sentence-word-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    .sentence-context {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
