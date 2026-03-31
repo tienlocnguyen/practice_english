@@ -1,0 +1,407 @@
+{
+  "level": "toefl",
+  "label": "TOEFL",
+  "description": "Từ vựng học thuật chuẩn bị cho kỳ thi TOEFL",
+  "topics": [
+    {
+      "id": "academic-vocab",
+      "name": "Academic Vocabulary",
+      "name_vi": "Từ vựng học thuật",
+      "icon": "🎓",
+      "words": [
+        {
+          "word": "elaborate",
+          "meaning": "phức tạp, chi tiết; giải thích cặn kẽ",
+          "phonetic": "/ɪˈlæb.ə.rət/",
+          "image": "🔍",
+          "audio": "",
+          "example": "The professor asked the student to elaborate on her thesis statement.",
+          "hint": "To explain something in more detail"
+        },
+        {
+          "word": "comprehensive",
+          "meaning": "toàn diện, bao quát",
+          "phonetic": "/ˌkɑːm.prɪˈhen.sɪv/",
+          "image": "📚",
+          "audio": "",
+          "example": "The report provides a comprehensive analysis of climate change impacts.",
+          "hint": "Including all or nearly all elements or aspects"
+        },
+        {
+          "word": "significant",
+          "meaning": "quan trọng, đáng kể",
+          "phonetic": "/sɪɡˈnɪf.ɪ.kənt/",
+          "image": "⭐",
+          "audio": "",
+          "example": "The researchers found a significant difference between the two groups.",
+          "hint": "Important or large enough to have an effect"
+        },
+        {
+          "word": "phenomenon",
+          "meaning": "hiện tượng",
+          "phonetic": "/fəˈnɑː.mə.nɑːn/",
+          "image": "🌀",
+          "audio": "",
+          "example": "Global warming is a phenomenon that affects every continent on Earth.",
+          "hint": "An observable fact or event, often remarkable"
+        },
+        {
+          "word": "subsequent",
+          "meaning": "tiếp theo, kế tiếp",
+          "phonetic": "/ˈsʌb.sɪ.kwənt/",
+          "image": "➡️",
+          "audio": "",
+          "example": "The initial experiment and subsequent trials confirmed the hypothesis.",
+          "hint": "Coming after something in time or order"
+        },
+        {
+          "word": "predominant",
+          "meaning": "chiếm ưu thế, trội hơn",
+          "phonetic": "/prɪˈdɑː.mə.nənt/",
+          "image": "👑",
+          "audio": "",
+          "example": "English is the predominant language used in international academic journals.",
+          "hint": "Having the most importance, influence, or power"
+        },
+        {
+          "word": "attribute",
+          "meaning": "thuộc tính; quy cho",
+          "phonetic": "/ˈæt.rɪ.bjuːt/",
+          "image": "🏷️",
+          "audio": "",
+          "example": "Scholars attribute the decline of the empire to economic instability.",
+          "hint": "A quality or feature; or to regard as caused by"
+        },
+        {
+          "word": "coherent",
+          "meaning": "mạch lạc, chặt chẽ",
+          "phonetic": "/koʊˈhɪr.ənt/",
+          "image": "🔗",
+          "audio": "",
+          "example": "A coherent argument is essential for a high score on the TOEFL writing section.",
+          "hint": "Logical and consistent; easy to understand"
+        }
+      ]
+    },
+    {
+      "id": "science-research",
+      "name": "Science & Research",
+      "name_vi": "Khoa học & Nghiên cứu",
+      "icon": "🔬",
+      "words": [
+        {
+          "word": "correlation",
+          "meaning": "sự tương quan",
+          "phonetic": "/ˌkɔːr.əˈleɪ.ʃən/",
+          "image": "📊",
+          "audio": "",
+          "example": "The study revealed a strong correlation between exercise and mental health.",
+          "hint": "A mutual relationship between two or more things"
+        },
+        {
+          "word": "variable",
+          "meaning": "biến số; hay thay đổi",
+          "phonetic": "/ˈver.i.ə.bəl/",
+          "image": "🔢",
+          "audio": "",
+          "example": "The researchers controlled every variable except the one being tested.",
+          "hint": "An element that can change in an experiment"
+        },
+        {
+          "word": "empirical",
+          "meaning": "thực nghiệm, dựa trên quan sát",
+          "phonetic": "/ɪmˈpɪr.ɪ.kəl/",
+          "image": "🧪",
+          "audio": "",
+          "example": "The theory must be supported by empirical evidence before it can be accepted.",
+          "hint": "Based on observation or experience rather than theory"
+        },
+        {
+          "word": "quantitative",
+          "meaning": "định lượng",
+          "phonetic": "/ˈkwɑːn.tə.teɪ.tɪv/",
+          "image": "📏",
+          "audio": "",
+          "example": "Quantitative data was collected through surveys of over 5,000 participants.",
+          "hint": "Relating to measuring amounts or numbers"
+        },
+        {
+          "word": "qualitative",
+          "meaning": "định tính",
+          "phonetic": "/ˈkwɑː.lɪ.teɪ.tɪv/",
+          "image": "📝",
+          "audio": "",
+          "example": "The qualitative analysis included in-depth interviews with each participant.",
+          "hint": "Relating to the quality or character of something"
+        },
+        {
+          "word": "validity",
+          "meaning": "tính hợp lệ, giá trị",
+          "phonetic": "/vəˈlɪd.ə.ti/",
+          "image": "✅",
+          "audio": "",
+          "example": "The validity of the experiment was questioned due to the small sample size.",
+          "hint": "The quality of being logically sound or factually correct"
+        },
+        {
+          "word": "hypothesis",
+          "meaning": "giả thuyết",
+          "phonetic": "/haɪˈpɑː.θə.sɪs/",
+          "image": "💡",
+          "audio": "",
+          "example": "The scientist formulated a hypothesis before conducting the experiment.",
+          "hint": "A proposed explanation made as a starting point for investigation"
+        },
+        {
+          "word": "methodology",
+          "meaning": "phương pháp luận",
+          "phonetic": "/ˌmeθ.əˈdɑː.lə.dʒi/",
+          "image": "📋",
+          "audio": "",
+          "example": "The paper outlines the methodology used to gather and analyze the data.",
+          "hint": "A system of methods used in a particular area of study"
+        }
+      ]
+    },
+    {
+      "id": "social-sciences",
+      "name": "Social Sciences",
+      "name_vi": "Khoa học xã hội",
+      "icon": "🏛️",
+      "words": [
+        {
+          "word": "anthropology",
+          "meaning": "nhân chủng học",
+          "phonetic": "/ˌæn.θrəˈpɑː.lə.dʒi/",
+          "image": "🌍",
+          "audio": "",
+          "example": "Anthropology examines how human cultures develop and interact over time.",
+          "hint": "The study of human societies and cultures"
+        },
+        {
+          "word": "sociology",
+          "meaning": "xã hội học",
+          "phonetic": "/ˌsoʊ.siˈɑː.lə.dʒi/",
+          "image": "👥",
+          "audio": "",
+          "example": "Sociology explores how social structures influence individual behavior.",
+          "hint": "The study of the development and functioning of human society"
+        },
+        {
+          "word": "psychology",
+          "meaning": "tâm lý học",
+          "phonetic": "/saɪˈkɑː.lə.dʒi/",
+          "image": "🧠",
+          "audio": "",
+          "example": "Psychology helps us understand how people think, feel, and behave.",
+          "hint": "The scientific study of the human mind and behavior"
+        },
+        {
+          "word": "demography",
+          "meaning": "nhân khẩu học",
+          "phonetic": "/dɪˈmɑː.ɡrə.fi/",
+          "image": "📈",
+          "audio": "",
+          "example": "Demography shows that the global population is aging rapidly.",
+          "hint": "The statistical study of populations"
+        },
+        {
+          "word": "linguistics",
+          "meaning": "ngôn ngữ học",
+          "phonetic": "/lɪŋˈɡwɪs.tɪks/",
+          "image": "🗣️",
+          "audio": "",
+          "example": "Linguistics analyzes the structure, meaning, and context of language.",
+          "hint": "The scientific study of language and its structure"
+        },
+        {
+          "word": "archaeology",
+          "meaning": "khảo cổ học",
+          "phonetic": "/ˌɑːr.kiˈɑː.lə.dʒi/",
+          "image": "⛏️",
+          "audio": "",
+          "example": "Archaeology has revealed much about ancient civilizations through excavation.",
+          "hint": "The study of human history through material remains"
+        },
+        {
+          "word": "pedagogy",
+          "meaning": "sư phạm học",
+          "phonetic": "/ˈped.ə.ɡɑː.dʒi/",
+          "image": "📖",
+          "audio": "",
+          "example": "Modern pedagogy emphasizes critical thinking over rote memorization.",
+          "hint": "The method and practice of teaching"
+        },
+        {
+          "word": "ethnography",
+          "meaning": "dân tộc học mô tả",
+          "phonetic": "/eθˈnɑː.ɡrə.fi/",
+          "image": "📓",
+          "audio": "",
+          "example": "The researcher conducted an ethnography of indigenous communities in the Amazon.",
+          "hint": "The systematic study of people and cultures through observation"
+        }
+      ]
+    },
+    {
+      "id": "arts",
+      "name": "Arts & Humanities",
+      "name_vi": "Nghệ thuật & Nhân văn",
+      "icon": "🎨",
+      "words": [
+        {
+          "word": "renaissance",
+          "meaning": "thời kỳ Phục Hưng; sự phục hưng",
+          "phonetic": "/ˈren.ə.sɑːns/",
+          "image": "🏰",
+          "audio": "",
+          "example": "The Renaissance brought a renewed interest in classical art and philosophy.",
+          "hint": "A period of cultural rebirth in Europe, 14th–17th centuries"
+        },
+        {
+          "word": "contemporary",
+          "meaning": "đương đại, cùng thời",
+          "phonetic": "/kənˈtem.pə.rer.i/",
+          "image": "🖼️",
+          "audio": "",
+          "example": "Contemporary art challenges traditional notions of beauty and form.",
+          "hint": "Belonging to or occurring in the present time"
+        },
+        {
+          "word": "abstract",
+          "meaning": "trừu tượng; tóm tắt",
+          "phonetic": "/ˈæb.strækt/",
+          "image": "🎭",
+          "audio": "",
+          "example": "Abstract concepts such as justice are difficult to define precisely.",
+          "hint": "Existing in thought or as an idea, not concrete"
+        },
+        {
+          "word": "narrative",
+          "meaning": "câu chuyện kể, tường thuật",
+          "phonetic": "/ˈnær.ə.tɪv/",
+          "image": "📜",
+          "audio": "",
+          "example": "The author uses a first-person narrative to engage the reader.",
+          "hint": "A spoken or written account of connected events; a story"
+        },
+        {
+          "word": "rhetoric",
+          "meaning": "thuật hùng biện, tu từ học",
+          "phonetic": "/ˈret.ər.ɪk/",
+          "image": "🎙️",
+          "audio": "",
+          "example": "Political rhetoric often appeals to emotion rather than logic.",
+          "hint": "The art of effective or persuasive speaking or writing"
+        },
+        {
+          "word": "allegory",
+          "meaning": "phúng dụ, truyện ngụ ngôn",
+          "phonetic": "/ˈæl.ə.ɡɔːr.i/",
+          "image": "📕",
+          "audio": "",
+          "example": "George Orwell's 'Animal Farm' is an allegory for political revolution.",
+          "hint": "A story with a hidden meaning, usually moral or political"
+        },
+        {
+          "word": "metaphor",
+          "meaning": "phép ẩn dụ",
+          "phonetic": "/ˈmet.ə.fɔːr/",
+          "image": "🌊",
+          "audio": "",
+          "example": "The poet used the ocean as a metaphor for the vastness of human emotion.",
+          "hint": "A figure of speech comparing two unlike things without 'like' or 'as'"
+        },
+        {
+          "word": "aesthetic",
+          "meaning": "thẩm mỹ, mỹ học",
+          "phonetic": "/esˈθet.ɪk/",
+          "image": "✨",
+          "audio": "",
+          "example": "The aesthetic qualities of the building reflect modernist design principles.",
+          "hint": "Concerned with beauty or the appreciation of beauty"
+        }
+      ]
+    },
+    {
+      "id": "ecology",
+      "name": "Ecology & Environment",
+      "name_vi": "Sinh thái & Môi trường",
+      "icon": "🌿",
+      "words": [
+        {
+          "word": "sustainability",
+          "meaning": "tính bền vững",
+          "phonetic": "/səˌsteɪ.nəˈbɪl.ə.ti/",
+          "image": "♻️",
+          "audio": "",
+          "example": "Sustainability is a key concern in modern urban planning and development.",
+          "hint": "The ability to maintain ecological balance long-term"
+        },
+        {
+          "word": "deforestation",
+          "meaning": "nạn phá rừng",
+          "phonetic": "/diːˌfɔːr.ɪˈsteɪ.ʃən/",
+          "image": "🪓",
+          "audio": "",
+          "example": "Deforestation in the Amazon has accelerated over the past decade.",
+          "hint": "The clearing or removal of forests on a large scale"
+        },
+        {
+          "word": "biodiversity",
+          "meaning": "đa dạng sinh học",
+          "phonetic": "/ˌbaɪ.oʊ.daɪˈvɝː.sə.ti/",
+          "image": "🦋",
+          "audio": "",
+          "example": "Tropical rainforests contain the highest levels of biodiversity on Earth.",
+          "hint": "The variety of plant and animal life in a habitat"
+        },
+        {
+          "word": "greenhouse",
+          "meaning": "nhà kính; hiệu ứng nhà kính",
+          "phonetic": "/ˈɡriːn.haʊs/",
+          "image": "🏠",
+          "audio": "",
+          "example": "Greenhouse gases trap heat in the atmosphere and contribute to global warming.",
+          "hint": "Relating to gases that trap heat in the Earth's atmosphere"
+        },
+        {
+          "word": "emission",
+          "meaning": "sự phát thải, khí thải",
+          "phonetic": "/ɪˈmɪʃ.ən/",
+          "image": "💨",
+          "audio": "",
+          "example": "Reducing carbon emissions is critical to combating climate change.",
+          "hint": "The production and discharge of something, especially gas"
+        },
+        {
+          "word": "habitat",
+          "meaning": "môi trường sống",
+          "phonetic": "/ˈhæb.ɪ.tæt/",
+          "image": "🌳",
+          "audio": "",
+          "example": "The destruction of natural habitat threatens many endangered species.",
+          "hint": "The natural home or environment of an animal or plant"
+        },
+        {
+          "word": "extinction",
+          "meaning": "sự tuyệt chủng",
+          "phonetic": "/ɪkˈstɪŋk.ʃən/",
+          "image": "🦕",
+          "audio": "",
+          "example": "Human activity has driven many species to the brink of extinction.",
+          "hint": "The state of a species no longer existing"
+        },
+        {
+          "word": "conservation",
+          "meaning": "sự bảo tồn",
+          "phonetic": "/ˌkɑːn.sɚˈveɪ.ʃən/",
+          "image": "🛡️",
+          "audio": "",
+          "example": "Wildlife conservation programs have helped restore populations of endangered animals.",
+          "hint": "The protection and preservation of the natural environment"
+        }
+      ]
+    }
+  ]
+}
