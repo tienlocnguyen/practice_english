@@ -116,6 +116,78 @@
           "audio": "",
           "example": "I draw with a crayon.",
           "hint": "Colorful stick for drawing"
+        },
+        {
+          "word": "desk",
+          "meaning": "bàn học",
+          "phonetic": "/dɛsk/",
+          "image": "📚",
+          "audio": "",
+          "example": "I sit at my desk every day.",
+          "hint": "A table for studying"
+        },
+        {
+          "word": "globe",
+          "meaning": "quả địa cầu",
+          "phonetic": "/ɡloʊb/",
+          "image": "🌍",
+          "audio": "",
+          "example": "The globe shows all the countries.",
+          "hint": "A round model of the Earth"
+        },
+        {
+          "word": "chalk",
+          "meaning": "phấn",
+          "phonetic": "/tʃɔːk/",
+          "image": "🖍️",
+          "audio": "",
+          "example": "The teacher writes with chalk.",
+          "hint": "Used to write on a board"
+        },
+        {
+          "word": "map",
+          "meaning": "bản đồ",
+          "phonetic": "/mæp/",
+          "image": "🗺️",
+          "audio": "",
+          "example": "We look at the map in class.",
+          "hint": "A picture showing places"
+        },
+        {
+          "word": "test",
+          "meaning": "bài kiểm tra",
+          "phonetic": "/tɛst/",
+          "image": "📝",
+          "audio": "",
+          "example": "I studied hard for the test.",
+          "hint": "Questions to check what you know"
+        },
+        {
+          "word": "grade",
+          "meaning": "điểm số",
+          "phonetic": "/ɡreɪd/",
+          "image": "💯",
+          "audio": "",
+          "example": "She got a good grade today.",
+          "hint": "A score for your work"
+        },
+        {
+          "word": "recess",
+          "meaning": "giờ ra chơi",
+          "phonetic": "/ˈriːsɛs/",
+          "image": "⏸️",
+          "audio": "",
+          "example": "We play outside during recess.",
+          "hint": "A break time at school"
+        },
+        {
+          "word": "principal",
+          "meaning": "hiệu trưởng",
+          "phonetic": "/ˈprɪnsəpəl/",
+          "image": "🧑‍💼",
+          "audio": "",
+          "example": "The principal leads our school.",
+          "hint": "The head of a school"
         }
       ]
     },
@@ -232,6 +304,78 @@
           "audio": "",
           "example": "A bone is hard and strong.",
           "hint": "Hard part inside body"
+        },
+        {
+          "word": "tongue",
+          "meaning": "lưỡi",
+          "phonetic": "/tʌŋ/",
+          "image": "👅",
+          "audio": "",
+          "example": "You taste food with your tongue.",
+          "hint": "Inside your mouth, used to taste"
+        },
+        {
+          "word": "hip",
+          "meaning": "hông",
+          "phonetic": "/hɪp/",
+          "image": "🦴",
+          "audio": "",
+          "example": "She put her hands on her hips.",
+          "hint": "The side of your body below the waist"
+        },
+        {
+          "word": "jaw",
+          "meaning": "hàm",
+          "phonetic": "/dʒɔː/",
+          "image": "🦷",
+          "audio": "",
+          "example": "You move your jaw when you chew.",
+          "hint": "The bone that holds your teeth"
+        },
+        {
+          "word": "heel",
+          "meaning": "gót chân",
+          "phonetic": "/hiːl/",
+          "image": "🦶",
+          "audio": "",
+          "example": "My heel hurts after running.",
+          "hint": "The back part of your foot"
+        },
+        {
+          "word": "palm",
+          "meaning": "lòng bàn tay",
+          "phonetic": "/pɑːm/",
+          "image": "🤚",
+          "audio": "",
+          "example": "She held a coin in her palm.",
+          "hint": "The inside of your hand"
+        },
+        {
+          "word": "rib",
+          "meaning": "xương sườn",
+          "phonetic": "/rɪb/",
+          "image": "🦴",
+          "audio": "",
+          "example": "Your ribs protect your heart.",
+          "hint": "Bones around your chest"
+        },
+        {
+          "word": "muscle",
+          "meaning": "cơ bắp",
+          "phonetic": "/ˈmʌsəl/",
+          "image": "💪",
+          "audio": "",
+          "example": "Exercise makes your muscles strong.",
+          "hint": "Body parts that help you move"
+        },
+        {
+          "word": "lung",
+          "meaning": "phổi",
+          "phonetic": "/lʌŋ/",
+          "image": "🫁",
+          "audio": "",
+          "example": "Your lungs help you breathe air.",
+          "hint": "Organs used for breathing"
         }
       ]
     },
@@ -348,6 +492,78 @@
           "audio": "",
           "example": "The thunder is very loud.",
           "hint": "Loud sound from sky"
+        },
+        {
+          "word": "foggy",
+          "meaning": "có sương mù",
+          "phonetic": "/ˈfɒɡi/",
+          "image": "🌫️",
+          "audio": "",
+          "example": "It is very foggy this morning.",
+          "hint": "Hard to see because of mist"
+        },
+        {
+          "word": "icy",
+          "meaning": "đóng băng",
+          "phonetic": "/ˈaɪsi/",
+          "image": "🧊",
+          "audio": "",
+          "example": "The road is icy and slippery.",
+          "hint": "Covered with ice"
+        },
+        {
+          "word": "breeze",
+          "meaning": "gió nhẹ",
+          "phonetic": "/briːz/",
+          "image": "🍃",
+          "audio": "",
+          "example": "A gentle breeze blows the leaves.",
+          "hint": "A light, soft wind"
+        },
+        {
+          "word": "hail",
+          "meaning": "mưa đá",
+          "phonetic": "/heɪl/",
+          "image": "🌨️",
+          "audio": "",
+          "example": "The hail hit the roof loudly.",
+          "hint": "Small balls of ice from the sky"
+        },
+        {
+          "word": "frost",
+          "meaning": "sương giá",
+          "phonetic": "/frɒst/",
+          "image": "❄️",
+          "audio": "",
+          "example": "There is frost on the window.",
+          "hint": "Thin ice on cold surfaces"
+        },
+        {
+          "word": "humid",
+          "meaning": "ẩm ướt",
+          "phonetic": "/ˈhjuːmɪd/",
+          "image": "💧",
+          "audio": "",
+          "example": "The air feels humid and sticky.",
+          "hint": "When the air has lots of water"
+        },
+        {
+          "word": "dry",
+          "meaning": "khô",
+          "phonetic": "/draɪ/",
+          "image": "🏜️",
+          "audio": "",
+          "example": "The weather is hot and dry.",
+          "hint": "Not wet, no rain"
+        },
+        {
+          "word": "sunshine",
+          "meaning": "ánh nắng",
+          "phonetic": "/ˈsʌnʃaɪn/",
+          "image": "☀️",
+          "audio": "",
+          "example": "The sunshine makes me feel happy.",
+          "hint": "Light and warmth from the sun"
         }
       ]
     },
@@ -464,6 +680,78 @@
           "audio": "",
           "example": "I like eating noodle soup.",
           "hint": "Long thin food"
+        },
+        {
+          "word": "butter",
+          "meaning": "bơ",
+          "phonetic": "/ˈbʌtər/",
+          "image": "🧈",
+          "audio": "",
+          "example": "I put butter on my toast.",
+          "hint": "A soft yellow spread from milk"
+        },
+        {
+          "word": "pizza",
+          "meaning": "bánh pizza",
+          "phonetic": "/ˈpiːtsə/",
+          "image": "🍕",
+          "audio": "",
+          "example": "We eat pizza on Friday nights.",
+          "hint": "A round flat food with toppings"
+        },
+        {
+          "word": "pasta",
+          "meaning": "mì ống",
+          "phonetic": "/ˈpæstə/",
+          "image": "🍝",
+          "audio": "",
+          "example": "I like pasta with tomato sauce.",
+          "hint": "Italian food made from flour"
+        },
+        {
+          "word": "salad",
+          "meaning": "rau trộn",
+          "phonetic": "/ˈsæləd/",
+          "image": "🥗",
+          "audio": "",
+          "example": "This salad has fresh vegetables.",
+          "hint": "A dish of mixed raw vegetables"
+        },
+        {
+          "word": "honey",
+          "meaning": "mật ong",
+          "phonetic": "/ˈhʌni/",
+          "image": "🍯",
+          "audio": "",
+          "example": "Honey is sweet and golden.",
+          "hint": "Sweet food made by bees"
+        },
+        {
+          "word": "candy",
+          "meaning": "kẹo",
+          "phonetic": "/ˈkændi/",
+          "image": "🍬",
+          "audio": "",
+          "example": "Children love to eat candy.",
+          "hint": "A small sweet treat"
+        },
+        {
+          "word": "cookie",
+          "meaning": "bánh quy",
+          "phonetic": "/ˈkʊki/",
+          "image": "🍪",
+          "audio": "",
+          "example": "She baked cookies for the class.",
+          "hint": "A small flat sweet cake"
+        },
+        {
+          "word": "yogurt",
+          "meaning": "sữa chua",
+          "phonetic": "/ˈjoʊɡərt/",
+          "image": "🥛",
+          "audio": "",
+          "example": "I eat yogurt for breakfast.",
+          "hint": "A creamy food made from milk"
         }
       ]
     },
@@ -580,6 +868,78 @@
           "audio": "",
           "example": "My uncle rides a motorcycle.",
           "hint": "Two wheels with engine"
+        },
+        {
+          "word": "scooter",
+          "meaning": "xe tay ga",
+          "phonetic": "/ˈskuːtər/",
+          "image": "🛴",
+          "audio": "",
+          "example": "He rides his scooter to school.",
+          "hint": "A small vehicle you stand on"
+        },
+        {
+          "word": "subway",
+          "meaning": "tàu điện ngầm",
+          "phonetic": "/ˈsʌbweɪ/",
+          "image": "🚇",
+          "audio": "",
+          "example": "We take the subway downtown.",
+          "hint": "A train that goes underground"
+        },
+        {
+          "word": "canoe",
+          "meaning": "xuồng",
+          "phonetic": "/kəˈnuː/",
+          "image": "🛶",
+          "audio": "",
+          "example": "They paddle the canoe on the lake.",
+          "hint": "A small narrow boat"
+        },
+        {
+          "word": "ferry",
+          "meaning": "phà",
+          "phonetic": "/ˈfɛri/",
+          "image": "⛴️",
+          "audio": "",
+          "example": "The ferry crosses the wide river.",
+          "hint": "A boat that carries people across water"
+        },
+        {
+          "word": "rocket",
+          "meaning": "tên lửa",
+          "phonetic": "/ˈrɒkɪt/",
+          "image": "🚀",
+          "audio": "",
+          "example": "The rocket flies into outer space.",
+          "hint": "It goes up into space"
+        },
+        {
+          "word": "tractor",
+          "meaning": "máy kéo",
+          "phonetic": "/ˈtræktər/",
+          "image": "🚜",
+          "audio": "",
+          "example": "The farmer drives a big tractor.",
+          "hint": "A strong vehicle used on farms"
+        },
+        {
+          "word": "wagon",
+          "meaning": "xe ngựa kéo",
+          "phonetic": "/ˈwæɡən/",
+          "image": "🛻",
+          "audio": "",
+          "example": "The wagon carries hay to the barn.",
+          "hint": "A vehicle pulled by horses"
+        },
+        {
+          "word": "van",
+          "meaning": "xe tải nhỏ",
+          "phonetic": "/væn/",
+          "image": "🚐",
+          "audio": "",
+          "example": "Our family travels in a van.",
+          "hint": "A big car for carrying things"
         }
       ]
     },
@@ -696,6 +1056,78 @@
           "audio": "",
           "example": "Mom goes to the bank for money.",
           "hint": "Place to keep money"
+        },
+        {
+          "word": "playground",
+          "meaning": "sân chơi",
+          "phonetic": "/ˈpleɪɡraʊnd/",
+          "image": "🛝",
+          "audio": "",
+          "example": "Kids have fun at the playground.",
+          "hint": "A place for children to play"
+        },
+        {
+          "word": "gym",
+          "meaning": "phòng tập",
+          "phonetic": "/dʒɪm/",
+          "image": "🏋️",
+          "audio": "",
+          "example": "We exercise in the school gym.",
+          "hint": "A place for sports and exercise"
+        },
+        {
+          "word": "pool",
+          "meaning": "hồ bơi",
+          "phonetic": "/puːl/",
+          "image": "🏊",
+          "audio": "",
+          "example": "I swim in the pool every week.",
+          "hint": "A place filled with water for swimming"
+        },
+        {
+          "word": "tower",
+          "meaning": "tháp",
+          "phonetic": "/ˈtaʊər/",
+          "image": "🗼",
+          "audio": "",
+          "example": "The tower is very tall and old.",
+          "hint": "A tall narrow building"
+        },
+        {
+          "word": "garage",
+          "meaning": "nhà để xe",
+          "phonetic": "/ɡəˈrɑːʒ/",
+          "image": "🏗️",
+          "audio": "",
+          "example": "Dad parks the car in the garage.",
+          "hint": "A building for keeping cars"
+        },
+        {
+          "word": "warehouse",
+          "meaning": "nhà kho",
+          "phonetic": "/ˈwɛrhaʊs/",
+          "image": "🏭",
+          "audio": "",
+          "example": "The warehouse stores many boxes.",
+          "hint": "A big building for storing things"
+        },
+        {
+          "word": "castle",
+          "meaning": "lâu đài",
+          "phonetic": "/ˈkæsəl/",
+          "image": "🏰",
+          "audio": "",
+          "example": "The king lives in a big castle.",
+          "hint": "A large old building for kings"
+        },
+        {
+          "word": "temple",
+          "meaning": "ngôi đền",
+          "phonetic": "/ˈtɛmpəl/",
+          "image": "🛕",
+          "audio": "",
+          "example": "We visit the temple on holidays.",
+          "hint": "A building for prayer"
         }
       ]
     },
@@ -812,6 +1244,78 @@
           "audio": "",
           "example": "I wear a scarf in winter.",
           "hint": "Wraps around your neck"
+        },
+        {
+          "word": "pajamas",
+          "meaning": "đồ ngủ",
+          "phonetic": "/pəˈdʒɑːməz/",
+          "image": "🩳",
+          "audio": "",
+          "example": "I wear pajamas when I sleep.",
+          "hint": "Clothes you wear to bed"
+        },
+        {
+          "word": "swimsuit",
+          "meaning": "đồ bơi",
+          "phonetic": "/ˈswɪmsuːt/",
+          "image": "👙",
+          "audio": "",
+          "example": "She wears a swimsuit at the pool.",
+          "hint": "Clothes for swimming"
+        },
+        {
+          "word": "raincoat",
+          "meaning": "áo mưa",
+          "phonetic": "/ˈreɪnkoʊt/",
+          "image": "🧥",
+          "audio": "",
+          "example": "Wear a raincoat when it rains.",
+          "hint": "A coat that keeps you dry"
+        },
+        {
+          "word": "apron",
+          "meaning": "tạp dề",
+          "phonetic": "/ˈeɪprən/",
+          "image": "🧑‍🍳",
+          "audio": "",
+          "example": "Mom wears an apron when cooking.",
+          "hint": "Worn over clothes while cooking"
+        },
+        {
+          "word": "vest",
+          "meaning": "áo gile",
+          "phonetic": "/vɛst/",
+          "image": "🦺",
+          "audio": "",
+          "example": "He wears a vest over his shirt.",
+          "hint": "A sleeveless piece of clothing"
+        },
+        {
+          "word": "tie",
+          "meaning": "cà vạt",
+          "phonetic": "/taɪ/",
+          "image": "👔",
+          "audio": "",
+          "example": "Dad wears a tie to work.",
+          "hint": "A long cloth worn around the neck"
+        },
+        {
+          "word": "sandals",
+          "meaning": "dép xăng đan",
+          "phonetic": "/ˈsændəlz/",
+          "image": "🩴",
+          "audio": "",
+          "example": "I wear sandals in the summer.",
+          "hint": "Open shoes for warm weather"
+        },
+        {
+          "word": "hoodie",
+          "meaning": "áo hoodie",
+          "phonetic": "/ˈhʊdi/",
+          "image": "👕",
+          "audio": "",
+          "example": "My hoodie keeps me warm outside.",
+          "hint": "A top with a hood"
         }
       ]
     },
@@ -928,6 +1432,78 @@
           "audio": "",
           "example": "Wait one minute please.",
           "hint": "Sixty seconds"
+        },
+        {
+          "word": "sunrise",
+          "meaning": "bình minh",
+          "phonetic": "/ˈsʌnraɪz/",
+          "image": "🌅",
+          "audio": "",
+          "example": "The sunrise is beautiful and orange.",
+          "hint": "When the sun comes up"
+        },
+        {
+          "word": "weekend",
+          "meaning": "cuối tuần",
+          "phonetic": "/ˈwiːkɛnd/",
+          "image": "🗓️",
+          "audio": "",
+          "example": "We go to the park on weekends.",
+          "hint": "Saturday and Sunday"
+        },
+        {
+          "word": "midnight",
+          "meaning": "nửa đêm",
+          "phonetic": "/ˈmɪdnaɪt/",
+          "image": "🌙",
+          "audio": "",
+          "example": "The clock strikes twelve at midnight.",
+          "hint": "Twelve o'clock at night"
+        },
+        {
+          "word": "noon",
+          "meaning": "buổi trưa",
+          "phonetic": "/nuːn/",
+          "image": "🕛",
+          "audio": "",
+          "example": "We eat lunch at noon every day.",
+          "hint": "Twelve o'clock in the daytime"
+        },
+        {
+          "word": "dawn",
+          "meaning": "rạng đông",
+          "phonetic": "/dɔːn/",
+          "image": "🌤️",
+          "audio": "",
+          "example": "The birds sing at dawn.",
+          "hint": "The start of a new day"
+        },
+        {
+          "word": "dusk",
+          "meaning": "hoàng hôn",
+          "phonetic": "/dʌsk/",
+          "image": "🌆",
+          "audio": "",
+          "example": "The sky turns pink at dusk.",
+          "hint": "When the sun goes down"
+        },
+        {
+          "word": "season",
+          "meaning": "mùa",
+          "phonetic": "/ˈsiːzən/",
+          "image": "🍂",
+          "audio": "",
+          "example": "Spring is my favorite season.",
+          "hint": "A time of year like summer"
+        },
+        {
+          "word": "calendar",
+          "meaning": "lịch",
+          "phonetic": "/ˈkælɪndər/",
+          "image": "📅",
+          "audio": "",
+          "example": "I check the calendar every morning.",
+          "hint": "Shows the days and months"
         }
       ]
     }
