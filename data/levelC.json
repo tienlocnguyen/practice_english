@@ -1,7 +1,7 @@
 {
   "level": "C",
   "label": "CEFR C1-C2",
-  "description": "Từ vựng tiếng Anh nâng cao theo chuẩn CEFR C1-C2 — 96 từ / ~8000 từ cần thiết",
+  "description": "Từ vựng tiếng Anh nâng cao theo chuẩn CEFR C1-C2 — 160 từ / ~8000 từ cần thiết",
   "topics": [
     {
       "id": "business",
@@ -128,6 +128,86 @@
           "example": "The tech company was accused of establishing a monopoly in the search engine market.",
           "example_vi": "Công ty công nghệ bị cáo buộc thiết lập thế độc quyền trong thị trường công cụ tìm kiếm.",
           "hint": "Exclusive control over the supply of a product or service"
+        },
+        {
+          "word": "equity",
+          "meaning": "vốn chủ sở hữu (danh từ) — giá trị tài sản ròng sau khi trừ đi tất cả các khoản nợ",
+          "phonetic": "/ˈɛkwɪti/",
+          "image": "🏠",
+          "audio": "",
+          "example": "The company's equity increased substantially after a successful round of fundraising.",
+          "example_vi": "Vốn chủ sở hữu của công ty đã tăng đáng kể sau một vòng gọi vốn thành công.",
+          "hint": "The value of ownership interest in a company after deducting all liabilities"
+        },
+        {
+          "word": "amortization",
+          "meaning": "sự khấu hao (danh từ) — quá trình phân bổ chi phí tài sản vô hình qua thời gian sử dụng",
+          "phonetic": "/ˌæmərˌtɪˈzeɪʃən/",
+          "image": "📉",
+          "audio": "",
+          "example": "The amortization of the patent will be spread over a twenty-year period.",
+          "example_vi": "Việc khấu hao bằng sáng chế sẽ được phân bổ trong khoảng thời gian hai mươi năm.",
+          "hint": "The gradual repayment of a debt or the spreading of costs over time"
+        },
+        {
+          "word": "liquidity",
+          "meaning": "tính thanh khoản (danh từ) — khả năng chuyển đổi tài sản thành tiền mặt một cách nhanh chóng",
+          "phonetic": "/lɪˈkwɪdəti/",
+          "image": "💧",
+          "audio": "",
+          "example": "Banks must maintain sufficient liquidity to meet unexpected withdrawal demands.",
+          "example_vi": "Các ngân hàng phải duy trì thanh khoản đủ để đáp ứng nhu cầu rút tiền bất ngờ.",
+          "hint": "The ease with which an asset can be converted into cash without affecting its value"
+        },
+        {
+          "word": "depreciation",
+          "meaning": "sự khấu hao (danh từ) — sự giảm giá trị của tài sản hữu hình theo thời gian do hao mòn",
+          "phonetic": "/dɪˌpriːʃiˈeɪʃən/",
+          "image": "🏭",
+          "audio": "",
+          "example": "Depreciation of manufacturing equipment is recorded as an annual operating expense.",
+          "example_vi": "Khấu hao thiết bị sản xuất được ghi nhận là chi phí hoạt động hàng năm.",
+          "hint": "A decrease in the value of a tangible asset over time due to wear and tear"
+        },
+        {
+          "word": "diversification",
+          "meaning": "sự đa dạng hóa (danh từ) — chiến lược phân tán đầu tư để giảm thiểu rủi ro tổng thể",
+          "phonetic": "/daɪˌvɜːrsɪfɪˈkeɪʃən/",
+          "image": "🎯",
+          "audio": "",
+          "example": "Portfolio diversification helps investors minimize risk during market downturns.",
+          "example_vi": "Đa dạng hóa danh mục đầu tư giúp nhà đầu tư giảm thiểu rủi ro trong giai đoạn thị trường suy thoái.",
+          "hint": "The strategy of spreading investments to reduce overall risk"
+        },
+        {
+          "word": "conglomerate",
+          "meaning": "tập đoàn đa ngành (danh từ) — tổ hợp doanh nghiệp hoạt động trong nhiều lĩnh vực khác nhau",
+          "phonetic": "/kənˈɡlɑːmərət/",
+          "image": "🏢",
+          "audio": "",
+          "example": "The multinational conglomerate operates in sectors ranging from electronics to healthcare.",
+          "example_vi": "Tập đoàn đa quốc gia hoạt động trong các lĩnh vực từ điện tử đến chăm sóc sức khỏe.",
+          "hint": "A large corporation made up of several different businesses in various industries"
+        },
+        {
+          "word": "subsidiary",
+          "meaning": "công ty con (danh từ) — công ty được kiểm soát bởi một công ty mẹ sở hữu phần lớn cổ phần",
+          "phonetic": "/səbˈsɪdiˌɛri/",
+          "image": "🔗",
+          "audio": "",
+          "example": "The tech giant established a subsidiary to focus exclusively on artificial intelligence research.",
+          "example_vi": "Gã khổng lồ công nghệ đã thành lập một công ty con để tập trung hoàn toàn vào nghiên cứu trí tuệ nhân tạo.",
+          "hint": "A company controlled by a parent company that owns a majority of its shares"
+        },
+        {
+          "word": "franchise",
+          "meaning": "nhượng quyền thương mại (danh từ) — mô hình kinh doanh cho phép bên nhận quyền sử dụng thương hiệu và hệ thống của bên nhượng quyền",
+          "phonetic": "/ˈfræntʃaɪz/",
+          "image": "🍔",
+          "audio": "",
+          "example": "Opening a franchise allows entrepreneurs to leverage an established brand's reputation.",
+          "example_vi": "Mở nhượng quyền thương mại cho phép doanh nhân tận dụng uy tín của thương hiệu đã được thiết lập.",
+          "hint": "A license granted to operate a business using another company's branding and system"
         }
       ]
     },
@@ -256,6 +336,86 @@
           "example": "Both parties agreed to settle the dispute through arbitration rather than going to court.",
           "example_vi": "Cả hai bên đồng ý giải quyết tranh chấp thông qua phân xử thay vì ra tòa.",
           "hint": "The use of a neutral third party to settle a dispute outside of court"
+        },
+        {
+          "word": "acquittal",
+          "meaning": "sự tuyên trắng án (danh từ) — phán quyết của tòa xác nhận bị cáo không có tội",
+          "phonetic": "/əˈkwɪtəl/",
+          "image": "🕊️",
+          "audio": "",
+          "example": "The acquittal was celebrated by the defendant's family after months of uncertainty.",
+          "example_vi": "Việc tuyên trắng án đã được gia đình bị cáo ăn mừng sau nhiều tháng bất an.",
+          "hint": "A judgment that a person is not guilty of the crime they were charged with"
+        },
+        {
+          "word": "perjury",
+          "meaning": "tội khai man (danh từ) — hành vi cố ý khai báo sai sự thật khi đã tuyên thệ trước tòa",
+          "phonetic": "/ˈpɜːrdʒəri/",
+          "image": "🤥",
+          "audio": "",
+          "example": "The witness was charged with perjury for deliberately lying under oath.",
+          "example_vi": "Nhân chứng đã bị buộc tội khai man vì cố ý nói dối khi đã tuyên thệ.",
+          "hint": "The offense of willfully telling a lie after taking an oath in court"
+        },
+        {
+          "word": "extradition",
+          "meaning": "sự dẫn độ (danh từ) — việc chuyển giao người bị tình nghi phạm tội từ quốc gia này sang quốc gia khác",
+          "phonetic": "/ˌɛkstrəˈdɪʃən/",
+          "image": "✈️",
+          "audio": "",
+          "example": "The government approved the extradition of the suspect to face trial abroad.",
+          "example_vi": "Chính phủ đã phê duyệt việc dẫn độ nghi phạm để đối mặt với phiên tòa ở nước ngoài.",
+          "hint": "The surrender of an accused person from one jurisdiction to another for trial"
+        },
+        {
+          "word": "injunction",
+          "meaning": "lệnh cấm (danh từ) — phán quyết của tòa án yêu cầu một bên thực hiện hoặc ngừng hành động cụ thể",
+          "phonetic": "/ɪnˈdʒʌŋkʃən/",
+          "image": "🚫",
+          "audio": "",
+          "example": "The court issued an injunction to prevent the company from demolishing the historic building.",
+          "example_vi": "Tòa án đã ban hành lệnh cấm để ngăn công ty phá dỡ tòa nhà lịch sử.",
+          "hint": "A court order compelling a party to do or refrain from doing a specific act"
+        },
+        {
+          "word": "subpoena",
+          "meaning": "trát hầu tòa (danh từ) — văn bản pháp lý buộc một người phải ra trình diện hoặc nộp tài liệu cho tòa",
+          "phonetic": "/səˈpiːnə/",
+          "image": "📨",
+          "audio": "",
+          "example": "The attorney issued a subpoena requiring the executive to testify before the grand jury.",
+          "example_vi": "Luật sư đã phát hành trát hầu tòa yêu cầu giám đốc điều hành khai chứng trước đại bồi thẩm đoàn.",
+          "hint": "A legal document ordering someone to attend court or produce evidence"
+        },
+        {
+          "word": "affidavit",
+          "meaning": "bản khai có tuyên thệ (danh từ) — văn bản tuyên bố sự thật được xác nhận bằng lời thề trước pháp luật",
+          "phonetic": "/ˌæfɪˈdeɪvɪt/",
+          "image": "📃",
+          "audio": "",
+          "example": "The plaintiff submitted a sworn affidavit detailing the alleged financial fraud.",
+          "example_vi": "Nguyên đơn đã nộp bản khai có tuyên thệ mô tả chi tiết hành vi gian lận tài chính bị cáo buộc.",
+          "hint": "A written statement confirmed by oath for use as evidence in court"
+        },
+        {
+          "word": "probation",
+          "meaning": "sự quản chế (danh từ) — hình phạt cho phép người phạm tội ở ngoài cộng đồng dưới sự giám sát thay vì ngồi tù",
+          "phonetic": "/proʊˈbeɪʃən/",
+          "image": "📋",
+          "audio": "",
+          "example": "The judge sentenced the first-time offender to three years of supervised probation.",
+          "example_vi": "Thẩm phán đã tuyên phạt người phạm tội lần đầu ba năm quản chế có giám sát.",
+          "hint": "A period of supervised release instead of imprisonment for an offender"
+        },
+        {
+          "word": "felony",
+          "meaning": "trọng tội (danh từ) — tội phạm nghiêm trọng thường bị phạt tù trên một năm hoặc nặng hơn",
+          "phonetic": "/ˈfɛləni/",
+          "image": "⛓️",
+          "audio": "",
+          "example": "Armed robbery is classified as a felony and carries a severe prison sentence.",
+          "example_vi": "Cướp có vũ trang được phân loại là trọng tội và mang án tù nghiêm khắc.",
+          "hint": "A serious crime typically punishable by imprisonment of more than one year"
         }
       ]
     },
@@ -384,6 +544,86 @@
           "example": "Existentialism emphasizes individual freedom and the responsibility of making choices.",
           "example_vi": "Chủ nghĩa hiện sinh nhấn mạnh quyền tự do cá nhân và trách nhiệm trong việc đưa ra lựa chọn.",
           "hint": "A philosophy that focuses on individual existence, freedom, and choice"
+        },
+        {
+          "word": "nihilism",
+          "meaning": "chủ nghĩa hư vô (danh từ) — quan điểm triết học phủ nhận mọi giá trị, ý nghĩa và mục đích của cuộc sống",
+          "phonetic": "/ˈnaɪ.ɪlɪzəm/",
+          "image": "🕳️",
+          "audio": "",
+          "example": "Nietzsche warned that nihilism would become the greatest challenge of modern civilization.",
+          "example_vi": "Nietzsche cảnh báo rằng chủ nghĩa hư vô sẽ trở thành thách thức lớn nhất của nền văn minh hiện đại.",
+          "hint": "The philosophical belief that life is without objective meaning, purpose, or intrinsic value"
+        },
+        {
+          "word": "hedonism",
+          "meaning": "chủ nghĩa khoái lạc (danh từ) — học thuyết cho rằng niềm vui và hạnh phúc là mục đích tối thượng của đời sống",
+          "phonetic": "/ˈhiːdənɪzəm/",
+          "image": "🎉",
+          "audio": "",
+          "example": "Critics argue that hedonism leads to short-term gratification at the expense of deeper fulfillment.",
+          "example_vi": "Các nhà phê bình cho rằng chủ nghĩa khoái lạc dẫn đến sự thỏa mãn ngắn hạn với cái giá là sự trọn vẹn sâu sắc hơn.",
+          "hint": "The ethical theory that pleasure or happiness is the highest good in life"
+        },
+        {
+          "word": "determinism",
+          "meaning": "thuyết tất định (danh từ) — quan điểm cho rằng mọi sự kiện đều được quyết định bởi nguyên nhân trước đó",
+          "phonetic": "/dɪˈtɜːrmɪnɪzəm/",
+          "image": "⚙️",
+          "audio": "",
+          "example": "Determinism challenges the notion of free will by asserting that all events are causally inevitable.",
+          "example_vi": "Thuyết tất định thách thức khái niệm ý chí tự do bằng cách khẳng định mọi sự kiện đều tất yếu về mặt nhân quả.",
+          "hint": "The doctrine that all events are determined by previously existing causes"
+        },
+        {
+          "word": "dualism",
+          "meaning": "thuyết nhị nguyên (danh từ) — quan điểm triết học cho rằng tâm trí và thể xác là hai thực thể tách biệt",
+          "phonetic": "/ˈduːəlɪzəm/",
+          "image": "☯️",
+          "audio": "",
+          "example": "Cartesian dualism posits that the mind and body are fundamentally distinct substances.",
+          "example_vi": "Thuyết nhị nguyên Descartes cho rằng tâm trí và cơ thể về cơ bản là hai thực thể khác biệt.",
+          "hint": "The philosophical theory that mind and body are two fundamentally separate entities"
+        },
+        {
+          "word": "phenomenology",
+          "meaning": "hiện tượng học (danh từ) — trường phái triết học nghiên cứu cấu trúc của trải nghiệm và ý thức chủ quan",
+          "phonetic": "/fɪˌnɑːmɪˈnɑːlədʒi/",
+          "image": "🔭",
+          "audio": "",
+          "example": "Husserl founded phenomenology as a rigorous method for examining conscious experience.",
+          "example_vi": "Husserl đã sáng lập hiện tượng học như một phương pháp nghiêm ngặt để nghiên cứu trải nghiệm ý thức.",
+          "hint": "The philosophical study of the structures of subjective experience and consciousness"
+        },
+        {
+          "word": "stoicism",
+          "meaning": "chủ nghĩa khắc kỷ (danh từ) — triết học nhấn mạnh sự chấp nhận số phận và kiểm soát cảm xúc cá nhân",
+          "phonetic": "/ˈstoʊɪsɪzəm/",
+          "image": "🗿",
+          "audio": "",
+          "example": "Stoicism teaches that we should focus on what we can control and accept what we cannot.",
+          "example_vi": "Chủ nghĩa khắc kỷ dạy rằng chúng ta nên tập trung vào những gì có thể kiểm soát và chấp nhận những gì không thể.",
+          "hint": "A philosophy emphasizing endurance, self-control, and acceptance of fate"
+        },
+        {
+          "word": "pragmatism",
+          "meaning": "chủ nghĩa thực dụng (danh từ) — trường phái triết học đánh giá chân lý qua kết quả thực tiễn",
+          "phonetic": "/ˈpræɡmətɪzəm/",
+          "image": "🛠️",
+          "audio": "",
+          "example": "Pragmatism evaluates ideas and beliefs primarily by their practical consequences and usefulness.",
+          "example_vi": "Chủ nghĩa thực dụng đánh giá ý tưởng và niềm tin chủ yếu qua hệ quả thực tiễn và tính hữu ích.",
+          "hint": "A philosophy that assesses the truth of beliefs by their practical outcomes"
+        },
+        {
+          "word": "transcendentalism",
+          "meaning": "chủ nghĩa siêu nghiệm (danh từ) — trào lưu triết học tin rằng con người có thể vượt lên trải nghiệm giác quan để đạt chân lý",
+          "phonetic": "/ˌtrænˌsɛnˈdɛntəlɪzəm/",
+          "image": "🌄",
+          "audio": "",
+          "example": "Transcendentalism championed the inherent goodness of people and the natural world.",
+          "example_vi": "Chủ nghĩa siêu nghiệm ủng hộ bản chất thiện lương vốn có của con người và thế giới tự nhiên.",
+          "hint": "A philosophical movement asserting that knowledge transcends sensory experience"
         }
       ]
     },
@@ -512,6 +752,86 @@
           "example": "The article underwent rigorous peer-review before being published in the journal.",
           "example_vi": "Bài viết đã trải qua quá trình bình duyệt nghiêm ngặt trước khi được đăng trên tạp chí.",
           "hint": "Evaluation of scientific work by experts in the same field"
+        },
+        {
+          "word": "methodology",
+          "meaning": "phương pháp luận (danh từ) — hệ thống các phương pháp và nguyên tắc áp dụng trong nghiên cứu",
+          "phonetic": "/ˌmɛθəˈdɑːlədʒi/",
+          "image": "🔬",
+          "audio": "",
+          "example": "The dissertation's methodology section clearly outlines the research design and data collection procedures.",
+          "example_vi": "Phần phương pháp luận của luận văn trình bày rõ ràng thiết kế nghiên cứu và quy trình thu thập dữ liệu.",
+          "hint": "A system of methods and principles used in a particular area of study or research"
+        },
+        {
+          "word": "corrigendum",
+          "meaning": "bản đính chính (danh từ) — thông báo sửa chữa lỗi trong tài liệu học thuật đã xuất bản",
+          "phonetic": "/ˌkɒrɪˈdʒɛndəm/",
+          "image": "✏️",
+          "audio": "",
+          "example": "The journal published a corrigendum to correct a statistical error in the original article.",
+          "example_vi": "Tạp chí đã đăng bản đính chính để sửa lỗi thống kê trong bài viết gốc.",
+          "hint": "A published correction of errors found in a previously published academic work"
+        },
+        {
+          "word": "symposium",
+          "meaning": "hội thảo chuyên đề (danh từ) — cuộc họp học thuật nơi các chuyên gia trình bày và thảo luận về một chủ đề",
+          "phonetic": "/sɪmˈpoʊziəm/",
+          "image": "🎤",
+          "audio": "",
+          "example": "Leading researchers gathered at the international symposium to discuss advances in neuroscience.",
+          "example_vi": "Các nhà nghiên cứu hàng đầu đã tập trung tại hội thảo chuyên đề quốc tế để thảo luận về tiến bộ trong khoa học thần kinh.",
+          "hint": "A formal academic conference where experts present and discuss a specific topic"
+        },
+        {
+          "word": "monograph",
+          "meaning": "chuyên khảo (danh từ) — công trình nghiên cứu chuyên sâu về một chủ đề học thuật cụ thể",
+          "phonetic": "/ˈmɑːnəɡræf/",
+          "image": "📕",
+          "audio": "",
+          "example": "The professor published a comprehensive monograph on the history of colonial architecture.",
+          "example_vi": "Giáo sư đã xuất bản một chuyên khảo toàn diện về lịch sử kiến trúc thuộc địa.",
+          "hint": "A detailed scholarly study or written work on a single specialized subject"
+        },
+        {
+          "word": "compendium",
+          "meaning": "toát yếu (danh từ) — tuyển tập ngắn gọn tổng hợp thông tin về một lĩnh vực kiến thức",
+          "phonetic": "/kəmˈpɛndiəm/",
+          "image": "📚",
+          "audio": "",
+          "example": "The compendium provides a concise overview of all major theories in developmental psychology.",
+          "example_vi": "Bản toát yếu cung cấp cái nhìn tổng quan ngắn gọn về tất cả các lý thuyết chính trong tâm lý học phát triển.",
+          "hint": "A concise but comprehensive collection of information on a particular subject"
+        },
+        {
+          "word": "anthology",
+          "meaning": "tuyển tập (danh từ) — tập hợp các tác phẩm văn học hoặc học thuật được chọn lọc trong cùng chủ đề",
+          "phonetic": "/ænˈθɑːlədʒi/",
+          "image": "📖",
+          "audio": "",
+          "example": "The anthology includes seminal essays from leading scholars in postcolonial studies.",
+          "example_vi": "Tuyển tập bao gồm các bài luận có ảnh hưởng lớn từ các học giả hàng đầu trong nghiên cứu hậu thuộc địa.",
+          "hint": "A published collection of selected literary or scholarly works on a theme"
+        },
+        {
+          "word": "excerpt",
+          "meaning": "đoạn trích (danh từ) — phần được chọn lọc từ một văn bản, bài viết hoặc tác phẩm dài hơn",
+          "phonetic": "/ˈɛksɜːrpt/",
+          "image": "✂️",
+          "audio": "",
+          "example": "The textbook includes an excerpt from Darwin's original manuscript on natural selection.",
+          "example_vi": "Sách giáo khoa bao gồm một đoạn trích từ bản thảo gốc của Darwin về chọn lọc tự nhiên.",
+          "hint": "A selected passage taken from a longer text, article, or work"
+        },
+        {
+          "word": "redaction",
+          "meaning": "sự biên tập (danh từ) — quá trình chỉnh sửa văn bản hoặc che giấu thông tin nhạy cảm trước khi công bố",
+          "phonetic": "/rɪˈdækʃən/",
+          "image": "█",
+          "audio": "",
+          "example": "The redaction of classified information from the report took several weeks to complete.",
+          "example_vi": "Việc biên tập thông tin mật khỏi báo cáo đã mất vài tuần để hoàn thành.",
+          "hint": "The process of editing or censoring sensitive information before publication"
         }
       ]
     },
@@ -640,6 +960,86 @@
           "example": "Totalitarianism demands absolute obedience and eliminates all forms of political opposition.",
           "example_vi": "Chủ nghĩa toàn trị đòi hỏi sự phục tùng tuyệt đối và loại bỏ mọi hình thức đối lập chính trị.",
           "hint": "A political system where the state holds total authority over society"
+        },
+        {
+          "word": "autocracy",
+          "meaning": "chế độ chuyên quyền (danh từ) — hệ thống chính trị trong đó một người nắm quyền lực tuyệt đối",
+          "phonetic": "/ɔːˈtɑːkrəsi/",
+          "image": "👤",
+          "audio": "",
+          "example": "Autocracy concentrates all governmental power in the hands of a single ruler.",
+          "example_vi": "Chế độ chuyên quyền tập trung toàn bộ quyền lực nhà nước vào tay một nhà cai trị duy nhất.",
+          "hint": "A system of government in which one person holds absolute power"
+        },
+        {
+          "word": "oligarchy",
+          "meaning": "chế độ đầu sỏ (danh từ) — hình thức cai trị trong đó quyền lực thuộc về một nhóm nhỏ người giàu có hoặc quyền thế",
+          "phonetic": "/ˈɑːlɪˌɡɑːrki/",
+          "image": "💎",
+          "audio": "",
+          "example": "Critics warned that the country was drifting toward an oligarchy controlled by wealthy elites.",
+          "example_vi": "Các nhà phê bình cảnh báo rằng đất nước đang trượt dần về chế độ đầu sỏ do giới tinh hoa giàu có kiểm soát.",
+          "hint": "A form of government in which power rests with a small privileged group"
+        },
+        {
+          "word": "federalism",
+          "meaning": "chủ nghĩa liên bang (danh từ) — hệ thống phân chia quyền lực giữa chính quyền trung ương và các bang hoặc vùng",
+          "phonetic": "/ˈfɛdərəlɪzəm/",
+          "image": "🏛️",
+          "audio": "",
+          "example": "Federalism allows regional governments to retain significant legislative autonomy from the central authority.",
+          "example_vi": "Chủ nghĩa liên bang cho phép chính quyền vùng giữ quyền tự chủ lập pháp đáng kể so với chính quyền trung ương.",
+          "hint": "A system of government that divides power between central and regional authorities"
+        },
+        {
+          "word": "gerrymandering",
+          "meaning": "sự vẽ lại bản đồ bầu cử (danh từ) — việc thao túng ranh giới khu vực bầu cử để tạo lợi thế cho một đảng",
+          "phonetic": "/ˈdʒɛriˌmændərɪŋ/",
+          "image": "🗺️",
+          "audio": "",
+          "example": "Gerrymandering undermines fair representation by manipulating electoral district boundaries.",
+          "example_vi": "Việc vẽ lại bản đồ bầu cử làm suy yếu sự đại diện công bằng bằng cách thao túng ranh giới khu vực bầu cử.",
+          "hint": "The manipulation of electoral boundaries to favor a particular political party"
+        },
+        {
+          "word": "filibuster",
+          "meaning": "sự cản trở nghị trình (danh từ) — chiến thuật kéo dài tranh luận để trì hoãn hoặc ngăn chặn việc biểu quyết",
+          "phonetic": "/ˈfɪlɪˌbʌstər/",
+          "image": "🗣️",
+          "audio": "",
+          "example": "The senator launched a filibuster that lasted over thirteen hours to delay the vote.",
+          "example_vi": "Thượng nghị sĩ đã tiến hành cản trở nghị trình kéo dài hơn mười ba giờ để trì hoãn cuộc bỏ phiếu.",
+          "hint": "A tactic of prolonging debate to delay or prevent legislative action"
+        },
+        {
+          "word": "impeachment",
+          "meaning": "sự luận tội (danh từ) — quy trình pháp lý buộc tội một quan chức cấp cao về hành vi sai trái nghiêm trọng",
+          "phonetic": "/ɪmˈpiːtʃmənt/",
+          "image": "⚖️",
+          "audio": "",
+          "example": "The House of Representatives voted to proceed with the impeachment of the president.",
+          "example_vi": "Hạ viện đã bỏ phiếu tiến hành quy trình luận tội tổng thống.",
+          "hint": "The formal process of charging a public official with serious misconduct"
+        },
+        {
+          "word": "ratification",
+          "meaning": "sự phê chuẩn (danh từ) — hành động chính thức phê duyệt và thông qua một hiệp ước hoặc thỏa thuận",
+          "phonetic": "/ˌrætɪfɪˈkeɪʃən/",
+          "image": "✅",
+          "audio": "",
+          "example": "The treaty requires ratification by at least two-thirds of the member states.",
+          "example_vi": "Hiệp ước yêu cầu sự phê chuẩn của ít nhất hai phần ba các quốc gia thành viên.",
+          "hint": "The official approval and formal validation of a treaty or agreement"
+        },
+        {
+          "word": "secession",
+          "meaning": "sự ly khai (danh từ) — hành động rút lui chính thức của một vùng hoặc nhóm khỏi một tổ chức chính trị lớn hơn",
+          "phonetic": "/sɪˈsɛʃən/",
+          "image": "🔀",
+          "audio": "",
+          "example": "The region's attempted secession sparked a constitutional crisis across the entire nation.",
+          "example_vi": "Nỗ lực ly khai của vùng đã châm ngòi một cuộc khủng hoảng hiến pháp trên toàn quốc.",
+          "hint": "The formal withdrawal of a group or region from a larger political entity"
         }
       ]
     },
@@ -768,6 +1168,86 @@
           "example": "Delusions of grandeur made the patient believe he was a historical figure.",
           "example_vi": "Ảo tưởng tự đại khiến bệnh nhân tin rằng mình là một nhân vật lịch sử.",
           "hint": "A false belief maintained despite contradicting evidence"
+        },
+        {
+          "word": "psychosis",
+          "meaning": "chứng loạn thần (danh từ) — rối loạn tâm thần nghiêm trọng làm mất khả năng phân biệt thực và ảo",
+          "phonetic": "/saɪˈkoʊsɪs/",
+          "image": "🌀",
+          "audio": "",
+          "example": "Psychosis can cause hallucinations and delusions that severely impair daily functioning.",
+          "example_vi": "Chứng loạn thần có thể gây ra ảo giác và hoang tưởng làm suy giảm nghiêm trọng chức năng hàng ngày.",
+          "hint": "A severe mental disorder in which thought and perception are disconnected from reality"
+        },
+        {
+          "word": "dissociation",
+          "meaning": "sự phân ly (danh từ) — cơ chế tâm lý tách rời ý thức khỏi suy nghĩ, ký ức hoặc cảm giác",
+          "phonetic": "/dɪˌsoʊsiˈeɪʃən/",
+          "image": "🪟",
+          "audio": "",
+          "example": "Dissociation is a psychological defense mechanism often triggered by extreme trauma.",
+          "example_vi": "Phân ly là một cơ chế phòng vệ tâm lý thường được kích hoạt bởi chấn thương nghiêm trọng.",
+          "hint": "A psychological disconnection between thoughts, identity, consciousness, and memory"
+        },
+        {
+          "word": "catharsis",
+          "meaning": "sự giải tỏa cảm xúc (danh từ) — quá trình giải phóng cảm xúc dồn nén, mang lại sự nhẹ nhõm tâm lý",
+          "phonetic": "/kəˈθɑːrsɪs/",
+          "image": "😭",
+          "audio": "",
+          "example": "Writing in a journal can serve as a form of emotional catharsis for trauma survivors.",
+          "example_vi": "Viết nhật ký có thể là một hình thức giải tỏa cảm xúc cho những người sống sót sau chấn thương.",
+          "hint": "The process of releasing strong emotions, bringing psychological relief"
+        },
+        {
+          "word": "conditioning",
+          "meaning": "sự điều kiện hóa (danh từ) — quá trình học tập trong đó hành vi được hình thành qua liên kết kích thích và phản ứng",
+          "phonetic": "/kənˈdɪʃənɪŋ/",
+          "image": "🔔",
+          "audio": "",
+          "example": "Pavlov's experiments demonstrated classical conditioning through the association of food and a bell.",
+          "example_vi": "Các thí nghiệm của Pavlov đã chứng minh sự điều kiện hóa cổ điển thông qua liên kết giữa thức ăn và tiếng chuông.",
+          "hint": "A learning process by which behavior is shaped through stimulus-response associations"
+        },
+        {
+          "word": "transference",
+          "meaning": "sự chuyển di (danh từ) — hiện tượng bệnh nhân chiếu cảm xúc từ mối quan hệ cũ lên nhà trị liệu",
+          "phonetic": "/trænsˈfɜːrəns/",
+          "image": "🔁",
+          "audio": "",
+          "example": "Transference occurs when patients unconsciously redirect feelings from past relationships onto their therapist.",
+          "example_vi": "Sự chuyển di xảy ra khi bệnh nhân vô thức chuyển hướng cảm xúc từ các mối quan hệ quá khứ sang nhà trị liệu.",
+          "hint": "The unconscious redirection of feelings from one person to another, especially in therapy"
+        },
+        {
+          "word": "introspection",
+          "meaning": "sự nội quan (danh từ) — quá trình tự quan sát và phân tích suy nghĩ, cảm xúc của bản thân",
+          "phonetic": "/ˌɪntrəˈspɛkʃən/",
+          "image": "🧘",
+          "audio": "",
+          "example": "Introspection allows individuals to gain deeper awareness of their own emotional patterns.",
+          "example_vi": "Sự nội quan giúp cá nhân nhận thức sâu sắc hơn về các mô hình cảm xúc của chính mình.",
+          "hint": "The examination of one's own thoughts, feelings, and mental processes"
+        },
+        {
+          "word": "heuristic",
+          "meaning": "phương pháp suy nghiệm (danh từ) — lối tắt tư duy giúp đưa ra quyết định nhanh chóng nhưng có thể thiên lệch",
+          "phonetic": "/hjʊˈrɪstɪk/",
+          "image": "⚡",
+          "audio": "",
+          "example": "The availability heuristic causes people to overestimate the likelihood of events they easily recall.",
+          "example_vi": "Phương pháp suy nghiệm sẵn có khiến mọi người đánh giá quá cao khả năng xảy ra các sự kiện dễ nhớ.",
+          "hint": "A mental shortcut that enables quick decision-making but may introduce cognitive bias"
+        },
+        {
+          "word": "desensitization",
+          "meaning": "sự giải mẫn cảm (danh từ) — kỹ thuật trị liệu giảm dần phản ứng cảm xúc đối với kích thích gây sợ hãi",
+          "phonetic": "/diːˌsɛnsɪtɪˈzeɪʃən/",
+          "image": "📉",
+          "audio": "",
+          "example": "Systematic desensitization gradually exposes patients to feared stimuli to reduce anxiety responses.",
+          "example_vi": "Giải mẫn cảm có hệ thống dần dần cho bệnh nhân tiếp xúc với kích thích gây sợ để giảm phản ứng lo âu.",
+          "hint": "A therapeutic technique that gradually reduces emotional responsiveness to a feared stimulus"
         }
       ]
     },
@@ -896,6 +1376,86 @@
           "example": "Lexical ambiguity arises when a word has more than one possible meaning.",
           "example_vi": "Sự mơ hồ từ vựng phát sinh khi một từ có nhiều hơn một nghĩa có thể.",
           "hint": "The quality of being open to more than one interpretation"
+        },
+        {
+          "word": "sociolinguistics",
+          "meaning": "ngôn ngữ học xã hội (danh từ) — ngành nghiên cứu mối quan hệ giữa ngôn ngữ và các yếu tố xã hội",
+          "phonetic": "/ˌsoʊsioʊlɪŋˈɡwɪstɪks/",
+          "image": "👥",
+          "audio": "",
+          "example": "Sociolinguistics examines how social factors such as class and gender influence language use.",
+          "example_vi": "Ngôn ngữ học xã hội nghiên cứu cách các yếu tố xã hội như tầng lớp và giới tính ảnh hưởng đến việc sử dụng ngôn ngữ.",
+          "hint": "The study of the relationship between language and social factors"
+        },
+        {
+          "word": "pidgin",
+          "meaning": "ngôn ngữ tiếp xúc (danh từ) — ngôn ngữ đơn giản hóa hình thành khi hai nhóm không có ngôn ngữ chung giao tiếp",
+          "phonetic": "/ˈpɪdʒɪn/",
+          "image": "��",
+          "audio": "",
+          "example": "A pidgin often develops in trade contexts where speakers share no common native language.",
+          "example_vi": "Ngôn ngữ tiếp xúc thường phát triển trong bối cảnh thương mại nơi người nói không có ngôn ngữ mẹ đẻ chung.",
+          "hint": "A simplified language that develops between groups with no common language"
+        },
+        {
+          "word": "creole",
+          "meaning": "ngôn ngữ creole (danh từ) — ngôn ngữ hoàn chỉnh phát triển từ ngôn ngữ tiếp xúc khi trở thành tiếng mẹ đẻ",
+          "phonetic": "/ˈkriːoʊl/",
+          "image": "🌴",
+          "audio": "",
+          "example": "Haitian Creole evolved from a French-based pidgin into a fully developed native language.",
+          "example_vi": "Tiếng Creole Haiti đã phát triển từ ngôn ngữ tiếp xúc gốc Pháp thành một ngôn ngữ mẹ đẻ hoàn chỉnh.",
+          "hint": "A stable, fully developed language that evolved from a pidgin and became a native tongue"
+        },
+        {
+          "word": "idiolect",
+          "meaning": "ngôn ngữ cá nhân (danh từ) — cách sử dụng ngôn ngữ đặc trưng riêng biệt của mỗi cá nhân",
+          "phonetic": "/ˈɪdiəˌlɛkt/",
+          "image": "🧑",
+          "audio": "",
+          "example": "Every person's idiolect reflects their unique combination of vocabulary, grammar, and pronunciation.",
+          "example_vi": "Ngôn ngữ cá nhân của mỗi người phản ánh sự kết hợp độc đáo giữa từ vựng, ngữ pháp và phát âm.",
+          "hint": "The distinctive speech pattern and language use unique to an individual"
+        },
+        {
+          "word": "diphthong",
+          "meaning": "nguyên âm đôi (danh từ) — âm thanh được tạo ra bằng sự kết hợp hai nguyên âm trong một âm tiết",
+          "phonetic": "/ˈdɪfθɔːŋ/",
+          "image": "🔊",
+          "audio": "",
+          "example": "The English word 'coin' contains a diphthong that glides from one vowel sound to another.",
+          "example_vi": "Từ tiếng Anh 'coin' chứa một nguyên âm đôi trượt từ âm nguyên âm này sang âm khác.",
+          "hint": "A complex vowel sound formed by combining two vowels within a single syllable"
+        },
+        {
+          "word": "suprasegmental",
+          "meaning": "siêu đoạn tính (tính từ) — thuộc về các đặc điểm ngữ âm vượt ngoài phạm vi âm vị đơn lẻ như ngữ điệu và trọng âm",
+          "phonetic": "/ˌsuːprəsɛɡˈmɛntəl/",
+          "image": "🎵",
+          "audio": "",
+          "example": "Suprasegmental features like stress and intonation can completely change a sentence's meaning.",
+          "example_vi": "Các đặc điểm siêu đoạn tính như trọng âm và ngữ điệu có thể thay đổi hoàn toàn nghĩa của câu.",
+          "hint": "Relating to phonetic features extending beyond individual sounds, such as tone and stress"
+        },
+        {
+          "word": "neologism",
+          "meaning": "từ mới (danh từ) — từ hoặc cách diễn đạt mới được tạo ra hoặc mới được đưa vào sử dụng",
+          "phonetic": "/niˈɑːlədʒɪzəm/",
+          "image": "✨",
+          "audio": "",
+          "example": "The rapid growth of technology has introduced countless neologisms into everyday language.",
+          "example_vi": "Sự phát triển nhanh chóng của công nghệ đã đưa vô số từ mới vào ngôn ngữ hàng ngày.",
+          "hint": "A newly coined word or expression that has recently entered common use"
+        },
+        {
+          "word": "code-switching",
+          "meaning": "chuyển mã ngôn ngữ (danh từ) — hành vi luân phiên sử dụng hai hoặc nhiều ngôn ngữ trong cùng cuộc hội thoại",
+          "phonetic": "/ˈkoʊd swɪtʃɪŋ/",
+          "image": "🔀",
+          "audio": "",
+          "example": "Code-switching is a common phenomenon among bilingual speakers in multicultural communities.",
+          "example_vi": "Chuyển mã ngôn ngữ là hiện tượng phổ biến ở người nói song ngữ trong các cộng đồng đa văn hóa.",
+          "hint": "The practice of alternating between two or more languages within a conversation"
         }
       ]
     },
@@ -1024,6 +1584,86 @@
           "example": "The professor elucidated the complex theory with simple, relatable examples.",
           "example_vi": "Giáo sư đã làm sáng tỏ lý thuyết phức tạp bằng những ví dụ đơn giản, dễ liên hệ.",
           "hint": "To make something clear by explaining it in more detail"
+        },
+        {
+          "word": "syllogism",
+          "meaning": "tam đoạn luận (danh từ) — hình thức lập luận logic gồm hai tiền đề dẫn đến một kết luận tất yếu",
+          "phonetic": "/ˈsɪlədʒɪzəm/",
+          "image": "📐",
+          "audio": "",
+          "example": "A classic syllogism states: all men are mortal, Socrates is a man, therefore Socrates is mortal.",
+          "example_vi": "Một tam đoạn luận kinh điển phát biểu: mọi người đều phải chết, Socrates là người, vậy Socrates phải chết.",
+          "hint": "A form of deductive reasoning consisting of two premises leading to a logical conclusion"
+        },
+        {
+          "word": "dialectic",
+          "meaning": "biện chứng (danh từ) — phương pháp tìm kiếm chân lý qua đối thoại và đối lập luận điểm",
+          "phonetic": "/ˌdaɪəˈlɛktɪk/",
+          "image": "🔄",
+          "audio": "",
+          "example": "The Socratic dialectic uses systematic questioning to expose contradictions in an argument.",
+          "example_vi": "Phương pháp biện chứng Socrates sử dụng đặt câu hỏi có hệ thống để phơi bày mâu thuẫn trong lập luận.",
+          "hint": "A method of discovering truth through dialogue and the exchange of opposing arguments"
+        },
+        {
+          "word": "epistemology",
+          "meaning": "nhận thức luận (danh từ) — ngành triết học nghiên cứu bản chất, phạm vi và cơ sở của tri thức",
+          "phonetic": "/ɪˌpɪstɪˈmɑːlədʒi/",
+          "image": "🎓",
+          "audio": "",
+          "example": "Epistemology asks fundamental questions about what we can truly know and how we know it.",
+          "example_vi": "Nhận thức luận đặt ra các câu hỏi cơ bản về những gì chúng ta thực sự biết và cách chúng ta biết.",
+          "hint": "The branch of philosophy concerned with the nature and scope of knowledge"
+        },
+        {
+          "word": "reductionism",
+          "meaning": "chủ nghĩa quy giản (danh từ) — cách tiếp cận giải thích hiện tượng phức tạp bằng các thành phần đơn giản hơn",
+          "phonetic": "/rɪˈdʌkʃənɪzəm/",
+          "image": "🔬",
+          "audio": "",
+          "example": "Reductionism attempts to explain complex phenomena by breaking them down into simpler components.",
+          "example_vi": "Chủ nghĩa quy giản cố gắng giải thích các hiện tượng phức tạp bằng cách chia nhỏ chúng thành các thành phần đơn giản hơn.",
+          "hint": "An approach that explains complex phenomena in terms of their simpler parts"
+        },
+        {
+          "word": "deduction",
+          "meaning": "suy diễn (danh từ) — phương pháp lập luận từ nguyên lý chung đến kết luận cụ thể một cách logic",
+          "phonetic": "/dɪˈdʌkʃən/",
+          "image": "⬇️",
+          "audio": "",
+          "example": "Through deduction, the detective arrived at the only conclusion consistent with all the evidence.",
+          "example_vi": "Thông qua suy diễn, thám tử đã đi đến kết luận duy nhất phù hợp với tất cả bằng chứng.",
+          "hint": "The process of reasoning from general principles to a specific, logically certain conclusion"
+        },
+        {
+          "word": "induction",
+          "meaning": "quy nạp (danh từ) — phương pháp lập luận từ các quan sát cụ thể để rút ra kết luận tổng quát",
+          "phonetic": "/ɪnˈdʌkʃən/",
+          "image": "⬆️",
+          "audio": "",
+          "example": "Scientific induction involves drawing general conclusions from repeated experimental observations.",
+          "example_vi": "Quy nạp khoa học bao gồm việc rút ra kết luận tổng quát từ các quan sát thí nghiệm lặp lại.",
+          "hint": "The process of reasoning from specific observations to broader generalizations"
+        },
+        {
+          "word": "sophistry",
+          "meaning": "ngụy biện (danh từ) — lập luận tưởng chừng hợp lý nhưng thực chất sai lầm, dùng để đánh lừa người nghe",
+          "phonetic": "/ˈsɑːfɪstri/",
+          "image": "🎭",
+          "audio": "",
+          "example": "The politician's argument was dismissed as mere sophistry designed to mislead the public.",
+          "example_vi": "Lập luận của chính trị gia đã bị bác bỏ như ngụy biện thuần túy nhằm đánh lừa công chúng.",
+          "hint": "The use of clever but deceptive reasoning intended to mislead"
+        },
+        {
+          "word": "tautology",
+          "meaning": "phép lặp thừa (danh từ) — phát biểu trong đó kết luận chỉ lặp lại tiền đề mà không cung cấp thông tin mới",
+          "phonetic": "/tɔːˈtɑːlədʒi/",
+          "image": "🔁",
+          "audio": "",
+          "example": "Saying 'a bachelor is an unmarried man' is a tautology because it restates the definition.",
+          "example_vi": "Nói 'một người độc thân là người chưa kết hôn' là phép lặp thừa vì nó chỉ nhắc lại định nghĩa.",
+          "hint": "A statement that merely repeats its premise without adding new information"
         }
       ]
     }
