@@ -1,0 +1,407 @@
+{
+  "level": "A",
+  "label": "CEFR A1-A2",
+  "description": "Từ vựng tiếng Anh cơ bản theo chuẩn CEFR A1-A2",
+  "topics": [
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "name_vi": "Quần áo",
+      "icon": "👕",
+      "words": [
+        {
+          "word": "shirt",
+          "meaning": "áo sơ mi",
+          "phonetic": "/ʃɜːrt/",
+          "image": "👔",
+          "audio": "",
+          "example": "He is wearing a white shirt.",
+          "hint": "A piece of clothing for the upper body with a collar"
+        },
+        {
+          "word": "pants",
+          "meaning": "quần dài",
+          "phonetic": "/pænts/",
+          "image": "👖",
+          "audio": "",
+          "example": "These pants are too long for me.",
+          "hint": "Clothing that covers each leg separately"
+        },
+        {
+          "word": "dress",
+          "meaning": "váy liền",
+          "phonetic": "/dres/",
+          "image": "👗",
+          "audio": "",
+          "example": "She looks beautiful in that dress.",
+          "hint": "A one-piece garment for women or girls"
+        },
+        {
+          "word": "shoes",
+          "meaning": "giày",
+          "phonetic": "/ʃuːz/",
+          "image": "👟",
+          "audio": "",
+          "example": "I need new shoes for school.",
+          "hint": "You wear these on your feet to walk outside"
+        },
+        {
+          "word": "hat",
+          "meaning": "mũ",
+          "phonetic": "/hæt/",
+          "image": "🎩",
+          "audio": "",
+          "example": "Wear a hat when it is sunny.",
+          "hint": "You put this on your head"
+        },
+        {
+          "word": "socks",
+          "meaning": "tất, vớ",
+          "phonetic": "/sɑːks/",
+          "image": "🧦",
+          "audio": "",
+          "example": "I always wear socks with my shoes.",
+          "hint": "Soft clothing you wear on your feet inside shoes"
+        },
+        {
+          "word": "jacket",
+          "meaning": "áo khoác",
+          "phonetic": "/ˈdʒækɪt/",
+          "image": "🧥",
+          "audio": "",
+          "example": "Take your jacket, it is cold outside.",
+          "hint": "A short coat you wear when it is cold"
+        },
+        {
+          "word": "skirt",
+          "meaning": "chân váy",
+          "phonetic": "/skɜːrt/",
+          "image": "👗",
+          "audio": "",
+          "example": "She wears a short skirt to the party.",
+          "hint": "Clothing that hangs from the waist, worn by women"
+        }
+      ]
+    },
+    {
+      "id": "house",
+      "name": "House & Rooms",
+      "name_vi": "Nhà và các phòng",
+      "icon": "🏠",
+      "words": [
+        {
+          "word": "kitchen",
+          "meaning": "nhà bếp",
+          "phonetic": "/ˈkɪtʃɪn/",
+          "image": "🍳",
+          "audio": "",
+          "example": "My mother cooks in the kitchen.",
+          "hint": "The room where you cook food"
+        },
+        {
+          "word": "bedroom",
+          "meaning": "phòng ngủ",
+          "phonetic": "/ˈbedruːm/",
+          "image": "🛏️",
+          "audio": "",
+          "example": "I sleep in my bedroom every night.",
+          "hint": "The room where you sleep"
+        },
+        {
+          "word": "bathroom",
+          "meaning": "phòng tắm",
+          "phonetic": "/ˈbæθruːm/",
+          "image": "🛁",
+          "audio": "",
+          "example": "I brush my teeth in the bathroom.",
+          "hint": "The room where you take a shower"
+        },
+        {
+          "word": "garden",
+          "meaning": "vườn",
+          "phonetic": "/ˈɡɑːrdn/",
+          "image": "🌻",
+          "audio": "",
+          "example": "There are many flowers in the garden.",
+          "hint": "An outdoor area with plants and flowers"
+        },
+        {
+          "word": "door",
+          "meaning": "cửa ra vào",
+          "phonetic": "/dɔːr/",
+          "image": "🚪",
+          "audio": "",
+          "example": "Please close the door when you leave.",
+          "hint": "You open this to enter a room"
+        },
+        {
+          "word": "window",
+          "meaning": "cửa sổ",
+          "phonetic": "/ˈwɪndoʊ/",
+          "image": "🪟",
+          "audio": "",
+          "example": "Open the window to get fresh air.",
+          "hint": "You look through this to see outside"
+        },
+        {
+          "word": "table",
+          "meaning": "bàn",
+          "phonetic": "/ˈteɪbl/",
+          "image": "🍽️",
+          "audio": "",
+          "example": "The books are on the table.",
+          "hint": "A flat surface with legs where you eat or work"
+        },
+        {
+          "word": "chair",
+          "meaning": "ghế",
+          "phonetic": "/tʃer/",
+          "image": "💺",
+          "audio": "",
+          "example": "Please sit on the chair.",
+          "hint": "A piece of furniture you sit on"
+        }
+      ]
+    },
+    {
+      "id": "daily-actions",
+      "name": "Daily Actions",
+      "name_vi": "Hành động hằng ngày",
+      "icon": "🏃",
+      "words": [
+        {
+          "word": "eat",
+          "meaning": "ăn",
+          "phonetic": "/iːt/",
+          "image": "🍽️",
+          "audio": "",
+          "example": "I eat breakfast at seven o'clock.",
+          "hint": "You do this when you are hungry"
+        },
+        {
+          "word": "drink",
+          "meaning": "uống",
+          "phonetic": "/drɪŋk/",
+          "image": "🥤",
+          "audio": "",
+          "example": "I drink water every day.",
+          "hint": "You do this when you are thirsty"
+        },
+        {
+          "word": "sleep",
+          "meaning": "ngủ",
+          "phonetic": "/sliːp/",
+          "image": "😴",
+          "audio": "",
+          "example": "I sleep eight hours every night.",
+          "hint": "You close your eyes and rest at night"
+        },
+        {
+          "word": "run",
+          "meaning": "chạy",
+          "phonetic": "/rʌn/",
+          "image": "🏃",
+          "audio": "",
+          "example": "He likes to run in the park.",
+          "hint": "Moving very fast on your feet"
+        },
+        {
+          "word": "walk",
+          "meaning": "đi bộ",
+          "phonetic": "/wɔːk/",
+          "image": "🚶",
+          "audio": "",
+          "example": "I walk to school every morning.",
+          "hint": "Moving on foot, slower than running"
+        },
+        {
+          "word": "read",
+          "meaning": "đọc",
+          "phonetic": "/riːd/",
+          "image": "📖",
+          "audio": "",
+          "example": "She likes to read books before bed.",
+          "hint": "You look at words and understand them"
+        },
+        {
+          "word": "write",
+          "meaning": "viết",
+          "phonetic": "/raɪt/",
+          "image": "✍️",
+          "audio": "",
+          "example": "Please write your name on the paper.",
+          "hint": "You use a pen to put words on paper"
+        },
+        {
+          "word": "play",
+          "meaning": "chơi",
+          "phonetic": "/pleɪ/",
+          "image": "⚽",
+          "audio": "",
+          "example": "The children play in the park after school.",
+          "hint": "You do this for fun"
+        }
+      ]
+    },
+    {
+      "id": "days-time",
+      "name": "Days & Time",
+      "name_vi": "Ngày và thời gian",
+      "icon": "📅",
+      "words": [
+        {
+          "word": "Monday",
+          "meaning": "thứ Hai",
+          "phonetic": "/ˈmʌndeɪ/",
+          "image": "1️⃣",
+          "audio": "",
+          "example": "School starts on Monday.",
+          "hint": "The first day of the work week"
+        },
+        {
+          "word": "Tuesday",
+          "meaning": "thứ Ba",
+          "phonetic": "/ˈtjuːzdeɪ/",
+          "image": "2️⃣",
+          "audio": "",
+          "example": "I have English class on Tuesday.",
+          "hint": "The day after Monday"
+        },
+        {
+          "word": "Wednesday",
+          "meaning": "thứ Tư",
+          "phonetic": "/ˈwenzdeɪ/",
+          "image": "3️⃣",
+          "audio": "",
+          "example": "We play soccer on Wednesday.",
+          "hint": "The middle day of the work week"
+        },
+        {
+          "word": "Thursday",
+          "meaning": "thứ Năm",
+          "phonetic": "/ˈθɜːrzdeɪ/",
+          "image": "4️⃣",
+          "audio": "",
+          "example": "The test is on Thursday.",
+          "hint": "The day before Friday"
+        },
+        {
+          "word": "Friday",
+          "meaning": "thứ Sáu",
+          "phonetic": "/ˈfraɪdeɪ/",
+          "image": "5️⃣",
+          "audio": "",
+          "example": "Friday is my favorite day.",
+          "hint": "The last day of the work week"
+        },
+        {
+          "word": "Saturday",
+          "meaning": "thứ Bảy",
+          "phonetic": "/ˈsætərdeɪ/",
+          "image": "6️⃣",
+          "audio": "",
+          "example": "I visit my grandparents on Saturday.",
+          "hint": "The first day of the weekend"
+        },
+        {
+          "word": "Sunday",
+          "meaning": "Chủ nhật",
+          "phonetic": "/ˈsʌndeɪ/",
+          "image": "7️⃣",
+          "audio": "",
+          "example": "We go to the park on Sunday.",
+          "hint": "The last day of the weekend"
+        },
+        {
+          "word": "morning",
+          "meaning": "buổi sáng",
+          "phonetic": "/ˈmɔːrnɪŋ/",
+          "image": "🌅",
+          "audio": "",
+          "example": "I wake up early in the morning.",
+          "hint": "The first part of the day, after you wake up"
+        }
+      ]
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping",
+      "name_vi": "Mua sắm",
+      "icon": "🛒",
+      "words": [
+        {
+          "word": "money",
+          "meaning": "tiền",
+          "phonetic": "/ˈmʌni/",
+          "image": "💰",
+          "audio": "",
+          "example": "I save my money in a piggy bank.",
+          "hint": "You use this to buy things"
+        },
+        {
+          "word": "shop",
+          "meaning": "cửa hàng",
+          "phonetic": "/ʃɒp/",
+          "image": "🏪",
+          "audio": "",
+          "example": "There is a small shop near my house.",
+          "hint": "A place where you can buy things"
+        },
+        {
+          "word": "buy",
+          "meaning": "mua",
+          "phonetic": "/baɪ/",
+          "image": "🛍️",
+          "audio": "",
+          "example": "I want to buy a new book.",
+          "hint": "You give money and get something"
+        },
+        {
+          "word": "price",
+          "meaning": "giá",
+          "phonetic": "/praɪs/",
+          "image": "🏷️",
+          "audio": "",
+          "example": "What is the price of this shirt?",
+          "hint": "How much money something costs"
+        },
+        {
+          "word": "cheap",
+          "meaning": "rẻ",
+          "phonetic": "/tʃiːp/",
+          "image": "👍",
+          "audio": "",
+          "example": "This bag is very cheap.",
+          "hint": "It does not cost a lot of money"
+        },
+        {
+          "word": "expensive",
+          "meaning": "đắt",
+          "phonetic": "/ɪkˈspensɪv/",
+          "image": "💎",
+          "audio": "",
+          "example": "That car is too expensive for me.",
+          "hint": "It costs a lot of money"
+        },
+        {
+          "word": "market",
+          "meaning": "chợ",
+          "phonetic": "/ˈmɑːrkɪt/",
+          "image": "🏬",
+          "audio": "",
+          "example": "My mom goes to the market every morning.",
+          "hint": "A place where many people sell food and goods"
+        },
+        {
+          "word": "bag",
+          "meaning": "túi",
+          "phonetic": "/bæɡ/",
+          "image": "👜",
+          "audio": "",
+          "example": "Put the fruit in the bag.",
+          "hint": "You carry things inside this"
+        }
+      ]
+    }
+  ]
+}
