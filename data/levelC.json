@@ -250,22 +250,22 @@
       "icon": "🎓",
       "words": [
         {
-          "word": "hypothesis",
-          "meaning": "giả thuyết",
-          "phonetic": "/haɪˈpɒθəsɪs/",
-          "image": "🔬",
+          "word": "dissertation",
+          "meaning": "luận văn",
+          "phonetic": "/ˌdɪsərˈteɪʃən/",
+          "image": "📚",
           "audio": "",
-          "example": "The researcher formulated a hypothesis that was subsequently tested through rigorous experimentation.",
-          "hint": "A proposed explanation made as a starting point for investigation"
+          "example": "She spent three years writing her doctoral dissertation on climate policy.",
+          "hint": "A long essay or thesis written for a university degree"
         },
         {
-          "word": "methodology",
-          "meaning": "phương pháp luận",
-          "phonetic": "/ˌmɛθəˈdɒlədʒi/",
-          "image": "📊",
+          "word": "plagiarism",
+          "meaning": "đạo văn",
+          "phonetic": "/ˈpleɪdʒərɪzəm/",
+          "image": "🚫",
           "audio": "",
-          "example": "The methodology section of the paper described the qualitative and quantitative approaches employed.",
-          "hint": "A system of methods used in a particular area of study"
+          "example": "The university has strict policies against plagiarism in academic work.",
+          "hint": "Using someone else's work without giving credit"
         },
         {
           "word": "abstract",
