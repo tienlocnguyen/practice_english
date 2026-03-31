@@ -209,6 +209,8 @@ def generate_topic_page(topic, level_data, level_dir, base_url):
     lvl = level_data['level']
     word_cards = ""
     for w in topic['words']:
+        word_data = {**w, '_level': str(lvl), '_topic': topic['id']}
+        word_json_attr = json.dumps(word_data, ensure_ascii=False).replace('&', '&amp;').replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
         word_cards += f"""
         <div class="vocab-card">
             <div class="vocab-emoji">{w['image']}</div>
@@ -218,10 +220,12 @@ def generate_topic_page(topic, level_data, level_dir, base_url):
                 <p class="meaning">{w['meaning']}</p>
                 <p class="example">"{w['example']}"</p>
                 <button class="btn btn-sm btn-speak" onclick="speak('{w['word']}')">🔊 Nghe</button>
+                <button class="btn btn-sm feedback-report-btn" data-word="{word_json_attr}">⚠️ Báo lỗi</button>
             </div>
         </div>"""
 
-    html = f"""{generate_head(f"{topic['name_vi']} - {level_data['label']}", base_url)}
+    html = f"""{generate_head(f"{topic['name_vi']} - {level_data['label']}", base_url,
+        f'<link rel="stylesheet" href="{base_url}/css/feedback.css">')}
 <body>
 {generate_nav(base_url)}
 <main class="container">
@@ -232,6 +236,13 @@ def generate_topic_page(topic, level_data, level_dir, base_url):
     <section class="hero hero-small">
         <h1>{topic['icon']} {topic['name_vi']} ({topic['name']})</h1>
     </section>
+
+    <div class="feedback-toolbar">
+        <button class="btn btn-sm btn-secondary" onclick="FeedbackSystem.exportFeedback()">
+            📥 Xuất phản hồi <span id="feedback-export-count" class="feedback-export-count">0</span>
+        </button>
+        <button class="btn btn-sm btn-secondary" onclick="FeedbackSystem.clearFeedback()">🗑️ Xóa phản hồi</button>
+    </div>
 
     <div class="vocab-grid">
         {word_cards}
@@ -250,6 +261,7 @@ function speak(text) {{
     speechSynthesis.speak(utterance);
 }}
 </script>
+<script src="{base_url}/js/feedback.js"></script>
 </body>
 </html>"""
 
