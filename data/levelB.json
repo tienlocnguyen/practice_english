@@ -1,0 +1,407 @@
+{
+  "level": "B",
+  "label": "CEFR B1-B2",
+  "description": "Từ vựng tiếng Anh trung cấp theo chuẩn CEFR B1-B2",
+  "topics": [
+    {
+      "id": "technology",
+      "name": "Technology",
+      "name_vi": "Công nghệ",
+      "icon": "💻",
+      "words": [
+        {
+          "word": "computer",
+          "meaning": "máy tính",
+          "phonetic": "/kəmˈpjuːtər/",
+          "image": "🖥️",
+          "audio": "",
+          "example": "I use my computer to write reports for work every day.",
+          "hint": "An electronic device for processing data"
+        },
+        {
+          "word": "internet",
+          "meaning": "mạng internet",
+          "phonetic": "/ˈɪntərnet/",
+          "image": "🌐",
+          "audio": "",
+          "example": "The internet has changed the way people communicate around the world.",
+          "hint": "A global network connecting millions of computers"
+        },
+        {
+          "word": "smartphone",
+          "meaning": "điện thoại thông minh",
+          "phonetic": "/ˈsmɑːrtfoʊn/",
+          "image": "📱",
+          "audio": "",
+          "example": "Most people check their smartphone as soon as they wake up.",
+          "hint": "A mobile phone with advanced features"
+        },
+        {
+          "word": "software",
+          "meaning": "phần mềm",
+          "phonetic": "/ˈsɒftwɛər/",
+          "image": "💿",
+          "audio": "",
+          "example": "The company developed new software to manage customer accounts.",
+          "hint": "Programs and applications that run on a computer"
+        },
+        {
+          "word": "website",
+          "meaning": "trang web",
+          "phonetic": "/ˈwɛbsaɪt/",
+          "image": "🔗",
+          "audio": "",
+          "example": "You can find more information about the course on our website.",
+          "hint": "A collection of pages on the internet"
+        },
+        {
+          "word": "download",
+          "meaning": "tải xuống",
+          "phonetic": "/ˈdaʊnloʊd/",
+          "image": "⬇️",
+          "audio": "",
+          "example": "It took several minutes to download the large video file.",
+          "hint": "To transfer data from the internet to your device"
+        },
+        {
+          "word": "password",
+          "meaning": "mật khẩu",
+          "phonetic": "/ˈpæswɜːrd/",
+          "image": "🔑",
+          "audio": "",
+          "example": "You should change your password regularly to keep your account safe.",
+          "hint": "A secret word or phrase used to access something"
+        },
+        {
+          "word": "email",
+          "meaning": "thư điện tử",
+          "phonetic": "/ˈiːmeɪl/",
+          "image": "📧",
+          "audio": "",
+          "example": "She sent an email to her manager to request a day off.",
+          "hint": "Electronic messages sent over the internet"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "name": "Health & Medicine",
+      "name_vi": "Sức khỏe & Y tế",
+      "icon": "🏥",
+      "words": [
+        {
+          "word": "hospital",
+          "meaning": "bệnh viện",
+          "phonetic": "/ˈhɒspɪtl/",
+          "image": "🏥",
+          "audio": "",
+          "example": "He was taken to the hospital after the accident.",
+          "hint": "A place where sick or injured people receive medical care"
+        },
+        {
+          "word": "medicine",
+          "meaning": "thuốc",
+          "phonetic": "/ˈmedɪsɪn/",
+          "image": "💊",
+          "audio": "",
+          "example": "The doctor prescribed some medicine for her cough.",
+          "hint": "A substance used to treat illness"
+        },
+        {
+          "word": "fever",
+          "meaning": "sốt",
+          "phonetic": "/ˈfiːvər/",
+          "image": "🤒",
+          "audio": "",
+          "example": "The child had a high fever and needed to stay in bed.",
+          "hint": "An abnormally high body temperature"
+        },
+        {
+          "word": "headache",
+          "meaning": "đau đầu",
+          "phonetic": "/ˈhɛdeɪk/",
+          "image": "🤕",
+          "audio": "",
+          "example": "I have a terrible headache, so I need to lie down for a while.",
+          "hint": "A pain in the head"
+        },
+        {
+          "word": "dentist",
+          "meaning": "nha sĩ",
+          "phonetic": "/ˈdentɪst/",
+          "image": "🦷",
+          "audio": "",
+          "example": "You should visit the dentist at least twice a year for a check-up.",
+          "hint": "A doctor who takes care of teeth"
+        },
+        {
+          "word": "symptom",
+          "meaning": "triệu chứng",
+          "phonetic": "/ˈsɪmptəm/",
+          "image": "🩺",
+          "audio": "",
+          "example": "A sore throat is a common symptom of the flu.",
+          "hint": "A sign that indicates a disease or condition"
+        },
+        {
+          "word": "treatment",
+          "meaning": "điều trị",
+          "phonetic": "/ˈtriːtmənt/",
+          "image": "💉",
+          "audio": "",
+          "example": "The treatment for this condition usually takes about six weeks.",
+          "hint": "Medical care given to a patient for an illness"
+        },
+        {
+          "word": "pharmacy",
+          "meaning": "nhà thuốc",
+          "phonetic": "/ˈfɑːrməsi/",
+          "image": "🏪",
+          "audio": "",
+          "example": "I went to the pharmacy to buy some cough syrup.",
+          "hint": "A store where medicines are sold"
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "name": "Travel & Tourism",
+      "name_vi": "Du lịch & Tham quan",
+      "icon": "✈️",
+      "words": [
+        {
+          "word": "passport",
+          "meaning": "hộ chiếu",
+          "phonetic": "/ˈpæspɔːrt/",
+          "image": "🛂",
+          "audio": "",
+          "example": "Make sure your passport is valid before you book your flight.",
+          "hint": "An official document for international travel"
+        },
+        {
+          "word": "luggage",
+          "meaning": "hành lý",
+          "phonetic": "/ˈlʌɡɪdʒ/",
+          "image": "🧳",
+          "audio": "",
+          "example": "Passengers are allowed to bring one piece of carry-on luggage.",
+          "hint": "Bags and suitcases you take when traveling"
+        },
+        {
+          "word": "reservation",
+          "meaning": "đặt chỗ",
+          "phonetic": "/ˌrezərˈveɪʃn/",
+          "image": "📋",
+          "audio": "",
+          "example": "We made a reservation at the restaurant for Friday evening.",
+          "hint": "An arrangement to have something kept for you"
+        },
+        {
+          "word": "destination",
+          "meaning": "điểm đến",
+          "phonetic": "/ˌdestɪˈneɪʃn/",
+          "image": "📍",
+          "audio": "",
+          "example": "Paris is one of the most popular tourist destinations in the world.",
+          "hint": "The place where someone is going"
+        },
+        {
+          "word": "tourist",
+          "meaning": "khách du lịch",
+          "phonetic": "/ˈtʊərɪst/",
+          "image": "🧑‍🎒",
+          "audio": "",
+          "example": "The city attracts millions of tourists every summer.",
+          "hint": "A person who visits places for pleasure"
+        },
+        {
+          "word": "flight",
+          "meaning": "chuyến bay",
+          "phonetic": "/flaɪt/",
+          "image": "✈️",
+          "audio": "",
+          "example": "Our flight to London departs at seven in the morning.",
+          "hint": "A journey by airplane"
+        },
+        {
+          "word": "hotel",
+          "meaning": "khách sạn",
+          "phonetic": "/hoʊˈtel/",
+          "image": "🏨",
+          "audio": "",
+          "example": "We stayed at a lovely hotel near the beach during our vacation.",
+          "hint": "A building where travelers pay to stay overnight"
+        },
+        {
+          "word": "souvenir",
+          "meaning": "quà lưu niệm",
+          "phonetic": "/ˌsuːvəˈnɪər/",
+          "image": "🎁",
+          "audio": "",
+          "example": "She bought a small souvenir from each country she visited.",
+          "hint": "An object kept as a reminder of a place or event"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "name": "Environment",
+      "name_vi": "Môi trường",
+      "icon": "🌍",
+      "words": [
+        {
+          "word": "pollution",
+          "meaning": "ô nhiễm",
+          "phonetic": "/pəˈluːʃn/",
+          "image": "🏭",
+          "audio": "",
+          "example": "Air pollution in big cities is a serious problem for public health.",
+          "hint": "Harmful substances released into the environment"
+        },
+        {
+          "word": "recycle",
+          "meaning": "tái chế",
+          "phonetic": "/ˌriːˈsaɪkl/",
+          "image": "♻️",
+          "audio": "",
+          "example": "We should recycle plastic bottles instead of throwing them away.",
+          "hint": "To process waste materials so they can be used again"
+        },
+        {
+          "word": "climate",
+          "meaning": "khí hậu",
+          "phonetic": "/ˈklaɪmɪt/",
+          "image": "🌡️",
+          "audio": "",
+          "example": "Climate change is affecting weather patterns all over the world.",
+          "hint": "The general weather conditions of a region over time"
+        },
+        {
+          "word": "endangered",
+          "meaning": "có nguy cơ tuyệt chủng",
+          "phonetic": "/ɪnˈdeɪndʒərd/",
+          "image": "🐼",
+          "audio": "",
+          "example": "The giant panda is an endangered species that needs protection.",
+          "hint": "At risk of becoming extinct"
+        },
+        {
+          "word": "conservation",
+          "meaning": "bảo tồn",
+          "phonetic": "/ˌkɒnsərˈveɪʃn/",
+          "image": "🌿",
+          "audio": "",
+          "example": "Conservation efforts have helped increase the tiger population.",
+          "hint": "The protection of natural resources and wildlife"
+        },
+        {
+          "word": "renewable",
+          "meaning": "tái tạo được",
+          "phonetic": "/rɪˈnjuːəbl/",
+          "image": "☀️",
+          "audio": "",
+          "example": "Solar and wind power are examples of renewable energy sources.",
+          "hint": "A resource that can be naturally replaced over time"
+        },
+        {
+          "word": "ecosystem",
+          "meaning": "hệ sinh thái",
+          "phonetic": "/ˈiːkoʊsɪstəm/",
+          "image": "🌳",
+          "audio": "",
+          "example": "Coral reefs are delicate ecosystems that support many forms of life.",
+          "hint": "A community of living things and their environment"
+        },
+        {
+          "word": "wildlife",
+          "meaning": "động vật hoang dã",
+          "phonetic": "/ˈwaɪldlaɪf/",
+          "image": "🦁",
+          "audio": "",
+          "example": "The national park is home to a wide variety of wildlife.",
+          "hint": "Animals and plants living in their natural habitat"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "Media & Communication",
+      "name_vi": "Truyền thông & Giao tiếp",
+      "icon": "📺",
+      "words": [
+        {
+          "word": "broadcast",
+          "meaning": "phát sóng",
+          "phonetic": "/ˈbrɔːdkæst/",
+          "image": "📡",
+          "audio": "",
+          "example": "The news channel will broadcast the event live at eight o'clock.",
+          "hint": "To send out a program on television or radio"
+        },
+        {
+          "word": "headline",
+          "meaning": "tiêu đề",
+          "phonetic": "/ˈhedlaɪn/",
+          "image": "📰",
+          "audio": "",
+          "example": "The shocking headline caught everyone's attention this morning.",
+          "hint": "The title at the top of a news story"
+        },
+        {
+          "word": "journalist",
+          "meaning": "nhà báo",
+          "phonetic": "/ˈdʒɜːrnəlɪst/",
+          "image": "🎤",
+          "audio": "",
+          "example": "The journalist traveled to the region to report on the crisis.",
+          "hint": "A person who writes or reports news"
+        },
+        {
+          "word": "advertisement",
+          "meaning": "quảng cáo",
+          "phonetic": "/ˌædvərˈtaɪzmənt/",
+          "image": "📢",
+          "audio": "",
+          "example": "I saw an advertisement for the new restaurant on social media.",
+          "hint": "A public notice promoting a product or service"
+        },
+        {
+          "word": "podcast",
+          "meaning": "chương trình phát thanh trực tuyến",
+          "phonetic": "/ˈpɒdkæst/",
+          "image": "🎧",
+          "audio": "",
+          "example": "I listen to a language learning podcast on my way to work.",
+          "hint": "An audio program available for download online"
+        },
+        {
+          "word": "interview",
+          "meaning": "phỏng vấn",
+          "phonetic": "/ˈɪntərvjuː/",
+          "image": "🗣️",
+          "audio": "",
+          "example": "The actor gave an interview about his upcoming movie.",
+          "hint": "A conversation where one person asks questions to another"
+        },
+        {
+          "word": "audience",
+          "meaning": "khán giả",
+          "phonetic": "/ˈɔːdiəns/",
+          "image": "👥",
+          "audio": "",
+          "example": "The audience applauded loudly at the end of the performance.",
+          "hint": "A group of people watching or listening to something"
+        },
+        {
+          "word": "article",
+          "meaning": "bài báo",
+          "phonetic": "/ˈɑːrtɪkl/",
+          "image": "📝",
+          "audio": "",
+          "example": "She wrote an interesting article about the effects of social media.",
+          "hint": "A piece of writing published in a newspaper or online"
+        }
+      ]
+    }
+  ]
+}
