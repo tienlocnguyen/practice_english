@@ -13,7 +13,7 @@
           "word": "teacher",
           "meaning": "giáo viên",
           "phonetic": "/ˈtiːtʃər/",
-          "image": "https://cdn-icons-png.flaticon.com/512/1995/1995574.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F468-200D-1F3EB.svg",
           "audio": "",
           "example": "The teacher is kind.",
           "hint": "A person who teaches"
@@ -22,7 +22,7 @@
           "word": "student",
           "meaning": "học sinh",
           "phonetic": "/ˈstuːdənt/",
-          "image": "https://cdn-icons-png.flaticon.com/512/2784/2784403.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F469-200D-1F393.svg",
           "audio": "",
           "example": "I am a student.",
           "hint": "A person who learns"
@@ -31,7 +31,7 @@
           "word": "pencil",
           "meaning": "bút chì",
           "phonetic": "/ˈpensəl/",
-          "image": "https://cdn-icons-png.flaticon.com/512/1170/1170577.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/270F-FE0F.svg",
           "audio": "",
           "example": "I write with a pencil.",
           "hint": "You write with this"
@@ -40,7 +40,7 @@
           "word": "ruler",
           "meaning": "thước kẻ",
           "phonetic": "/ˈruːlər/",
-          "image": "https://cdn-icons-png.flaticon.com/512/2541/2541986.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F4CF.svg",
           "audio": "",
           "example": "Use a ruler to draw a line.",
           "hint": "Used to measure length"
@@ -49,7 +49,7 @@
           "word": "eraser",
           "meaning": "cục tẩy",
           "phonetic": "/ɪˈreɪsər/",
-          "image": "https://cdn-icons-png.flaticon.com/512/2541/2541961.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F9F9.svg",
           "audio": "",
           "example": "I need an eraser.",
           "hint": "Removes pencil marks"
@@ -58,7 +58,7 @@
           "word": "notebook",
           "meaning": "vở",
           "phonetic": "/ˈnoʊtbʊk/",
-          "image": "https://cdn-icons-png.flaticon.com/512/2541/2541984.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F4D3.svg",
           "audio": "",
           "example": "Write in your notebook.",
           "hint": "You write notes in it"
@@ -67,7 +67,7 @@
           "word": "backpack",
           "meaning": "ba lô",
           "phonetic": "/ˈbækpæk/",
-          "image": "https://cdn-icons-png.flaticon.com/512/3860/3860288.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F392.svg",
           "audio": "",
           "example": "My backpack is heavy.",
           "hint": "Carry books in it"
@@ -76,7 +76,7 @@
           "word": "classroom",
           "meaning": "lớp học",
           "phonetic": "/ˈklæsruːm/",
-          "image": "https://cdn-icons-png.flaticon.com/512/2232/2232688.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F3EB.svg",
           "audio": "",
           "example": "Our classroom is big.",
           "hint": "Room where you study"
@@ -93,7 +93,7 @@
           "word": "head",
           "meaning": "đầu",
           "phonetic": "/hed/",
-          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588614.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F5E3-FE0F.svg",
           "audio": "",
           "example": "I wear a hat on my head.",
           "hint": "Top of your body"
@@ -102,7 +102,7 @@
           "word": "hand",
           "meaning": "bàn tay",
           "phonetic": "/hænd/",
-          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588658.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/270B.svg",
           "audio": "",
           "example": "I wave my hand.",
           "hint": "You hold things with this"
@@ -111,7 +111,7 @@
           "word": "finger",
           "meaning": "ngón tay",
           "phonetic": "/ˈfɪŋɡər/",
-          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588650.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F446.svg",
           "audio": "",
           "example": "I have ten fingers.",
           "hint": "On your hand"
@@ -120,7 +120,7 @@
           "word": "shoulder",
           "meaning": "vai",
           "phonetic": "/ˈʃoʊldər/",
-          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588636.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F937.svg",
           "audio": "",
           "example": "My shoulder hurts.",
           "hint": "Between neck and arm"
@@ -129,7 +129,7 @@
           "word": "elbow",
           "meaning": "khuỷu tay",
           "phonetic": "/ˈelboʊ/",
-          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588642.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F9BE.svg",
           "audio": "",
           "example": "Bend your elbow.",
           "hint": "Middle joint of arm"
@@ -138,7 +138,7 @@
           "word": "stomach",
           "meaning": "bụng/dạ dày",
           "phonetic": "/ˈstʌmək/",
-          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588622.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1FAC3.svg",
           "audio": "",
           "example": "My stomach is full.",
           "hint": "Where food goes"
@@ -155,7 +155,7 @@
           "word": "sunny",
           "meaning": "nắng",
           "phonetic": "/ˈsʌni/",
-          "image": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/2600-FE0F.svg",
           "audio": "",
           "example": "It is sunny today.",
           "hint": "Bright and warm"
@@ -164,7 +164,7 @@
           "word": "cloudy",
           "meaning": "nhiều mây",
           "phonetic": "/ˈklaʊdi/",
-          "image": "https://cdn-icons-png.flaticon.com/512/414/414927.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/26C5.svg",
           "audio": "",
           "example": "It is cloudy outside.",
           "hint": "Sky is covered"
@@ -173,7 +173,7 @@
           "word": "rainy",
           "meaning": "mưa",
           "phonetic": "/ˈreɪni/",
-          "image": "https://cdn-icons-png.flaticon.com/512/2469/2469994.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F327-FE0F.svg",
           "audio": "",
           "example": "Take an umbrella, it is rainy.",
           "hint": "Water falls from sky"
@@ -182,7 +182,7 @@
           "word": "windy",
           "meaning": "gió",
           "phonetic": "/ˈwɪndi/",
-          "image": "https://cdn-icons-png.flaticon.com/512/959/959711.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F4A8.svg",
           "audio": "",
           "example": "It is very windy.",
           "hint": "Air is moving fast"
@@ -191,7 +191,7 @@
           "word": "snowy",
           "meaning": "tuyết",
           "phonetic": "/ˈsnoʊi/",
-          "image": "https://cdn-icons-png.flaticon.com/512/2315/2315309.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F328-FE0F.svg",
           "audio": "",
           "example": "It is snowy in winter.",
           "hint": "White and cold"
@@ -200,7 +200,7 @@
           "word": "rainbow",
           "meaning": "cầu vồng",
           "phonetic": "/ˈreɪnboʊ/",
-          "image": "https://cdn-icons-png.flaticon.com/512/2930/2930100.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F308.svg",
           "audio": "",
           "example": "I see a rainbow.",
           "hint": "Colorful arc in sky after rain"
@@ -217,7 +217,7 @@
           "word": "bread",
           "meaning": "bánh mì",
           "phonetic": "/bred/",
-          "image": "https://cdn-icons-png.flaticon.com/512/3348/3348089.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F35E.svg",
           "audio": "",
           "example": "I eat bread for breakfast.",
           "hint": "Made from flour"
@@ -226,7 +226,7 @@
           "word": "cheese",
           "meaning": "phô mai",
           "phonetic": "/tʃiːz/",
-          "image": "https://cdn-icons-png.flaticon.com/512/517/517561.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F9C0.svg",
           "audio": "",
           "example": "Cheese is yellow.",
           "hint": "Made from milk"
@@ -235,7 +235,7 @@
           "word": "chicken",
           "meaning": "gà",
           "phonetic": "/ˈtʃɪkɪn/",
-          "image": "https://cdn-icons-png.flaticon.com/512/1046/1046751.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F357.svg",
           "audio": "",
           "example": "I like fried chicken.",
           "hint": "A bird you can eat"
@@ -244,7 +244,7 @@
           "word": "rice",
           "meaning": "cơm/gạo",
           "phonetic": "/raɪs/",
-          "image": "https://cdn-icons-png.flaticon.com/512/3174/3174880.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F35A.svg",
           "audio": "",
           "example": "We eat rice every day.",
           "hint": "White grain food"
@@ -253,7 +253,7 @@
           "word": "water",
           "meaning": "nước",
           "phonetic": "/ˈwɔːtər/",
-          "image": "https://cdn-icons-png.flaticon.com/512/824/824239.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F4A7.svg",
           "audio": "",
           "example": "Drink more water.",
           "hint": "You drink it every day"
@@ -262,7 +262,7 @@
           "word": "juice",
           "meaning": "nước ép",
           "phonetic": "/dʒuːs/",
-          "image": "https://cdn-icons-png.flaticon.com/512/3050/3050158.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F9C3.svg",
           "audio": "",
           "example": "I like orange juice.",
           "hint": "Made from fruit"
@@ -271,7 +271,7 @@
           "word": "sandwich",
           "meaning": "bánh sandwich",
           "phonetic": "/ˈsænwɪtʃ/",
-          "image": "https://cdn-icons-png.flaticon.com/512/1046/1046784.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F96A.svg",
           "audio": "",
           "example": "I eat a sandwich for lunch.",
           "hint": "Bread with food inside"
@@ -288,7 +288,7 @@
           "word": "bicycle",
           "meaning": "xe đạp",
           "phonetic": "/ˈbaɪsɪkəl/",
-          "image": "https://cdn-icons-png.flaticon.com/512/2972/2972185.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F6B2.svg",
           "audio": "",
           "example": "I ride a bicycle.",
           "hint": "Two wheels, you pedal"
@@ -297,7 +297,7 @@
           "word": "airplane",
           "meaning": "máy bay",
           "phonetic": "/ˈerpleɪn/",
-          "image": "https://cdn-icons-png.flaticon.com/512/3125/3125713.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/2708-FE0F.svg",
           "audio": "",
           "example": "The airplane is fast.",
           "hint": "Flies in the sky"
@@ -306,7 +306,7 @@
           "word": "train",
           "meaning": "tàu hỏa",
           "phonetic": "/treɪn/",
-          "image": "https://cdn-icons-png.flaticon.com/512/3202/3202926.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F686.svg",
           "audio": "",
           "example": "The train is long.",
           "hint": "Runs on tracks"
@@ -315,7 +315,7 @@
           "word": "helicopter",
           "meaning": "trực thăng",
           "phonetic": "/ˈhelɪkɒptər/",
-          "image": "https://cdn-icons-png.flaticon.com/512/3125/3125826.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F681.svg",
           "audio": "",
           "example": "A helicopter can hover.",
           "hint": "Flies with spinning blades"
@@ -324,7 +324,7 @@
           "word": "ambulance",
           "meaning": "xe cứu thương",
           "phonetic": "/ˈæmbjələns/",
-          "image": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
+          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F691.svg",
           "audio": "",
           "example": "The ambulance is fast.",
           "hint": "Takes sick people to hospital"
