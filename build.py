@@ -217,6 +217,7 @@ def generate_level_page(config, level_data, crossword_data, output_dir):
         }});
     }}
     document.addEventListener('DOMContentLoaded', function() {{
+        /* Small delay ensures user.js has initialized UserSystem */
         setTimeout(function() {{
             updateProgressBadges();
             if (typeof UserSystem !== 'undefined') {{

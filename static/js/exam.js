@@ -16,6 +16,8 @@ function buildExamQuestions(topicsData, questionsPerTopic) {
     questionsPerTopic = questionsPerTopic || 3;
     var questions = [];
     var allWords = getAllWords(topicsData);
+    /* 3 question types: 0=image→word, 1=meaning→word, 2=word→meaning */
+    var NUM_TYPES = 3;
 
     for (var t = 0; t < topicsData.length; t++) {
         var topic = topicsData[t];
@@ -24,8 +26,8 @@ function buildExamQuestions(topicsData, questionsPerTopic) {
 
         for (var i = 0; i < count; i++) {
             var word = words[i];
-            var type = Math.floor(Math.random() * 3);
-            var wrongWords = shuffle(allWords.filter(function (w) { return w.word !== word.word; }));
+            var type = Math.floor(Math.random() * NUM_TYPES);
+            var wrongWords = shuffle(allWords.filter(function (w) { return w.word !== word.word; })).slice(0, 3);
 
             if (type === 0) {
                 /* Image → pick word */
@@ -36,7 +38,7 @@ function buildExamQuestions(topicsData, questionsPerTopic) {
                     prompt: word.image,
                     promptLabel: word.meaning,
                     correctAnswer: word.word,
-                    options: shuffle([word.word].concat(wrongWords.slice(0, 3).map(function (w) { return w.word; })))
+                    options: shuffle([word.word].concat(wrongWords.map(function (w) { return w.word; })))
                 });
             } else if (type === 1) {
                 /* Meaning → pick word */
@@ -47,7 +49,7 @@ function buildExamQuestions(topicsData, questionsPerTopic) {
                     prompt: word.meaning,
                     promptLabel: '',
                     correctAnswer: word.word,
-                    options: shuffle([word.word].concat(wrongWords.slice(0, 3).map(function (w) { return w.word; })))
+                    options: shuffle([word.word].concat(wrongWords.map(function (w) { return w.word; })))
                 });
             } else {
                 /* Word → pick meaning */
@@ -58,7 +60,7 @@ function buildExamQuestions(topicsData, questionsPerTopic) {
                     prompt: word.word,
                     promptLabel: word.phonetic,
                     correctAnswer: word.meaning,
-                    options: shuffle([word.meaning].concat(wrongWords.slice(0, 3).map(function (w) { return w.meaning; })))
+                    options: shuffle([word.meaning].concat(wrongWords.map(function (w) { return w.meaning; })))
                 });
             }
         }

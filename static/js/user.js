@@ -32,7 +32,7 @@ const UserSystem = {
 
     _fireChange() {
         for (var i = 0; i < this._onChangeCallbacks.length; i++) {
-            try { this._onChangeCallbacks[i](); } catch(e) {}
+            try { this._onChangeCallbacks[i](); } catch(e) { console.error('UserSystem onChange error:', e); }
         }
     },
 
