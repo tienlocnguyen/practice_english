@@ -52,12 +52,13 @@ const UserSystem = {
         const progress = this.getProgress();
         if (!progress[user]) progress[user] = {};
         const key = levelId + '_' + topicId;
-        const passed = (score / total) >= 0.7;
+        const percentage = Math.floor((score / total) * 100);
+        const passed = percentage >= 70;
         progress[user][key] = {
             score: score,
             total: total,
             passed: passed,
-            percentage: Math.round((score / total) * 100),
+            percentage: percentage,
             date: new Date().toISOString()
         };
         localStorage.setItem(this.PROGRESS_KEY, JSON.stringify(progress));

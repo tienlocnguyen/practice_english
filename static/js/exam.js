@@ -108,30 +108,52 @@ function showExamQuestion() {
     examState.currentOptions = q.options;
     examState.currentCorrect = q.correctAnswer;
 
-    var promptHtml = '';
+    var wrapper = document.createElement('div');
+    wrapper.className = 'animate-fadeIn';
+
+    var topicBadge = document.createElement('div');
+    topicBadge.className = 'exam-topic-badge';
+    topicBadge.textContent = q.topicName;
+    wrapper.appendChild(topicBadge);
+
     if (q.type === 'image-to-word') {
-        promptHtml =
-            '<div class="question-image">' + escapeHtml(q.prompt) + '</div>' +
-            '<div class="question-meaning">\uD83D\uDCA1 ' + escapeHtml(q.promptLabel) + '</div>';
+        var imgDiv = document.createElement('div');
+        imgDiv.className = 'question-image';
+        imgDiv.textContent = q.prompt;
+        wrapper.appendChild(imgDiv);
+        var meaningDiv = document.createElement('div');
+        meaningDiv.className = 'question-meaning';
+        meaningDiv.textContent = '\uD83D\uDCA1 ' + q.promptLabel;
+        wrapper.appendChild(meaningDiv);
     } else if (q.type === 'meaning-to-word') {
-        promptHtml = '<div class="exam-prompt-text">\uD83D\uDCD6 ' + escapeHtml(q.prompt) + '</div>';
+        var promptDiv = document.createElement('div');
+        promptDiv.className = 'exam-prompt-text';
+        promptDiv.textContent = '\uD83D\uDCD6 ' + q.prompt;
+        wrapper.appendChild(promptDiv);
     } else {
-        promptHtml =
-            '<div class="question-word">' + escapeHtml(q.prompt) + '</div>' +
-            '<div class="question-meaning">' + escapeHtml(q.promptLabel) + '</div>';
+        var wordDiv = document.createElement('div');
+        wordDiv.className = 'question-word';
+        wordDiv.textContent = q.prompt;
+        wrapper.appendChild(wordDiv);
+        var meaningDiv2 = document.createElement('div');
+        meaningDiv2.className = 'question-meaning';
+        meaningDiv2.textContent = q.promptLabel;
+        wrapper.appendChild(meaningDiv2);
     }
 
-    var optionsHtml = '';
+    var optionsGrid = document.createElement('div');
+    optionsGrid.className = 'options-grid';
     for (var i = 0; i < q.options.length; i++) {
-        optionsHtml += '<button class="option-btn exam-opt" data-idx="' + i + '">' + escapeHtml(q.options[i]) + '</button>';
+        var optBtn = document.createElement('button');
+        optBtn.className = 'option-btn exam-opt';
+        optBtn.setAttribute('data-idx', i);
+        optBtn.textContent = q.options[i];
+        optionsGrid.appendChild(optBtn);
     }
+    wrapper.appendChild(optionsGrid);
 
-    area.innerHTML =
-        '<div class="animate-fadeIn">' +
-        '<div class="exam-topic-badge">' + escapeHtml(q.topicName) + '</div>' +
-        promptHtml +
-        '<div class="options-grid">' + optionsHtml + '</div>' +
-        '</div>';
+    while (area.firstChild) area.removeChild(area.firstChild);
+    area.appendChild(wrapper);
 
     area.querySelectorAll('.exam-opt').forEach(function (btn) {
         btn.addEventListener('click', function () {

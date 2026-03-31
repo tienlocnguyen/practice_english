@@ -28,7 +28,6 @@ function renderProgress() {
 
     /* Overall stats */
     var totalPassed = 0;
-    var totalTopics = 0;
     var totalExams = 0;
 
     for (var key in results) {
@@ -122,7 +121,6 @@ function renderProgress() {
             }
         }
 
-        totalTopics += lvlTotal;
         var medal = getMedal(lvlPassed, lvlTotal);
 
         var medalCard = document.createElement('div');
