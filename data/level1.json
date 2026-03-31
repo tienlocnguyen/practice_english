@@ -80,6 +80,42 @@
           "audio": "",
           "example": "The cow gives milk.",
           "hint": "It says moo"
+        },
+        {
+          "word": "horse",
+          "meaning": "con ngựa",
+          "phonetic": "/hɔːrs/",
+          "image": "🐴",
+          "audio": "",
+          "example": "The horse runs fast.",
+          "hint": "You can ride it"
+        },
+        {
+          "word": "rabbit",
+          "meaning": "con thỏ",
+          "phonetic": "/ˈræbɪt/",
+          "image": "🐰",
+          "audio": "",
+          "example": "The rabbit hops.",
+          "hint": "It has long ears"
+        },
+        {
+          "word": "sheep",
+          "meaning": "con cừu",
+          "phonetic": "/ʃiːp/",
+          "image": "🐑",
+          "audio": "",
+          "example": "The sheep is fluffy.",
+          "hint": "It gives us wool"
+        },
+        {
+          "word": "frog",
+          "meaning": "con ếch",
+          "phonetic": "/frɒɡ/",
+          "image": "🐸",
+          "audio": "",
+          "example": "The frog can jump.",
+          "hint": "It says ribbit"
         }
       ]
     },
@@ -160,6 +196,42 @@
           "audio": "",
           "example": "The orange is orange.",
           "hint": "A fruit and a color"
+        },
+        {
+          "word": "brown",
+          "meaning": "màu nâu",
+          "phonetic": "/braʊn/",
+          "image": "🟤",
+          "audio": "",
+          "example": "The dog is brown.",
+          "hint": "Color of chocolate"
+        },
+        {
+          "word": "purple",
+          "meaning": "màu tím",
+          "phonetic": "/ˈpɜːrpəl/",
+          "image": "🟣",
+          "audio": "",
+          "example": "I see purple flowers.",
+          "hint": "Mix red and blue"
+        },
+        {
+          "word": "gray",
+          "meaning": "màu xám",
+          "phonetic": "/ɡreɪ/",
+          "image": "🩶",
+          "audio": "",
+          "example": "The cat is gray.",
+          "hint": "Color of clouds"
+        },
+        {
+          "word": "gold",
+          "meaning": "màu vàng kim",
+          "phonetic": "/ɡoʊld/",
+          "image": "🌟",
+          "audio": "",
+          "example": "The star is gold.",
+          "hint": "Shiny yellow color"
         }
       ]
     },
@@ -222,6 +294,60 @@
           "audio": "",
           "example": "The peach is soft.",
           "hint": "Fuzzy skin fruit"
+        },
+        {
+          "word": "watermelon",
+          "meaning": "quả dưa hấu",
+          "phonetic": "/ˈwɔːtərmelən/",
+          "image": "🍉",
+          "audio": "",
+          "example": "Watermelon is big.",
+          "hint": "Green outside, red inside"
+        },
+        {
+          "word": "strawberry",
+          "meaning": "quả dâu tây",
+          "phonetic": "/ˈstrɔːberi/",
+          "image": "🍓",
+          "audio": "",
+          "example": "The strawberry is red.",
+          "hint": "Small red fruit"
+        },
+        {
+          "word": "cherry",
+          "meaning": "quả anh đào",
+          "phonetic": "/ˈtʃeri/",
+          "image": "🍒",
+          "audio": "",
+          "example": "I eat a cherry.",
+          "hint": "Tiny red fruit"
+        },
+        {
+          "word": "pear",
+          "meaning": "quả lê",
+          "phonetic": "/per/",
+          "image": "🍐",
+          "audio": "",
+          "example": "The pear is sweet.",
+          "hint": "Shaped like a bell"
+        },
+        {
+          "word": "pineapple",
+          "meaning": "quả dứa",
+          "phonetic": "/ˈpaɪnæpəl/",
+          "image": "🍍",
+          "audio": "",
+          "example": "Pineapple is yellow.",
+          "hint": "Spiky tropical fruit"
+        },
+        {
+          "word": "coconut",
+          "meaning": "quả dừa",
+          "phonetic": "/ˈkoʊkənʌt/",
+          "image": "🥥",
+          "audio": "",
+          "example": "Coconut has water.",
+          "hint": "Hard brown shell"
         }
       ]
     },
@@ -275,6 +401,69 @@
           "audio": "",
           "example": "The girl is smart.",
           "hint": "A young female"
+        },
+        {
+          "word": "sister",
+          "meaning": "chị/em gái",
+          "phonetic": "/ˈsɪstər/",
+          "image": "👧",
+          "audio": "",
+          "example": "My sister is kind.",
+          "hint": "Your parents' daughter"
+        },
+        {
+          "word": "brother",
+          "meaning": "anh/em trai",
+          "phonetic": "/ˈbrʌðər/",
+          "image": "👦",
+          "audio": "",
+          "example": "My brother is tall.",
+          "hint": "Your parents' son"
+        },
+        {
+          "word": "grandma",
+          "meaning": "bà",
+          "phonetic": "/ˈɡrænmɑː/",
+          "image": "👵",
+          "audio": "",
+          "example": "I love my grandma.",
+          "hint": "Mom's or dad's mom"
+        },
+        {
+          "word": "grandpa",
+          "meaning": "ông",
+          "phonetic": "/ˈɡrænpɑː/",
+          "image": "👴",
+          "audio": "",
+          "example": "Grandpa tells stories.",
+          "hint": "Mom's or dad's dad"
+        },
+        {
+          "word": "uncle",
+          "meaning": "chú/bác/cậu",
+          "phonetic": "/ˈʌŋkəl/",
+          "image": "👨",
+          "audio": "",
+          "example": "My uncle is funny.",
+          "hint": "Your parent's brother"
+        },
+        {
+          "word": "aunt",
+          "meaning": "cô/dì/bác gái",
+          "phonetic": "/ænt/",
+          "image": "👩",
+          "audio": "",
+          "example": "My aunt is nice.",
+          "hint": "Your parent's sister"
+        },
+        {
+          "word": "friend",
+          "meaning": "bạn bè",
+          "phonetic": "/frend/",
+          "image": "🧑‍🤝‍🧑",
+          "audio": "",
+          "example": "He is my friend.",
+          "hint": "You play together"
         }
       ]
     },
@@ -328,6 +517,417 @@
           "audio": "",
           "example": "I have five fingers.",
           "hint": "After four"
+        },
+        {
+          "word": "six",
+          "meaning": "sáu",
+          "phonetic": "/sɪks/",
+          "image": "6️⃣",
+          "audio": "",
+          "example": "I have six toys.",
+          "hint": "After five"
+        },
+        {
+          "word": "seven",
+          "meaning": "bảy",
+          "phonetic": "/ˈsevən/",
+          "image": "7️⃣",
+          "audio": "",
+          "example": "Seven days in a week.",
+          "hint": "After six"
+        },
+        {
+          "word": "eight",
+          "meaning": "tám",
+          "phonetic": "/eɪt/",
+          "image": "8️⃣",
+          "audio": "",
+          "example": "I see eight stars.",
+          "hint": "After seven"
+        },
+        {
+          "word": "nine",
+          "meaning": "chín",
+          "phonetic": "/naɪn/",
+          "image": "9️⃣",
+          "audio": "",
+          "example": "Nine birds fly.",
+          "hint": "After eight"
+        },
+        {
+          "word": "ten",
+          "meaning": "mười",
+          "phonetic": "/ten/",
+          "image": "🔟",
+          "audio": "",
+          "example": "I count to ten.",
+          "hint": "After nine"
+        },
+        {
+          "word": "zero",
+          "meaning": "không",
+          "phonetic": "/ˈzɪroʊ/",
+          "image": "0️⃣",
+          "audio": "",
+          "example": "Zero means nothing.",
+          "hint": "It means none"
+        },
+        {
+          "word": "hundred",
+          "meaning": "một trăm",
+          "phonetic": "/ˈhʌndrəd/",
+          "image": "💯",
+          "audio": "",
+          "example": "One hundred is big.",
+          "hint": "Ten times ten"
+        }
+      ]
+    },
+    {
+      "id": "things",
+      "name": "Things",
+      "name_vi": "Đồ vật",
+      "icon": "🏠",
+      "words": [
+        {
+          "word": "book",
+          "meaning": "quyển sách",
+          "phonetic": "/bʊk/",
+          "image": "📖",
+          "audio": "",
+          "example": "I read a book.",
+          "hint": "You read it"
+        },
+        {
+          "word": "pen",
+          "meaning": "cây bút",
+          "phonetic": "/pen/",
+          "image": "🖊️",
+          "audio": "",
+          "example": "I write with a pen.",
+          "hint": "You write with it"
+        },
+        {
+          "word": "ball",
+          "meaning": "quả bóng",
+          "phonetic": "/bɔːl/",
+          "image": "⚽",
+          "audio": "",
+          "example": "I kick the ball.",
+          "hint": "Round and bouncy"
+        },
+        {
+          "word": "toy",
+          "meaning": "đồ chơi",
+          "phonetic": "/tɔɪ/",
+          "image": "🧸",
+          "audio": "",
+          "example": "I play with a toy.",
+          "hint": "Kids play with it"
+        },
+        {
+          "word": "cup",
+          "meaning": "cái cốc",
+          "phonetic": "/kʌp/",
+          "image": "🥤",
+          "audio": "",
+          "example": "I drink from a cup.",
+          "hint": "You drink from it"
+        },
+        {
+          "word": "bed",
+          "meaning": "cái giường",
+          "phonetic": "/bed/",
+          "image": "🛏️",
+          "audio": "",
+          "example": "I sleep on a bed.",
+          "hint": "You sleep on it"
+        },
+        {
+          "word": "chair",
+          "meaning": "cái ghế",
+          "phonetic": "/tʃer/",
+          "image": "🪑",
+          "audio": "",
+          "example": "Sit on the chair.",
+          "hint": "You sit on it"
+        },
+        {
+          "word": "door",
+          "meaning": "cái cửa",
+          "phonetic": "/dɔːr/",
+          "image": "🚪",
+          "audio": "",
+          "example": "Open the door.",
+          "hint": "You open and close it"
+        },
+        {
+          "word": "table",
+          "meaning": "cái bàn",
+          "phonetic": "/ˈteɪbəl/",
+          "image": "🍽️",
+          "audio": "",
+          "example": "The book is on the table.",
+          "hint": "You eat at it"
+        },
+        {
+          "word": "clock",
+          "meaning": "đồng hồ",
+          "phonetic": "/klɒk/",
+          "image": "🕐",
+          "audio": "",
+          "example": "The clock shows time.",
+          "hint": "It tells the time"
+        },
+        {
+          "word": "box",
+          "meaning": "cái hộp",
+          "phonetic": "/bɒks/",
+          "image": "📦",
+          "audio": "",
+          "example": "The toy is in the box.",
+          "hint": "You put things in it"
+        },
+        {
+          "word": "bag",
+          "meaning": "cái túi",
+          "phonetic": "/bæɡ/",
+          "image": "��",
+          "audio": "",
+          "example": "My bag is blue.",
+          "hint": "You carry it"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "name": "Actions",
+      "name_vi": "Hành động",
+      "icon": "🏃",
+      "words": [
+        {
+          "word": "run",
+          "meaning": "chạy",
+          "phonetic": "/rʌn/",
+          "image": "🏃",
+          "audio": "",
+          "example": "I run to school.",
+          "hint": "Move your legs fast"
+        },
+        {
+          "word": "eat",
+          "meaning": "ăn",
+          "phonetic": "/iːt/",
+          "image": "🍽️",
+          "audio": "",
+          "example": "I eat rice.",
+          "hint": "Put food in mouth"
+        },
+        {
+          "word": "drink",
+          "meaning": "uống",
+          "phonetic": "/drɪŋk/",
+          "image": "🥛",
+          "audio": "",
+          "example": "I drink water.",
+          "hint": "Swallow a liquid"
+        },
+        {
+          "word": "sleep",
+          "meaning": "ngủ",
+          "phonetic": "/sliːp/",
+          "image": "😴",
+          "audio": "",
+          "example": "I sleep at night.",
+          "hint": "Close eyes and rest"
+        },
+        {
+          "word": "play",
+          "meaning": "chơi",
+          "phonetic": "/pleɪ/",
+          "image": "🎮",
+          "audio": "",
+          "example": "I play with friends.",
+          "hint": "Have fun doing things"
+        },
+        {
+          "word": "read",
+          "meaning": "đọc",
+          "phonetic": "/riːd/",
+          "image": "📚",
+          "audio": "",
+          "example": "I read a book.",
+          "hint": "Look at words"
+        },
+        {
+          "word": "write",
+          "meaning": "viết",
+          "phonetic": "/raɪt/",
+          "image": "✍️",
+          "audio": "",
+          "example": "I write my name.",
+          "hint": "Use a pen"
+        },
+        {
+          "word": "open",
+          "meaning": "mở",
+          "phonetic": "/ˈoʊpən/",
+          "image": "📂",
+          "audio": "",
+          "example": "Open the door.",
+          "hint": "Not closed"
+        },
+        {
+          "word": "close",
+          "meaning": "đóng",
+          "phonetic": "/kloʊz/",
+          "image": "📁",
+          "audio": "",
+          "example": "Close the book.",
+          "hint": "Shut something"
+        },
+        {
+          "word": "jump",
+          "meaning": "nhảy",
+          "phonetic": "/dʒʌmp/",
+          "image": "🦘",
+          "audio": "",
+          "example": "I can jump high.",
+          "hint": "Go up in the air"
+        },
+        {
+          "word": "sit",
+          "meaning": "ngồi",
+          "phonetic": "/sɪt/",
+          "image": "🪑",
+          "audio": "",
+          "example": "Sit on the chair.",
+          "hint": "Not standing"
+        },
+        {
+          "word": "stand",
+          "meaning": "đứng",
+          "phonetic": "/stænd/",
+          "image": "🧍",
+          "audio": "",
+          "example": "Stand up, please.",
+          "hint": "Be on your feet"
+        }
+      ]
+    },
+    {
+      "id": "my-body",
+      "name": "My Body",
+      "name_vi": "Cơ thể",
+      "icon": "🧒",
+      "words": [
+        {
+          "word": "eye",
+          "meaning": "mắt",
+          "phonetic": "/aɪ/",
+          "image": "👁️",
+          "audio": "",
+          "example": "I see with my eye.",
+          "hint": "You see with it"
+        },
+        {
+          "word": "ear",
+          "meaning": "tai",
+          "phonetic": "/ɪr/",
+          "image": "👂",
+          "audio": "",
+          "example": "I hear with my ear.",
+          "hint": "You hear with it"
+        },
+        {
+          "word": "nose",
+          "meaning": "mũi",
+          "phonetic": "/noʊz/",
+          "image": "👃",
+          "audio": "",
+          "example": "I smell with my nose.",
+          "hint": "You smell with it"
+        },
+        {
+          "word": "mouth",
+          "meaning": "miệng",
+          "phonetic": "/maʊθ/",
+          "image": "👄",
+          "audio": "",
+          "example": "I eat with my mouth.",
+          "hint": "You talk with it"
+        },
+        {
+          "word": "arm",
+          "meaning": "cánh tay",
+          "phonetic": "/ɑːrm/",
+          "image": "💪",
+          "audio": "",
+          "example": "I wave my arm.",
+          "hint": "Between shoulder and hand"
+        },
+        {
+          "word": "leg",
+          "meaning": "chân",
+          "phonetic": "/leɡ/",
+          "image": "🦵",
+          "audio": "",
+          "example": "I have two legs.",
+          "hint": "You walk with them"
+        },
+        {
+          "word": "foot",
+          "meaning": "bàn chân",
+          "phonetic": "/fʊt/",
+          "image": "🦶",
+          "audio": "",
+          "example": "My foot is small.",
+          "hint": "At the end of leg"
+        },
+        {
+          "word": "tooth",
+          "meaning": "răng",
+          "phonetic": "/tuːθ/",
+          "image": "🦷",
+          "audio": "",
+          "example": "Brush your teeth.",
+          "hint": "You chew with them"
+        },
+        {
+          "word": "hair",
+          "meaning": "tóc",
+          "phonetic": "/her/",
+          "image": "💇",
+          "audio": "",
+          "example": "My hair is black.",
+          "hint": "On top of head"
+        },
+        {
+          "word": "face",
+          "meaning": "khuôn mặt",
+          "phonetic": "/feɪs/",
+          "image": "😊",
+          "audio": "",
+          "example": "Wash your face.",
+          "hint": "Front of your head"
+        },
+        {
+          "word": "knee",
+          "meaning": "đầu gối",
+          "phonetic": "/niː/",
+          "image": "🦵",
+          "audio": "",
+          "example": "I bend my knee.",
+          "hint": "Middle of your leg"
+        },
+        {
+          "word": "neck",
+          "meaning": "cổ",
+          "phonetic": "/nek/",
+          "image": "🧣",
+          "audio": "",
+          "example": "My neck is long.",
+          "hint": "Between head and body"
         }
       ]
     }
