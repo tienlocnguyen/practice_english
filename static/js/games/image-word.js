@@ -17,8 +17,8 @@ function initGameRound() {
     for (const opt of options) {
         const safeWord = escapeHtml(opt.word);
         optionsHtml += `
-            <div class="image-option" onclick="checkImageAnswer(this, '${safeWord}', '${escapeHtml(currentWord.word)}')">
-                <img src="${escapeHtml(opt.image)}" alt="?" loading="lazy">
+            <div class="image-option" data-word="${safeWord}" onclick="checkImageAnswer(this, '${safeWord}', '${escapeHtml(currentWord.word)}')">
+                <span class="option-emoji">${escapeHtml(opt.image)}</span>
             </div>`;
     }
 
@@ -46,12 +46,9 @@ function checkImageAnswer(el, selected, correct) {
         onCorrectAnswer();
     } else {
         el.classList.add('wrong');
-        // Highlight correct one
-        const allWords = getAllWords(TOPICS_DATA);
+        // Highlight correct one by data-word attribute
         cards.forEach(c => {
-            const img = c.querySelector('img');
-            const correctWord = allWords.find(w => w.word === correct);
-            if (correctWord && img.src.includes(new URL(correctWord.image, window.location.href).pathname.split('/').pop())) {
+            if (c.dataset.word === correct) {
                 c.classList.add('correct');
             }
         });

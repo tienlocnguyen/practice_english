@@ -365,11 +365,13 @@ body {
     text-align: center;
 }
 
-.vocab-img {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
+.vocab-emoji {
+    font-size: 80px;
+    line-height: 1;
+    display: block;
+    text-align: center;
     margin-bottom: 1rem;
+    user-select: none;
 }
 
 .vocab-info h3 {

@@ -13,7 +13,7 @@
           "word": "teacher",
           "meaning": "giáo viên",
           "phonetic": "/ˈtiːtʃər/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F468-200D-1F3EB.svg",
+          "image": "👨‍🏫",
           "audio": "",
           "example": "The teacher is kind.",
           "hint": "A person who teaches"
@@ -22,7 +22,7 @@
           "word": "student",
           "meaning": "học sinh",
           "phonetic": "/ˈstuːdənt/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F469-200D-1F393.svg",
+          "image": "👩‍🎓",
           "audio": "",
           "example": "I am a student.",
           "hint": "A person who learns"
@@ -31,7 +31,7 @@
           "word": "pencil",
           "meaning": "bút chì",
           "phonetic": "/ˈpensəl/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/270F-FE0F.svg",
+          "image": "✏️",
           "audio": "",
           "example": "I write with a pencil.",
           "hint": "You write with this"
@@ -40,7 +40,7 @@
           "word": "ruler",
           "meaning": "thước kẻ",
           "phonetic": "/ˈruːlər/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F4CF.svg",
+          "image": "📏",
           "audio": "",
           "example": "Use a ruler to draw a line.",
           "hint": "Used to measure length"
@@ -49,7 +49,7 @@
           "word": "eraser",
           "meaning": "cục tẩy",
           "phonetic": "/ɪˈreɪsər/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F9F9.svg",
+          "image": "📝",
           "audio": "",
           "example": "I need an eraser.",
           "hint": "Removes pencil marks"
@@ -58,7 +58,7 @@
           "word": "notebook",
           "meaning": "vở",
           "phonetic": "/ˈnoʊtbʊk/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F4D3.svg",
+          "image": "📓",
           "audio": "",
           "example": "Write in your notebook.",
           "hint": "You write notes in it"
@@ -67,7 +67,7 @@
           "word": "backpack",
           "meaning": "ba lô",
           "phonetic": "/ˈbækpæk/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F392.svg",
+          "image": "🎒",
           "audio": "",
           "example": "My backpack is heavy.",
           "hint": "Carry books in it"
@@ -76,7 +76,7 @@
           "word": "classroom",
           "meaning": "lớp học",
           "phonetic": "/ˈklæsruːm/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F3EB.svg",
+          "image": "🏫",
           "audio": "",
           "example": "Our classroom is big.",
           "hint": "Room where you study"
@@ -93,7 +93,7 @@
           "word": "head",
           "meaning": "đầu",
           "phonetic": "/hed/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1FAC0.svg",
+          "image": "👤",
           "audio": "",
           "example": "I wear a hat on my head.",
           "hint": "Top of your body"
@@ -102,7 +102,7 @@
           "word": "hand",
           "meaning": "bàn tay",
           "phonetic": "/hænd/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/270B.svg",
+          "image": "✋",
           "audio": "",
           "example": "I wave my hand.",
           "hint": "You hold things with this"
@@ -111,7 +111,7 @@
           "word": "finger",
           "meaning": "ngón tay",
           "phonetic": "/ˈfɪŋɡər/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F446.svg",
+          "image": "👆",
           "audio": "",
           "example": "I have ten fingers.",
           "hint": "On your hand"
@@ -120,7 +120,7 @@
           "word": "shoulder",
           "meaning": "vai",
           "phonetic": "/ˈʃoʊldər/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F4AA.svg",
+          "image": "💪",
           "audio": "",
           "example": "My shoulder hurts.",
           "hint": "Between neck and arm"
@@ -129,7 +129,7 @@
           "word": "elbow",
           "meaning": "khuỷu tay",
           "phonetic": "/ˈelboʊ/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F4AA.svg",
+          "image": "💪",
           "audio": "",
           "example": "Bend your elbow.",
           "hint": "Middle joint of arm"
@@ -138,7 +138,7 @@
           "word": "stomach",
           "meaning": "bụng/dạ dày",
           "phonetic": "/ˈstʌmək/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F37D-FE0F.svg",
+          "image": "🍽️",
           "audio": "",
           "example": "My stomach is full.",
           "hint": "Where food goes"
@@ -155,7 +155,7 @@
           "word": "sunny",
           "meaning": "nắng",
           "phonetic": "/ˈsʌni/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/2600-FE0F.svg",
+          "image": "☀️",
           "audio": "",
           "example": "It is sunny today.",
           "hint": "Bright and warm"
@@ -164,7 +164,7 @@
           "word": "cloudy",
           "meaning": "nhiều mây",
           "phonetic": "/ˈklaʊdi/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/26C5.svg",
+          "image": "⛅",
           "audio": "",
           "example": "It is cloudy outside.",
           "hint": "Sky is covered"
@@ -173,7 +173,7 @@
           "word": "rainy",
           "meaning": "mưa",
           "phonetic": "/ˈreɪni/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F327-FE0F.svg",
+          "image": "🌧️",
           "audio": "",
           "example": "Take an umbrella, it is rainy.",
           "hint": "Water falls from sky"
@@ -182,7 +182,7 @@
           "word": "windy",
           "meaning": "gió",
           "phonetic": "/ˈwɪndi/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F4A8.svg",
+          "image": "💨",
           "audio": "",
           "example": "It is very windy.",
           "hint": "Air is moving fast"
@@ -191,7 +191,7 @@
           "word": "snowy",
           "meaning": "tuyết",
           "phonetic": "/ˈsnoʊi/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F328-FE0F.svg",
+          "image": "🌨️",
           "audio": "",
           "example": "It is snowy in winter.",
           "hint": "White and cold"
@@ -200,7 +200,7 @@
           "word": "rainbow",
           "meaning": "cầu vồng",
           "phonetic": "/ˈreɪnboʊ/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F308.svg",
+          "image": "🌈",
           "audio": "",
           "example": "I see a rainbow.",
           "hint": "Colorful arc in sky after rain"
@@ -217,7 +217,7 @@
           "word": "bread",
           "meaning": "bánh mì",
           "phonetic": "/bred/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F35E.svg",
+          "image": "🍞",
           "audio": "",
           "example": "I eat bread for breakfast.",
           "hint": "Made from flour"
@@ -226,7 +226,7 @@
           "word": "cheese",
           "meaning": "phô mai",
           "phonetic": "/tʃiːz/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F9C0.svg",
+          "image": "🧀",
           "audio": "",
           "example": "Cheese is yellow.",
           "hint": "Made from milk"
@@ -235,7 +235,7 @@
           "word": "chicken",
           "meaning": "gà",
           "phonetic": "/ˈtʃɪkɪn/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F357.svg",
+          "image": "🍗",
           "audio": "",
           "example": "I like fried chicken.",
           "hint": "A bird you can eat"
@@ -244,7 +244,7 @@
           "word": "rice",
           "meaning": "cơm/gạo",
           "phonetic": "/raɪs/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F35A.svg",
+          "image": "🍚",
           "audio": "",
           "example": "We eat rice every day.",
           "hint": "White grain food"
@@ -253,7 +253,7 @@
           "word": "water",
           "meaning": "nước",
           "phonetic": "/ˈwɔːtər/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F4A7.svg",
+          "image": "💧",
           "audio": "",
           "example": "Drink more water.",
           "hint": "You drink it every day"
@@ -262,7 +262,7 @@
           "word": "juice",
           "meaning": "nước ép",
           "phonetic": "/dʒuːs/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F9C3.svg",
+          "image": "🧃",
           "audio": "",
           "example": "I like orange juice.",
           "hint": "Made from fruit"
@@ -271,7 +271,7 @@
           "word": "sandwich",
           "meaning": "bánh sandwich",
           "phonetic": "/ˈsænwɪtʃ/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F96A.svg",
+          "image": "🥪",
           "audio": "",
           "example": "I eat a sandwich for lunch.",
           "hint": "Bread with food inside"
@@ -288,7 +288,7 @@
           "word": "bicycle",
           "meaning": "xe đạp",
           "phonetic": "/ˈbaɪsɪkəl/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F6B2.svg",
+          "image": "🚲",
           "audio": "",
           "example": "I ride a bicycle.",
           "hint": "Two wheels, you pedal"
@@ -297,7 +297,7 @@
           "word": "airplane",
           "meaning": "máy bay",
           "phonetic": "/ˈerpleɪn/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/2708-FE0F.svg",
+          "image": "✈️",
           "audio": "",
           "example": "The airplane is fast.",
           "hint": "Flies in the sky"
@@ -306,7 +306,7 @@
           "word": "train",
           "meaning": "tàu hỏa",
           "phonetic": "/treɪn/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F686.svg",
+          "image": "🚆",
           "audio": "",
           "example": "The train is long.",
           "hint": "Runs on tracks"
@@ -315,7 +315,7 @@
           "word": "helicopter",
           "meaning": "trực thăng",
           "phonetic": "/ˈhelɪkɒptər/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F681.svg",
+          "image": "🚁",
           "audio": "",
           "example": "A helicopter can hover.",
           "hint": "Flies with spinning blades"
@@ -324,7 +324,7 @@
           "word": "ambulance",
           "meaning": "xe cứu thương",
           "phonetic": "/ˈæmbjələns/",
-          "image": "https://cdn.jsdelivr.net/npm/openmoji@15.0.0/color/svg/1F691.svg",
+          "image": "🚑",
           "audio": "",
           "example": "The ambulance is fast.",
           "hint": "Takes sick people to hospital"

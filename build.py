@@ -211,7 +211,7 @@ def generate_topic_page(topic, level_data, level_dir, base_url):
     for w in topic['words']:
         word_cards += f"""
         <div class="vocab-card">
-            <img src="{w['image']}" alt="{w['word']}" class="vocab-img" loading="lazy">
+            <div class="vocab-emoji">{w['image']}</div>
             <div class="vocab-info">
                 <h3>{w['word']}</h3>
                 <p class="phonetic">{w['phonetic']}</p>

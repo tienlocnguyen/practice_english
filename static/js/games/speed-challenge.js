@@ -107,7 +107,7 @@ function renderWordFromImage(area, currentWord, allWords) {
     area.innerHTML = `
         <div class="animate-pop" style="text-align:center">
             <div class="speed-type-badge">🖼️ Chọn từ đúng</div>
-            <img src="${escapeHtml(currentWord.image)}" alt="?" class="question-image" loading="lazy">
+            <div class="question-image">${escapeHtml(currentWord.image)}</div>
             <div class="options-grid">${optionsHtml}</div>
         </div>`;
 }
@@ -121,7 +121,7 @@ function renderImageFromWord(area, currentWord, allWords) {
         const safeWord = escapeHtml(opt.word);
         optionsHtml += `
             <div class="image-option" onclick="speedImageAnswer(this, '${safeWord}', '${escapeHtml(currentWord.word)}')">
-                <img src="${escapeHtml(opt.image)}" alt="?" loading="lazy">
+                <span class="option-emoji">${escapeHtml(opt.image)}</span>
             </div>`;
     }
 
@@ -141,7 +141,7 @@ function renderSpellFirst(area, currentWord) {
     area.innerHTML = `
         <div class="animate-pop" style="text-align:center">
             <div class="speed-type-badge">✏️ Đánh vần nhanh</div>
-            <img src="${escapeHtml(currentWord.image)}" alt="?" class="fill-image" loading="lazy">
+            <div class="fill-image">${escapeHtml(currentWord.image)}</div>
             <p style="font-size:1.2rem;margin-bottom:1rem">💡 ${escapeHtml(currentWord.meaning)}</p>
             <div style="font-size:1.5rem;font-weight:700;color:var(--primary);margin-bottom:1rem;letter-spacing:3px">
                 ${firstLetter.toUpperCase()} ${restHidden}
