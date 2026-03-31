@@ -1,12 +1,12 @@
 {
-  "id": "toefl",
   "level": "TOEFL",
-  "title": "TOEFL iBT Vocabulary",
+  "label": "TOEFL",
   "description": "Từ vựng học thuật chuẩn bị cho kỳ thi TOEFL — 96 từ / ~5000 từ cần thiết",
   "topics": [
     {
       "id": "academic-vocab",
       "name": "Academic Vocabulary",
+      "name_vi": "Từ vựng học thuật",
       "icon": "🎓",
       "words": [
         {
@@ -134,6 +134,7 @@
     {
       "id": "science-research",
       "name": "Science & Research",
+      "name_vi": "Khoa học & Nghiên cứu",
       "icon": "🔬",
       "words": [
         {
@@ -261,6 +262,7 @@
     {
       "id": "social-sciences",
       "name": "Social Sciences",
+      "name_vi": "Khoa học xã hội",
       "icon": "🌐",
       "words": [
         {
@@ -388,6 +390,7 @@
     {
       "id": "arts",
       "name": "Arts & Humanities",
+      "name_vi": "Nghệ thuật & Nhân văn",
       "icon": "🎭",
       "words": [
         {
@@ -515,6 +518,7 @@
     {
       "id": "ecology",
       "name": "Ecology & Environment",
+      "name_vi": "Sinh thái & Môi trường",
       "icon": "🌿",
       "words": [
         {
@@ -642,6 +646,7 @@
     {
       "id": "history",
       "name": "History & Civilization",
+      "name_vi": "Lịch sử & Văn minh",
       "icon": "📜",
       "words": [
         {
@@ -769,6 +774,7 @@
     {
       "id": "reading",
       "name": "Reading Comprehension",
+      "name_vi": "Đọc hiểu",
       "icon": "📖",
       "words": [
         {
@@ -896,6 +902,7 @@
     {
       "id": "speaking",
       "name": "Listening & Speaking",
+      "name_vi": "Nghe & Nói",
       "icon": "🎤",
       "words": [
         {

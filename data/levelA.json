@@ -1,10 +1,12 @@
 {
   "level": "A",
+  "label": "CEFR A1-A2",
   "description": "Từ vựng tiếng Anh cơ bản theo chuẩn CEFR A1-A2 — 96 từ / ~1500 từ cần thiết",
   "topics": [
     {
       "id": "clothing",
       "name": "Clothing",
+      "name_vi": "Quần áo",
       "icon": "👕",
       "words": [
         {
@@ -132,6 +134,7 @@
     {
       "id": "house",
       "name": "House & Rooms",
+      "name_vi": "Nhà và các phòng",
       "icon": "🏠",
       "words": [
         {
@@ -259,6 +262,7 @@
     {
       "id": "daily-actions",
       "name": "Daily Actions",
+      "name_vi": "Hành động hằng ngày",
       "icon": "🏃",
       "words": [
         {
@@ -386,6 +390,7 @@
     {
       "id": "days-time",
       "name": "Days & Time",
+      "name_vi": "Ngày và thời gian",
       "icon": "📅",
       "words": [
         {
@@ -513,6 +518,7 @@
     {
       "id": "shopping",
       "name": "Shopping",
+      "name_vi": "Mua sắm",
       "icon": "🛒",
       "words": [
         {
@@ -640,6 +646,7 @@
     {
       "id": "feelings",
       "name": "Feelings",
+      "name_vi": "Cảm xúc",
       "icon": "😊",
       "words": [
         {
@@ -767,6 +774,7 @@
     {
       "id": "nature-basic",
       "name": "Nature",
+      "name_vi": "Thiên nhiên",
       "icon": "🌳",
       "words": [
         {
@@ -894,6 +902,7 @@
     {
       "id": "food-basic",
       "name": "Food & Drinks",
+      "name_vi": "Đồ ăn & thức uống",
       "icon": "🍽️",
       "words": [
         {

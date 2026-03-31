@@ -1,10 +1,12 @@
 {
   "level": "C",
+  "label": "CEFR C1-C2",
   "description": "Từ vựng tiếng Anh nâng cao theo chuẩn CEFR C1-C2 — 96 từ / ~8000 từ cần thiết",
   "topics": [
     {
       "id": "business",
       "name": "Business & Economics",
+      "name_vi": "Kinh doanh & Kinh tế",
       "icon": "📈",
       "words": [
         {
@@ -132,6 +134,7 @@
     {
       "id": "law",
       "name": "Law & Justice",
+      "name_vi": "Pháp luật & Công lý",
       "icon": "⚖️",
       "words": [
         {
@@ -259,6 +262,7 @@
     {
       "id": "philosophy",
       "name": "Philosophy & Ethics",
+      "name_vi": "Triết học & Đạo đức",
       "icon": "🤔",
       "words": [
         {
@@ -386,6 +390,7 @@
     {
       "id": "academic",
       "name": "Academic Writing",
+      "name_vi": "Viết học thuật",
       "icon": "📝",
       "words": [
         {
@@ -513,6 +518,7 @@
     {
       "id": "politics",
       "name": "Politics & Governance",
+      "name_vi": "Chính trị & Quản trị",
       "icon": "🏛️",
       "words": [
         {
@@ -640,6 +646,7 @@
     {
       "id": "psychology",
       "name": "Psychology",
+      "name_vi": "Tâm lý học",
       "icon": "🧠",
       "words": [
         {
@@ -767,6 +774,7 @@
     {
       "id": "linguistics",
       "name": "Linguistics",
+      "name_vi": "Ngôn ngữ học",
       "icon": "🗣️",
       "words": [
         {
@@ -894,6 +902,7 @@
     {
       "id": "critical-thinking",
       "name": "Critical Thinking",
+      "name_vi": "Tư duy phản biện",
       "icon": "💡",
       "words": [
         {
