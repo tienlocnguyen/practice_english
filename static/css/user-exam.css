@@ -335,4 +335,304 @@
     .user-display {
         font-size: 0.85rem;
     }
+
+    .medal-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .progress-topic-row {
+        flex-wrap: wrap;
+        gap: 0.3rem;
+    }
+
+    .progress-stats-row {
+        gap: 1rem;
+    }
+
+    .progress-user-header {
+        padding: 1.5rem;
+    }
+}
+
+/* ===== Exam medal ===== */
+.exam-medal {
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0.5rem 0;
+    animation: bounce 0.6s ease-out;
+}
+
+.exam-medal-label {
+    font-weight: 700;
+    color: var(--primary-dark);
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+}
+
+/* ===== Progress Page ===== */
+.progress-user-header {
+    text-align: center;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    color: white;
+    border-radius: var(--radius);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.progress-avatar {
+    font-size: 3.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.progress-user-name {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.progress-stats-row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.progress-stat {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.stat-number.stat-success {
+    color: #6EE7B7;
+}
+
+.stat-number.stat-danger {
+    color: #FCA5A5;
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    opacity: 0.85;
+}
+
+/* ===== Medal Showcase ===== */
+.medal-showcase {
+    margin-bottom: 2rem;
+}
+
+.medal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.medal-card {
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s;
+    border: 2px solid transparent;
+}
+
+.medal-card:hover {
+    transform: translateY(-3px);
+}
+
+.medal-card.medal-gold {
+    border-color: #F59E0B;
+    background: linear-gradient(135deg, #FFFBEB, #FEF3C7);
+}
+
+.medal-card.medal-silver {
+    border-color: #9CA3AF;
+    background: linear-gradient(135deg, #F9FAFB, #F3F4F6);
+}
+
+.medal-card.medal-bronze {
+    border-color: #D97706;
+    background: linear-gradient(135deg, #FFFBEB, #FEF9C3);
+}
+
+.medal-card.medal-locked {
+    opacity: 0.5;
+}
+
+.medal-emoji {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.medal-card.medal-gold .medal-emoji {
+    animation: bounce 1s ease-out;
+}
+
+.medal-level-name {
+    font-weight: 700;
+    color: var(--primary-dark);
+    font-size: 0.95rem;
+    margin-bottom: 0.3rem;
+}
+
+.medal-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-light);
+}
+
+.medal-sub {
+    font-size: 0.75rem;
+    color: var(--text-light);
+    margin-top: 0.2rem;
+}
+
+.no-medals-hint {
+    text-align: center;
+    color: var(--text-light);
+    padding: 1.5rem;
+    font-size: 1rem;
+}
+
+/* ===== Progress details ===== */
+.progress-details {
+    margin-bottom: 2rem;
+}
+
+.progress-level-card {
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.progress-level-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    background: rgba(79, 70, 229, 0.05);
+    border-bottom: 1px solid var(--border);
+}
+
+.progress-level-header h4 {
+    font-size: 1.1rem;
+    color: var(--primary-dark);
+}
+
+.level-medal-inline {
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.2rem 0.8rem;
+    border-radius: 20px;
+    background: rgba(245, 158, 11, 0.15);
+    color: #D97706;
+}
+
+.progress-topic-list {
+    padding: 0.5rem 0;
+}
+
+.progress-topic-row {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.6rem 1.5rem;
+    transition: background 0.2s;
+}
+
+.progress-topic-row:hover {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.progress-topic-row.passed {
+    background: rgba(16, 185, 129, 0.04);
+}
+
+.progress-topic-row.failed {
+    background: rgba(239, 68, 68, 0.04);
+}
+
+.progress-topic-name {
+    flex: 1;
+    font-weight: 500;
+}
+
+.progress-topic-score {
+    color: var(--text-light);
+    font-size: 0.85rem;
+    min-width: 80px;
+    text-align: right;
+}
+
+.progress-topic-date {
+    color: var(--text-light);
+    font-size: 0.75rem;
+    min-width: 70px;
+    text-align: right;
+}
+
+.progress-topic-no-result {
+    color: var(--text-light);
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+/* ===== Progress page actions ===== */
+.progress-actions {
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.btn-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, var(--success), #059669);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: var(--shadow);
+    font-family: var(--font);
+}
+
+.btn-download:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.btn-progress {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: var(--shadow);
+}
+
+.btn-progress:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
 }

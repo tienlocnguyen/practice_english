@@ -98,7 +98,7 @@ function updateExamProgress() {
     var el = document.getElementById('exam-progress-text');
     if (el) el.textContent = 'Câu ' + qNum + '/' + total;
     var fill = document.getElementById('exam-progress-fill');
-    if (fill) fill.style.width = ((examState.currentIndex / total) * 100) + '%';
+    if (fill) fill.style.width = ((qNum / total) * 100) + '%';
 }
 
 function showExamQuestion() {
@@ -149,7 +149,11 @@ function handleExamOptionClick(btn) {
     var correct = examState.currentCorrect;
 
     var buttons = document.querySelectorAll('.exam-opt');
-    buttons.forEach(function (b) { b.classList.add('disabled'); });
+    buttons.forEach(function (b) {
+        b.classList.add('disabled');
+        b.disabled = true;
+        b.setAttribute('aria-disabled', 'true');
+    });
 
     var q = examState.questions[examState.currentIndex];
     var isCorrect = selected === correct;
@@ -196,11 +200,16 @@ function showExamResult() {
         if (ans.correct) topicResults[ans.topicId].correct++;
     }
 
-    /* Save results and build result HTML */
+    /* Save results and build result via DOM */
     var totalCorrect = 0;
     var totalQuestions = 0;
-    var resultsHtml = '';
     var levelId = (typeof LEVEL_ID !== 'undefined') ? LEVEL_ID : '';
+
+    var card = document.createElement('div');
+    card.className = 'result-card exam-result-card';
+
+    var topicResultsContainer = document.createElement('div');
+    topicResultsContainer.className = 'exam-topic-results';
 
     for (var t = 0; t < TOPICS_DATA.length; t++) {
         var topic = TOPICS_DATA[t];
@@ -215,30 +224,101 @@ function showExamResult() {
 
         UserSystem.saveExamResult(levelId, topic.id, result.correct, result.total);
 
-        resultsHtml +=
-            '<div class="exam-topic-result ' + (passed ? 'passed' : 'failed') + '">' +
-            '<span class="topic-result-icon">' + (passed ? '✅' : '❌') + '</span>' +
-            '<span class="topic-result-name">' + topic.icon + ' ' + topic.name_vi + '</span>' +
-            '<span class="topic-result-score">' + result.correct + '/' + result.total + '</span>' +
-            '<span class="topic-result-badge ' + (passed ? 'badge-pass' : 'badge-fail') + '">' + (passed ? 'PASS' : 'NOT PASS') + '</span>' +
-            '</div>';
+        var row = document.createElement('div');
+        row.className = 'exam-topic-result ' + (passed ? 'passed' : 'failed');
+
+        var iconSpan = document.createElement('span');
+        iconSpan.className = 'topic-result-icon';
+        iconSpan.textContent = passed ? '✅' : '❌';
+        row.appendChild(iconSpan);
+
+        var nameSpan = document.createElement('span');
+        nameSpan.className = 'topic-result-name';
+        nameSpan.textContent = topic.icon + ' ' + topic.name_vi;
+        row.appendChild(nameSpan);
+
+        var scoreSpan = document.createElement('span');
+        scoreSpan.className = 'topic-result-score';
+        scoreSpan.textContent = result.correct + '/' + result.total;
+        row.appendChild(scoreSpan);
+
+        var badgeSpan = document.createElement('span');
+        badgeSpan.className = 'topic-result-badge ' + (passed ? 'badge-pass' : 'badge-fail');
+        badgeSpan.textContent = passed ? 'PASS' : 'NOT PASS';
+        row.appendChild(badgeSpan);
+
+        topicResultsContainer.appendChild(row);
     }
 
     var overallPct = totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
     var overallPassed = overallPct >= 70;
 
-    resultArea.innerHTML =
-        '<div class="result-card exam-result-card">' +
-        '<h2>' + (overallPassed ? '🎉 Chúc mừng!' : '💪 Cố gắng thêm!') + '</h2>' +
-        '<p class="exam-overall-score">Tổng điểm: ' + totalCorrect + '/' + totalQuestions + ' (' + overallPct + '%)</p>' +
-        '<div class="exam-overall-badge ' + (overallPassed ? 'badge-pass' : 'badge-fail') + '">' +
-        (overallPassed ? '✅ PASS' : '❌ NOT PASS') +
-        '</div>' +
-        '<h3>📊 Kết quả theo chủ đề:</h3>' +
-        '<div class="exam-topic-results">' + resultsHtml + '</div>' +
-        '<div class="exam-result-actions">' +
-        '<button class="btn btn-primary" onclick="startExam()">🔄 Thi lại</button>' +
-        '<a href="index.html" class="btn btn-secondary">← Quay lại</a>' +
-        '</div>' +
-        '</div>';
+    /* Medal for achievement */
+    var passedCount = 0;
+    var topicCount = 0;
+    for (var t2 = 0; t2 < TOPICS_DATA.length; t2++) {
+        var r = topicResults[TOPICS_DATA[t2].id];
+        if (r) {
+            topicCount++;
+            if (Math.round((r.correct / r.total) * 100) >= 70) passedCount++;
+        }
+    }
+    var medal = '';
+    if (passedCount === topicCount && topicCount > 0) medal = '🥇';
+    else if (passedCount >= topicCount * 0.5) medal = '🥈';
+    else if (passedCount > 0) medal = '🥉';
+
+    var h2 = document.createElement('h2');
+    h2.textContent = overallPassed ? '🎉 Chúc mừng!' : '💪 Cố gắng thêm!';
+    card.appendChild(h2);
+
+    if (medal) {
+        var medalDiv = document.createElement('div');
+        medalDiv.className = 'exam-medal';
+        medalDiv.textContent = medal;
+        card.appendChild(medalDiv);
+
+        var medalLabel = document.createElement('div');
+        medalLabel.className = 'exam-medal-label';
+        if (medal === '🥇') medalLabel.textContent = 'Huy chương Vàng — Xuất sắc!';
+        else if (medal === '🥈') medalLabel.textContent = 'Huy chương Bạc — Tốt lắm!';
+        else medalLabel.textContent = 'Huy chương Đồng — Cố gắng thêm!';
+        card.appendChild(medalLabel);
+    }
+
+    var scoreP = document.createElement('p');
+    scoreP.className = 'exam-overall-score';
+    scoreP.textContent = 'Tổng điểm: ' + totalCorrect + '/' + totalQuestions + ' (' + overallPct + '%)';
+    card.appendChild(scoreP);
+
+    var overallBadge = document.createElement('div');
+    overallBadge.className = 'exam-overall-badge ' + (overallPassed ? 'badge-pass' : 'badge-fail');
+    overallBadge.textContent = overallPassed ? '✅ PASS' : '❌ NOT PASS';
+    card.appendChild(overallBadge);
+
+    var h3 = document.createElement('h3');
+    h3.textContent = '📊 Kết quả theo chủ đề:';
+    card.appendChild(h3);
+
+    card.appendChild(topicResultsContainer);
+
+    var actions = document.createElement('div');
+    actions.className = 'exam-result-actions';
+
+    var retryBtn = document.createElement('button');
+    retryBtn.className = 'btn btn-primary';
+    retryBtn.textContent = '🔄 Thi lại';
+    retryBtn.addEventListener('click', function() { startExam(); });
+    actions.appendChild(retryBtn);
+
+    var backLink = document.createElement('a');
+    backLink.href = 'index.html';
+    backLink.className = 'btn btn-secondary';
+    backLink.textContent = '← Quay lại';
+    actions.appendChild(backLink);
+
+    card.appendChild(actions);
+
+    while (resultArea.firstChild) resultArea.removeChild(resultArea.firstChild);
+    resultArea.appendChild(card);
 }

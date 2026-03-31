@@ -85,12 +85,16 @@ const UserSystem = {
         if (!el) return;
         var user = this.getCurrentUser();
         if (user) {
-            el.innerHTML = '<span class="user-name">👤 ' + user + '</span>';
+            while (el.firstChild) el.removeChild(el.firstChild);
+            var span = document.createElement('span');
+            span.className = 'user-name';
+            span.textContent = '👤 ' + user;
+            el.appendChild(span);
             el.style.display = 'flex';
             var switchBtn = document.getElementById('user-switch-btn');
             if (switchBtn) switchBtn.style.display = 'inline-block';
         } else {
-            el.innerHTML = '';
+            while (el.firstChild) el.removeChild(el.firstChild);
             el.style.display = 'none';
             var switchBtn = document.getElementById('user-switch-btn');
             if (switchBtn) switchBtn.style.display = 'none';
@@ -103,26 +107,47 @@ const UserSystem = {
             overlay = document.createElement('div');
             overlay.id = 'login-overlay';
             overlay.className = 'login-overlay';
-            var btns = '';
+            overlay.setAttribute('role', 'dialog');
+            overlay.setAttribute('aria-modal', 'true');
+            overlay.setAttribute('aria-label', 'Chọn người dùng');
+
+            var card = document.createElement('div');
+            card.className = 'login-card';
+
+            var icon = document.createElement('div');
+            icon.className = 'login-icon';
+            icon.textContent = '👤';
+            card.appendChild(icon);
+
+            var h2 = document.createElement('h2');
+            h2.textContent = 'Chọn người dùng';
+            card.appendChild(h2);
+
+            var p = document.createElement('p');
+            p.textContent = 'Chọn tên của bạn để bắt đầu học';
+            card.appendChild(p);
+
+            var btnsDiv = document.createElement('div');
+            btnsDiv.className = 'login-buttons';
+
             for (var i = 0; i < this.DEFAULT_USERS.length; i++) {
-                var u = this.DEFAULT_USERS[i];
-                btns += '<button class="btn btn-primary login-user-btn" data-user="' + u + '">' + u + '</button>';
-            }
-            overlay.innerHTML =
-                '<div class="login-card">' +
-                '<div class="login-icon">👤</div>' +
-                '<h2>Chọn người dùng</h2>' +
-                '<p>Chọn tên của bạn để bắt đầu học</p>' +
-                '<div class="login-buttons">' + btns + '</div>' +
-                '</div>';
-            document.body.appendChild(overlay);
-            overlay.querySelectorAll('.login-user-btn').forEach(function (btn) {
+                var btn = document.createElement('button');
+                btn.className = 'btn btn-primary login-user-btn';
+                btn.setAttribute('data-user', this.DEFAULT_USERS[i]);
+                btn.textContent = this.DEFAULT_USERS[i];
                 btn.addEventListener('click', function () {
                     UserSystem.setCurrentUser(this.dataset.user);
                 });
-            });
+                btnsDiv.appendChild(btn);
+            }
+
+            card.appendChild(btnsDiv);
+            overlay.appendChild(card);
+            document.body.appendChild(overlay);
         }
         overlay.style.display = 'flex';
+        var firstBtn = overlay.querySelector('.login-user-btn');
+        if (firstBtn) firstBtn.focus();
     },
 
     dismissLogin() {

@@ -52,6 +52,7 @@ def generate_nav(base_url="."):
     <a href="{base_url}/index.html" class="nav-logo">🎓 Luyện Tiếng Anh</a>
     <div class="nav-links">
         <a href="{base_url}/index.html">🏠 Trang chủ</a>
+        <a href="{base_url}/progress.html">🏆 Tiến trình</a>
         <div id="user-display" class="user-display"></div>
         <button id="user-switch-btn" class="btn-user-switch" style="display:none" onclick="UserSystem.logout()">🔄 Đổi</button>
     </div>
@@ -496,6 +497,58 @@ const TOPICS_DATA = {topics_json};
         f.write(html)
 
 
+def generate_progress_page(config, levels, output_dir):
+    """Generate the progress/achievements page."""
+    # Build minimal level data for JS (id, label, topics with id/name_vi/icon)
+    levels_for_js = []
+    for level_data in levels:
+        topics_for_js = []
+        for topic in level_data['topics']:
+            topics_for_js.append({
+                'id': topic['id'],
+                'name_vi': topic['name_vi'],
+                'name': topic['name'],
+                'icon': topic['icon']
+            })
+        levels_for_js.append({
+            'level': level_data['level'],
+            'label': level_data['label'],
+            'topics': topics_for_js
+        })
+    levels_json = json.dumps(levels_for_js, ensure_ascii=False)
+
+    html = f"""{generate_head("Tiến trình", ".")}
+<body>
+{generate_nav(".")}
+<main class="container">
+    <section class="hero hero-small">
+        <h1>🏆 Tiến trình học tập</h1>
+        <p class="hero-sub">Xem kết quả và huy chương của bạn</p>
+    </section>
+
+    <div class="progress-actions">
+        <button class="btn-download" onclick="downloadProgress()">📥 Tải tiến trình (JSON)</button>
+    </div>
+
+    <div id="progress-content"></div>
+
+    <div class="back-link" style="text-align:center;margin-top:2rem">
+        <a href="index.html" class="btn btn-secondary">← Quay lại Trang chủ</a>
+    </div>
+</main>
+{generate_footer(".")}
+<script>
+const ALL_LEVELS = {levels_json};
+</script>
+<script src="./js/utils.js"></script>
+<script src="./js/progress.js"></script>
+</body>
+</html>"""
+
+    with open(os.path.join(output_dir, 'progress.html'), 'w', encoding='utf-8') as f:
+        f.write(html)
+
+
 def copy_static_assets(output_dir):
     """Copy CSS and JS files to output directory."""
     static_dir = os.path.join(os.path.dirname(__file__), 'static')
@@ -546,6 +599,9 @@ def build_site(config_path="config.json"):
         lvl = level_data['level']
         topics = len(level_data['topics'])
         print(f"  📄 Generated level{lvl}/ ({topics} topics)")
+
+    generate_progress_page(config, levels, output_dir)
+    print("  📄 Generated progress.html")
 
     print(f"\n✅ Site built successfully in '{output_dir}/' directory!")
     print(f"   Open {output_dir}/index.html in a browser to preview.")
