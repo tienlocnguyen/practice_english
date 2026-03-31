@@ -209,6 +209,9 @@ def generate_topic_page(topic, level_data, level_dir, base_url):
     lvl = level_data['level']
     word_cards = ""
     for w in topic['words']:
+        example_vi_html = ""
+        if w.get('example_vi'):
+            example_vi_html = f'<p class="example-vi">🇻🇳 {w["example_vi"]}</p>'
         word_cards += f"""
         <div class="vocab-card">
             <div class="vocab-emoji">{w['image']}</div>
@@ -217,6 +220,7 @@ def generate_topic_page(topic, level_data, level_dir, base_url):
                 <p class="phonetic">{w['phonetic']}</p>
                 <p class="meaning">{w['meaning']}</p>
                 <p class="example">"{w['example']}"</p>
+                {example_vi_html}
                 <button class="btn btn-sm btn-speak" onclick="speak('{w['word']}')">🔊 Nghe</button>
             </div>
         </div>"""
