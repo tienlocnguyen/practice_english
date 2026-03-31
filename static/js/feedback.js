@@ -36,7 +36,7 @@ const FeedbackSystem = (function () {
     }
 
     function generateId() {
-        return Date.now().toString(36) + Math.random().toString(36).substr(2, 6);
+        return Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
     }
 
     function getFeedbackCount() {
@@ -66,7 +66,7 @@ const FeedbackSystem = (function () {
         const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
-        const uniqueName = 'feedback_' + Date.now() + '_' + Math.random().toString(36).substr(2, 6) + '.json';
+        const uniqueName = 'feedback_' + Date.now() + '_' + Math.random().toString(36).slice(2, 8) + '.json';
         a.href = url;
         a.download = uniqueName;
         document.body.appendChild(a);

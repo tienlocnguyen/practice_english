@@ -14,6 +14,7 @@ import json
 import os
 import sys
 import argparse
+from datetime import datetime
 from pathlib import Path
 
 
@@ -72,7 +73,7 @@ def merge_feedback_files(input_dir, output_file):
             print(f"  ⚠️ Skipped {fpath.name}: {e}")
 
     merged = {
-        'merged_at': __import__('datetime').datetime.now().isoformat(),
+        'merged_at': datetime.now().isoformat(),
         'source_files': loaded_count,
         'total_entries': len(all_entries),
         'feedback': all_entries

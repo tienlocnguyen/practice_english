@@ -20,6 +20,11 @@ def ensure_dir(path):
     os.makedirs(path, exist_ok=True)
 
 
+def escape_html_attr(text):
+    """Escape a string for safe use in an HTML attribute."""
+    return str(text).replace('&', '&amp;').replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
+
+
 def render_template(template_str, context):
     """Simple template rendering with {{variable}} syntax."""
     result = template_str
@@ -210,7 +215,7 @@ def generate_topic_page(topic, level_data, level_dir, base_url):
     word_cards = ""
     for w in topic['words']:
         word_data = {**w, '_level': str(lvl), '_topic': topic['id']}
-        word_json_attr = json.dumps(word_data, ensure_ascii=False).replace('&', '&amp;').replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
+        word_json_attr = escape_html_attr(json.dumps(word_data, ensure_ascii=False))
         word_cards += f"""
         <div class="vocab-card">
             <div class="vocab-emoji">{w['image']}</div>
