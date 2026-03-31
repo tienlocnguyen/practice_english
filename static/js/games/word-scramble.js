@@ -51,7 +51,7 @@ function renderScramble(wordData) {
 
     area.innerHTML = `
         <div class="scramble-area animate-fadeIn">
-            <img src="${escapeHtml(wordData.image)}" alt="?" class="scramble-image" loading="lazy">
+            <div class="scramble-image">${escapeHtml(wordData.image)}</div>
             <p class="scramble-hint">💡 ${escapeHtml(wordData.meaning)} (${scrambleState.word.length} chữ cái)</p>
             <div class="scramble-answer">${slotsHtml}</div>
             <div class="scramble-letters">${lettersHtml}</div>

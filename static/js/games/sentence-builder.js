@@ -67,7 +67,7 @@ function renderSentenceBuilder(wordData) {
     area.innerHTML = `
         <div class="animate-fadeIn sentence-builder-area">
             <div class="sentence-context">
-                <img src="${escapeHtml(wordData.image)}" alt="" class="sentence-img" loading="lazy">
+                <span class="sentence-img">${escapeHtml(wordData.image)}</span>
                 <div>
                     <div class="sentence-target-word">${escapeHtml(wordData.word)}</div>
                     <div class="sentence-meaning">💡 ${escapeHtml(wordData.meaning)}</div>

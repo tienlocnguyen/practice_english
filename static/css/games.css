@@ -104,14 +104,11 @@
 /* ===== Word-Image Game ===== */
 .question-image {
     display: block;
-    width: 180px;
-    height: 180px;
-    object-fit: contain;
+    font-size: 120px;
+    line-height: 1;
+    text-align: center;
     margin: 0 auto 1.5rem;
-    padding: 1rem;
-    background: var(--bg-card);
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
+    user-select: none;
 }
 
 .question-word {
@@ -202,10 +199,11 @@
     transform: translateY(-2px);
 }
 
-.image-option img {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
+.image-option .option-emoji {
+    font-size: 64px;
+    line-height: 1;
+    display: block;
+    user-select: none;
 }
 
 .image-option.correct {
@@ -298,10 +296,11 @@
 
 .fill-image {
     display: block;
-    width: 120px;
-    height: 120px;
-    object-fit: contain;
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
     margin: 0 auto 1rem;
+    user-select: none;
 }
 
 .fill-submit-area {
@@ -477,11 +476,12 @@
 }
 
 .scramble-image {
-    width: 120px;
-    height: 120px;
-    object-fit: contain;
-    margin: 0 auto 1rem;
     display: block;
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+    margin: 0 auto 1rem;
+    user-select: none;
 }
 
 .scramble-hint {
@@ -625,8 +625,7 @@
     }
 
     .question-image {
-        width: 140px;
-        height: 140px;
+        font-size: 90px;
     }
 
     .question-word {
@@ -679,9 +678,9 @@
 }
 
 .sentence-img {
-    width: 70px;
-    height: 70px;
-    object-fit: contain;
+    font-size: 48px;
+    line-height: 1;
+    user-select: none;
 }
 
 .sentence-target-word {

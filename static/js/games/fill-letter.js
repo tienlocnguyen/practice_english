@@ -41,7 +41,7 @@ function initGameRound() {
 
     area.innerHTML = `
         <div class="animate-fadeIn" style="text-align:center">
-            <img src="${escapeHtml(currentWord.image)}" alt="?" class="fill-image" loading="lazy">
+            <div class="fill-image">${escapeHtml(currentWord.image)}</div>
             <div class="question-meaning">💡 ${escapeHtml(currentWord.meaning)}</div>
             <div class="fill-word-display">${lettersHtml}</div>
             <p class="fill-hint">🔤 Điền ${hideCount} chữ cái còn thiếu</p>

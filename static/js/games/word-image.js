@@ -22,7 +22,7 @@ function initGameRound() {
 
     area.innerHTML = `
         <div class="animate-fadeIn">
-            <img src="${escapeHtml(currentWord.image)}" alt="?" class="question-image" loading="lazy">
+            <div class="question-image">${escapeHtml(currentWord.image)}</div>
             <div class="question-meaning">💡 ${escapeHtml(currentWord.meaning)}</div>
             <div class="options-grid">${optionsHtml}</div>
         </div>`;
