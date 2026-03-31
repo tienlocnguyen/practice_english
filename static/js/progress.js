@@ -57,7 +57,6 @@ function renderProgress() {
 
     var statExams = document.createElement('div');
     statExams.className = 'progress-stat';
-    statExams.innerHTML = '';
     var statExamsNum = document.createElement('div');
     statExamsNum.className = 'stat-number';
     statExamsNum.textContent = totalExams;

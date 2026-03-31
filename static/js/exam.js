@@ -152,7 +152,6 @@ function handleExamOptionClick(btn) {
     buttons.forEach(function (b) {
         b.classList.add('disabled');
         b.disabled = true;
-        b.setAttribute('aria-disabled', 'true');
     });
 
     var q = examState.questions[examState.currentIndex];
