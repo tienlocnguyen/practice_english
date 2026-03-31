@@ -1,0 +1,186 @@
+/* Feedback system styles */
+
+/* Report button on vocab cards */
+.feedback-report-btn {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-light);
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: var(--radius-sm);
+    transition: all 0.2s;
+    margin-top: 6px;
+}
+
+.feedback-report-btn:hover {
+    border-color: var(--danger);
+    color: var(--danger);
+    background: rgba(239, 68, 68, 0.05);
+}
+
+/* Feedback toolbar */
+.feedback-toolbar {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.feedback-toolbar .btn {
+    position: relative;
+    font-size: 0.85rem;
+}
+
+.feedback-export-count {
+    background: var(--danger);
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 1px 6px;
+    border-radius: 10px;
+    margin-left: 4px;
+    display: none;
+}
+
+/* Modal overlay */
+.feedback-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: fadeIn 0.2s;
+}
+
+/* Modal */
+.feedback-modal {
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-lg);
+    width: 90%;
+    max-width: 480px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.feedback-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+}
+
+.feedback-modal-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.feedback-close-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text-light);
+    line-height: 1;
+    padding: 0 4px;
+}
+
+.feedback-close-btn:hover {
+    color: var(--danger);
+}
+
+.feedback-modal-body {
+    padding: 16px 20px;
+}
+
+.feedback-word-info {
+    background: var(--bg);
+    padding: 10px 14px;
+    border-radius: var(--radius-sm);
+    margin-bottom: 14px;
+    font-size: 0.95rem;
+}
+
+.feedback-field-group {
+    margin-bottom: 12px;
+}
+
+.feedback-field-group label {
+    display: block;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 4px;
+    color: var(--text);
+}
+
+.feedback-field-group select,
+.feedback-field-group input,
+.feedback-field-group textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    font-family: var(--font);
+    box-sizing: border-box;
+}
+
+.feedback-field-group textarea {
+    resize: vertical;
+}
+
+.feedback-current-value {
+    background: #FEF3C7;
+    padding: 6px 10px;
+    border-radius: var(--radius-sm);
+    font-size: 0.85rem;
+    color: var(--text);
+    word-break: break-word;
+}
+
+.feedback-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 12px 20px;
+    border-top: 1px solid var(--border);
+}
+
+/* Toast notification */
+.feedback-toast {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--success);
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: var(--radius);
+    font-size: 0.95rem;
+    z-index: 1100;
+    animation: fadeIn 0.3s;
+    box-shadow: var(--shadow);
+}
+
+.feedback-toast-hide {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .feedback-modal {
+        width: 96%;
+        max-width: none;
+    }
+    .feedback-toolbar {
+        justify-content: center;
+    }
+}

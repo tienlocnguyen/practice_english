@@ -20,6 +20,11 @@ def ensure_dir(path):
     os.makedirs(path, exist_ok=True)
 
 
+def escape_html_attr(text):
+    """Escape a string for safe use in an HTML attribute."""
+    return str(text).replace('&', '&amp;').replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
+
+
 def render_template(template_str, context):
     """Simple template rendering with {{variable}} syntax."""
     result = template_str
@@ -209,6 +214,8 @@ def generate_topic_page(topic, level_data, level_dir, base_url):
     lvl = level_data['level']
     word_cards = ""
     for w in topic['words']:
+        word_data = {**w, '_level': str(lvl), '_topic': topic['id']}
+        word_json_attr = escape_html_attr(json.dumps(word_data, ensure_ascii=False))
         example_vi_html = ""
         if w.get('example_vi'):
             example_vi_html = f'<p class="example-vi">🇻🇳 {w["example_vi"]}</p>'
@@ -222,10 +229,12 @@ def generate_topic_page(topic, level_data, level_dir, base_url):
                 <p class="example">"{w['example']}"</p>
                 {example_vi_html}
                 <button class="btn btn-sm btn-speak" onclick="speak('{w['word']}')">🔊 Nghe</button>
+                <button class="btn btn-sm feedback-report-btn" data-word="{word_json_attr}">⚠️ Báo lỗi</button>
             </div>
         </div>"""
 
-    html = f"""{generate_head(f"{topic['name_vi']} - {level_data['label']}", base_url)}
+    html = f"""{generate_head(f"{topic['name_vi']} - {level_data['label']}", base_url,
+        f'<link rel="stylesheet" href="{base_url}/css/feedback.css">')}
 <body>
 {generate_nav(base_url)}
 <main class="container">
@@ -236,6 +245,13 @@ def generate_topic_page(topic, level_data, level_dir, base_url):
     <section class="hero hero-small">
         <h1>{topic['icon']} {topic['name_vi']} ({topic['name']})</h1>
     </section>
+
+    <div class="feedback-toolbar">
+        <button class="btn btn-sm btn-secondary" onclick="FeedbackSystem.exportFeedback()">
+            📥 Xuất phản hồi <span id="feedback-export-count" class="feedback-export-count">0</span>
+        </button>
+        <button class="btn btn-sm btn-secondary" onclick="FeedbackSystem.clearFeedback()">🗑️ Xóa phản hồi</button>
+    </div>
 
     <div class="vocab-grid">
         {word_cards}
@@ -254,6 +270,7 @@ function speak(text) {{
     speechSynthesis.speak(utterance);
 }}
 </script>
+<script src="{base_url}/js/feedback.js"></script>
 </body>
 </html>"""
 
