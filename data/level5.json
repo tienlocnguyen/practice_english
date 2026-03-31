@@ -116,6 +116,78 @@
           "audio": "",
           "example": "His parents are very proud of his achievement.",
           "hint": "Happy about something you did well"
+        },
+        {
+          "word": "miserable",
+          "meaning": "khốn khổ",
+          "phonetic": "/ˈmɪzərəbl/",
+          "image": "😩",
+          "audio": "",
+          "example": "The rainy weather made everyone feel miserable.",
+          "hint": "Extremely unhappy or uncomfortable"
+        },
+        {
+          "word": "furious",
+          "meaning": "giận dữ",
+          "phonetic": "/ˈfjʊriəs/",
+          "image": "🤬",
+          "audio": "",
+          "example": "She was furious when she found out the truth.",
+          "hint": "Extremely angry"
+        },
+        {
+          "word": "delighted",
+          "meaning": "vui mừng",
+          "phonetic": "/dɪˈlaɪtɪd/",
+          "image": "😄",
+          "audio": "",
+          "example": "He was delighted to receive the birthday present.",
+          "hint": "Very pleased and happy"
+        },
+        {
+          "word": "terrified",
+          "meaning": "kinh hãi",
+          "phonetic": "/ˈterɪfaɪd/",
+          "image": "😱",
+          "audio": "",
+          "example": "The children were terrified by the loud thunder.",
+          "hint": "Extremely scared or frightened"
+        },
+        {
+          "word": "confident",
+          "meaning": "tự tin",
+          "phonetic": "/ˈkɒnfɪdənt/",
+          "image": "😎",
+          "audio": "",
+          "example": "She felt confident before her big presentation.",
+          "hint": "Sure about your own abilities"
+        },
+        {
+          "word": "envious",
+          "meaning": "ghen tị",
+          "phonetic": "/ˈenviəs/",
+          "image": "😒",
+          "audio": "",
+          "example": "He was envious of his friend's new bicycle.",
+          "hint": "Wanting what someone else has"
+        },
+        {
+          "word": "nostalgic",
+          "meaning": "hoài niệm",
+          "phonetic": "/nɒˈstældʒɪk/",
+          "image": "🥹",
+          "audio": "",
+          "example": "Looking at old photos made her feel nostalgic.",
+          "hint": "Missing happy times from the past"
+        },
+        {
+          "word": "determined",
+          "meaning": "quyết tâm",
+          "phonetic": "/dɪˈtɜːrmɪnd/",
+          "image": "💪",
+          "audio": "",
+          "example": "He was determined to finish the race despite the pain.",
+          "hint": "Having a strong will to do something"
         }
       ]
     },
@@ -232,6 +304,78 @@
           "audio": "",
           "example": "The jungle is full of exotic plants and animals.",
           "hint": "Dense tropical forest"
+        },
+        {
+          "word": "canyon",
+          "meaning": "hẻm núi",
+          "phonetic": "/ˈkænjən/",
+          "image": "🏜️",
+          "audio": "",
+          "example": "The Grand Canyon is one of the world's natural wonders.",
+          "hint": "A deep narrow valley with steep sides"
+        },
+        {
+          "word": "meadow",
+          "meaning": "đồng cỏ",
+          "phonetic": "/ˈmedoʊ/",
+          "image": "🌾",
+          "audio": "",
+          "example": "Wild flowers bloomed across the green meadow.",
+          "hint": "A field of grass and flowers"
+        },
+        {
+          "word": "valley",
+          "meaning": "thung lũng",
+          "phonetic": "/ˈvæli/",
+          "image": "🏞️",
+          "audio": "",
+          "example": "The river flows through a beautiful green valley.",
+          "hint": "Low land between hills or mountains"
+        },
+        {
+          "word": "swamp",
+          "meaning": "đầm lầy",
+          "phonetic": "/swɒmp/",
+          "image": "🐊",
+          "audio": "",
+          "example": "Many alligators live in the dark swamp.",
+          "hint": "An area of wet, muddy land"
+        },
+        {
+          "word": "peninsula",
+          "meaning": "bán đảo",
+          "phonetic": "/pəˈnɪnsjʊlə/",
+          "image": "🗺️",
+          "audio": "",
+          "example": "Italy is a famous peninsula shaped like a boot.",
+          "hint": "Land surrounded by water on three sides"
+        },
+        {
+          "word": "archipelago",
+          "meaning": "quần đảo",
+          "phonetic": "/ˌɑːrkɪˈpeləɡoʊ/",
+          "image": "🏝️",
+          "audio": "",
+          "example": "Indonesia is the largest archipelago in the world.",
+          "hint": "A group of many islands"
+        },
+        {
+          "word": "lagoon",
+          "meaning": "đầm phá",
+          "phonetic": "/ləˈɡuːn/",
+          "image": "🌊",
+          "audio": "",
+          "example": "The crystal clear lagoon was perfect for swimming.",
+          "hint": "A shallow body of water near the sea"
+        },
+        {
+          "word": "savanna",
+          "meaning": "thảo nguyên",
+          "phonetic": "/səˈvænə/",
+          "image": "🦁",
+          "audio": "",
+          "example": "Lions and zebras roam freely across the African savanna.",
+          "hint": "A flat grassy plain in hot regions"
         }
       ]
     },
@@ -348,6 +492,78 @@
           "audio": "",
           "example": "The musician played a beautiful song on the piano.",
           "hint": "Plays music professionally"
+        },
+        {
+          "word": "pharmacist",
+          "meaning": "dược sĩ",
+          "phonetic": "/ˈfɑːrməsɪst/",
+          "image": "💊",
+          "audio": "",
+          "example": "The pharmacist explained how to take the medicine.",
+          "hint": "A person who prepares and sells medicine"
+        },
+        {
+          "word": "translator",
+          "meaning": "phiên dịch viên",
+          "phonetic": "/trænˈzleɪtər/",
+          "image": "🌐",
+          "audio": "",
+          "example": "The translator converted the book from English to Vietnamese.",
+          "hint": "A person who changes text to another language"
+        },
+        {
+          "word": "plumber",
+          "meaning": "thợ sửa ống nước",
+          "phonetic": "/ˈplʌmər/",
+          "image": "🔧",
+          "audio": "",
+          "example": "We called a plumber to fix the broken pipe.",
+          "hint": "A person who fixes water pipes"
+        },
+        {
+          "word": "electrician",
+          "meaning": "thợ điện",
+          "phonetic": "/ɪˌlekˈtrɪʃən/",
+          "image": "⚡",
+          "audio": "",
+          "example": "The electrician repaired the wiring in our house.",
+          "hint": "A person who works with electrical systems"
+        },
+        {
+          "word": "pilot",
+          "meaning": "phi công",
+          "phonetic": "/ˈpaɪlət/",
+          "image": "✈️",
+          "audio": "",
+          "example": "The pilot safely landed the airplane during the storm.",
+          "hint": "A person who flies an aircraft"
+        },
+        {
+          "word": "librarian",
+          "meaning": "thủ thư",
+          "phonetic": "/laɪˈbreriən/",
+          "image": "📚",
+          "audio": "",
+          "example": "The librarian helped me find a book about space.",
+          "hint": "A person who works in a library"
+        },
+        {
+          "word": "chef",
+          "meaning": "đầu bếp",
+          "phonetic": "/ʃef/",
+          "image": "👨‍🍳",
+          "audio": "",
+          "example": "The chef prepared a delicious meal for the guests.",
+          "hint": "A professional cook in a restaurant"
+        },
+        {
+          "word": "lawyer",
+          "meaning": "luật sư",
+          "phonetic": "/ˈlɔːjər/",
+          "image": "⚖️",
+          "audio": "",
+          "example": "The lawyer defended her client in the courtroom.",
+          "hint": "A person who practices law"
         }
       ]
     },
@@ -464,6 +680,78 @@
           "audio": "",
           "example": "The students conducted experiments in the laboratory.",
           "hint": "Room for scientific research"
+        },
+        {
+          "word": "atom",
+          "meaning": "nguyên tử",
+          "phonetic": "/ˈætəm/",
+          "image": "⚛️",
+          "audio": "",
+          "example": "Everything in the universe is made up of tiny atoms.",
+          "hint": "The smallest unit of a chemical element"
+        },
+        {
+          "word": "planet",
+          "meaning": "hành tinh",
+          "phonetic": "/ˈplænɪt/",
+          "image": "🪐",
+          "audio": "",
+          "example": "Earth is the third planet from the sun.",
+          "hint": "A large body that orbits a star"
+        },
+        {
+          "word": "fossil",
+          "meaning": "hóa thạch",
+          "phonetic": "/ˈfɒsəl/",
+          "image": "🦴",
+          "audio": "",
+          "example": "Scientists discovered a dinosaur fossil in the desert.",
+          "hint": "Remains of ancient plants or animals in rock"
+        },
+        {
+          "word": "bacteria",
+          "meaning": "vi khuẩn",
+          "phonetic": "/bækˈtɪriə/",
+          "image": "🦠",
+          "audio": "",
+          "example": "Washing your hands helps remove harmful bacteria.",
+          "hint": "Very tiny living organisms"
+        },
+        {
+          "word": "chemical",
+          "meaning": "hóa chất",
+          "phonetic": "/ˈkemɪkəl/",
+          "image": "🧪",
+          "audio": "",
+          "example": "The scientist mixed two chemicals together in the lab.",
+          "hint": "A substance used in or made by chemistry"
+        },
+        {
+          "word": "radiation",
+          "meaning": "bức xạ",
+          "phonetic": "/ˌreɪdiˈeɪʃən/",
+          "image": "☢️",
+          "audio": "",
+          "example": "Too much radiation from the sun can damage your skin.",
+          "hint": "Energy sent out as waves or particles"
+        },
+        {
+          "word": "equation",
+          "meaning": "phương trình",
+          "phonetic": "/ɪˈkweɪʒən/",
+          "image": "➗",
+          "audio": "",
+          "example": "The student solved the difficult math equation quickly.",
+          "hint": "A mathematical statement with an equals sign"
+        },
+        {
+          "word": "evolution",
+          "meaning": "tiến hóa",
+          "phonetic": "/ˌiːvəˈluːʃən/",
+          "image": "🧬",
+          "audio": "",
+          "example": "Darwin's theory of evolution changed how we understand life.",
+          "hint": "The gradual development of living things over time"
         }
       ]
     },
@@ -580,6 +868,78 @@
           "audio": "",
           "example": "The team carried out the plan perfectly.",
           "hint": "Complete or perform a task"
+        },
+        {
+          "word": "figure out",
+          "meaning": "tìm ra, hiểu ra",
+          "phonetic": "/ˈfɪɡər aʊt/",
+          "image": "🤔",
+          "audio": "",
+          "example": "She finally figured out the answer to the puzzle.",
+          "hint": "To understand or solve something"
+        },
+        {
+          "word": "run out",
+          "meaning": "hết, cạn kiệt",
+          "phonetic": "/rʌn aʊt/",
+          "image": "🏃‍♂️",
+          "audio": "",
+          "example": "We ran out of milk so I went to the store.",
+          "hint": "To have no more of something"
+        },
+        {
+          "word": "give up",
+          "meaning": "từ bỏ",
+          "phonetic": "/ɡɪv ʌp/",
+          "image": "🏳️",
+          "audio": "",
+          "example": "Never give up on your dreams no matter what happens.",
+          "hint": "To stop trying"
+        },
+        {
+          "word": "bring up",
+          "meaning": "đề cập, nuôi dưỡng",
+          "phonetic": "/brɪŋ ʌp/",
+          "image": "💬",
+          "audio": "",
+          "example": "She brought up an interesting topic during the meeting.",
+          "hint": "To mention or start talking about something"
+        },
+        {
+          "word": "look after",
+          "meaning": "chăm sóc",
+          "phonetic": "/lʊk ˈæftər/",
+          "image": "🤲",
+          "audio": "",
+          "example": "My grandmother looks after me when my parents are away.",
+          "hint": "To take care of someone or something"
+        },
+        {
+          "word": "get along",
+          "meaning": "hòa hợp",
+          "phonetic": "/ɡet əˈlɒŋ/",
+          "image": "🤝",
+          "audio": "",
+          "example": "The two brothers get along very well with each other.",
+          "hint": "To have a friendly relationship"
+        },
+        {
+          "word": "point out",
+          "meaning": "chỉ ra",
+          "phonetic": "/pɔɪnt aʊt/",
+          "image": "👉",
+          "audio": "",
+          "example": "The teacher pointed out several mistakes in my essay.",
+          "hint": "To draw attention to something"
+        },
+        {
+          "word": "hold on",
+          "meaning": "chờ đã, giữ chặt",
+          "phonetic": "/hoʊld ɒn/",
+          "image": "✋",
+          "audio": "",
+          "example": "Hold on a moment while I check the schedule.",
+          "hint": "To wait or grip tightly"
         }
       ]
     },
@@ -696,6 +1056,78 @@
           "audio": "",
           "example": "Rock climbing is both challenging and rewarding.",
           "hint": "Going up rocks or mountains"
+        },
+        {
+          "word": "badminton",
+          "meaning": "cầu lông",
+          "phonetic": "/ˈbædmɪntən/",
+          "image": "🏸",
+          "audio": "",
+          "example": "Badminton is one of the most popular sports in Vietnam.",
+          "hint": "A racket sport with a shuttlecock"
+        },
+        {
+          "word": "gymnastics",
+          "meaning": "thể dục dụng cụ",
+          "phonetic": "/dʒɪmˈnæstɪks/",
+          "image": "🤸",
+          "audio": "",
+          "example": "She has practiced gymnastics since she was five years old.",
+          "hint": "A sport with flips, jumps, and balance"
+        },
+        {
+          "word": "wrestling",
+          "meaning": "đấu vật",
+          "phonetic": "/ˈreslɪŋ/",
+          "image": "🤼",
+          "audio": "",
+          "example": "Wrestling requires both strength and quick thinking.",
+          "hint": "A sport where two people fight to pin each other"
+        },
+        {
+          "word": "archery",
+          "meaning": "bắn cung",
+          "phonetic": "/ˈɑːrtʃəri/",
+          "image": "🏹",
+          "audio": "",
+          "example": "She hit the target perfectly during the archery competition.",
+          "hint": "A sport of shooting arrows with a bow"
+        },
+        {
+          "word": "fencing",
+          "meaning": "đấu kiếm",
+          "phonetic": "/ˈfensɪŋ/",
+          "image": "🤺",
+          "audio": "",
+          "example": "Fencing is an exciting sport that requires fast reflexes.",
+          "hint": "A sport of fighting with thin swords"
+        },
+        {
+          "word": "marathon",
+          "meaning": "chạy ma-ra-tông",
+          "phonetic": "/ˈmærəθɒn/",
+          "image": "🏅",
+          "audio": "",
+          "example": "He trained for six months to complete his first marathon.",
+          "hint": "A very long running race of about 42 kilometers"
+        },
+        {
+          "word": "diving",
+          "meaning": "lặn",
+          "phonetic": "/ˈdaɪvɪŋ/",
+          "image": "🤿",
+          "audio": "",
+          "example": "Olympic diving athletes jump from very high platforms.",
+          "hint": "Jumping into water or swimming underwater"
+        },
+        {
+          "word": "boxing",
+          "meaning": "quyền anh",
+          "phonetic": "/ˈbɒksɪŋ/",
+          "image": "🥊",
+          "audio": "",
+          "example": "Boxing matches are divided into several short rounds.",
+          "hint": "A fighting sport with gloves"
         }
       ]
     },
@@ -812,6 +1244,78 @@
           "audio": "",
           "example": "The monument was built to honor the heroes of the war.",
           "hint": "Structure to remember important people"
+        },
+        {
+          "word": "embassy",
+          "meaning": "đại sứ quán",
+          "phonetic": "/ˈembəsi/",
+          "image": "🏛️",
+          "audio": "",
+          "example": "You need to visit the embassy to get a travel visa.",
+          "hint": "A building where foreign officials work"
+        },
+        {
+          "word": "cathedral",
+          "meaning": "nhà thờ lớn",
+          "phonetic": "/kəˈθiːdrəl/",
+          "image": "⛪",
+          "audio": "",
+          "example": "The old cathedral in the city center is very beautiful.",
+          "hint": "A large and important church"
+        },
+        {
+          "word": "fountain",
+          "meaning": "đài phun nước",
+          "phonetic": "/ˈfaʊntən/",
+          "image": "⛲",
+          "audio": "",
+          "example": "Children love playing near the fountain in the park.",
+          "hint": "A structure that shoots water into the air"
+        },
+        {
+          "word": "harbor",
+          "meaning": "bến cảng",
+          "phonetic": "/ˈhɑːrbər/",
+          "image": "⚓",
+          "audio": "",
+          "example": "Many fishing boats are docked safely in the harbor.",
+          "hint": "A sheltered area of water for ships"
+        },
+        {
+          "word": "alley",
+          "meaning": "hẻm, ngõ",
+          "phonetic": "/ˈæli/",
+          "image": "🚶",
+          "audio": "",
+          "example": "We walked through a narrow alley between the old buildings.",
+          "hint": "A narrow passage between buildings"
+        },
+        {
+          "word": "plaza",
+          "meaning": "quảng trường",
+          "phonetic": "/ˈplɑːzə/",
+          "image": "🏟️",
+          "audio": "",
+          "example": "People gathered in the plaza to watch the street performers.",
+          "hint": "An open public square in a city"
+        },
+        {
+          "word": "suburb",
+          "meaning": "ngoại ô",
+          "phonetic": "/ˈsʌbɜːrb/",
+          "image": "🏘️",
+          "audio": "",
+          "example": "Many families prefer living in the quiet suburbs.",
+          "hint": "A residential area outside the city center"
+        },
+        {
+          "word": "highway",
+          "meaning": "đường cao tốc",
+          "phonetic": "/ˈhaɪweɪ/",
+          "image": "🛣️",
+          "audio": "",
+          "example": "The new highway connects the two cities much faster.",
+          "hint": "A main road for fast long-distance travel"
         }
       ]
     },
@@ -928,6 +1432,78 @@
           "audio": "",
           "example": "She thought carefully before giving her answer.",
           "hint": "A reply to a question"
+        },
+        {
+          "word": "debate",
+          "meaning": "cuộc tranh luận",
+          "phonetic": "/dɪˈbeɪt/",
+          "image": "🗣️",
+          "audio": "",
+          "example": "The students had a lively debate about climate change.",
+          "hint": "A formal discussion of opposing views"
+        },
+        {
+          "word": "negotiation",
+          "meaning": "đàm phán",
+          "phonetic": "/nɪˌɡoʊʃiˈeɪʃən/",
+          "image": "🤝",
+          "audio": "",
+          "example": "The negotiation between the two companies lasted for hours.",
+          "hint": "A discussion to reach an agreement"
+        },
+        {
+          "word": "complaint",
+          "meaning": "lời phàn nàn",
+          "phonetic": "/kəmˈpleɪnt/",
+          "image": "😤",
+          "audio": "",
+          "example": "The customer filed a complaint about the poor service.",
+          "hint": "An expression of dissatisfaction"
+        },
+        {
+          "word": "apology",
+          "meaning": "lời xin lỗi",
+          "phonetic": "/əˈpɒlədʒi/",
+          "image": "🙏",
+          "audio": "",
+          "example": "He offered a sincere apology for arriving late to class.",
+          "hint": "Saying sorry for something you did wrong"
+        },
+        {
+          "word": "compliment",
+          "meaning": "lời khen",
+          "phonetic": "/ˈkɒmplɪmənt/",
+          "image": "😊",
+          "audio": "",
+          "example": "She received many compliments on her beautiful painting.",
+          "hint": "A nice thing you say to praise someone"
+        },
+        {
+          "word": "rumor",
+          "meaning": "tin đồn",
+          "phonetic": "/ˈruːmər/",
+          "image": "🤫",
+          "audio": "",
+          "example": "Do not believe every rumor you hear at school.",
+          "hint": "Unverified information spread by people"
+        },
+        {
+          "word": "gossip",
+          "meaning": "chuyện phiếm, ngồi lê đôi mách",
+          "phonetic": "/ˈɡɒsɪp/",
+          "image": "👂",
+          "audio": "",
+          "example": "Spreading gossip about others can hurt their feelings.",
+          "hint": "Casual talk about other people's lives"
+        },
+        {
+          "word": "request",
+          "meaning": "yêu cầu, lời đề nghị",
+          "phonetic": "/rɪˈkwest/",
+          "image": "📩",
+          "audio": "",
+          "example": "The teacher approved my request to submit the homework late.",
+          "hint": "An act of politely asking for something"
         }
       ]
     }
