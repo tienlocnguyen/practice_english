@@ -790,3 +790,107 @@
         gap: 0.5rem;
     }
 }
+
+/* ===== Vietnamese to English Game ===== */
+.vn-to-en-area {
+    text-align: center;
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.vte-label {
+    font-size: 1rem;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.vte-meaning {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+    margin-bottom: 0.4rem;
+    padding: 0.8rem 1.5rem;
+    background: linear-gradient(135deg, rgba(79,70,229,0.08), rgba(139,92,246,0.08));
+    border-radius: var(--radius);
+    border-left: 4px solid var(--primary);
+}
+
+.vte-phonetic {
+    color: var(--text-light);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.vte-input-row {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.vte-input {
+    padding: 0.8rem 1.2rem;
+    border: 2px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-size: 1.2rem;
+    font-family: var(--font);
+    text-align: center;
+    min-width: 220px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.vte-input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+}
+
+.vte-input:disabled {
+    background: var(--bg);
+    color: var(--text-light);
+}
+
+.vte-hint {
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-top: 0.5rem;
+}
+
+.vte-feedback {
+    margin-top: 1rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    font-size: 1.05rem;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.vte-correct {
+    background: rgba(16, 185, 129, 0.12);
+    color: #065f46;
+    border: 1.5px solid var(--success);
+}
+
+.vte-wrong {
+    background: rgba(239, 68, 68, 0.1);
+    color: #991b1b;
+    border: 1.5px solid var(--danger);
+}
+
+@media (max-width: 480px) {
+    .vte-meaning {
+        font-size: 1.5rem;
+    }
+    .vte-input {
+        min-width: 160px;
+        font-size: 1rem;
+    }
+}

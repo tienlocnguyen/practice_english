@@ -78,6 +78,14 @@
       "icon": "📖",
       "description": "Arrange words to build correct sentences",
       "description_vi": "Sắp xếp từ thành câu đúng"
+    },
+    {
+      "id": "vn-to-en",
+      "name": "Write English Word",
+      "name_vi": "Viết từ tiếng Anh",
+      "icon": "✍️",
+      "description": "Read the Vietnamese meaning and write the English word",
+      "description_vi": "Đọc nghĩa tiếng Việt và viết từ tiếng Anh tương ứng"
     }
   ]
 }

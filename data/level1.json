@@ -330,6 +330,662 @@
           "hint": "After four"
         }
       ]
+    },
+    {
+      "id": "shapes",
+      "name": "Shapes",
+      "name_vi": "Hình dạng",
+      "icon": "🔷",
+      "words": [
+        {
+          "word": "circle",
+          "meaning": "hình tròn",
+          "phonetic": "/ˈsɜːrkl/",
+          "image": "https://cdn-icons-png.flaticon.com/512/1078/1078255.png",
+          "audio": "",
+          "example": "The wheel is a circle.",
+          "hint": "Round shape with no corners"
+        },
+        {
+          "word": "triangle",
+          "meaning": "hình tam giác",
+          "phonetic": "/ˈtraɪæŋɡl/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2721/2721260.png",
+          "audio": "",
+          "example": "A triangle has three sides.",
+          "hint": "Shape with 3 corners"
+        },
+        {
+          "word": "square",
+          "meaning": "hình vuông",
+          "phonetic": "/skwer/",
+          "image": "https://cdn-icons-png.flaticon.com/512/1295/1295086.png",
+          "audio": "",
+          "example": "A square has four equal sides.",
+          "hint": "Shape with 4 equal sides"
+        },
+        {
+          "word": "rectangle",
+          "meaning": "hình chữ nhật",
+          "phonetic": "/ˈrektæŋɡl/",
+          "image": "https://cdn-icons-png.flaticon.com/512/4400/4400466.png",
+          "audio": "",
+          "example": "A door is a rectangle.",
+          "hint": "Shape with 2 long and 2 short sides"
+        },
+        {
+          "word": "cube",
+          "meaning": "hình lập phương",
+          "phonetic": "/kjuːb/",
+          "image": "https://cdn-icons-png.flaticon.com/512/1532/1532010.png",
+          "audio": "",
+          "example": "A dice is a cube.",
+          "hint": "3D box with 6 equal square faces"
+        },
+        {
+          "word": "cuboid",
+          "meaning": "hình hộp chữ nhật",
+          "phonetic": "/ˈkjuːbɔɪd/",
+          "image": "https://cdn-icons-png.flaticon.com/512/1532/1532008.png",
+          "audio": "",
+          "example": "A box is a cuboid.",
+          "hint": "3D rectangular box shape"
+        }
+      ]
+    },
+    {
+      "id": "prepositions",
+      "name": "Prepositions",
+      "name_vi": "Giới từ vị trí",
+      "icon": "📍",
+      "words": [
+        {
+          "word": "on",
+          "meaning": "ở trên (tiếp xúc)",
+          "phonetic": "/ɒn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3898/3898085.png",
+          "audio": "",
+          "example": "The book is on the table.",
+          "hint": "Above and touching a surface"
+        },
+        {
+          "word": "under",
+          "meaning": "ở dưới",
+          "phonetic": "/ˈʌndər/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3898/3898082.png",
+          "audio": "",
+          "example": "The cat is under the table.",
+          "hint": "Below something"
+        },
+        {
+          "word": "on the right",
+          "meaning": "ở bên phải",
+          "phonetic": "/ɒn ðə raɪt/",
+          "image": "https://cdn-icons-png.flaticon.com/512/271/271228.png",
+          "audio": "",
+          "example": "The shop is on the right.",
+          "hint": "To the right side"
+        },
+        {
+          "word": "on the left",
+          "meaning": "ở bên trái",
+          "phonetic": "/ɒn ðə left/",
+          "image": "https://cdn-icons-png.flaticon.com/512/271/271220.png",
+          "audio": "",
+          "example": "My house is on the left.",
+          "hint": "To the left side"
+        },
+        {
+          "word": "in front of",
+          "meaning": "ở phía trước",
+          "phonetic": "/ɪn frʌnt ɒv/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2586/2586488.png",
+          "audio": "",
+          "example": "She stands in front of the class.",
+          "hint": "Facing side, before something"
+        },
+        {
+          "word": "behind",
+          "meaning": "ở phía sau",
+          "phonetic": "/bɪˈhaɪnd/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2586/2586492.png",
+          "audio": "",
+          "example": "The garden is behind the house.",
+          "hint": "At the back of something"
+        },
+        {
+          "word": "between",
+          "meaning": "ở giữa hai vật",
+          "phonetic": "/bɪˈtwiːn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2586/2586490.png",
+          "audio": "",
+          "example": "The cat sits between two boxes.",
+          "hint": "In the middle of two things"
+        }
+      ]
+    },
+    {
+      "id": "numbers-advanced",
+      "name": "Numbers 11–20",
+      "name_vi": "Số từ 11 đến 20",
+      "icon": "🔢",
+      "words": [
+        {
+          "word": "eleven",
+          "meaning": "mười một",
+          "phonetic": "/ɪˈlevn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3621/3621636.png",
+          "audio": "",
+          "example": "There are eleven players.",
+          "hint": "10 + 1"
+        },
+        {
+          "word": "twelve",
+          "meaning": "mười hai",
+          "phonetic": "/twelv/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3621/3621646.png",
+          "audio": "",
+          "example": "There are twelve months.",
+          "hint": "10 + 2"
+        },
+        {
+          "word": "thirteen",
+          "meaning": "mười ba",
+          "phonetic": "/ˌθɜːrˈtiːn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3621/3621656.png",
+          "audio": "",
+          "example": "She is thirteen years old.",
+          "hint": "10 + 3"
+        },
+        {
+          "word": "fourteen",
+          "meaning": "mười bốn",
+          "phonetic": "/ˌfɔːrˈtiːn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3621/3621666.png",
+          "audio": "",
+          "example": "He has fourteen books.",
+          "hint": "10 + 4"
+        },
+        {
+          "word": "fifteen",
+          "meaning": "mười lăm",
+          "phonetic": "/ˌfɪfˈtiːn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3621/3621676.png",
+          "audio": "",
+          "example": "I wait fifteen minutes.",
+          "hint": "10 + 5"
+        },
+        {
+          "word": "sixteen",
+          "meaning": "mười sáu",
+          "phonetic": "/ˌsɪkˈstiːn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3621/3621686.png",
+          "audio": "",
+          "example": "There are sixteen chairs.",
+          "hint": "10 + 6"
+        },
+        {
+          "word": "seventeen",
+          "meaning": "mười bảy",
+          "phonetic": "/ˌsevnˈtiːn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3621/3621696.png",
+          "audio": "",
+          "example": "He is seventeen today.",
+          "hint": "10 + 7"
+        },
+        {
+          "word": "eighteen",
+          "meaning": "mười tám",
+          "phonetic": "/ˌeɪˈtiːn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3621/3621706.png",
+          "audio": "",
+          "example": "I have eighteen stickers.",
+          "hint": "10 + 8"
+        },
+        {
+          "word": "nineteen",
+          "meaning": "mười chín",
+          "phonetic": "/ˌnaɪnˈtiːn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3621/3621716.png",
+          "audio": "",
+          "example": "There are nineteen students.",
+          "hint": "10 + 9"
+        },
+        {
+          "word": "twenty",
+          "meaning": "hai mươi",
+          "phonetic": "/ˈtwenti/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3621/3621726.png",
+          "audio": "",
+          "example": "I count to twenty.",
+          "hint": "2 × 10"
+        }
+      ]
+    },
+    {
+      "id": "math",
+      "name": "Math",
+      "name_vi": "Toán học",
+      "icon": "➕",
+      "words": [
+        {
+          "word": "addition",
+          "meaning": "phép cộng",
+          "phonetic": "/əˈdɪʃn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/1189/1189195.png",
+          "audio": "",
+          "example": "Addition means putting numbers together.",
+          "hint": "Putting numbers together"
+        },
+        {
+          "word": "plus",
+          "meaning": "cộng",
+          "phonetic": "/plʌs/",
+          "image": "https://cdn-icons-png.flaticon.com/512/992/992651.png",
+          "audio": "",
+          "example": "Two plus three equals five.",
+          "hint": "The + sign"
+        },
+        {
+          "word": "equal",
+          "meaning": "bằng",
+          "phonetic": "/ˈiːkwəl/",
+          "image": "https://cdn-icons-png.flaticon.com/512/992/992700.png",
+          "audio": "",
+          "example": "Two plus two equal four.",
+          "hint": "The = sign, same amount"
+        },
+        {
+          "word": "subtraction",
+          "meaning": "phép trừ",
+          "phonetic": "/səbˈtrækʃn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/1189/1189207.png",
+          "audio": "",
+          "example": "Subtraction means taking away.",
+          "hint": "Taking numbers away"
+        },
+        {
+          "word": "minus",
+          "meaning": "trừ",
+          "phonetic": "/ˈmaɪnəs/",
+          "image": "https://cdn-icons-png.flaticon.com/512/992/992660.png",
+          "audio": "",
+          "example": "Five minus two equals three.",
+          "hint": "The − sign"
+        }
+      ]
+    },
+    {
+      "id": "body-parts",
+      "name": "Body Parts",
+      "name_vi": "Các bộ phận cơ thể",
+      "icon": "🧍",
+      "words": [
+        {
+          "word": "body",
+          "meaning": "cơ thể",
+          "phonetic": "/ˈbɒdi/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2521/2521826.png",
+          "audio": "",
+          "example": "We take care of our body.",
+          "hint": "Your whole physical self"
+        },
+        {
+          "word": "head",
+          "meaning": "đầu",
+          "phonetic": "/hed/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588614.png",
+          "audio": "",
+          "example": "I wear a hat on my head.",
+          "hint": "Top part of your body"
+        },
+        {
+          "word": "hair",
+          "meaning": "tóc",
+          "phonetic": "/her/",
+          "image": "https://cdn-icons-png.flaticon.com/512/5992/5992906.png",
+          "audio": "",
+          "example": "She has long hair.",
+          "hint": "Grows on top of your head"
+        },
+        {
+          "word": "mouth",
+          "meaning": "miệng",
+          "phonetic": "/maʊθ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588537.png",
+          "audio": "",
+          "example": "Open your mouth.",
+          "hint": "Used for eating and talking"
+        },
+        {
+          "word": "eye",
+          "meaning": "mắt",
+          "phonetic": "/aɪ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588542.png",
+          "audio": "",
+          "example": "I have two eyes.",
+          "hint": "Used for seeing"
+        },
+        {
+          "word": "ear",
+          "meaning": "tai",
+          "phonetic": "/ɪər/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588575.png",
+          "audio": "",
+          "example": "I hear with my ears.",
+          "hint": "Used for hearing"
+        },
+        {
+          "word": "nose",
+          "meaning": "mũi",
+          "phonetic": "/noʊz/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588649.png",
+          "audio": "",
+          "example": "I smell with my nose.",
+          "hint": "Used for smelling"
+        },
+        {
+          "word": "tongue",
+          "meaning": "lưỡi",
+          "phonetic": "/tʌŋ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588528.png",
+          "audio": "",
+          "example": "My tongue tastes the food.",
+          "hint": "Inside your mouth, for tasting"
+        },
+        {
+          "word": "hand",
+          "meaning": "bàn tay",
+          "phonetic": "/hænd/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588658.png",
+          "audio": "",
+          "example": "I wave my hand.",
+          "hint": "At the end of your arm"
+        },
+        {
+          "word": "arm",
+          "meaning": "cánh tay",
+          "phonetic": "/ɑːrm/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588631.png",
+          "audio": "",
+          "example": "Stretch your arms wide.",
+          "hint": "From shoulder to hand"
+        },
+        {
+          "word": "leg",
+          "meaning": "chân",
+          "phonetic": "/leɡ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588735.png",
+          "audio": "",
+          "example": "I kick with my leg.",
+          "hint": "Used for walking and running"
+        },
+        {
+          "word": "foot",
+          "meaning": "bàn chân",
+          "phonetic": "/fʊt/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588714.png",
+          "audio": "",
+          "example": "I stand on my feet.",
+          "hint": "At the end of your leg"
+        },
+        {
+          "word": "neck",
+          "meaning": "cổ",
+          "phonetic": "/nek/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588623.png",
+          "audio": "",
+          "example": "A giraffe has a long neck.",
+          "hint": "Connects head to body"
+        }
+      ]
+    },
+    {
+      "id": "senses",
+      "name": "Five Senses",
+      "name_vi": "Năm giác quan",
+      "icon": "👁️",
+      "words": [
+        {
+          "word": "see",
+          "meaning": "nhìn / thấy",
+          "phonetic": "/siː/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588542.png",
+          "audio": "",
+          "example": "I can see the sky.",
+          "hint": "Using your eyes"
+        },
+        {
+          "word": "hear",
+          "meaning": "nghe",
+          "phonetic": "/hɪər/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588575.png",
+          "audio": "",
+          "example": "I can hear music.",
+          "hint": "Using your ears"
+        },
+        {
+          "word": "smell",
+          "meaning": "ngửi",
+          "phonetic": "/smel/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588649.png",
+          "audio": "",
+          "example": "I can smell the flowers.",
+          "hint": "Using your nose"
+        },
+        {
+          "word": "taste",
+          "meaning": "nếm",
+          "phonetic": "/teɪst/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588528.png",
+          "audio": "",
+          "example": "I can taste the sweet cake.",
+          "hint": "Using your tongue"
+        },
+        {
+          "word": "touch",
+          "meaning": "chạm / sờ",
+          "phonetic": "/tʌtʃ/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3588/3588658.png",
+          "audio": "",
+          "example": "I can touch the soft pillow.",
+          "hint": "Using your hands and skin"
+        }
+      ]
+    },
+    {
+      "id": "healthy-food",
+      "name": "Healthy Food",
+      "name_vi": "Thức ăn lành mạnh",
+      "icon": "🥦",
+      "words": [
+        {
+          "word": "healthy",
+          "meaning": "lành mạnh / tốt cho sức khỏe",
+          "phonetic": "/ˈhelθi/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2515/2515183.png",
+          "audio": "",
+          "example": "Eat healthy food every day.",
+          "hint": "Good for your body"
+        },
+        {
+          "word": "vegetables",
+          "meaning": "rau củ",
+          "phonetic": "/ˈvedʒtəblz/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2153/2153788.png",
+          "audio": "",
+          "example": "Eat your vegetables!",
+          "hint": "Green foods from plants"
+        },
+        {
+          "word": "fruits",
+          "meaning": "trái cây",
+          "phonetic": "/fruːts/",
+          "image": "https://cdn-icons-png.flaticon.com/512/415/415682.png",
+          "audio": "",
+          "example": "Fruits are sweet and healthy.",
+          "hint": "Sweet foods from trees"
+        },
+        {
+          "word": "juice",
+          "meaning": "nước ép",
+          "phonetic": "/dʒuːs/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3050/3050162.png",
+          "audio": "",
+          "example": "I drink orange juice.",
+          "hint": "Liquid from squeezed fruit"
+        },
+        {
+          "word": "milk",
+          "meaning": "sữa",
+          "phonetic": "/mɪlk/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3050/3050226.png",
+          "audio": "",
+          "example": "Milk makes bones strong.",
+          "hint": "White drink from a cow"
+        }
+      ]
+    },
+    {
+      "id": "unhealthy-food",
+      "name": "Unhealthy Food",
+      "name_vi": "Thức ăn không lành mạnh",
+      "icon": "🍔",
+      "words": [
+        {
+          "word": "unhealthy",
+          "meaning": "không lành mạnh",
+          "phonetic": "/ʌnˈhelθi/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3082/3082047.png",
+          "audio": "",
+          "example": "Eating too much unhealthy food is bad.",
+          "hint": "Bad for your body"
+        },
+        {
+          "word": "hamburger",
+          "meaning": "bánh hamburger",
+          "phonetic": "/ˈhæmbɜːrɡər/",
+          "image": "https://cdn-icons-png.flaticon.com/512/877/877951.png",
+          "audio": "",
+          "example": "He eats a hamburger.",
+          "hint": "Meat inside two buns"
+        },
+        {
+          "word": "pizza",
+          "meaning": "bánh pizza",
+          "phonetic": "/ˈpiːtsə/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3132/3132693.png",
+          "audio": "",
+          "example": "Pizza has cheese on top.",
+          "hint": "Round flat bread with toppings"
+        },
+        {
+          "word": "fried chicken",
+          "meaning": "gà rán",
+          "phonetic": "/fraɪd ˈtʃɪkɪn/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2082/2082046.png",
+          "audio": "",
+          "example": "I love fried chicken.",
+          "hint": "Crispy cooked poultry"
+        },
+        {
+          "word": "soda",
+          "meaning": "nước ngọt có ga",
+          "phonetic": "/ˈsoʊdə/",
+          "image": "https://cdn-icons-png.flaticon.com/512/3050/3050188.png",
+          "audio": "",
+          "example": "Soda has a lot of sugar.",
+          "hint": "Sweet fizzy drink in a can"
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "name_vi": "Thời tiết",
+      "icon": "⛅",
+      "words": [
+        {
+          "word": "sunny",
+          "meaning": "trời nắng",
+          "phonetic": "/ˈsʌni/",
+          "image": "https://cdn-icons-png.flaticon.com/512/869/869869.png",
+          "audio": "",
+          "example": "It is sunny today.",
+          "hint": "Bright and warm outside"
+        },
+        {
+          "word": "rainy",
+          "meaning": "trời mưa",
+          "phonetic": "/ˈreɪni/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2469/2469994.png",
+          "audio": "",
+          "example": "Take an umbrella, it is rainy.",
+          "hint": "Water falls from the sky"
+        },
+        {
+          "word": "cloudy",
+          "meaning": "trời nhiều mây",
+          "phonetic": "/ˈklaʊdi/",
+          "image": "https://cdn-icons-png.flaticon.com/512/414/414927.png",
+          "audio": "",
+          "example": "It is cloudy outside.",
+          "hint": "The sky is covered with clouds"
+        },
+        {
+          "word": "windy",
+          "meaning": "trời có gió",
+          "phonetic": "/ˈwɪndi/",
+          "image": "https://cdn-icons-png.flaticon.com/512/959/959711.png",
+          "audio": "",
+          "example": "It is very windy today.",
+          "hint": "The air moves fast"
+        }
+      ]
+    },
+    {
+      "id": "weather-items",
+      "name": "Weather Items",
+      "name_vi": "Đồ dùng khi đi nắng/mưa",
+      "icon": "☂️",
+      "words": [
+        {
+          "word": "sunglasses",
+          "meaning": "kính râm",
+          "phonetic": "/ˈsʌnɡlæsɪz/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2589/2589267.png",
+          "audio": "",
+          "example": "I wear sunglasses on sunny days.",
+          "hint": "Wear on your eyes in bright sun"
+        },
+        {
+          "word": "hat",
+          "meaning": "mũ / nón",
+          "phonetic": "/hæt/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2589/2589254.png",
+          "audio": "",
+          "example": "She wears a hat in the sun.",
+          "hint": "Worn on your head"
+        },
+        {
+          "word": "umbrella",
+          "meaning": "ô / dù",
+          "phonetic": "/ʌmˈbrelə/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2589/2589276.png",
+          "audio": "",
+          "example": "Open your umbrella when it rains.",
+          "hint": "Held above your head in rain"
+        },
+        {
+          "word": "raincoat",
+          "meaning": "áo mưa",
+          "phonetic": "/ˈreɪnkoʊt/",
+          "image": "https://cdn-icons-png.flaticon.com/512/2589/2589281.png",
+          "audio": "",
+          "example": "He puts on his raincoat.",
+          "hint": "Waterproof jacket worn in rain"
+        }
+      ]
     }
   ]
 }
