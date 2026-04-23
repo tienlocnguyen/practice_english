@@ -636,3 +636,117 @@
     transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
 }
+
+/* ===== Per-topic exam CTA on topic pages ===== */
+.topic-exam-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 2px dashed var(--border);
+}
+
+.btn-exam-topic {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 2rem;
+    font-size: 1.05rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: var(--shadow);
+}
+
+.btn-exam-topic:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    color: white;
+}
+
+/* ===== Write question type in exam ===== */
+.exam-write-label {
+    font-size: 1rem;
+    color: var(--text-light);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.exam-write-meaning {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+    text-align: center;
+    padding: 0.8rem 1.5rem;
+    margin-bottom: 0.4rem;
+    background: linear-gradient(135deg, rgba(79,70,229,0.08), rgba(139,92,246,0.08));
+    border-radius: var(--radius);
+    border-left: 4px solid var(--primary);
+}
+
+.exam-write-phonetic {
+    text-align: center;
+    color: var(--text-light);
+    font-size: 0.95rem;
+    font-style: italic;
+    margin-bottom: 1.2rem;
+}
+
+.exam-write-row {
+    display: flex;
+    gap: 0.6rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.exam-write-input {
+    padding: 0.75rem 1.2rem;
+    border: 2px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-size: 1.15rem;
+    font-family: var(--font);
+    text-align: center;
+    min-width: 200px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.exam-write-input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+}
+
+.exam-write-input:disabled {
+    background: var(--bg);
+    color: var(--text-light);
+}
+
+.exam-write-feedback {
+    text-align: center;
+    margin-top: 0.8rem;
+    padding: 0.7rem 1.2rem;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    font-size: 1rem;
+    animation: fadeIn 0.25s ease-out;
+}
+
+@media (max-width: 480px) {
+    .exam-write-meaning {
+        font-size: 1.4rem;
+    }
+    .exam-write-input {
+        min-width: 150px;
+        font-size: 1rem;
+    }
+}

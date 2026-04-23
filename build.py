@@ -234,9 +234,10 @@ def generate_level_page(config, level_data, crossword_data, output_dir):
     with open(os.path.join(level_dir, 'index.html'), 'w', encoding='utf-8') as f:
         f.write(html)
 
-    # Generate topic pages
+    # Generate topic pages and per-topic exam pages
     for topic in level_data['topics']:
         generate_topic_page(topic, level_data, level_dir, base_url)
+        generate_topic_exam_page(topic, level_data, level_dir, base_url)
 
     # Generate game pages
     for game in games:
@@ -299,7 +300,8 @@ def generate_topic_page(topic, level_data, level_dir, base_url):
         {word_cards}
     </div>
 
-    <div class="back-link">
+    <div class="topic-exam-cta">
+        <a href="topic-exam-{topic['id']}.html" class="btn btn-exam-topic">📝 Kiểm tra chủ đề này</a>
         <a href="index.html" class="btn btn-secondary">← Quay lại</a>
     </div>
 </main>
@@ -452,7 +454,7 @@ def generate_exam_page(level_data, level_dir, base_url):
     total_questions = topic_count * questions_per_topic
 
     html = f"""{generate_head(f"Kiểm tra - {label}", base_url,
-        f'<link rel="stylesheet" href="{base_url}/css/games.css">')}
+        f'<link rel="stylesheet" href="{base_url}/css/games.css"><link rel="stylesheet" href="{base_url}/css/user-exam.css">')}
 <body>
 {generate_nav(base_url)}
 <main class="container">
@@ -466,8 +468,9 @@ def generate_exam_page(level_data, level_dir, base_url):
             <p>Kiểm tra từ vựng tất cả chủ đề trong bài học</p>
             <ul class="exam-info-list">
                 <li>📚 {topic_count} chủ đề</li>
-                <li>❓ {total_questions} câu hỏi ({questions_per_topic} câu/chủ đề)</li>
+                <li>❓ ~{total_questions} câu hỏi ({questions_per_topic} câu/chủ đề)</li>
                 <li>✅ Đạt: ≥ 70% mỗi chủ đề</li>
+                <li>✍️ Có câu điền từ tiếng Anh</li>
             </ul>
             <button class="btn btn-primary" onclick="startExam()" style="font-size:1.1rem;padding:0.8rem 2rem">▶️ Bắt đầu kiểm tra</button>
         </div>
@@ -489,11 +492,71 @@ const LEVEL_ID = "{lvl}";
 const TOPICS_DATA = {topics_json};
 </script>
 <script src="{base_url}/js/utils.js"></script>
+<script src="{base_url}/js/user.js"></script>
 <script src="{base_url}/js/exam.js"></script>
 </body>
 </html>"""
 
     with open(os.path.join(level_dir, 'exam.html'), 'w', encoding='utf-8') as f:
+        f.write(html)
+
+
+def generate_topic_exam_page(topic, level_data, level_dir, base_url):
+    """Generate a per-topic exam page that tests all words with mixed question types including writing."""
+    lvl = level_data['level']
+    label = level_data['label']
+    topic_json = json.dumps([topic], ensure_ascii=False)
+    word_count = len(topic['words'])
+
+    html = f"""{generate_head(f"Kiểm tra: {topic['name_vi']} - {label}", base_url,
+        f'<link rel="stylesheet" href="{base_url}/css/games.css"><link rel="stylesheet" href="{base_url}/css/user-exam.css">')}
+<body>
+{generate_nav(base_url)}
+<main class="container">
+    <div class="breadcrumb">
+        <a href="index.html">{label}</a> &gt;
+        <a href="topic-{topic['id']}.html">{topic['name_vi']}</a> &gt;
+        Kiểm tra
+    </div>
+
+    <div id="exam-intro" class="exam-intro">
+        <div class="exam-intro-card">
+            <h2>{topic['icon']} Kiểm tra: {topic['name_vi']}</h2>
+            <p>{topic['name']} — {label}</p>
+            <ul class="exam-info-list">
+                <li>📝 {word_count} từ vựng</li>
+                <li>❓ {word_count} câu hỏi (1 câu/từ)</li>
+                <li>✍️ Bao gồm câu điền từ tiếng Anh</li>
+                <li>✅ Đạt: ≥ 70%</li>
+            </ul>
+            <button class="btn btn-primary" onclick="startExam()" style="font-size:1.1rem;padding:0.8rem 2rem">▶️ Bắt đầu kiểm tra</button>
+            <br><br>
+            <a href="topic-{topic['id']}.html" class="btn btn-secondary">← Ôn lại từ vựng</a>
+        </div>
+    </div>
+
+    <div id="exam-area" style="display:none">
+        <div class="exam-progress-bar">
+            <span id="exam-progress-text">Câu 1/{word_count}</span>
+            <div class="progress-bar"><div class="progress-fill" id="exam-progress-fill"></div></div>
+        </div>
+        <div id="exam-question-area" class="game-area"></div>
+    </div>
+
+    <div id="exam-result" class="result-area" style="display:none"></div>
+</main>
+{generate_footer(base_url)}
+<script>
+const LEVEL_ID = "{lvl}";
+const TOPIC_EXAM_MODE = true;
+const TOPICS_DATA = {topic_json};
+</script>
+<script src="{base_url}/js/utils.js"></script>
+<script src="{base_url}/js/exam.js"></script>
+</body>
+</html>"""
+
+    with open(os.path.join(level_dir, f"topic-exam-{topic['id']}.html"), 'w', encoding='utf-8') as f:
         f.write(html)
 
 

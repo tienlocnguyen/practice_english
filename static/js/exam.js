@@ -12,12 +12,13 @@ var examState = {
     isActive: false
 };
 
-function buildExamQuestions(topicsData, questionsPerTopic) {
+function buildExamQuestions(topicsData, questionsPerTopic, includeWrite) {
     questionsPerTopic = questionsPerTopic || 3;
+    includeWrite = includeWrite !== false; /* default true */
     var questions = [];
     var allWords = getAllWords(topicsData);
-    /* 3 question types: 0=image→word, 1=meaning→word, 2=word→meaning */
-    var NUM_TYPES = 3;
+    /* Question types: 0=image→word, 1=meaning→word, 2=word→meaning, 3=meaning→write */
+    var NUM_TYPES = includeWrite ? 4 : 3;
 
     for (var t = 0; t < topicsData.length; t++) {
         var topic = topicsData[t];
@@ -51,7 +52,7 @@ function buildExamQuestions(topicsData, questionsPerTopic) {
                     correctAnswer: word.word,
                     options: shuffle([word.word].concat(wrongWords.map(function (w) { return w.word; })))
                 });
-            } else {
+            } else if (type === 2) {
                 /* Word → pick meaning */
                 questions.push({
                     topicId: topic.id,
@@ -62,6 +63,17 @@ function buildExamQuestions(topicsData, questionsPerTopic) {
                     correctAnswer: word.meaning,
                     options: shuffle([word.meaning].concat(wrongWords.map(function (w) { return w.meaning; })))
                 });
+            } else {
+                /* Meaning (Vietnamese) → type English word */
+                questions.push({
+                    topicId: topic.id,
+                    topicName: topic.name_vi,
+                    type: 'meaning-to-write',
+                    prompt: word.meaning,
+                    promptLabel: word.phonetic,
+                    correctAnswer: word.word,
+                    options: []
+                });
             }
         }
     }
@@ -69,12 +81,18 @@ function buildExamQuestions(topicsData, questionsPerTopic) {
 }
 
 function startExam() {
-    if (!UserSystem.getCurrentUser()) {
-        UserSystem.showLogin();
-        return;
+    /* Topic exam mode: skip login, use all words, include write type */
+    var isTopicMode = (typeof TOPIC_EXAM_MODE !== 'undefined') && TOPIC_EXAM_MODE;
+
+    if (!isTopicMode) {
+        if (!UserSystem.getCurrentUser()) {
+            UserSystem.showLogin();
+            return;
+        }
     }
 
-    var questions = buildExamQuestions(TOPICS_DATA, 3);
+    var qPerTopic = isTopicMode ? Math.max(TOPICS_DATA[0].words.length, 6) : 3;
+    var questions = buildExamQuestions(TOPICS_DATA, qPerTopic, true);
     examState = {
         questions: questions,
         currentIndex: 0,
@@ -130,6 +148,55 @@ function showExamQuestion() {
         promptDiv.className = 'exam-prompt-text';
         promptDiv.textContent = '\uD83D\uDCD6 ' + q.prompt;
         wrapper.appendChild(promptDiv);
+    } else if (q.type === 'meaning-to-write') {
+        /* Vietnamese meaning → type English word */
+        var writeLabel = document.createElement('p');
+        writeLabel.className = 'exam-write-label';
+        writeLabel.textContent = 'Viết từ tiếng Anh có nghĩa là:';
+        wrapper.appendChild(writeLabel);
+
+        var meaningBox = document.createElement('div');
+        meaningBox.className = 'exam-write-meaning';
+        meaningBox.textContent = q.prompt;
+        wrapper.appendChild(meaningBox);
+
+        if (q.promptLabel) {
+            var phoneticP = document.createElement('p');
+            phoneticP.className = 'exam-write-phonetic';
+            phoneticP.textContent = q.promptLabel;
+            wrapper.appendChild(phoneticP);
+        }
+
+        var writeRow = document.createElement('div');
+        writeRow.className = 'exam-write-row';
+
+        var writeInput = document.createElement('input');
+        writeInput.type = 'text';
+        writeInput.id = 'exam-write-input';
+        writeInput.className = 'exam-write-input';
+        writeInput.placeholder = 'Nhập từ tiếng Anh...';
+        writeInput.setAttribute('autocomplete', 'off');
+        writeInput.setAttribute('autocorrect', 'off');
+        writeInput.setAttribute('autocapitalize', 'off');
+        writeInput.setAttribute('spellcheck', 'false');
+
+        var writeBtn = document.createElement('button');
+        writeBtn.className = 'btn btn-primary';
+        writeBtn.textContent = '✅ Kiểm tra';
+
+        writeRow.appendChild(writeInput);
+        writeRow.appendChild(writeBtn);
+        wrapper.appendChild(writeRow);
+
+        while (area.firstChild) area.removeChild(area.firstChild);
+        area.appendChild(wrapper);
+
+        writeBtn.addEventListener('click', checkExamWrite);
+        writeInput.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter') checkExamWrite();
+        });
+        setTimeout(function () { writeInput.focus(); }, 80);
+        return; /* skip options grid for write type */
     } else {
         var wordDiv = document.createElement('div');
         wordDiv.className = 'question-word';
@@ -160,6 +227,51 @@ function showExamQuestion() {
             handleExamOptionClick(this);
         });
     });
+}
+
+function checkExamWrite() {
+    if (!examState.isActive) return;
+
+    var input = document.getElementById('exam-write-input');
+    if (!input) return;
+
+    var userAnswer = input.value.trim().toLowerCase();
+    var correct = examState.currentCorrect.trim().toLowerCase();
+
+    examState.isActive = false;
+    input.disabled = true;
+
+    var writeRow = input.parentElement;
+    var isCorrect = userAnswer === correct;
+
+    var feedback = document.createElement('div');
+    feedback.className = 'exam-write-feedback ' + (isCorrect ? 'vte-correct' : 'vte-wrong');
+
+    var q = examState.questions[examState.currentIndex];
+    if (isCorrect) {
+        feedback.innerHTML = '✅ Đúng rồi! <strong>' + escapeHtml(q.correctAnswer) + '</strong>';
+    } else {
+        feedback.innerHTML = '❌ Sai rồi! Đáp án đúng: <strong>' + escapeHtml(q.correctAnswer) + '</strong>'
+            + (userAnswer ? ' (bạn viết: <em>' + escapeHtml(input.value.trim()) + '</em>)' : '');
+    }
+    writeRow.insertAdjacentElement('afterend', feedback);
+
+    examState.answers.push({
+        topicId: q.topicId,
+        correct: isCorrect
+    });
+
+    setTimeout(function () {
+        examState.currentIndex++;
+        examState.isActive = true;
+        if (examState.currentIndex < examState.questions.length) {
+            updateExamProgress();
+            showExamQuestion();
+        } else {
+            examState.isActive = false;
+            showExamResult();
+        }
+    }, 1200);
 }
 
 function handleExamOptionClick(btn) {
