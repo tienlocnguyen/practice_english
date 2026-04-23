@@ -40,7 +40,7 @@ function initGameRound() {
 
     area.innerHTML = `
         <div class="guess-area animate-fadeIn">
-            <img src="${escapeHtml(currentWord.image)}" alt="?" style="width:80px;height:80px;object-fit:contain;margin:0 auto 1rem;display:block;filter:blur(15px);transition:filter 0.5s;" id="guess-img" loading="lazy">
+            <div id="guess-img" style="font-size:80px;line-height:1;text-align:center;margin:0 auto 1rem;filter:blur(15px);transition:filter 0.5s;user-select:none">${escapeHtml(currentWord.image)}</div>
             <ul class="hint-list">${hintsHtml}</ul>
             <div class="guess-input-area">
                 <input type="text" class="guess-input" id="guess-input" placeholder="Nhập từ..." onkeyup="if(event.key==='Enter')submitGuess()">

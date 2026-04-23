@@ -3,7 +3,7 @@
   "site_name_vi": "Luyện Tiếng Anh",
   "description": "Mini games to practice English vocabulary for Vietnamese students",
   "base_url": "",
-  "levels": ["data/level1.json", "data/level3.json", "data/level5.json"],
+  "levels": ["data/level1.json", "data/level3.json", "data/level5.json", "data/levelA.json", "data/levelB.json", "data/levelC.json", "data/leveltoefl.json"],
   "crosswords": "data/crosswords.json",
   "output_dir": "docs",
   "games": [

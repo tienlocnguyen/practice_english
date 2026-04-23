@@ -1,0 +1,1671 @@
+{
+  "level": "B",
+  "label": "CEFR B1-B2",
+  "description": "Từ vựng tiếng Anh trung cấp theo chuẩn CEFR B1-B2 — 160 từ / ~3000 từ cần thiết",
+  "topics": [
+    {
+      "id": "technology",
+      "name": "Technology",
+      "name_vi": "Công nghệ",
+      "icon": "💻",
+      "words": [
+        {
+          "word": "computer",
+          "meaning": "máy tính (danh từ)",
+          "phonetic": "/kəmˈpjuːtər/",
+          "image": "🖥️",
+          "audio": "",
+          "example": "She uses her computer to do research for school.",
+          "example_vi": "Cô ấy sử dụng máy tính để nghiên cứu cho trường học.",
+          "hint": "An electronic device for storing and processing data"
+        },
+        {
+          "word": "internet",
+          "meaning": "mạng internet (danh từ)",
+          "phonetic": "/ˈɪntərˌnɛt/",
+          "image": "🌐",
+          "audio": "",
+          "example": "The internet has changed the way we communicate.",
+          "example_vi": "Internet đã thay đổi cách chúng ta giao tiếp.",
+          "hint": "A global network connecting millions of computers"
+        },
+        {
+          "word": "smartphone",
+          "meaning": "điện thoại thông minh (danh từ)",
+          "phonetic": "/ˈsmɑːrtfoʊn/",
+          "image": "📱",
+          "audio": "",
+          "example": "Most people carry a smartphone everywhere they go.",
+          "example_vi": "Hầu hết mọi người mang theo điện thoại thông minh mọi nơi họ đến.",
+          "hint": "A mobile phone with advanced computing capabilities"
+        },
+        {
+          "word": "software",
+          "meaning": "phần mềm (danh từ)",
+          "phonetic": "/ˈsɔːftwɛr/",
+          "image": "💿",
+          "audio": "",
+          "example": "We need to install new software on the office computers.",
+          "example_vi": "Chúng tôi cần cài đặt phần mềm mới trên các máy tính văn phòng.",
+          "hint": "Programs and applications that run on a computer"
+        },
+        {
+          "word": "website",
+          "meaning": "trang web (danh từ)",
+          "phonetic": "/ˈwɛbˌsaɪt/",
+          "image": "🔗",
+          "audio": "",
+          "example": "The company launched a new website last week.",
+          "example_vi": "Công ty đã ra mắt một trang web mới vào tuần trước.",
+          "hint": "A collection of web pages on the internet"
+        },
+        {
+          "word": "download",
+          "meaning": "tải xuống (động từ) — lấy dữ liệu từ internet về thiết bị",
+          "phonetic": "/ˈdaʊnloʊd/",
+          "image": "⬇️",
+          "audio": "",
+          "example": "I need to download the latest update.",
+          "example_vi": "Tôi cần tải xuống bản cập nhật mới nhất.",
+          "hint": "To transfer data from the internet to a device"
+        },
+        {
+          "word": "upload",
+          "meaning": "tải lên (động từ) — gửi dữ liệu từ thiết bị lên internet",
+          "phonetic": "/ˈʌploʊd/",
+          "image": "⬆️",
+          "audio": "",
+          "example": "Please upload your photos to the shared folder.",
+          "example_vi": "Vui lòng tải ảnh của bạn lên thư mục chia sẻ.",
+          "hint": "To transfer data from a device to the internet"
+        },
+        {
+          "word": "password",
+          "meaning": "mật khẩu (danh từ)",
+          "phonetic": "/ˈpæsˌwɜːrd/",
+          "image": "🔑",
+          "audio": "",
+          "example": "You should change your password regularly for security.",
+          "example_vi": "Bạn nên thay đổi mật khẩu thường xuyên để bảo mật.",
+          "hint": "A secret word or phrase used to access an account"
+        },
+        {
+          "word": "email",
+          "meaning": "thư điện tử (danh từ)",
+          "phonetic": "/ˈiːmeɪl/",
+          "image": "📧",
+          "audio": "",
+          "example": "I sent an email to my professor about the assignment.",
+          "example_vi": "Tôi đã gửi một email cho giáo sư về bài tập.",
+          "hint": "Electronic messages sent over the internet"
+        },
+        {
+          "word": "keyboard",
+          "meaning": "bàn phím (danh từ)",
+          "phonetic": "/ˈkiːbɔːrd/",
+          "image": "⌨️",
+          "audio": "",
+          "example": "He types very fast on the keyboard.",
+          "example_vi": "Anh ấy gõ rất nhanh trên bàn phím.",
+          "hint": "An input device with keys for typing"
+        },
+        {
+          "word": "screen",
+          "meaning": "màn hình (danh từ)",
+          "phonetic": "/skriːn/",
+          "image": "🖵",
+          "audio": "",
+          "example": "Staring at a screen for too long can hurt your eyes.",
+          "example_vi": "Nhìn chằm chằm vào màn hình quá lâu có thể làm đau mắt.",
+          "hint": "The flat surface of a device that displays images"
+        },
+        {
+          "word": "device",
+          "meaning": "thiết bị (danh từ)",
+          "phonetic": "/dɪˈvaɪs/",
+          "image": "📲",
+          "audio": "",
+          "example": "This device can connect to the internet wirelessly.",
+          "example_vi": "Thiết bị này có thể kết nối internet không dây.",
+          "hint": "A piece of electronic equipment designed for a purpose"
+        },
+        {
+          "word": "database",
+          "meaning": "cơ sở dữ liệu (danh từ)",
+          "phonetic": "/ˈdeɪtəˌbeɪs/",
+          "image": "🗄️",
+          "audio": "",
+          "example": "The company stores all customer information in a secure database.",
+          "example_vi": "Công ty lưu trữ tất cả thông tin khách hàng trong một cơ sở dữ liệu an toàn.",
+          "hint": "An organized collection of data stored electronically"
+        },
+        {
+          "word": "algorithm",
+          "meaning": "thuật toán (danh từ)",
+          "phonetic": "/ˈælɡərɪðəm/",
+          "image": "🔢",
+          "audio": "",
+          "example": "Social media platforms use algorithms to suggest content you might like.",
+          "example_vi": "Các nền tảng mạng xã hội sử dụng thuật toán để gợi ý nội dung bạn có thể thích.",
+          "hint": "A set of rules or steps used to solve a problem"
+        },
+        {
+          "word": "browser",
+          "meaning": "trình duyệt (danh từ)",
+          "phonetic": "/ˈbraʊzər/",
+          "image": "🌍",
+          "audio": "",
+          "example": "You can open multiple tabs in your browser at the same time.",
+          "example_vi": "Bạn có thể mở nhiều tab trong trình duyệt cùng một lúc.",
+          "hint": "A program used to access and view websites"
+        },
+        {
+          "word": "server",
+          "meaning": "máy chủ (danh từ)",
+          "phonetic": "/ˈsɜːrvər/",
+          "image": "🖧",
+          "audio": "",
+          "example": "The website crashed because the server was overloaded with traffic.",
+          "example_vi": "Trang web bị sập vì máy chủ bị quá tải lưu lượng truy cập.",
+          "hint": "A computer that provides data or services to other computers"
+        },
+        {
+          "word": "malware",
+          "meaning": "phần mềm độc hại (danh từ)",
+          "phonetic": "/ˈmælwɛr/",
+          "image": "🦠",
+          "audio": "",
+          "example": "You should install antivirus software to protect your computer from malware.",
+          "example_vi": "Bạn nên cài đặt phần mềm diệt virus để bảo vệ máy tính khỏi phần mềm độc hại.",
+          "hint": "Software designed to damage or gain unauthorized access to a system"
+        },
+        {
+          "word": "bandwidth",
+          "meaning": "băng thông (danh từ)",
+          "phonetic": "/ˈbændwɪdθ/",
+          "image": "📶",
+          "audio": "",
+          "example": "Streaming videos in high quality requires a lot of bandwidth.",
+          "example_vi": "Phát trực tuyến video chất lượng cao đòi hỏi nhiều băng thông.",
+          "hint": "The maximum amount of data that can be transmitted over a network"
+        },
+        {
+          "word": "encryption",
+          "meaning": "mã hóa (danh từ)",
+          "phonetic": "/ɪnˈkrɪpʃən/",
+          "image": "🔐",
+          "audio": "",
+          "example": "Encryption keeps your personal messages safe from hackers.",
+          "example_vi": "Mã hóa giữ cho tin nhắn cá nhân của bạn an toàn khỏi tin tặc.",
+          "hint": "The process of converting information into a secret code"
+        },
+        {
+          "word": "application",
+          "meaning": "ứng dụng (danh từ)",
+          "phonetic": "/ˌæplɪˈkeɪʃən/",
+          "image": "📲",
+          "audio": "",
+          "example": "I downloaded a new application to help me learn English vocabulary.",
+          "example_vi": "Tôi đã tải xuống một ứng dụng mới để giúp tôi học từ vựng tiếng Anh.",
+          "hint": "A program designed for a specific purpose on a device"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "name": "Health & Medicine",
+      "name_vi": "Sức khỏe & Y tế",
+      "icon": "🏥",
+      "words": [
+        {
+          "word": "hospital",
+          "meaning": "bệnh viện (danh từ)",
+          "phonetic": "/ˈhɑːspɪtl/",
+          "image": "🏥",
+          "audio": "",
+          "example": "She was taken to the hospital after the accident.",
+          "example_vi": "Cô ấy được đưa đến bệnh viện sau vụ tai nạn.",
+          "hint": "A place where sick or injured people receive medical care"
+        },
+        {
+          "word": "medicine",
+          "meaning": "thuốc (danh từ)",
+          "phonetic": "/ˈmɛdɪsɪn/",
+          "image": "💊",
+          "audio": "",
+          "example": "The doctor prescribed medicine for her cough.",
+          "example_vi": "Bác sĩ đã kê thuốc cho cơn ho của cô ấy.",
+          "hint": "A substance used to treat illness or injury"
+        },
+        {
+          "word": "fever",
+          "meaning": "sốt (danh từ)",
+          "phonetic": "/ˈfiːvər/",
+          "image": "🤒",
+          "audio": "",
+          "example": "He stayed home because he had a high fever.",
+          "example_vi": "Anh ấy ở nhà vì bị sốt cao.",
+          "hint": "An abnormally high body temperature"
+        },
+        {
+          "word": "headache",
+          "meaning": "đau đầu (danh từ)",
+          "phonetic": "/ˈhɛdeɪk/",
+          "image": "🤕",
+          "audio": "",
+          "example": "I have a terrible headache and need to rest.",
+          "example_vi": "Tôi bị đau đầu kinh khủng và cần nghỉ ngơi.",
+          "hint": "A pain in the head"
+        },
+        {
+          "word": "dentist",
+          "meaning": "nha sĩ (danh từ)",
+          "phonetic": "/ˈdɛntɪst/",
+          "image": "🦷",
+          "audio": "",
+          "example": "I visit the dentist twice a year for a checkup.",
+          "example_vi": "Tôi đến nha sĩ hai lần một năm để kiểm tra.",
+          "hint": "A doctor who specializes in teeth and oral health"
+        },
+        {
+          "word": "symptom",
+          "meaning": "triệu chứng (danh từ)",
+          "phonetic": "/ˈsɪmptəm/",
+          "image": "🩺",
+          "audio": "",
+          "example": "A sore throat is a common symptom of the flu.",
+          "example_vi": "Đau họng là một triệu chứng phổ biến của cúm.",
+          "hint": "A sign that indicates a disease or condition"
+        },
+        {
+          "word": "treatment",
+          "meaning": "điều trị (danh từ)",
+          "phonetic": "/ˈtriːtmənt/",
+          "image": "💉",
+          "audio": "",
+          "example": "The patient is responding well to the treatment.",
+          "example_vi": "Bệnh nhân đang đáp ứng tốt với quá trình điều trị.",
+          "hint": "Medical care given to a patient for an illness"
+        },
+        {
+          "word": "pharmacy",
+          "meaning": "nhà thuốc (danh từ)",
+          "phonetic": "/ˈfɑːrməsi/",
+          "image": "💊",
+          "audio": "",
+          "example": "You can buy the medicine at any pharmacy.",
+          "example_vi": "Bạn có thể mua thuốc tại bất kỳ nhà thuốc nào.",
+          "hint": "A store where medicines are sold"
+        },
+        {
+          "word": "infection",
+          "meaning": "nhiễm trùng (danh từ)",
+          "phonetic": "/ɪnˈfɛkʃən/",
+          "image": "🦠",
+          "audio": "",
+          "example": "Washing your hands helps prevent infection.",
+          "example_vi": "Rửa tay giúp ngăn ngừa nhiễm trùng.",
+          "hint": "The invasion of the body by harmful organisms"
+        },
+        {
+          "word": "surgery",
+          "meaning": "phẫu thuật (danh từ)",
+          "phonetic": "/ˈsɜːrdʒəri/",
+          "image": "🔪",
+          "audio": "",
+          "example": "He had surgery on his knee last month.",
+          "example_vi": "Anh ấy đã phẫu thuật đầu gối vào tháng trước.",
+          "hint": "A medical procedure involving cutting into the body"
+        },
+        {
+          "word": "recovery",
+          "meaning": "sự hồi phục (danh từ)",
+          "phonetic": "/rɪˈkʌvəri/",
+          "image": "🩹",
+          "audio": "",
+          "example": "Her recovery from the illness took several weeks.",
+          "example_vi": "Sự hồi phục của cô ấy sau bệnh mất vài tuần.",
+          "hint": "The process of becoming healthy again after illness"
+        },
+        {
+          "word": "prescription",
+          "meaning": "đơn thuốc (danh từ)",
+          "phonetic": "/prɪˈskrɪpʃən/",
+          "image": "📋",
+          "audio": "",
+          "example": "You need a prescription from the doctor to buy this drug.",
+          "example_vi": "Bạn cần đơn thuốc từ bác sĩ để mua loại thuốc này.",
+          "hint": "A written order from a doctor for medicine"
+        },
+        {
+          "word": "allergy",
+          "meaning": "dị ứng (danh từ)",
+          "phonetic": "/ˈælədʒi/",
+          "image": "🤧",
+          "audio": "",
+          "example": "She has a severe allergy to peanuts and must avoid them completely.",
+          "example_vi": "Cô ấy bị dị ứng nặng với đậu phộng và phải tránh chúng hoàn toàn.",
+          "hint": "A harmful immune response to a normally harmless substance"
+        },
+        {
+          "word": "vaccine",
+          "meaning": "vắc-xin (danh từ)",
+          "phonetic": "/vækˈsiːn/",
+          "image": "💉",
+          "audio": "",
+          "example": "The vaccine helped protect millions of people from the disease.",
+          "example_vi": "Vắc-xin đã giúp bảo vệ hàng triệu người khỏi bệnh.",
+          "hint": "A substance that stimulates the body's immune response"
+        },
+        {
+          "word": "diagnosis",
+          "meaning": "chẩn đoán (danh từ)",
+          "phonetic": "/ˌdaɪəɡˈnoʊsɪs/",
+          "image": "🔍",
+          "audio": "",
+          "example": "The doctor made a diagnosis after examining the patient carefully.",
+          "example_vi": "Bác sĩ đã đưa ra chẩn đoán sau khi khám bệnh nhân cẩn thận.",
+          "hint": "The identification of a disease or condition through examination"
+        },
+        {
+          "word": "therapy",
+          "meaning": "liệu pháp (danh từ)",
+          "phonetic": "/ˈθɛrəpi/",
+          "image": "🧘",
+          "audio": "",
+          "example": "Physical therapy helped him recover after his knee surgery.",
+          "example_vi": "Vật lý trị liệu đã giúp anh ấy hồi phục sau phẫu thuật đầu gối.",
+          "hint": "Treatment intended to heal or relieve a disorder"
+        },
+        {
+          "word": "nutrition",
+          "meaning": "dinh dưỡng (danh từ)",
+          "phonetic": "/nuːˈtrɪʃən/",
+          "image": "🥗",
+          "audio": "",
+          "example": "Good nutrition is essential for maintaining a healthy body and mind.",
+          "example_vi": "Dinh dưỡng tốt là điều cần thiết để duy trì cơ thể và tinh thần khỏe mạnh.",
+          "hint": "The process of taking in food and using it for growth and health"
+        },
+        {
+          "word": "obesity",
+          "meaning": "béo phì (danh từ)",
+          "phonetic": "/oʊˈbiːsəti/",
+          "image": "⚖️",
+          "audio": "",
+          "example": "Obesity increases the risk of heart disease and diabetes.",
+          "example_vi": "Béo phì làm tăng nguy cơ mắc bệnh tim và tiểu đường.",
+          "hint": "The condition of being extremely overweight"
+        },
+        {
+          "word": "antibiotic",
+          "meaning": "kháng sinh (danh từ)",
+          "phonetic": "/ˌæntibaɪˈɑːtɪk/",
+          "image": "💊",
+          "audio": "",
+          "example": "The doctor prescribed an antibiotic to treat the bacterial infection.",
+          "example_vi": "Bác sĩ đã kê đơn kháng sinh để điều trị nhiễm trùng do vi khuẩn.",
+          "hint": "A medicine that destroys or slows the growth of bacteria"
+        },
+        {
+          "word": "rehabilitation",
+          "meaning": "phục hồi chức năng (danh từ)",
+          "phonetic": "/ˌriːəˌbɪlɪˈteɪʃən/",
+          "image": "🏥",
+          "audio": "",
+          "example": "After the accident, she spent three months in rehabilitation.",
+          "example_vi": "Sau vụ tai nạn, cô ấy đã dành ba tháng để phục hồi chức năng.",
+          "hint": "The process of restoring health or normal life through training and therapy"
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "name": "Travel & Tourism",
+      "name_vi": "Du lịch",
+      "icon": "✈️",
+      "words": [
+        {
+          "word": "passport",
+          "meaning": "hộ chiếu (danh từ)",
+          "phonetic": "/ˈpæspɔːrt/",
+          "image": "🛂",
+          "audio": "",
+          "example": "Make sure your passport is valid before you travel.",
+          "example_vi": "Hãy chắc chắn hộ chiếu của bạn còn hạn trước khi đi du lịch.",
+          "hint": "An official document for international travel"
+        },
+        {
+          "word": "luggage",
+          "meaning": "hành lý (danh từ)",
+          "phonetic": "/ˈlʌɡɪdʒ/",
+          "image": "🧳",
+          "audio": "",
+          "example": "Please keep your luggage with you at all times.",
+          "example_vi": "Vui lòng giữ hành lý bên mình mọi lúc.",
+          "hint": "Bags and suitcases used when traveling"
+        },
+        {
+          "word": "reservation",
+          "meaning": "sự đặt chỗ (danh từ)",
+          "phonetic": "/ˌrɛzərˈveɪʃən/",
+          "image": "📅",
+          "audio": "",
+          "example": "I made a reservation at the restaurant for tonight.",
+          "example_vi": "Tôi đã đặt chỗ tại nhà hàng cho tối nay.",
+          "hint": "An arrangement to have something kept for you"
+        },
+        {
+          "word": "destination",
+          "meaning": "điểm đến (danh từ)",
+          "phonetic": "/ˌdɛstɪˈneɪʃən/",
+          "image": "📍",
+          "audio": "",
+          "example": "Paris is one of the most popular tourist destinations in the world.",
+          "example_vi": "Paris là một trong những điểm đến du lịch phổ biến nhất thế giới.",
+          "hint": "The place where someone is going"
+        },
+        {
+          "word": "tourist",
+          "meaning": "khách du lịch (danh từ)",
+          "phonetic": "/ˈtʊrɪst/",
+          "image": "🧑‍🦰",
+          "audio": "",
+          "example": "The city attracts millions of tourists every year.",
+          "example_vi": "Thành phố thu hút hàng triệu khách du lịch mỗi năm.",
+          "hint": "A person who visits a place for pleasure"
+        },
+        {
+          "word": "flight",
+          "meaning": "chuyến bay (danh từ)",
+          "phonetic": "/flaɪt/",
+          "image": "✈️",
+          "audio": "",
+          "example": "Our flight to London departs at 8 a.m.",
+          "example_vi": "Chuyến bay của chúng tôi đến London khởi hành lúc 8 giờ sáng.",
+          "hint": "A journey by airplane"
+        },
+        {
+          "word": "hotel",
+          "meaning": "khách sạn (danh từ)",
+          "phonetic": "/hoʊˈtɛl/",
+          "image": "🏨",
+          "audio": "",
+          "example": "We booked a hotel near the beach for our vacation.",
+          "example_vi": "Chúng tôi đã đặt một khách sạn gần bãi biển cho kỳ nghỉ.",
+          "hint": "A building that provides rooms for travelers"
+        },
+        {
+          "word": "souvenir",
+          "meaning": "quà lưu niệm (danh từ)",
+          "phonetic": "/ˌsuːvəˈnɪr/",
+          "image": "🎁",
+          "audio": "",
+          "example": "She bought a souvenir magnet from every country she visited.",
+          "example_vi": "Cô ấy mua một nam châm lưu niệm từ mỗi quốc gia cô đến thăm.",
+          "hint": "An item bought to remember a place or trip"
+        },
+        {
+          "word": "departure",
+          "meaning": "sự khởi hành (danh từ)",
+          "phonetic": "/dɪˈpɑːrtʃər/",
+          "image": "🛫",
+          "audio": "",
+          "example": "The departure time has been changed to 3 p.m.",
+          "example_vi": "Giờ khởi hành đã được đổi sang 3 giờ chiều.",
+          "hint": "The act of leaving a place"
+        },
+        {
+          "word": "arrival",
+          "meaning": "sự đến nơi (danh từ)",
+          "phonetic": "/əˈraɪvəl/",
+          "image": "🛬",
+          "audio": "",
+          "example": "Upon arrival at the airport, we went through security.",
+          "example_vi": "Khi đến sân bay, chúng tôi đã đi qua cổng an ninh.",
+          "hint": "The act of reaching a destination"
+        },
+        {
+          "word": "customs",
+          "meaning": "hải quan (danh từ)",
+          "phonetic": "/ˈkʌstəmz/",
+          "image": "🛃",
+          "audio": "",
+          "example": "We had to declare our goods at customs.",
+          "example_vi": "Chúng tôi phải khai báo hàng hóa tại hải quan.",
+          "hint": "The government department that checks goods entering a country"
+        },
+        {
+          "word": "currency",
+          "meaning": "tiền tệ (danh từ)",
+          "phonetic": "/ˈkɜːrənsi/",
+          "image": "💱",
+          "audio": "",
+          "example": "You should exchange currency before your trip.",
+          "example_vi": "Bạn nên đổi tiền trước chuyến đi.",
+          "hint": "The system of money used in a country"
+        },
+        {
+          "word": "itinerary",
+          "meaning": "lịch trình (danh từ)",
+          "phonetic": "/aɪˈtɪnəreri/",
+          "image": "🗓️",
+          "audio": "",
+          "example": "We planned a detailed itinerary for our trip across Europe.",
+          "example_vi": "Chúng tôi đã lên lịch trình chi tiết cho chuyến đi xuyên châu Âu.",
+          "hint": "A planned route or schedule for a journey"
+        },
+        {
+          "word": "expedition",
+          "meaning": "cuộc thám hiểm (danh từ)",
+          "phonetic": "/ˌɛkspəˈdɪʃən/",
+          "image": "🧭",
+          "audio": "",
+          "example": "The scientists organized an expedition to explore the Amazon rainforest.",
+          "example_vi": "Các nhà khoa học đã tổ chức một cuộc thám hiểm để khám phá rừng nhiệt đới Amazon.",
+          "hint": "A journey undertaken for a specific purpose, often exploration"
+        },
+        {
+          "word": "cruise",
+          "meaning": "du thuyền (danh từ)",
+          "phonetic": "/kruːz/",
+          "image": "🚢",
+          "audio": "",
+          "example": "They went on a cruise around the Mediterranean Sea last summer.",
+          "example_vi": "Họ đã đi du thuyền quanh Biển Địa Trung Hải vào mùa hè năm ngoái.",
+          "hint": "A voyage on a ship for pleasure, visiting several places"
+        },
+        {
+          "word": "layover",
+          "meaning": "quá cảnh (danh từ)",
+          "phonetic": "/ˈleɪˌoʊvər/",
+          "image": "⏳",
+          "audio": "",
+          "example": "We had a six-hour layover in Singapore before our next flight.",
+          "example_vi": "Chúng tôi có sáu giờ quá cảnh ở Singapore trước chuyến bay tiếp theo.",
+          "hint": "A short stay between two parts of a journey"
+        },
+        {
+          "word": "embassy",
+          "meaning": "đại sứ quán (danh từ)",
+          "phonetic": "/ˈɛmbəsi/",
+          "image": "🏛️",
+          "audio": "",
+          "example": "You need to visit the embassy to apply for a travel visa.",
+          "example_vi": "Bạn cần đến đại sứ quán để xin thị thực du lịch.",
+          "hint": "The official residence or office of an ambassador in a foreign country"
+        },
+        {
+          "word": "excursion",
+          "meaning": "chuyến tham quan (danh từ)",
+          "phonetic": "/ɪkˈskɜːrʒən/",
+          "image": "🚌",
+          "audio": "",
+          "example": "The hotel offers daily excursions to nearby historical sites.",
+          "example_vi": "Khách sạn cung cấp các chuyến tham quan hàng ngày đến các di tích lịch sử gần đó.",
+          "hint": "A short trip taken for pleasure or education"
+        },
+        {
+          "word": "backpacking",
+          "meaning": "du lịch bụi (danh từ)",
+          "phonetic": "/ˈbækˌpækɪŋ/",
+          "image": "🎒",
+          "audio": "",
+          "example": "Backpacking through Southeast Asia is popular among young travelers.",
+          "example_vi": "Du lịch bụi qua Đông Nam Á rất phổ biến trong giới trẻ.",
+          "hint": "Traveling cheaply with only a backpack for luggage"
+        },
+        {
+          "word": "accommodation",
+          "meaning": "chỗ ở (danh từ)",
+          "phonetic": "/əˌkɑːməˈdeɪʃən/",
+          "image": "🏨",
+          "audio": "",
+          "example": "We booked our accommodation online before arriving at the destination.",
+          "example_vi": "Chúng tôi đã đặt chỗ ở trực tuyến trước khi đến điểm đến.",
+          "hint": "A place to stay, such as a hotel or rental apartment"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "name": "Environment",
+      "name_vi": "Môi trường",
+      "icon": "🌍",
+      "words": [
+        {
+          "word": "pollution",
+          "meaning": "ô nhiễm (danh từ)",
+          "phonetic": "/pəˈluːʃən/",
+          "image": "🏭",
+          "audio": "",
+          "example": "Air pollution is a serious problem in many big cities.",
+          "example_vi": "Ô nhiễm không khí là một vấn đề nghiêm trọng ở nhiều thành phố lớn.",
+          "hint": "Harmful substances released into the environment"
+        },
+        {
+          "word": "recycle",
+          "meaning": "tái chế (động từ) — xử lý rác thải để sử dụng lại",
+          "phonetic": "/riːˈsaɪkəl/",
+          "image": "♻️",
+          "audio": "",
+          "example": "We should recycle paper, plastic, and glass.",
+          "example_vi": "Chúng ta nên tái chế giấy, nhựa và thủy tinh.",
+          "hint": "To process waste materials so they can be used again"
+        },
+        {
+          "word": "climate",
+          "meaning": "khí hậu (danh từ)",
+          "phonetic": "/ˈklaɪmɪt/",
+          "image": "🌡️",
+          "audio": "",
+          "example": "Climate change is affecting weather patterns around the world.",
+          "example_vi": "Biến đổi khí hậu đang ảnh hưởng đến các kiểu thời tiết trên toàn thế giới.",
+          "hint": "The general weather conditions of an area over a long period"
+        },
+        {
+          "word": "endangered",
+          "meaning": "có nguy cơ tuyệt chủng (tính từ) — loài động thực vật đang bị đe dọa biến mất",
+          "phonetic": "/ɪnˈdeɪndʒərd/",
+          "image": "🐼",
+          "audio": "",
+          "example": "The giant panda is an endangered species.",
+          "example_vi": "Gấu trúc lớn là một loài có nguy cơ tuyệt chủng.",
+          "hint": "At risk of becoming extinct"
+        },
+        {
+          "word": "conservation",
+          "meaning": "sự bảo tồn (danh từ)",
+          "phonetic": "/ˌkɑːnsərˈveɪʃən/",
+          "image": "🌿",
+          "audio": "",
+          "example": "Conservation efforts have helped protect many forests.",
+          "example_vi": "Các nỗ lực bảo tồn đã giúp bảo vệ nhiều khu rừng.",
+          "hint": "The protection of natural resources and wildlife"
+        },
+        {
+          "word": "renewable",
+          "meaning": "tái tạo được (tính từ) — nguồn năng lượng có thể bổ sung tự nhiên",
+          "phonetic": "/rɪˈnuːəbəl/",
+          "image": "☀️",
+          "audio": "",
+          "example": "Solar and wind power are renewable energy sources.",
+          "example_vi": "Năng lượng mặt trời và gió là các nguồn năng lượng tái tạo.",
+          "hint": "A resource that is naturally replenished"
+        },
+        {
+          "word": "ecosystem",
+          "meaning": "hệ sinh thái (danh từ)",
+          "phonetic": "/ˈiːkoʊˌsɪstəm/",
+          "image": "🌳",
+          "audio": "",
+          "example": "Coral reefs are complex ecosystems that support many species.",
+          "example_vi": "Rạn san hô là hệ sinh thái phức tạp hỗ trợ nhiều loài.",
+          "hint": "A community of living organisms in their environment"
+        },
+        {
+          "word": "wildlife",
+          "meaning": "động vật hoang dã (danh từ)",
+          "phonetic": "/ˈwaɪldlaɪf/",
+          "image": "🦁",
+          "audio": "",
+          "example": "The national park is home to a variety of wildlife.",
+          "example_vi": "Vườn quốc gia là nơi sinh sống của nhiều loài động vật hoang dã.",
+          "hint": "Animals and plants living in their natural habitat"
+        },
+        {
+          "word": "drought",
+          "meaning": "hạn hán (danh từ)",
+          "phonetic": "/draʊt/",
+          "image": "🏜️",
+          "audio": "",
+          "example": "The drought destroyed crops across the region.",
+          "example_vi": "Hạn hán đã phá hủy mùa màng khắp vùng.",
+          "hint": "A long period with little or no rain"
+        },
+        {
+          "word": "flood",
+          "meaning": "lũ lụt (danh từ)",
+          "phonetic": "/flʌd/",
+          "image": "🌊",
+          "audio": "",
+          "example": "Heavy rain caused a severe flood in the valley.",
+          "example_vi": "Mưa lớn gây ra lũ lụt nghiêm trọng trong thung lũng.",
+          "hint": "An overflow of water onto normally dry land"
+        },
+        {
+          "word": "deforestation",
+          "meaning": "nạn phá rừng (danh từ)",
+          "phonetic": "/diːˌfɔːrɪˈsteɪʃən/",
+          "image": "🪓",
+          "audio": "",
+          "example": "Deforestation is one of the main causes of climate change.",
+          "example_vi": "Phá rừng là một trong những nguyên nhân chính của biến đổi khí hậu.",
+          "hint": "The clearing of forests on a large scale"
+        },
+        {
+          "word": "carbon",
+          "meaning": "carbon (danh từ)",
+          "phonetic": "/ˈkɑːrbən/",
+          "image": "💨",
+          "audio": "",
+          "example": "We need to reduce our carbon emissions to fight global warming.",
+          "example_vi": "Chúng ta cần giảm lượng phát thải carbon để chống lại sự nóng lên toàn cầu.",
+          "hint": "A chemical element found in all living things and fossil fuels"
+        },
+        {
+          "word": "ozone",
+          "meaning": "tầng ô-zôn (danh từ)",
+          "phonetic": "/ˈoʊzoʊn/",
+          "image": "🛡️",
+          "audio": "",
+          "example": "The ozone layer protects the Earth from harmful ultraviolet radiation.",
+          "example_vi": "Tầng ô-zôn bảo vệ Trái Đất khỏi bức xạ tia cực tím có hại.",
+          "hint": "A layer of gas in the atmosphere that blocks UV rays"
+        },
+        {
+          "word": "greenhouse",
+          "meaning": "nhà kính / hiệu ứng nhà kính (danh từ)",
+          "phonetic": "/ˈɡriːnhaʊs/",
+          "image": "🏠",
+          "audio": "",
+          "example": "Greenhouse gases trap heat in the atmosphere and cause global warming.",
+          "example_vi": "Khí nhà kính giữ nhiệt trong bầu khí quyển và gây ra hiện tượng nóng lên toàn cầu.",
+          "hint": "A glass building for growing plants, or gases that trap heat"
+        },
+        {
+          "word": "pesticide",
+          "meaning": "thuốc trừ sâu (danh từ)",
+          "phonetic": "/ˈpɛstɪˌsaɪd/",
+          "image": "🧴",
+          "audio": "",
+          "example": "Farmers use pesticides to protect their crops from insects and diseases.",
+          "example_vi": "Nông dân sử dụng thuốc trừ sâu để bảo vệ mùa màng khỏi côn trùng và bệnh tật.",
+          "hint": "A chemical substance used to kill pests that damage plants"
+        },
+        {
+          "word": "landfill",
+          "meaning": "bãi chôn lấp rác (danh từ)",
+          "phonetic": "/ˈlændfɪl/",
+          "image": "🗑️",
+          "audio": "",
+          "example": "Reducing waste can help prevent landfills from growing too large.",
+          "example_vi": "Giảm thiểu rác thải có thể giúp ngăn các bãi chôn lấp rác mở rộng quá lớn.",
+          "hint": "A site where waste is buried under the ground"
+        },
+        {
+          "word": "compost",
+          "meaning": "phân hữu cơ (danh từ)",
+          "phonetic": "/ˈkɑːmpoʊst/",
+          "image": "🌱",
+          "audio": "",
+          "example": "We turn our kitchen scraps into compost for the garden.",
+          "example_vi": "Chúng tôi biến rác thải nhà bếp thành phân hữu cơ cho khu vườn.",
+          "hint": "Decayed organic material used as fertilizer for plants"
+        },
+        {
+          "word": "biodegradable",
+          "meaning": "có thể phân hủy sinh học (tính từ)",
+          "phonetic": "/ˌbaɪoʊdɪˈɡreɪdəbəl/",
+          "image": "♻️",
+          "audio": "",
+          "example": "Using biodegradable packaging helps reduce plastic waste in the ocean.",
+          "example_vi": "Sử dụng bao bì có thể phân hủy sinh học giúp giảm rác thải nhựa trong đại dương.",
+          "hint": "Capable of being decomposed by bacteria or other organisms"
+        },
+        {
+          "word": "wastewater",
+          "meaning": "nước thải (danh từ)",
+          "phonetic": "/ˈweɪstˌwɔːtər/",
+          "image": "🚰",
+          "audio": "",
+          "example": "The factory must treat its wastewater before releasing it into the river.",
+          "example_vi": "Nhà máy phải xử lý nước thải trước khi xả ra sông.",
+          "hint": "Water that has been used and contains waste substances"
+        },
+        {
+          "word": "contamination",
+          "meaning": "sự ô nhiễm (danh từ)",
+          "phonetic": "/kənˌtæmɪˈneɪʃən/",
+          "image": "☣️",
+          "audio": "",
+          "example": "Chemical contamination of the water supply poses a serious health risk.",
+          "example_vi": "Ô nhiễm hóa chất trong nguồn nước gây ra nguy cơ nghiêm trọng cho sức khỏe.",
+          "hint": "The presence of a harmful or unwanted substance in something"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "Media & Communication",
+      "name_vi": "Truyền thông",
+      "icon": "📺",
+      "words": [
+        {
+          "word": "broadcast",
+          "meaning": "phát sóng (động từ) — truyền tải chương trình qua radio hoặc truyền hình",
+          "phonetic": "/ˈbrɔːdkæst/",
+          "image": "📡",
+          "audio": "",
+          "example": "The news is broadcast live every evening at six.",
+          "example_vi": "Tin tức được phát sóng trực tiếp mỗi tối lúc sáu giờ.",
+          "hint": "To transmit a program on television or radio"
+        },
+        {
+          "word": "headline",
+          "meaning": "tiêu đề (danh từ)",
+          "phonetic": "/ˈhɛdlaɪn/",
+          "image": "📰",
+          "audio": "",
+          "example": "The headline of today's newspaper caught my attention.",
+          "example_vi": "Tiêu đề của tờ báo hôm nay thu hút sự chú ý của tôi.",
+          "hint": "The title of a news article in large print"
+        },
+        {
+          "word": "journalist",
+          "meaning": "nhà báo (danh từ)",
+          "phonetic": "/ˈdʒɜːrnəlɪst/",
+          "image": "🗞️",
+          "audio": "",
+          "example": "The journalist interviewed the president about the new policy.",
+          "example_vi": "Nhà báo đã phỏng vấn tổng thống về chính sách mới.",
+          "hint": "A person who writes for newspapers, magazines, or news websites"
+        },
+        {
+          "word": "advertisement",
+          "meaning": "quảng cáo (danh từ)",
+          "phonetic": "/ˌædvərˈtaɪzmənt/",
+          "image": "📢",
+          "audio": "",
+          "example": "I saw an advertisement for a new phone on television.",
+          "example_vi": "Tôi thấy một quảng cáo cho điện thoại mới trên truyền hình.",
+          "hint": "A public notice promoting a product or service"
+        },
+        {
+          "word": "podcast",
+          "meaning": "chương trình phát thanh số (danh từ)",
+          "phonetic": "/ˈpɑːdkæst/",
+          "image": "🎙️",
+          "audio": "",
+          "example": "I listen to a podcast about science every morning.",
+          "example_vi": "Tôi nghe một podcast về khoa học mỗi sáng.",
+          "hint": "A digital audio program available for download or streaming"
+        },
+        {
+          "word": "interview",
+          "meaning": "cuộc phỏng vấn (danh từ)",
+          "phonetic": "/ˈɪntərvjuː/",
+          "image": "🎤",
+          "audio": "",
+          "example": "The actor gave an exclusive interview to the magazine.",
+          "example_vi": "Nam diễn viên đã dành một cuộc phỏng vấn độc quyền cho tạp chí.",
+          "hint": "A formal conversation where questions are asked"
+        },
+        {
+          "word": "audience",
+          "meaning": "khán giả (danh từ)",
+          "phonetic": "/ˈɔːdiəns/",
+          "image": "👥",
+          "audio": "",
+          "example": "The audience applauded loudly after the performance.",
+          "example_vi": "Khán giả vỗ tay lớn sau buổi biểu diễn.",
+          "hint": "A group of people who watch or listen to a show"
+        },
+        {
+          "word": "article",
+          "meaning": "bài báo (danh từ)",
+          "phonetic": "/ˈɑːrtɪkəl/",
+          "image": "📄",
+          "audio": "",
+          "example": "She wrote an article about the effects of social media.",
+          "example_vi": "Cô ấy viết một bài báo về tác động của mạng xã hội.",
+          "hint": "A piece of writing in a newspaper or magazine"
+        },
+        {
+          "word": "editor",
+          "meaning": "biên tập viên (danh từ)",
+          "phonetic": "/ˈɛdɪtər/",
+          "image": "✏️",
+          "audio": "",
+          "example": "The editor reviewed the article before it was published.",
+          "example_vi": "Biên tập viên đã xem xét bài báo trước khi xuất bản.",
+          "hint": "A person who prepares content for publication"
+        },
+        {
+          "word": "publish",
+          "meaning": "xuất bản (động từ) — phát hành sách, báo hoặc nội dung cho công chúng",
+          "phonetic": "/ˈpʌblɪʃ/",
+          "image": "📚",
+          "audio": "",
+          "example": "The author plans to publish a new novel next year.",
+          "example_vi": "Tác giả dự định xuất bản một cuốn tiểu thuyết mới vào năm tới.",
+          "hint": "To make content available to the public"
+        },
+        {
+          "word": "opinion",
+          "meaning": "ý kiến (danh từ)",
+          "phonetic": "/əˈpɪnjən/",
+          "image": "💬",
+          "audio": "",
+          "example": "Everyone has a different opinion on this topic.",
+          "example_vi": "Mọi người có ý kiến khác nhau về chủ đề này.",
+          "hint": "A personal view or judgment about something"
+        },
+        {
+          "word": "survey",
+          "meaning": "cuộc khảo sát (danh từ)",
+          "phonetic": "/ˈsɜːrveɪ/",
+          "image": "📊",
+          "audio": "",
+          "example": "The company conducted a survey to understand customer needs.",
+          "example_vi": "Công ty đã tiến hành một cuộc khảo sát để hiểu nhu cầu khách hàng.",
+          "hint": "A study of opinions or behavior by asking questions"
+        },
+        {
+          "word": "documentary",
+          "meaning": "phim tài liệu (danh từ)",
+          "phonetic": "/ˌdɑːkjuˈmɛntəri/",
+          "image": "🎬",
+          "audio": "",
+          "example": "We watched a documentary about climate change on television last night.",
+          "example_vi": "Chúng tôi đã xem một bộ phim tài liệu về biến đổi khí hậu trên truyền hình tối qua.",
+          "hint": "A film or program presenting facts about a real subject"
+        },
+        {
+          "word": "propaganda",
+          "meaning": "tuyên truyền (danh từ)",
+          "phonetic": "/ˌprɑːpəˈɡændə/",
+          "image": "📢",
+          "audio": "",
+          "example": "The government used propaganda to influence public opinion during the war.",
+          "example_vi": "Chính phủ đã sử dụng tuyên truyền để ảnh hưởng dư luận trong chiến tranh.",
+          "hint": "Information used to promote a political cause or point of view"
+        },
+        {
+          "word": "censorship",
+          "meaning": "kiểm duyệt (danh từ)",
+          "phonetic": "/ˈsɛnsərʃɪp/",
+          "image": "🚫",
+          "audio": "",
+          "example": "Many people believe censorship limits freedom of speech and expression.",
+          "example_vi": "Nhiều người tin rằng kiểm duyệt hạn chế quyền tự do ngôn luận và biểu đạt.",
+          "hint": "The suppression of information considered harmful or sensitive"
+        },
+        {
+          "word": "correspondent",
+          "meaning": "phóng viên (danh từ)",
+          "phonetic": "/ˌkɔːrəˈspɑːndənt/",
+          "image": "🎤",
+          "audio": "",
+          "example": "The foreign correspondent reported live from the conflict zone.",
+          "example_vi": "Phóng viên nước ngoài đã đưa tin trực tiếp từ vùng xung đột.",
+          "hint": "A journalist who reports from a particular place or on a topic"
+        },
+        {
+          "word": "tabloid",
+          "meaning": "báo lá cải (danh từ)",
+          "phonetic": "/ˈtæblɔɪd/",
+          "image": "📰",
+          "audio": "",
+          "example": "Tabloids often focus on celebrity gossip rather than serious news.",
+          "example_vi": "Báo lá cải thường tập trung vào tin đồn người nổi tiếng hơn là tin tức nghiêm túc.",
+          "hint": "A newspaper with short articles and many pictures, often sensational"
+        },
+        {
+          "word": "mainstream",
+          "meaning": "chính thống / phổ thông (tính từ)",
+          "phonetic": "/ˈmeɪnstriːm/",
+          "image": "📡",
+          "audio": "",
+          "example": "Mainstream media covers the most important national and international events.",
+          "example_vi": "Truyền thông chính thống đưa tin về các sự kiện quốc gia và quốc tế quan trọng nhất.",
+          "hint": "Ideas or activities that are shared by most people and considered normal"
+        },
+        {
+          "word": "streaming",
+          "meaning": "phát trực tuyến (danh từ)",
+          "phonetic": "/ˈstriːmɪŋ/",
+          "image": "▶️",
+          "audio": "",
+          "example": "Music streaming services have changed how people listen to songs.",
+          "example_vi": "Các dịch vụ phát nhạc trực tuyến đã thay đổi cách mọi người nghe nhạc.",
+          "hint": "Transmitting or receiving data over the internet continuously"
+        },
+        {
+          "word": "subscriber",
+          "meaning": "người đăng ký (danh từ)",
+          "phonetic": "/səbˈskraɪbər/",
+          "image": "🔔",
+          "audio": "",
+          "example": "The YouTube channel reached one million subscribers this year.",
+          "example_vi": "Kênh YouTube đã đạt một triệu người đăng ký trong năm nay.",
+          "hint": "A person who pays to receive a service or publication regularly"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "name": "Work & Career",
+      "name_vi": "Công việc & Sự nghiệp",
+      "icon": "💼",
+      "words": [
+        {
+          "word": "salary",
+          "meaning": "lương (danh từ)",
+          "phonetic": "/ˈsæləri/",
+          "image": "💰",
+          "audio": "",
+          "example": "She negotiated a higher salary before accepting the job.",
+          "example_vi": "Cô ấy đã đàm phán mức lương cao hơn trước khi nhận công việc.",
+          "hint": "A fixed amount of money paid regularly for work"
+        },
+        {
+          "word": "employer",
+          "meaning": "người sử dụng lao động (danh từ)",
+          "phonetic": "/ɪmˈplɔɪər/",
+          "image": "🏢",
+          "audio": "",
+          "example": "A good employer provides training and benefits to their staff.",
+          "example_vi": "Một người sử dụng lao động tốt cung cấp đào tạo và phúc lợi cho nhân viên.",
+          "hint": "A person or company that hires workers"
+        },
+        {
+          "word": "employee",
+          "meaning": "nhân viên (danh từ)",
+          "phonetic": "/ɪmˈplɔɪiː/",
+          "image": "👷",
+          "audio": "",
+          "example": "The company has over 500 employees worldwide.",
+          "example_vi": "Công ty có hơn 500 nhân viên trên toàn thế giới.",
+          "hint": "A person who works for a company"
+        },
+        {
+          "word": "promotion",
+          "meaning": "sự thăng chức (danh từ)",
+          "phonetic": "/prəˈmoʊʃən/",
+          "image": "📈",
+          "audio": "",
+          "example": "He received a promotion after working hard for two years.",
+          "example_vi": "Anh ấy được thăng chức sau hai năm làm việc chăm chỉ.",
+          "hint": "An advancement to a higher position at work"
+        },
+        {
+          "word": "resign",
+          "meaning": "từ chức (động từ) — tự nguyện rời bỏ vị trí công việc",
+          "phonetic": "/rɪˈzaɪn/",
+          "image": "🚪",
+          "audio": "",
+          "example": "She decided to resign from her position to start her own business.",
+          "example_vi": "Cô ấy quyết định từ chức để bắt đầu kinh doanh riêng.",
+          "hint": "To voluntarily leave a job or position"
+        },
+        {
+          "word": "colleague",
+          "meaning": "đồng nghiệp (danh từ)",
+          "phonetic": "/ˈkɑːliːɡ/",
+          "image": "🤝",
+          "audio": "",
+          "example": "I get along well with all my colleagues at work.",
+          "example_vi": "Tôi hòa đồng tốt với tất cả đồng nghiệp ở nơi làm việc.",
+          "hint": "A person you work with"
+        },
+        {
+          "word": "deadline",
+          "meaning": "hạn chót (danh từ)",
+          "phonetic": "/ˈdɛdlaɪn/",
+          "image": "⏰",
+          "audio": "",
+          "example": "We must finish the report before the deadline on Friday.",
+          "example_vi": "Chúng tôi phải hoàn thành báo cáo trước hạn chót vào thứ Sáu.",
+          "hint": "The latest time by which something must be completed"
+        },
+        {
+          "word": "interview",
+          "meaning": "cuộc phỏng vấn (danh từ)",
+          "phonetic": "/ˈɪntərvjuː/",
+          "image": "🗣️",
+          "audio": "",
+          "example": "He prepared thoroughly for the job interview.",
+          "example_vi": "Anh ấy chuẩn bị kỹ lưỡng cho cuộc phỏng vấn xin việc.",
+          "hint": "A formal meeting to assess a job candidate"
+        },
+        {
+          "word": "candidate",
+          "meaning": "ứng viên (danh từ)",
+          "phonetic": "/ˈkændɪdeɪt/",
+          "image": "🙋",
+          "audio": "",
+          "example": "There were many candidates for the marketing position.",
+          "example_vi": "Có nhiều ứng viên cho vị trí tiếp thị.",
+          "hint": "A person who applies for a job"
+        },
+        {
+          "word": "experience",
+          "meaning": "kinh nghiệm (danh từ)",
+          "phonetic": "/ɪkˈspɪriəns/",
+          "image": "⭐",
+          "audio": "",
+          "example": "You need at least three years of experience for this role.",
+          "example_vi": "Bạn cần ít nhất ba năm kinh nghiệm cho vị trí này.",
+          "hint": "Knowledge or skill gained from doing something over time"
+        },
+        {
+          "word": "qualification",
+          "meaning": "bằng cấp (danh từ)",
+          "phonetic": "/ˌkwɑːlɪfɪˈkeɪʃən/",
+          "image": "🎖️",
+          "audio": "",
+          "example": "A university degree is a basic qualification for this job.",
+          "example_vi": "Bằng đại học là bằng cấp cơ bản cho công việc này.",
+          "hint": "An official certificate or requirement for a job"
+        },
+        {
+          "word": "contract",
+          "meaning": "hợp đồng (danh từ)",
+          "phonetic": "/ˈkɑːntrækt/",
+          "image": "📝",
+          "audio": "",
+          "example": "Please read the contract carefully before signing it.",
+          "example_vi": "Vui lòng đọc hợp đồng cẩn thận trước khi ký.",
+          "hint": "A written legal agreement between two parties"
+        },
+        {
+          "word": "internship",
+          "meaning": "thực tập (danh từ)",
+          "phonetic": "/ˈɪntɜːrnʃɪp/",
+          "image": "👔",
+          "audio": "",
+          "example": "She completed a summer internship at a technology company.",
+          "example_vi": "Cô ấy đã hoàn thành kỳ thực tập hè tại một công ty công nghệ.",
+          "hint": "A period of work experience offered by an organization"
+        },
+        {
+          "word": "freelance",
+          "meaning": "làm việc tự do (tính từ)",
+          "phonetic": "/ˈfriːlæns/",
+          "image": "💻",
+          "audio": "",
+          "example": "He works as a freelance graphic designer from his home office.",
+          "example_vi": "Anh ấy làm việc tự do với vai trò nhà thiết kế đồ họa tại văn phòng nhà.",
+          "hint": "Working independently rather than being employed by a company"
+        },
+        {
+          "word": "recruitment",
+          "meaning": "tuyển dụng (danh từ)",
+          "phonetic": "/rɪˈkruːtmənt/",
+          "image": "🤝",
+          "audio": "",
+          "example": "The recruitment process for the position took about three weeks.",
+          "example_vi": "Quá trình tuyển dụng cho vị trí này mất khoảng ba tuần.",
+          "hint": "The action of finding new people to join an organization"
+        },
+        {
+          "word": "negotiation",
+          "meaning": "đàm phán (danh từ)",
+          "phonetic": "/nɪˌɡoʊʃiˈeɪʃən/",
+          "image": "🤔",
+          "audio": "",
+          "example": "Successful negotiation requires patience and good communication skills.",
+          "example_vi": "Đàm phán thành công đòi hỏi sự kiên nhẫn và kỹ năng giao tiếp tốt.",
+          "hint": "A discussion aimed at reaching an agreement between parties"
+        },
+        {
+          "word": "pension",
+          "meaning": "lương hưu (danh từ)",
+          "phonetic": "/ˈpɛnʃən/",
+          "image": "🏦",
+          "audio": "",
+          "example": "Many workers rely on their pension to support them after retirement.",
+          "example_vi": "Nhiều người lao động dựa vào lương hưu để hỗ trợ họ sau khi nghỉ hưu.",
+          "hint": "A regular payment made to a person who has retired from work"
+        },
+        {
+          "word": "overtime",
+          "meaning": "làm thêm giờ (danh từ)",
+          "phonetic": "/ˈoʊvərtaɪm/",
+          "image": "⏰",
+          "audio": "",
+          "example": "Employees are paid extra when they work overtime on weekends.",
+          "example_vi": "Nhân viên được trả thêm tiền khi họ làm thêm giờ vào cuối tuần.",
+          "hint": "Time worked beyond normal working hours"
+        },
+        {
+          "word": "resume",
+          "meaning": "sơ yếu lý lịch (danh từ)",
+          "phonetic": "/ˈrɛzʊˌmeɪ/",
+          "image": "📄",
+          "audio": "",
+          "example": "Make sure your resume highlights your most relevant work experience.",
+          "example_vi": "Hãy đảm bảo sơ yếu lý lịch của bạn nêu bật kinh nghiệm làm việc liên quan nhất.",
+          "hint": "A document summarizing your education, skills, and work history"
+        },
+        {
+          "word": "redundancy",
+          "meaning": "sự sa thải (danh từ)",
+          "phonetic": "/rɪˈdʌndənsi/",
+          "image": "📦",
+          "audio": "",
+          "example": "The company announced redundancies due to the economic downturn.",
+          "example_vi": "Công ty đã thông báo sa thải nhân viên do suy thoái kinh tế.",
+          "hint": "The state of being no longer needed at work and losing your job"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "name": "Education",
+      "name_vi": "Giáo dục",
+      "icon": "🎓",
+      "words": [
+        {
+          "word": "scholarship",
+          "meaning": "học bổng (danh từ)",
+          "phonetic": "/ˈskɑːlərʃɪp/",
+          "image": "🎓",
+          "audio": "",
+          "example": "She won a scholarship to study abroad.",
+          "example_vi": "Cô ấy đã giành được học bổng để du học.",
+          "hint": "Financial aid given to a student for their education"
+        },
+        {
+          "word": "graduate",
+          "meaning": "tốt nghiệp (động từ) — hoàn thành chương trình học và nhận bằng",
+          "phonetic": "/ˈɡrædʒuˌeɪt/",
+          "image": "👩‍🎓",
+          "audio": "",
+          "example": "He will graduate from university next June.",
+          "example_vi": "Anh ấy sẽ tốt nghiệp đại học vào tháng Sáu tới.",
+          "hint": "To complete a course of study and receive a degree"
+        },
+        {
+          "word": "semester",
+          "meaning": "học kỳ (danh từ)",
+          "phonetic": "/sɪˈmɛstər/",
+          "image": "📆",
+          "audio": "",
+          "example": "The fall semester starts in September.",
+          "example_vi": "Học kỳ mùa thu bắt đầu vào tháng Chín.",
+          "hint": "One of two periods that a school year is divided into"
+        },
+        {
+          "word": "lecture",
+          "meaning": "bài giảng (danh từ)",
+          "phonetic": "/ˈlɛktʃər/",
+          "image": "🧑‍🏫",
+          "audio": "",
+          "example": "The professor gave an interesting lecture on history.",
+          "example_vi": "Giáo sư đã giảng một bài giảng thú vị về lịch sử.",
+          "hint": "A talk given to a group of students at a university"
+        },
+        {
+          "word": "assignment",
+          "meaning": "bài tập (danh từ)",
+          "phonetic": "/əˈsaɪnmənt/",
+          "image": "📝",
+          "audio": "",
+          "example": "The assignment is due at the end of the week.",
+          "example_vi": "Bài tập phải nộp vào cuối tuần.",
+          "hint": "A task or piece of work given to a student"
+        },
+        {
+          "word": "research",
+          "meaning": "nghiên cứu (danh từ)",
+          "phonetic": "/rɪˈsɜːrtʃ/",
+          "image": "🔬",
+          "audio": "",
+          "example": "The team is doing research on renewable energy.",
+          "example_vi": "Nhóm đang thực hiện nghiên cứu về năng lượng tái tạo.",
+          "hint": "A careful study to discover new information"
+        },
+        {
+          "word": "tuition",
+          "meaning": "học phí (danh từ)",
+          "phonetic": "/tuˈɪʃən/",
+          "image": "💵",
+          "audio": "",
+          "example": "Tuition fees have increased significantly this year.",
+          "example_vi": "Học phí đã tăng đáng kể trong năm nay.",
+          "hint": "The money paid for instruction at a school"
+        },
+        {
+          "word": "exam",
+          "meaning": "kỳ thi (danh từ)",
+          "phonetic": "/ɪɡˈzæm/",
+          "image": "📝",
+          "audio": "",
+          "example": "Students are studying hard for the final exam.",
+          "example_vi": "Sinh viên đang học chăm chỉ cho kỳ thi cuối kỳ.",
+          "hint": "A formal test of knowledge or ability"
+        },
+        {
+          "word": "certificate",
+          "meaning": "chứng chỉ (danh từ)",
+          "phonetic": "/sərˈtɪfɪkɪt/",
+          "image": "📜",
+          "audio": "",
+          "example": "She received a certificate after completing the course.",
+          "example_vi": "Cô ấy nhận được chứng chỉ sau khi hoàn thành khóa học.",
+          "hint": "An official document proving a qualification"
+        },
+        {
+          "word": "curriculum",
+          "meaning": "chương trình giảng dạy (danh từ)",
+          "phonetic": "/kəˈrɪkjələm/",
+          "image": "📖",
+          "audio": "",
+          "example": "The school updated its curriculum to include coding classes.",
+          "example_vi": "Trường đã cập nhật chương trình giảng dạy để bao gồm lớp lập trình.",
+          "hint": "The subjects and content taught in a school"
+        },
+        {
+          "word": "diploma",
+          "meaning": "bằng tốt nghiệp (danh từ)",
+          "phonetic": "/dɪˈploʊmə/",
+          "image": "🏅",
+          "audio": "",
+          "example": "He proudly displayed his diploma on the wall.",
+          "example_vi": "Anh ấy tự hào trưng bày bằng tốt nghiệp trên tường.",
+          "hint": "A document given for completing a course of study"
+        },
+        {
+          "word": "enroll",
+          "meaning": "đăng ký học (động từ) — ghi danh vào một khóa học hoặc trường",
+          "phonetic": "/ɪnˈroʊl/",
+          "image": "✍️",
+          "audio": "",
+          "example": "You can enroll in the course online.",
+          "example_vi": "Bạn có thể đăng ký khóa học trực tuyến.",
+          "hint": "To officially register for a course or school"
+        },
+        {
+          "word": "apprentice",
+          "meaning": "người học việc (danh từ)",
+          "phonetic": "/əˈprɛntɪs/",
+          "image": "🧑‍🔧",
+          "audio": "",
+          "example": "The young apprentice learned traditional woodworking skills from the master craftsman.",
+          "example_vi": "Người học việc trẻ đã học kỹ năng làm mộc truyền thống từ người thợ lành nghề.",
+          "hint": "A person who learns a trade by working with a skilled employer"
+        },
+        {
+          "word": "syllabus",
+          "meaning": "đề cương (danh từ)",
+          "phonetic": "/ˈsɪləbəs/",
+          "image": "📋",
+          "audio": "",
+          "example": "The professor handed out the syllabus on the first day of class.",
+          "example_vi": "Giáo sư đã phát đề cương vào ngày đầu tiên của lớp học.",
+          "hint": "An outline of subjects covered in a course of study"
+        },
+        {
+          "word": "tutorial",
+          "meaning": "buổi hướng dẫn (danh từ)",
+          "phonetic": "/tuːˈtɔːriəl/",
+          "image": "👨‍🏫",
+          "audio": "",
+          "example": "I watched an online tutorial to learn how to edit photos.",
+          "example_vi": "Tôi đã xem một buổi hướng dẫn trực tuyến để học cách chỉnh sửa ảnh.",
+          "hint": "A lesson or session in which a tutor gives individual instruction"
+        },
+        {
+          "word": "workshop",
+          "meaning": "hội thảo thực hành (danh từ)",
+          "phonetic": "/ˈwɜːrkʃɑːp/",
+          "image": "🛠️",
+          "audio": "",
+          "example": "The university organized a workshop on academic writing for students.",
+          "example_vi": "Trường đại học đã tổ chức một hội thảo thực hành về viết học thuật cho sinh viên.",
+          "hint": "A meeting where people learn and practice a particular skill"
+        },
+        {
+          "word": "accreditation",
+          "meaning": "kiểm định chất lượng (danh từ)",
+          "phonetic": "/əˌkrɛdɪˈteɪʃən/",
+          "image": "✅",
+          "audio": "",
+          "example": "The school received accreditation from the national education board.",
+          "example_vi": "Trường đã nhận được kiểm định chất lượng từ hội đồng giáo dục quốc gia.",
+          "hint": "Official recognition that an institution meets certain standards"
+        },
+        {
+          "word": "prerequisite",
+          "meaning": "điều kiện tiên quyết (danh từ)",
+          "phonetic": "/priːˈrɛkwəzɪt/",
+          "image": "🔑",
+          "audio": "",
+          "example": "Basic mathematics is a prerequisite for the advanced science course.",
+          "example_vi": "Toán cơ bản là điều kiện tiên quyết cho khóa học khoa học nâng cao.",
+          "hint": "Something required before you can do or learn something else"
+        },
+        {
+          "word": "dean",
+          "meaning": "trưởng khoa (danh từ)",
+          "phonetic": "/diːn/",
+          "image": "🎓",
+          "audio": "",
+          "example": "The dean of the faculty welcomed all new students at the ceremony.",
+          "example_vi": "Trưởng khoa đã chào đón tất cả sinh viên mới tại buổi lễ.",
+          "hint": "The head of a university department or faculty"
+        },
+        {
+          "word": "alumni",
+          "meaning": "cựu sinh viên (danh từ)",
+          "phonetic": "/əˈlʌmnaɪ/",
+          "image": "🎉",
+          "audio": "",
+          "example": "The university invited alumni to share their career experiences with current students.",
+          "example_vi": "Trường đại học đã mời cựu sinh viên chia sẻ kinh nghiệm nghề nghiệp với sinh viên hiện tại.",
+          "hint": "Former students of a school, college, or university"
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "name": "Social Issues",
+      "name_vi": "Vấn đề xã hội",
+      "icon": "🤝",
+      "words": [
+        {
+          "word": "volunteer",
+          "meaning": "tình nguyện viên (danh từ)",
+          "phonetic": "/ˌvɑːlənˈtɪr/",
+          "image": "🙋",
+          "audio": "",
+          "example": "Many volunteers helped clean up the park after the storm.",
+          "example_vi": "Nhiều tình nguyện viên đã giúp dọn dẹp công viên sau cơn bão.",
+          "hint": "A person who offers to do something without being paid"
+        },
+        {
+          "word": "charity",
+          "meaning": "tổ chức từ thiện (danh từ)",
+          "phonetic": "/ˈtʃærɪti/",
+          "image": "❤️",
+          "audio": "",
+          "example": "She donates money to charity every month.",
+          "example_vi": "Cô ấy quyên góp tiền cho tổ chức từ thiện mỗi tháng.",
+          "hint": "An organization that helps people in need"
+        },
+        {
+          "word": "poverty",
+          "meaning": "nghèo đói (danh từ)",
+          "phonetic": "/ˈpɑːvərti/",
+          "image": "🏚️",
+          "audio": "",
+          "example": "Millions of people around the world live in poverty.",
+          "example_vi": "Hàng triệu người trên thế giới sống trong nghèo đói.",
+          "hint": "The state of being extremely poor"
+        },
+        {
+          "word": "inequality",
+          "meaning": "sự bất bình đẳng (danh từ)",
+          "phonetic": "/ˌɪnɪˈkwɑːlɪti/",
+          "image": "⚖️",
+          "audio": "",
+          "example": "Income inequality has been growing in many countries.",
+          "example_vi": "Bất bình đẳng thu nhập đang gia tăng ở nhiều quốc gia.",
+          "hint": "An unfair difference in treatment or opportunity"
+        },
+        {
+          "word": "diversity",
+          "meaning": "sự đa dạng (danh từ)",
+          "phonetic": "/daɪˈvɜːrsɪti/",
+          "image": "🌈",
+          "audio": "",
+          "example": "The university celebrates diversity among its students.",
+          "example_vi": "Trường đại học tôn vinh sự đa dạng trong sinh viên.",
+          "hint": "The inclusion of different types of people"
+        },
+        {
+          "word": "community",
+          "meaning": "cộng đồng (danh từ)",
+          "phonetic": "/kəˈmjuːnɪti/",
+          "image": "🏘️",
+          "audio": "",
+          "example": "The local community organized a fundraising event.",
+          "example_vi": "Cộng đồng địa phương đã tổ chức một sự kiện gây quỹ.",
+          "hint": "A group of people living in the same area"
+        },
+        {
+          "word": "refugee",
+          "meaning": "người tị nạn (danh từ)",
+          "phonetic": "/ˌrɛfjuˈdʒiː/",
+          "image": "🏕️",
+          "audio": "",
+          "example": "The country welcomed thousands of refugees fleeing the conflict.",
+          "example_vi": "Quốc gia đã chào đón hàng ngàn người tị nạn chạy trốn xung đột.",
+          "hint": "A person forced to leave their country due to war or disaster"
+        },
+        {
+          "word": "discrimination",
+          "meaning": "sự phân biệt đối xử (danh từ)",
+          "phonetic": "/dɪˌskrɪmɪˈneɪʃən/",
+          "image": "🚫",
+          "audio": "",
+          "example": "Laws against discrimination protect people's rights.",
+          "example_vi": "Luật chống phân biệt đối xử bảo vệ quyền của mọi người.",
+          "hint": "Unfair treatment of people based on their identity"
+        },
+        {
+          "word": "protest",
+          "meaning": "cuộc biểu tình (danh từ)",
+          "phonetic": "/ˈproʊtɛst/",
+          "image": "✊",
+          "audio": "",
+          "example": "Thousands of people joined the protest in the capital.",
+          "example_vi": "Hàng ngàn người đã tham gia cuộc biểu tình ở thủ đô.",
+          "hint": "A public demonstration of disagreement"
+        },
+        {
+          "word": "welfare",
+          "meaning": "phúc lợi (danh từ)",
+          "phonetic": "/ˈwɛlfɛr/",
+          "image": "🏛️",
+          "audio": "",
+          "example": "The government provides welfare programs for low-income families.",
+          "example_vi": "Chính phủ cung cấp các chương trình phúc lợi cho gia đình thu nhập thấp.",
+          "hint": "Government support for people's health and well-being"
+        },
+        {
+          "word": "justice",
+          "meaning": "công lý (danh từ)",
+          "phonetic": "/ˈdʒʌstɪs/",
+          "image": "⚖️",
+          "audio": "",
+          "example": "The victims demanded justice for the crimes committed.",
+          "example_vi": "Các nạn nhân yêu cầu công lý cho những tội ác đã gây ra.",
+          "hint": "Fair treatment according to the law"
+        },
+        {
+          "word": "equality",
+          "meaning": "sự bình đẳng (danh từ)",
+          "phonetic": "/ɪˈkwɑːlɪti/",
+          "image": "🟰",
+          "audio": "",
+          "example": "The movement fights for equality regardless of gender or race.",
+          "example_vi": "Phong trào đấu tranh cho sự bình đẳng bất kể giới tính hay chủng tộc.",
+          "hint": "The state of being equal in rights and opportunities"
+        },
+        {
+          "word": "activism",
+          "meaning": "hoạt động tích cực (danh từ)",
+          "phonetic": "/ˈæktɪvɪzəm/",
+          "image": "✊",
+          "audio": "",
+          "example": "Youth activism has played a major role in raising environmental awareness.",
+          "example_vi": "Hoạt động tích cực của thanh niên đã đóng vai trò lớn trong việc nâng cao nhận thức môi trường.",
+          "hint": "The use of direct action to achieve political or social goals"
+        },
+        {
+          "word": "corruption",
+          "meaning": "tham nhũng (danh từ)",
+          "phonetic": "/kəˈrʌpʃən/",
+          "image": "💰",
+          "audio": "",
+          "example": "The government launched a campaign to fight corruption in public offices.",
+          "example_vi": "Chính phủ đã phát động chiến dịch chống tham nhũng trong các cơ quan công quyền.",
+          "hint": "Dishonest or illegal behavior, especially by people in power"
+        },
+        {
+          "word": "homelessness",
+          "meaning": "tình trạng vô gia cư (danh từ)",
+          "phonetic": "/ˈhoʊmləsnəs/",
+          "image": "🏚️",
+          "audio": "",
+          "example": "The city is developing new programs to address the problem of homelessness.",
+          "example_vi": "Thành phố đang phát triển các chương trình mới để giải quyết vấn đề vô gia cư.",
+          "hint": "The state of having no home or permanent place to live"
+        },
+        {
+          "word": "integration",
+          "meaning": "sự hòa nhập (danh từ)",
+          "phonetic": "/ˌɪntɪˈɡreɪʃən/",
+          "image": "🤝",
+          "audio": "",
+          "example": "Cultural integration helps immigrants feel welcome in their new country.",
+          "example_vi": "Hòa nhập văn hóa giúp người nhập cư cảm thấy được chào đón ở đất nước mới.",
+          "hint": "The process of combining or including people into a group"
+        },
+        {
+          "word": "advocacy",
+          "meaning": "sự vận động (danh từ)",
+          "phonetic": "/ˈædvəkəsi/",
+          "image": "📣",
+          "audio": "",
+          "example": "Her advocacy for children's rights led to important changes in the law.",
+          "example_vi": "Sự vận động của cô ấy cho quyền trẻ em đã dẫn đến những thay đổi quan trọng trong luật pháp.",
+          "hint": "Public support or recommendation of a cause or policy"
+        },
+        {
+          "word": "solidarity",
+          "meaning": "tình đoàn kết (danh từ)",
+          "phonetic": "/ˌsɑːlɪˈdærəti/",
+          "image": "🫂",
+          "audio": "",
+          "example": "People showed solidarity by donating money to help the flood victims.",
+          "example_vi": "Mọi người đã thể hiện tình đoàn kết bằng cách quyên góp tiền giúp đỡ nạn nhân lũ lụt.",
+          "hint": "Unity and mutual support within a group sharing common goals"
+        },
+        {
+          "word": "philanthropy",
+          "meaning": "hoạt động từ thiện (danh từ)",
+          "phonetic": "/fɪˈlænθrəpi/",
+          "image": "🎗️",
+          "audio": "",
+          "example": "His philanthropy has funded scholarships for hundreds of disadvantaged students.",
+          "example_vi": "Hoạt động từ thiện của ông đã tài trợ học bổng cho hàng trăm sinh viên khó khăn.",
+          "hint": "The desire to promote the welfare of others through generous donations"
+        },
+        {
+          "word": "empowerment",
+          "meaning": "sự trao quyền (danh từ)",
+          "phonetic": "/ɪmˈpaʊərmənt/",
+          "image": "💪",
+          "audio": "",
+          "example": "Education is one of the most powerful tools for women's empowerment.",
+          "example_vi": "Giáo dục là một trong những công cụ mạnh mẽ nhất cho sự trao quyền phụ nữ.",
+          "hint": "The process of becoming stronger and more confident in controlling one's life"
+        }
+      ]
+    }
+  ]
+}

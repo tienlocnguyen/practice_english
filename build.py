@@ -20,6 +20,11 @@ def ensure_dir(path):
     os.makedirs(path, exist_ok=True)
 
 
+def escape_html_attr(text):
+    """Escape a string for safe use in an HTML attribute."""
+    return str(text).replace('&', '&amp;').replace('"', '&quot;').replace('<', '&lt;').replace('>', '&gt;')
+
+
 def render_template(template_str, context):
     """Simple template rendering with {{variable}} syntax."""
     result = template_str
@@ -36,6 +41,7 @@ def generate_head(title, base_url=".", extra_css=""):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title} - Luyện Tiếng Anh</title>
     <link rel="stylesheet" href="{base_url}/css/style.css">
+    <link rel="stylesheet" href="{base_url}/css/user-exam.css">
     {extra_css}
 </head>"""
 
@@ -46,15 +52,19 @@ def generate_nav(base_url="."):
     <a href="{base_url}/index.html" class="nav-logo">🎓 Luyện Tiếng Anh</a>
     <div class="nav-links">
         <a href="{base_url}/index.html">🏠 Trang chủ</a>
+        <a href="{base_url}/progress.html">🏆 Tiến trình</a>
+        <div id="user-display" class="user-display"></div>
+        <button id="user-switch-btn" class="btn-user-switch" style="display:none" onclick="UserSystem.logout()">🔄 Đổi</button>
     </div>
 </nav>"""
 
 
-def generate_footer():
-    return """
+def generate_footer(base_url="."):
+    return f"""
 <footer class="footer">
     <p>🎓 Luyện Tiếng Anh - Học từ vựng qua mini game</p>
 </footer>
+<script src="{base_url}/js/user.js"></script>
 """
 
 
@@ -112,7 +122,7 @@ def generate_index_page(config, levels, output_dir):
         </div>
     </section>
 </main>
-{generate_footer()}
+{generate_footer(".")}
 </body>
 </html>"""
 
@@ -134,7 +144,7 @@ def generate_level_page(config, level_data, crossword_data, output_dir):
     for topic in level_data['topics']:
         word_count = len(topic['words'])
         topic_cards += f"""
-        <div class="topic-card" onclick="window.location.href='topic-{topic['id']}.html'">
+        <div class="topic-card" data-topic="{topic['id']}" onclick="window.location.href='topic-{topic['id']}.html'">
             <div class="topic-icon">{topic['icon']}</div>
             <h3>{topic['name_vi']}</h3>
             <p class="topic-en">{topic['name']}</p>
@@ -171,9 +181,13 @@ def generate_level_page(config, level_data, crossword_data, output_dir):
 
     <section class="section">
         <h2 class="section-title">📚 Chủ đề từ vựng</h2>
-        <div class="topic-grid">
+        <div class="topic-grid" id="topic-grid">
             {topic_cards}
         </div>
+    </section>
+
+    <section class="exam-section">
+        <a href="exam.html" class="btn-exam">📝 Kiểm tra (Exam)</a>
     </section>
 
     <section class="section">
@@ -183,7 +197,37 @@ def generate_level_page(config, level_data, crossword_data, output_dir):
         </div>
     </section>
 </main>
-{generate_footer()}
+{generate_footer(base_url)}
+<script>
+(function() {{
+    var levelId = "{lvl}";
+    function updateProgressBadges() {{
+        var cards = document.querySelectorAll('.topic-card[data-topic]');
+        cards.forEach(function(card) {{
+            var existing = card.querySelector('.topic-progress-badge');
+            if (existing) existing.remove();
+            if (typeof UserSystem === 'undefined' || !UserSystem.getCurrentUser()) return;
+            var topicId = card.dataset.topic;
+            var result = UserSystem.getExamResult(levelId, topicId);
+            if (result) {{
+                var badge = document.createElement('div');
+                badge.className = 'topic-progress-badge ' + (result.passed ? 'badge-pass' : 'badge-fail');
+                badge.textContent = (result.passed ? '✅ PASS ' : '❌ NOT PASS ') + result.percentage + '%';
+                card.appendChild(badge);
+            }}
+        }});
+    }}
+    document.addEventListener('DOMContentLoaded', function() {{
+        /* Small delay ensures user.js has initialized UserSystem */
+        setTimeout(function() {{
+            updateProgressBadges();
+            if (typeof UserSystem !== 'undefined') {{
+                UserSystem.onChange(updateProgressBadges);
+            }}
+        }}, 50);
+    }});
+}})();
+</script>
 </body>
 </html>"""
 
@@ -203,25 +247,36 @@ def generate_level_page(config, level_data, crossword_data, output_dir):
         else:
             generate_game_page(game, level_data, level_dir, base_url)
 
+    # Generate exam page
+    generate_exam_page(level_data, level_dir, base_url)
+
 
 def generate_topic_page(topic, level_data, level_dir, base_url):
     """Generate a topic vocabulary review page."""
     lvl = level_data['level']
     word_cards = ""
     for w in topic['words']:
+        word_data = {**w, '_level': str(lvl), '_topic': topic['id']}
+        word_json_attr = escape_html_attr(json.dumps(word_data, ensure_ascii=False))
+        example_vi_html = ""
+        if w.get('example_vi'):
+            example_vi_html = f'<p class="example-vi">🇻🇳 {w["example_vi"]}</p>'
         word_cards += f"""
         <div class="vocab-card">
-            <img src="{w['image']}" alt="{w['word']}" class="vocab-img" loading="lazy">
+            <div class="vocab-emoji">{w['image']}</div>
             <div class="vocab-info">
                 <h3>{w['word']}</h3>
                 <p class="phonetic">{w['phonetic']}</p>
                 <p class="meaning">{w['meaning']}</p>
                 <p class="example">"{w['example']}"</p>
+                {example_vi_html}
                 <button class="btn btn-sm btn-speak" onclick="speak('{w['word']}')">🔊 Nghe</button>
+                <button class="btn btn-sm feedback-report-btn" data-word="{word_json_attr}">⚠️ Báo lỗi</button>
             </div>
         </div>"""
 
-    html = f"""{generate_head(f"{topic['name_vi']} - {level_data['label']}", base_url)}
+    html = f"""{generate_head(f"{topic['name_vi']} - {level_data['label']}", base_url,
+        f'<link rel="stylesheet" href="{base_url}/css/feedback.css">')}
 <body>
 {generate_nav(base_url)}
 <main class="container">
@@ -233,6 +288,13 @@ def generate_topic_page(topic, level_data, level_dir, base_url):
         <h1>{topic['icon']} {topic['name_vi']} ({topic['name']})</h1>
     </section>
 
+    <div class="feedback-toolbar">
+        <button class="btn btn-sm btn-secondary" onclick="FeedbackSystem.exportFeedback()">
+            📥 Xuất phản hồi <span id="feedback-export-count" class="feedback-export-count">0</span>
+        </button>
+        <button class="btn btn-sm btn-secondary" onclick="FeedbackSystem.clearFeedback()">🗑️ Xóa phản hồi</button>
+    </div>
+
     <div class="vocab-grid">
         {word_cards}
     </div>
@@ -241,7 +303,7 @@ def generate_topic_page(topic, level_data, level_dir, base_url):
         <a href="index.html" class="btn btn-secondary">← Quay lại</a>
     </div>
 </main>
-{generate_footer()}
+{generate_footer(base_url)}
 <script>
 function speak(text) {{
     const utterance = new SpeechSynthesisUtterance(text);
@@ -250,6 +312,7 @@ function speak(text) {{
     speechSynthesis.speak(utterance);
 }}
 </script>
+<script src="{base_url}/js/feedback.js"></script>
 </body>
 </html>"""
 
@@ -306,7 +369,7 @@ def generate_game_page(game, level_data, level_dir, base_url):
         </div>
     </div>
 </main>
-{generate_footer()}
+{generate_footer(base_url)}
 <script>
 const GAME_ID = "{game['id']}";
 const TOPICS_DATA = {topics_json};
@@ -366,7 +429,7 @@ def generate_crossword_page(crosswords, level_data, level_dir, base_url):
         </div>
     </div>
 </main>
-{generate_footer()}
+{generate_footer(base_url)}
 <script>
 const CROSSWORDS_DATA = {crosswords_json};
 </script>
@@ -376,6 +439,113 @@ const CROSSWORDS_DATA = {crosswords_json};
 </html>"""
 
     with open(os.path.join(level_dir, 'crossword.html'), 'w', encoding='utf-8') as f:
+        f.write(html)
+
+
+def generate_exam_page(level_data, level_dir, base_url):
+    """Generate an exam page for a level that tests all topics."""
+    lvl = level_data['level']
+    label = level_data['label']
+    topics_json = json.dumps(level_data['topics'], ensure_ascii=False)
+    topic_count = len(level_data['topics'])
+    questions_per_topic = 3
+    total_questions = topic_count * questions_per_topic
+
+    html = f"""{generate_head(f"Kiểm tra - {label}", base_url,
+        f'<link rel="stylesheet" href="{base_url}/css/games.css">')}
+<body>
+{generate_nav(base_url)}
+<main class="container">
+    <div class="breadcrumb">
+        <a href="index.html">{label}</a> &gt; Kiểm tra
+    </div>
+
+    <div id="exam-intro" class="exam-intro">
+        <div class="exam-intro-card">
+            <h2>📝 Kiểm tra - {label}</h2>
+            <p>Kiểm tra từ vựng tất cả chủ đề trong bài học</p>
+            <ul class="exam-info-list">
+                <li>📚 {topic_count} chủ đề</li>
+                <li>❓ {total_questions} câu hỏi ({questions_per_topic} câu/chủ đề)</li>
+                <li>✅ Đạt: ≥ 70% mỗi chủ đề</li>
+            </ul>
+            <button class="btn btn-primary" onclick="startExam()" style="font-size:1.1rem;padding:0.8rem 2rem">▶️ Bắt đầu kiểm tra</button>
+        </div>
+    </div>
+
+    <div id="exam-area" style="display:none">
+        <div class="exam-progress-bar">
+            <span id="exam-progress-text">Câu 1/{total_questions}</span>
+            <div class="progress-bar"><div class="progress-fill" id="exam-progress-fill"></div></div>
+        </div>
+        <div id="exam-question-area" class="game-area"></div>
+    </div>
+
+    <div id="exam-result" class="result-area" style="display:none"></div>
+</main>
+{generate_footer(base_url)}
+<script>
+const LEVEL_ID = "{lvl}";
+const TOPICS_DATA = {topics_json};
+</script>
+<script src="{base_url}/js/utils.js"></script>
+<script src="{base_url}/js/exam.js"></script>
+</body>
+</html>"""
+
+    with open(os.path.join(level_dir, 'exam.html'), 'w', encoding='utf-8') as f:
+        f.write(html)
+
+
+def generate_progress_page(config, levels, output_dir):
+    """Generate the progress/achievements page."""
+    # Build minimal level data for JS (id, label, topics with id/name_vi/icon)
+    levels_for_js = []
+    for level_data in levels:
+        topics_for_js = []
+        for topic in level_data['topics']:
+            topics_for_js.append({
+                'id': topic['id'],
+                'name_vi': topic['name_vi'],
+                'name': topic['name'],
+                'icon': topic['icon']
+            })
+        levels_for_js.append({
+            'level': level_data['level'],
+            'label': level_data['label'],
+            'topics': topics_for_js
+        })
+    levels_json = json.dumps(levels_for_js, ensure_ascii=False)
+
+    html = f"""{generate_head("Tiến trình", ".")}
+<body>
+{generate_nav(".")}
+<main class="container">
+    <section class="hero hero-small">
+        <h1>🏆 Tiến trình học tập</h1>
+        <p class="hero-sub">Xem kết quả và huy chương của bạn</p>
+    </section>
+
+    <div class="progress-actions">
+        <button class="btn-download" onclick="downloadProgress()">📥 Tải tiến trình (JSON)</button>
+    </div>
+
+    <div id="progress-content"></div>
+
+    <div class="back-link" style="text-align:center;margin-top:2rem">
+        <a href="index.html" class="btn btn-secondary">← Quay lại Trang chủ</a>
+    </div>
+</main>
+{generate_footer(".")}
+<script>
+const ALL_LEVELS = {levels_json};
+</script>
+<script src="./js/utils.js"></script>
+<script src="./js/progress.js"></script>
+</body>
+</html>"""
+
+    with open(os.path.join(output_dir, 'progress.html'), 'w', encoding='utf-8') as f:
         f.write(html)
 
 
@@ -429,6 +599,9 @@ def build_site(config_path="config.json"):
         lvl = level_data['level']
         topics = len(level_data['topics'])
         print(f"  📄 Generated level{lvl}/ ({topics} topics)")
+
+    generate_progress_page(config, levels, output_dir)
+    print("  📄 Generated progress.html")
 
     print(f"\n✅ Site built successfully in '{output_dir}/' directory!")
     print(f"   Open {output_dir}/index.html in a browser to preview.")

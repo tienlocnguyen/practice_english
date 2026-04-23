@@ -70,7 +70,7 @@ function renderMemoryBoard() {
     memoryState.cards.forEach((card, idx) => {
         let backContent = '';
         if (card.type === 'image') {
-            backContent = `<img src="${escapeHtml(card.image)}" alt="?" loading="lazy">`;
+            backContent = `<span style="font-size:52px;line-height:1;user-select:none">${escapeHtml(card.image)}</span>`;
         } else {
             backContent = `<span class="card-word">${escapeHtml(card.word)}</span>
                           <small style="color:var(--text-light);display:block;margin-top:4px">${escapeHtml(card.meaning)}</small>`;

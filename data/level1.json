@@ -986,6 +986,570 @@
           "hint": "Waterproof jacket worn in rain"
         }
       ]
+    },
+    {
+      "id": "things",
+      "name": "Things",
+      "name_vi": "Đồ vật",
+      "icon": "🏠",
+      "words": [
+        {
+          "word": "book",
+          "meaning": "quyển sách",
+          "phonetic": "/bʊk/",
+          "image": "📖",
+          "audio": "",
+          "example": "I read a book.",
+          "hint": "You read it"
+        },
+        {
+          "word": "pen",
+          "meaning": "cây bút",
+          "phonetic": "/pen/",
+          "image": "🖊️",
+          "audio": "",
+          "example": "I write with a pen.",
+          "hint": "You write with it"
+        },
+        {
+          "word": "ball",
+          "meaning": "quả bóng",
+          "phonetic": "/bɔːl/",
+          "image": "⚽",
+          "audio": "",
+          "example": "I kick the ball.",
+          "hint": "Round and bouncy"
+        },
+        {
+          "word": "toy",
+          "meaning": "đồ chơi",
+          "phonetic": "/tɔɪ/",
+          "image": "🧸",
+          "audio": "",
+          "example": "I play with a toy.",
+          "hint": "Kids play with it"
+        },
+        {
+          "word": "cup",
+          "meaning": "cái cốc",
+          "phonetic": "/kʌp/",
+          "image": "🥤",
+          "audio": "",
+          "example": "I drink from a cup.",
+          "hint": "You drink from it"
+        },
+        {
+          "word": "bed",
+          "meaning": "cái giường",
+          "phonetic": "/bed/",
+          "image": "🛏️",
+          "audio": "",
+          "example": "I sleep on a bed.",
+          "hint": "You sleep on it"
+        },
+        {
+          "word": "chair",
+          "meaning": "cái ghế",
+          "phonetic": "/tʃer/",
+          "image": "🪑",
+          "audio": "",
+          "example": "Sit on the chair.",
+          "hint": "You sit on it"
+        },
+        {
+          "word": "door",
+          "meaning": "cái cửa",
+          "phonetic": "/dɔːr/",
+          "image": "🚪",
+          "audio": "",
+          "example": "Open the door.",
+          "hint": "You open and close it"
+        },
+        {
+          "word": "table",
+          "meaning": "cái bàn",
+          "phonetic": "/ˈteɪbəl/",
+          "image": "🍽️",
+          "audio": "",
+          "example": "The book is on the table.",
+          "hint": "You eat at it"
+        },
+        {
+          "word": "clock",
+          "meaning": "đồng hồ",
+          "phonetic": "/klɒk/",
+          "image": "🕐",
+          "audio": "",
+          "example": "The clock shows time.",
+          "hint": "It tells the time"
+        },
+        {
+          "word": "box",
+          "meaning": "cái hộp",
+          "phonetic": "/bɒks/",
+          "image": "📦",
+          "audio": "",
+          "example": "The toy is in the box.",
+          "hint": "You put things in it"
+        },
+        {
+          "word": "bag",
+          "meaning": "cái túi",
+          "phonetic": "/bæɡ/",
+          "image": "��",
+          "audio": "",
+          "example": "My bag is blue.",
+          "hint": "You carry it"
+        },
+        {
+          "word": "lamp",
+          "meaning": "cái đèn",
+          "phonetic": "/læmp/",
+          "image": "💡",
+          "audio": "",
+          "example": "Turn on the lamp.",
+          "hint": "It gives light"
+        },
+        {
+          "word": "key",
+          "meaning": "chìa khóa",
+          "phonetic": "/kiː/",
+          "image": "🔑",
+          "audio": "",
+          "example": "I have a key.",
+          "hint": "Opens a lock"
+        },
+        {
+          "word": "phone",
+          "meaning": "điện thoại",
+          "phonetic": "/foʊn/",
+          "image": "📱",
+          "audio": "",
+          "example": "Mom has a phone.",
+          "hint": "You call with it"
+        },
+        {
+          "word": "soap",
+          "meaning": "xà phòng",
+          "phonetic": "/soʊp/",
+          "image": "🧼",
+          "audio": "",
+          "example": "Wash with soap.",
+          "hint": "Makes bubbles"
+        },
+        {
+          "word": "towel",
+          "meaning": "khăn tắm",
+          "phonetic": "/ˈtaʊ.əl/",
+          "image": "🧴",
+          "audio": "",
+          "example": "Use a towel.",
+          "hint": "Dry yourself off"
+        },
+        {
+          "word": "brush",
+          "meaning": "cái bàn chải",
+          "phonetic": "/brʌʃ/",
+          "image": "🪥",
+          "audio": "",
+          "example": "I use a brush.",
+          "hint": "Clean your teeth"
+        },
+        {
+          "word": "plate",
+          "meaning": "cái đĩa",
+          "phonetic": "/pleɪt/",
+          "image": "🍽️",
+          "audio": "",
+          "example": "Food is on the plate.",
+          "hint": "You eat from it"
+        },
+        {
+          "word": "spoon",
+          "meaning": "cái thìa",
+          "phonetic": "/spuːn/",
+          "image": "🥄",
+          "audio": "",
+          "example": "I eat with a spoon.",
+          "hint": "Scoop up soup"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "name": "Actions",
+      "name_vi": "Hành động",
+      "icon": "🏃",
+      "words": [
+        {
+          "word": "run",
+          "meaning": "chạy",
+          "phonetic": "/rʌn/",
+          "image": "🏃",
+          "audio": "",
+          "example": "I run to school.",
+          "hint": "Move your legs fast"
+        },
+        {
+          "word": "eat",
+          "meaning": "ăn",
+          "phonetic": "/iːt/",
+          "image": "🍽️",
+          "audio": "",
+          "example": "I eat rice.",
+          "hint": "Put food in mouth"
+        },
+        {
+          "word": "drink",
+          "meaning": "uống",
+          "phonetic": "/drɪŋk/",
+          "image": "🥛",
+          "audio": "",
+          "example": "I drink water.",
+          "hint": "Swallow a liquid"
+        },
+        {
+          "word": "sleep",
+          "meaning": "ngủ",
+          "phonetic": "/sliːp/",
+          "image": "😴",
+          "audio": "",
+          "example": "I sleep at night.",
+          "hint": "Close eyes and rest"
+        },
+        {
+          "word": "play",
+          "meaning": "chơi",
+          "phonetic": "/pleɪ/",
+          "image": "🎮",
+          "audio": "",
+          "example": "I play with friends.",
+          "hint": "Have fun doing things"
+        },
+        {
+          "word": "read",
+          "meaning": "đọc",
+          "phonetic": "/riːd/",
+          "image": "📚",
+          "audio": "",
+          "example": "I read a book.",
+          "hint": "Look at words"
+        },
+        {
+          "word": "write",
+          "meaning": "viết",
+          "phonetic": "/raɪt/",
+          "image": "✍️",
+          "audio": "",
+          "example": "I write my name.",
+          "hint": "Use a pen"
+        },
+        {
+          "word": "open",
+          "meaning": "mở",
+          "phonetic": "/ˈoʊpən/",
+          "image": "📂",
+          "audio": "",
+          "example": "Open the door.",
+          "hint": "Not closed"
+        },
+        {
+          "word": "close",
+          "meaning": "đóng",
+          "phonetic": "/kloʊz/",
+          "image": "📁",
+          "audio": "",
+          "example": "Close the book.",
+          "hint": "Shut something"
+        },
+        {
+          "word": "jump",
+          "meaning": "nhảy",
+          "phonetic": "/dʒʌmp/",
+          "image": "🦘",
+          "audio": "",
+          "example": "I can jump high.",
+          "hint": "Go up in the air"
+        },
+        {
+          "word": "sit",
+          "meaning": "ngồi",
+          "phonetic": "/sɪt/",
+          "image": "🪑",
+          "audio": "",
+          "example": "Sit on the chair.",
+          "hint": "Not standing"
+        },
+        {
+          "word": "stand",
+          "meaning": "đứng",
+          "phonetic": "/stænd/",
+          "image": "🧍",
+          "audio": "",
+          "example": "Stand up, please.",
+          "hint": "Be on your feet"
+        },
+        {
+          "word": "walk",
+          "meaning": "đi bộ",
+          "phonetic": "/wɔːk/",
+          "image": "🚶",
+          "audio": "",
+          "example": "I walk to school.",
+          "hint": "Move on foot"
+        },
+        {
+          "word": "talk",
+          "meaning": "nói chuyện",
+          "phonetic": "/tɔːk/",
+          "image": "🗣️",
+          "audio": "",
+          "example": "We talk a lot.",
+          "hint": "Use your voice"
+        },
+        {
+          "word": "sing",
+          "meaning": "hát",
+          "phonetic": "/sɪŋ/",
+          "image": "🎤",
+          "audio": "",
+          "example": "I love to sing.",
+          "hint": "Make a melody"
+        },
+        {
+          "word": "dance",
+          "meaning": "nhảy múa",
+          "phonetic": "/dæns/",
+          "image": "💃",
+          "audio": "",
+          "example": "Let us dance!",
+          "hint": "Move to music"
+        },
+        {
+          "word": "swim",
+          "meaning": "bơi",
+          "phonetic": "/swɪm/",
+          "image": "🏊",
+          "audio": "",
+          "example": "I can swim.",
+          "hint": "Move in water"
+        },
+        {
+          "word": "fly",
+          "meaning": "bay",
+          "phonetic": "/flaɪ/",
+          "image": "🕊️",
+          "audio": "",
+          "example": "Birds can fly.",
+          "hint": "Move in the air"
+        },
+        {
+          "word": "cry",
+          "meaning": "khóc",
+          "phonetic": "/kraɪ/",
+          "image": "😢",
+          "audio": "",
+          "example": "The baby will cry.",
+          "hint": "Tears from eyes"
+        },
+        {
+          "word": "laugh",
+          "meaning": "cười",
+          "phonetic": "/læf/",
+          "image": "😂",
+          "audio": "",
+          "example": "We laugh a lot.",
+          "hint": "Ha ha ha"
+        }
+      ]
+    },
+    {
+      "id": "my-body",
+      "name": "My Body",
+      "name_vi": "Cơ thể",
+      "icon": "🧒",
+      "words": [
+        {
+          "word": "eye",
+          "meaning": "mắt",
+          "phonetic": "/aɪ/",
+          "image": "👁️",
+          "audio": "",
+          "example": "I see with my eye.",
+          "hint": "You see with it"
+        },
+        {
+          "word": "ear",
+          "meaning": "tai",
+          "phonetic": "/ɪr/",
+          "image": "👂",
+          "audio": "",
+          "example": "I hear with my ear.",
+          "hint": "You hear with it"
+        },
+        {
+          "word": "nose",
+          "meaning": "mũi",
+          "phonetic": "/noʊz/",
+          "image": "👃",
+          "audio": "",
+          "example": "I smell with my nose.",
+          "hint": "You smell with it"
+        },
+        {
+          "word": "mouth",
+          "meaning": "miệng",
+          "phonetic": "/maʊθ/",
+          "image": "👄",
+          "audio": "",
+          "example": "I eat with my mouth.",
+          "hint": "You talk with it"
+        },
+        {
+          "word": "arm",
+          "meaning": "cánh tay",
+          "phonetic": "/ɑːrm/",
+          "image": "💪",
+          "audio": "",
+          "example": "I wave my arm.",
+          "hint": "Between shoulder and hand"
+        },
+        {
+          "word": "leg",
+          "meaning": "chân",
+          "phonetic": "/leɡ/",
+          "image": "🦵",
+          "audio": "",
+          "example": "I have two legs.",
+          "hint": "You walk with them"
+        },
+        {
+          "word": "foot",
+          "meaning": "bàn chân",
+          "phonetic": "/fʊt/",
+          "image": "🦶",
+          "audio": "",
+          "example": "My foot is small.",
+          "hint": "At the end of leg"
+        },
+        {
+          "word": "tooth",
+          "meaning": "răng",
+          "phonetic": "/tuːθ/",
+          "image": "🦷",
+          "audio": "",
+          "example": "Brush your teeth.",
+          "hint": "You chew with them"
+        },
+        {
+          "word": "hair",
+          "meaning": "tóc",
+          "phonetic": "/her/",
+          "image": "💇",
+          "audio": "",
+          "example": "My hair is black.",
+          "hint": "On top of head"
+        },
+        {
+          "word": "face",
+          "meaning": "khuôn mặt",
+          "phonetic": "/feɪs/",
+          "image": "😊",
+          "audio": "",
+          "example": "Wash your face.",
+          "hint": "Front of your head"
+        },
+        {
+          "word": "knee",
+          "meaning": "đầu gối",
+          "phonetic": "/niː/",
+          "image": "🦵",
+          "audio": "",
+          "example": "I bend my knee.",
+          "hint": "Middle of your leg"
+        },
+        {
+          "word": "neck",
+          "meaning": "cổ",
+          "phonetic": "/nek/",
+          "image": "🧣",
+          "audio": "",
+          "example": "My neck is long.",
+          "hint": "Between head and body"
+        },
+        {
+          "word": "toe",
+          "meaning": "ngón chân",
+          "phonetic": "/toʊ/",
+          "image": "🦶",
+          "audio": "",
+          "example": "I have ten toes.",
+          "hint": "Fingers of feet"
+        },
+        {
+          "word": "thumb",
+          "meaning": "ngón cái",
+          "phonetic": "/θʌm/",
+          "image": "👍",
+          "audio": "",
+          "example": "Give a thumb up!",
+          "hint": "The big finger"
+        },
+        {
+          "word": "chin",
+          "meaning": "cằm",
+          "phonetic": "/tʃɪn/",
+          "image": "🧔",
+          "audio": "",
+          "example": "Touch your chin.",
+          "hint": "Below your mouth"
+        },
+        {
+          "word": "cheek",
+          "meaning": "má",
+          "phonetic": "/tʃiːk/",
+          "image": "😊",
+          "audio": "",
+          "example": "Her cheek is pink.",
+          "hint": "Side of face"
+        },
+        {
+          "word": "lip",
+          "meaning": "môi",
+          "phonetic": "/lɪp/",
+          "image": "👄",
+          "audio": "",
+          "example": "My lip is red.",
+          "hint": "Around your mouth"
+        },
+        {
+          "word": "wrist",
+          "meaning": "cổ tay",
+          "phonetic": "/rɪst/",
+          "image": "⌚",
+          "audio": "",
+          "example": "I wear a watch.",
+          "hint": "Where watch goes"
+        },
+        {
+          "word": "ankle",
+          "meaning": "mắt cá chân",
+          "phonetic": "/ˈæŋ.kəl/",
+          "image": "🦶",
+          "audio": "",
+          "example": "My ankle is fine.",
+          "hint": "Above your foot"
+        },
+        {
+          "word": "belly",
+          "meaning": "bụng",
+          "phonetic": "/ˈbel.i/",
+          "image": "🤰",
+          "audio": "",
+          "example": "My belly is full.",
+          "hint": "Your tummy area"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,1671 @@
+{
+  "level": "A",
+  "label": "CEFR A1-A2",
+  "description": "Từ vựng tiếng Anh cơ bản theo chuẩn CEFR A1-A2 — 160 từ / ~1500 từ cần thiết",
+  "topics": [
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "name_vi": "Quần áo",
+      "icon": "👕",
+      "words": [
+        {
+          "word": "shirt",
+          "meaning": "áo sơ mi (danh từ)",
+          "phonetic": "/ʃɜːrt/",
+          "image": "👕",
+          "audio": "",
+          "example": "He is wearing a white shirt.",
+          "example_vi": "Anh ấy đang mặc áo sơ mi trắng.",
+          "hint": "A piece of clothing for the upper body"
+        },
+        {
+          "word": "pants",
+          "meaning": "quần dài (danh từ)",
+          "phonetic": "/pænts/",
+          "image": "👖",
+          "audio": "",
+          "example": "These pants are too long for me.",
+          "example_vi": "Chiếc quần dài này quá dài đối với tôi.",
+          "hint": "Clothing that covers each leg separately"
+        },
+        {
+          "word": "dress",
+          "meaning": "váy liền (danh từ)",
+          "phonetic": "/drɛs/",
+          "image": "👗",
+          "audio": "",
+          "example": "She bought a new dress for the party.",
+          "example_vi": "Cô ấy mua một chiếc váy mới cho bữa tiệc.",
+          "hint": "A one-piece garment for women or girls"
+        },
+        {
+          "word": "shoes",
+          "meaning": "giày (danh từ)",
+          "phonetic": "/ʃuːz/",
+          "image": "👟",
+          "audio": "",
+          "example": "I need a new pair of shoes.",
+          "example_vi": "Tôi cần một đôi giày mới.",
+          "hint": "You wear them on your feet to walk outside"
+        },
+        {
+          "word": "hat",
+          "meaning": "mũ (danh từ)",
+          "phonetic": "/hæt/",
+          "image": "🧢",
+          "audio": "",
+          "example": "He wears a hat when it is sunny.",
+          "example_vi": "Anh ấy đội mũ khi trời nắng.",
+          "hint": "You wear it on your head"
+        },
+        {
+          "word": "socks",
+          "meaning": "tất / vớ (danh từ)",
+          "phonetic": "/sɑːks/",
+          "image": "🧦",
+          "audio": "",
+          "example": "I put on my socks before my shoes.",
+          "example_vi": "Tôi mang tất trước khi đi giày.",
+          "hint": "Soft covering worn on the feet inside shoes"
+        },
+        {
+          "word": "jacket",
+          "meaning": "áo khoác ngắn (danh từ)",
+          "phonetic": "/ˈdʒækɪt/",
+          "image": "🧥",
+          "audio": "",
+          "example": "Take your jacket, it is cold outside.",
+          "example_vi": "Mang áo khoác đi, bên ngoài trời lạnh.",
+          "hint": "A short coat you wear over your clothes"
+        },
+        {
+          "word": "skirt",
+          "meaning": "chân váy (danh từ)",
+          "phonetic": "/skɜːrt/",
+          "image": "👗",
+          "audio": "",
+          "example": "She is wearing a blue skirt today.",
+          "example_vi": "Hôm nay cô ấy mặc chân váy xanh.",
+          "hint": "A garment hanging from the waist, worn by women"
+        },
+        {
+          "word": "coat",
+          "meaning": "áo khoác dài (danh từ)",
+          "phonetic": "/koʊt/",
+          "image": "🧥",
+          "audio": "",
+          "example": "You need a warm coat in winter.",
+          "example_vi": "Bạn cần một chiếc áo khoác ấm vào mùa đông.",
+          "hint": "A long outer garment for cold weather"
+        },
+        {
+          "word": "gloves",
+          "meaning": "găng tay (danh từ)",
+          "phonetic": "/ɡlʌvz/",
+          "image": "🧤",
+          "audio": "",
+          "example": "She wears gloves to keep her hands warm.",
+          "example_vi": "Cô ấy đeo găng tay để giữ ấm tay.",
+          "hint": "Coverings for your hands with separate fingers"
+        },
+        {
+          "word": "scarf",
+          "meaning": "khăn quàng cổ (danh từ)",
+          "phonetic": "/skɑːrf/",
+          "image": "🧣",
+          "audio": "",
+          "example": "He wraps a scarf around his neck.",
+          "example_vi": "Anh ấy quàng khăn quanh cổ.",
+          "hint": "A piece of cloth worn around the neck for warmth"
+        },
+        {
+          "word": "boots",
+          "meaning": "ủng / bốt (danh từ)",
+          "phonetic": "/buːts/",
+          "image": "👢",
+          "audio": "",
+          "example": "She wears boots when it rains.",
+          "example_vi": "Cô ấy đi ủng khi trời mưa.",
+          "hint": "Strong shoes that cover the ankle or leg"
+        },
+        {
+          "word": "tie",
+          "meaning": "cà vạt (danh từ)",
+          "phonetic": "/taɪ/",
+          "image": "👔",
+          "audio": "",
+          "example": "He wears a tie to work.",
+          "example_vi": "Anh ấy đeo cà vạt đi làm.",
+          "hint": "A long piece of cloth worn around the neck"
+        },
+        {
+          "word": "cap",
+          "meaning": "mũ lưỡi trai (danh từ)",
+          "phonetic": "/kæp/",
+          "image": "🧢",
+          "audio": "",
+          "example": "He wears a cap when he plays baseball.",
+          "example_vi": "Anh ấy đội mũ lưỡi trai khi chơi bóng chày.",
+          "hint": "A soft hat with a curved part in front"
+        },
+        {
+          "word": "sneakers",
+          "meaning": "giày thể thao (danh từ)",
+          "phonetic": "/ˈsniːkərz/",
+          "image": "👟",
+          "audio": "",
+          "example": "I wear sneakers when I go running.",
+          "example_vi": "Tôi mang giày thể thao khi đi chạy.",
+          "hint": "Soft shoes for sports or casual wear"
+        },
+        {
+          "word": "blouse",
+          "meaning": "áo kiểu nữ (danh từ)",
+          "phonetic": "/blaʊs/",
+          "image": "👚",
+          "audio": "",
+          "example": "She is wearing a pink blouse.",
+          "example_vi": "Cô ấy đang mặc áo kiểu màu hồng.",
+          "hint": "A shirt for women, often with buttons"
+        },
+        {
+          "word": "cardigan",
+          "meaning": "áo len cài khuy (danh từ)",
+          "phonetic": "/ˈkɑːrdɪɡən/",
+          "image": "🧥",
+          "audio": "",
+          "example": "She puts on a cardigan when it is cool.",
+          "example_vi": "Cô ấy mặc áo len cài khuy khi trời mát.",
+          "hint": "A knitted jacket that opens at the front"
+        },
+        {
+          "word": "hoodie",
+          "meaning": "áo hoodie / áo trùm đầu (danh từ)",
+          "phonetic": "/ˈhʊdi/",
+          "image": "🧥",
+          "audio": "",
+          "example": "He always wears a hoodie at school.",
+          "example_vi": "Anh ấy luôn mặc áo hoodie ở trường.",
+          "hint": "A sweatshirt with a hood"
+        },
+        {
+          "word": "swimsuit",
+          "meaning": "đồ bơi (danh từ)",
+          "phonetic": "/ˈswɪmsuːt/",
+          "image": "👙",
+          "audio": "",
+          "example": "She packs a swimsuit for the beach.",
+          "example_vi": "Cô ấy mang theo đồ bơi đi biển.",
+          "hint": "Clothing you wear for swimming"
+        },
+        {
+          "word": "robe",
+          "meaning": "áo choàng tắm (danh từ)",
+          "phonetic": "/roʊb/",
+          "image": "🥋",
+          "audio": "",
+          "example": "He wears a robe after his shower.",
+          "example_vi": "Anh ấy mặc áo choàng tắm sau khi tắm.",
+          "hint": "A long loose piece of clothing worn at home"
+        }
+      ]
+    },
+    {
+      "id": "house",
+      "name": "House & Rooms",
+      "name_vi": "Nhà và các phòng",
+      "icon": "🏠",
+      "words": [
+        {
+          "word": "kitchen",
+          "meaning": "nhà bếp (danh từ)",
+          "phonetic": "/ˈkɪtʃɪn/",
+          "image": "🍳",
+          "audio": "",
+          "example": "We cook dinner in the kitchen.",
+          "example_vi": "Chúng tôi nấu bữa tối trong nhà bếp.",
+          "hint": "The room where you prepare and cook food"
+        },
+        {
+          "word": "bedroom",
+          "meaning": "phòng ngủ (danh từ)",
+          "phonetic": "/ˈbɛdruːm/",
+          "image": "🛏️",
+          "audio": "",
+          "example": "The children are sleeping in the bedroom.",
+          "example_vi": "Bọn trẻ đang ngủ trong phòng ngủ.",
+          "hint": "The room where you sleep"
+        },
+        {
+          "word": "bathroom",
+          "meaning": "phòng tắm (danh từ)",
+          "phonetic": "/ˈbæθruːm/",
+          "image": "🚿",
+          "audio": "",
+          "example": "I take a shower in the bathroom every morning.",
+          "example_vi": "Tôi tắm trong phòng tắm mỗi sáng.",
+          "hint": "The room with a toilet, sink, and shower"
+        },
+        {
+          "word": "garden",
+          "meaning": "vườn (danh từ)",
+          "phonetic": "/ˈɡɑːrdən/",
+          "image": "🌻",
+          "audio": "",
+          "example": "There are many flowers in the garden.",
+          "example_vi": "Có nhiều hoa trong vườn.",
+          "hint": "An area of land used for growing plants"
+        },
+        {
+          "word": "door",
+          "meaning": "cửa ra vào (danh từ)",
+          "phonetic": "/dɔːr/",
+          "image": "🚪",
+          "audio": "",
+          "example": "Please close the door when you leave.",
+          "example_vi": "Xin hãy đóng cửa khi bạn rời đi.",
+          "hint": "You open and close it to enter or leave a room"
+        },
+        {
+          "word": "window",
+          "meaning": "cửa sổ (danh từ)",
+          "phonetic": "/ˈwɪndoʊ/",
+          "image": "🪟",
+          "audio": "",
+          "example": "Open the window to let in fresh air.",
+          "example_vi": "Mở cửa sổ để đón không khí trong lành.",
+          "hint": "An opening in a wall with glass to see outside"
+        },
+        {
+          "word": "table",
+          "meaning": "bàn (danh từ)",
+          "phonetic": "/ˈteɪbəl/",
+          "image": "🪑",
+          "audio": "",
+          "example": "The food is on the table.",
+          "example_vi": "Thức ăn ở trên bàn.",
+          "hint": "A flat surface with legs used for eating or working"
+        },
+        {
+          "word": "chair",
+          "meaning": "ghế (danh từ)",
+          "phonetic": "/tʃɛr/",
+          "image": "💺",
+          "audio": "",
+          "example": "Please sit on the chair.",
+          "example_vi": "Xin hãy ngồi lên ghế.",
+          "hint": "A piece of furniture for one person to sit on"
+        },
+        {
+          "word": "floor",
+          "meaning": "sàn nhà (danh từ)",
+          "phonetic": "/flɔːr/",
+          "image": "🏠",
+          "audio": "",
+          "example": "The cat is sleeping on the floor.",
+          "example_vi": "Con mèo đang ngủ trên sàn nhà.",
+          "hint": "The surface you walk on inside a building"
+        },
+        {
+          "word": "wall",
+          "meaning": "tường (danh từ)",
+          "phonetic": "/wɔːl/",
+          "image": "🧱",
+          "audio": "",
+          "example": "There is a picture on the wall.",
+          "example_vi": "Có một bức tranh trên tường.",
+          "hint": "A vertical structure that divides or encloses a room"
+        },
+        {
+          "word": "roof",
+          "meaning": "mái nhà (danh từ)",
+          "phonetic": "/ruːf/",
+          "image": "🏠",
+          "audio": "",
+          "example": "The roof keeps us dry when it rains.",
+          "example_vi": "Mái nhà giữ cho chúng tôi khô ráo khi trời mưa.",
+          "hint": "The top covering of a building"
+        },
+        {
+          "word": "stairs",
+          "meaning": "cầu thang (danh từ)",
+          "phonetic": "/stɛrz/",
+          "image": "🪜",
+          "audio": "",
+          "example": "Be careful when you go up the stairs.",
+          "example_vi": "Hãy cẩn thận khi bạn đi lên cầu thang.",
+          "hint": "Steps that go up or down between floors"
+        },
+        {
+          "word": "lamp",
+          "meaning": "đèn bàn (danh từ)",
+          "phonetic": "/læmp/",
+          "image": "💡",
+          "audio": "",
+          "example": "Turn on the lamp, please.",
+          "example_vi": "Làm ơn bật đèn lên.",
+          "hint": "A device that gives light"
+        },
+        {
+          "word": "mirror",
+          "meaning": "gương (danh từ)",
+          "phonetic": "/ˈmɪrər/",
+          "image": "🪞",
+          "audio": "",
+          "example": "She looks at herself in the mirror.",
+          "example_vi": "Cô ấy nhìn mình trong gương.",
+          "hint": "A glass surface that shows your reflection"
+        },
+        {
+          "word": "shelf",
+          "meaning": "kệ (danh từ)",
+          "phonetic": "/ʃɛlf/",
+          "image": "📚",
+          "audio": "",
+          "example": "The books are on the shelf.",
+          "example_vi": "Những cuốn sách ở trên kệ.",
+          "hint": "A flat board on a wall for holding things"
+        },
+        {
+          "word": "sofa",
+          "meaning": "ghế sô pha (danh từ)",
+          "phonetic": "/ˈsoʊfə/",
+          "image": "🛋️",
+          "audio": "",
+          "example": "We sit on the sofa to watch TV.",
+          "example_vi": "Chúng tôi ngồi trên ghế sô pha xem tivi.",
+          "hint": "A large soft seat for two or more people"
+        },
+        {
+          "word": "carpet",
+          "meaning": "thảm (danh từ)",
+          "phonetic": "/ˈkɑːrpɪt/",
+          "image": "🟫",
+          "audio": "",
+          "example": "The carpet in the room is very soft.",
+          "example_vi": "Tấm thảm trong phòng rất mềm.",
+          "hint": "A thick covering for a floor"
+        },
+        {
+          "word": "curtain",
+          "meaning": "rèm cửa (danh từ)",
+          "phonetic": "/ˈkɜːrtən/",
+          "image": "🪟",
+          "audio": "",
+          "example": "She opens the curtain every morning.",
+          "example_vi": "Cô ấy mở rèm cửa mỗi sáng.",
+          "hint": "Cloth that hangs over a window"
+        },
+        {
+          "word": "pillow",
+          "meaning": "gối (danh từ)",
+          "phonetic": "/ˈpɪloʊ/",
+          "image": "🛏️",
+          "audio": "",
+          "example": "I sleep with two pillows on my bed.",
+          "example_vi": "Tôi ngủ với hai cái gối trên giường.",
+          "hint": "A soft object you rest your head on"
+        },
+        {
+          "word": "blanket",
+          "meaning": "chăn (danh từ)",
+          "phonetic": "/ˈblæŋkɪt/",
+          "image": "🛏️",
+          "audio": "",
+          "example": "It is cold, so I need a blanket.",
+          "example_vi": "Trời lạnh nên tôi cần một cái chăn.",
+          "hint": "A large piece of cloth to keep warm in bed"
+        }
+      ]
+    },
+    {
+      "id": "daily-actions",
+      "name": "Daily Actions",
+      "name_vi": "Hành động hằng ngày",
+      "icon": "🏃",
+      "words": [
+        {
+          "word": "eat",
+          "meaning": "ăn (động từ) — đưa thức ăn vào miệng và nuốt",
+          "phonetic": "/iːt/",
+          "image": "🍽️",
+          "audio": "",
+          "example": "I eat breakfast at seven o'clock.",
+          "example_vi": "Tôi ăn sáng lúc bảy giờ.",
+          "hint": "To put food in your mouth and swallow it"
+        },
+        {
+          "word": "drink",
+          "meaning": "uống (động từ) — đưa chất lỏng vào miệng và nuốt",
+          "phonetic": "/drɪŋk/",
+          "image": "🥤",
+          "audio": "",
+          "example": "You should drink water every day.",
+          "example_vi": "Bạn nên uống nước mỗi ngày.",
+          "hint": "To take liquid into your mouth and swallow"
+        },
+        {
+          "word": "sleep",
+          "meaning": "ngủ (động từ) — nghỉ ngơi bằng cách nhắm mắt và không hoạt động",
+          "phonetic": "/sliːp/",
+          "image": "😴",
+          "audio": "",
+          "example": "I usually sleep eight hours a night.",
+          "example_vi": "Tôi thường ngủ tám tiếng mỗi đêm.",
+          "hint": "To rest with your eyes closed and body inactive"
+        },
+        {
+          "word": "run",
+          "meaning": "chạy (động từ) — di chuyển nhanh bằng chân",
+          "phonetic": "/rʌn/",
+          "image": "🏃",
+          "audio": "",
+          "example": "He likes to run in the park.",
+          "example_vi": "Anh ấy thích chạy trong công viên.",
+          "hint": "To move quickly on your feet"
+        },
+        {
+          "word": "walk",
+          "meaning": "đi bộ (động từ) — di chuyển chậm bằng chân",
+          "phonetic": "/wɔːk/",
+          "image": "🚶",
+          "audio": "",
+          "example": "We walk to school every day.",
+          "example_vi": "Chúng tôi đi bộ đến trường mỗi ngày.",
+          "hint": "To move on foot at a normal speed"
+        },
+        {
+          "word": "read",
+          "meaning": "đọc (động từ) — nhìn và hiểu chữ viết",
+          "phonetic": "/riːd/",
+          "image": "📖",
+          "audio": "",
+          "example": "She likes to read books before bed.",
+          "example_vi": "Cô ấy thích đọc sách trước khi đi ngủ.",
+          "hint": "To look at words and understand their meaning"
+        },
+        {
+          "word": "write",
+          "meaning": "viết (động từ) — tạo chữ hoặc ký hiệu trên giấy",
+          "phonetic": "/raɪt/",
+          "image": "✍️",
+          "audio": "",
+          "example": "Please write your name on the paper.",
+          "example_vi": "Xin hãy viết tên bạn lên giấy.",
+          "hint": "To make letters or words on paper"
+        },
+        {
+          "word": "play",
+          "meaning": "chơi (động từ) — tham gia hoạt động vui chơi giải trí",
+          "phonetic": "/pleɪ/",
+          "image": "⚽",
+          "audio": "",
+          "example": "The children play in the garden after school.",
+          "example_vi": "Bọn trẻ chơi trong vườn sau giờ học.",
+          "hint": "To do activities for fun or enjoyment"
+        },
+        {
+          "word": "cook",
+          "meaning": "nấu ăn (động từ) — chuẩn bị thức ăn bằng nhiệt",
+          "phonetic": "/kʊk/",
+          "image": "👨‍🍳",
+          "audio": "",
+          "example": "My mother cooks dinner every evening.",
+          "example_vi": "Mẹ tôi nấu bữa tối mỗi buổi chiều.",
+          "hint": "To prepare food using heat"
+        },
+        {
+          "word": "clean",
+          "meaning": "dọn dẹp (động từ) — làm sạch, loại bỏ bụi bẩn",
+          "phonetic": "/kliːn/",
+          "image": "🧹",
+          "audio": "",
+          "example": "I clean my room every Saturday.",
+          "example_vi": "Tôi dọn phòng mỗi thứ Bảy.",
+          "hint": "To remove dirt and make something tidy"
+        },
+        {
+          "word": "wash",
+          "meaning": "rửa / giặt (động từ) — làm sạch bằng nước",
+          "phonetic": "/wɑːʃ/",
+          "image": "🧼",
+          "audio": "",
+          "example": "Please wash your hands before eating.",
+          "example_vi": "Xin hãy rửa tay trước khi ăn.",
+          "hint": "To make something clean using water"
+        },
+        {
+          "word": "open",
+          "meaning": "mở (động từ) — làm cho không còn đóng",
+          "phonetic": "/ˈoʊpən/",
+          "image": "📭",
+          "audio": "",
+          "example": "Can you open the window, please?",
+          "example_vi": "Bạn có thể mở cửa sổ được không?",
+          "hint": "To move something so it is no longer closed"
+        },
+        {
+          "word": "sing",
+          "meaning": "hát (động từ) — tạo ra âm nhạc bằng giọng nói",
+          "phonetic": "/sɪŋ/",
+          "image": "🎤",
+          "audio": "",
+          "example": "She likes to sing in the shower.",
+          "example_vi": "Cô ấy thích hát trong khi tắm.",
+          "hint": "To make music with your voice"
+        },
+        {
+          "word": "dance",
+          "meaning": "nhảy / khiêu vũ (động từ) — di chuyển theo nhạc",
+          "phonetic": "/dæns/",
+          "image": "💃",
+          "audio": "",
+          "example": "They dance together at the party.",
+          "example_vi": "Họ nhảy cùng nhau tại bữa tiệc.",
+          "hint": "To move your body to music"
+        },
+        {
+          "word": "listen",
+          "meaning": "nghe (động từ) — chú ý lắng nghe âm thanh",
+          "phonetic": "/ˈlɪsən/",
+          "image": "👂",
+          "audio": "",
+          "example": "I listen to music every day.",
+          "example_vi": "Tôi nghe nhạc mỗi ngày.",
+          "hint": "To pay attention to sounds"
+        },
+        {
+          "word": "watch",
+          "meaning": "xem (động từ) — nhìn chăm chú vào điều gì đó",
+          "phonetic": "/wɑːtʃ/",
+          "image": "👀",
+          "audio": "",
+          "example": "We watch a movie every Friday.",
+          "example_vi": "Chúng tôi xem phim mỗi thứ Sáu.",
+          "hint": "To look at something for a period of time"
+        },
+        {
+          "word": "drive",
+          "meaning": "lái xe (động từ) — điều khiển xe chạy",
+          "phonetic": "/draɪv/",
+          "image": "🚗",
+          "audio": "",
+          "example": "My father drives to work every day.",
+          "example_vi": "Bố tôi lái xe đi làm mỗi ngày.",
+          "hint": "To control and move a car"
+        },
+        {
+          "word": "work",
+          "meaning": "làm việc (động từ) — thực hiện công việc",
+          "phonetic": "/wɜːrk/",
+          "image": "💼",
+          "audio": "",
+          "example": "She works at a hospital.",
+          "example_vi": "Cô ấy làm việc ở bệnh viện.",
+          "hint": "To do a job or task"
+        },
+        {
+          "word": "study",
+          "meaning": "học (động từ) — dành thời gian tìm hiểu kiến thức",
+          "phonetic": "/ˈstʌdi/",
+          "image": "📖",
+          "audio": "",
+          "example": "I study English every evening.",
+          "example_vi": "Tôi học tiếng Anh mỗi buổi tối.",
+          "hint": "To spend time learning something"
+        },
+        {
+          "word": "draw",
+          "meaning": "vẽ (động từ) — tạo hình ảnh bằng bút",
+          "phonetic": "/drɔː/",
+          "image": "✏️",
+          "audio": "",
+          "example": "The boy likes to draw animals.",
+          "example_vi": "Cậu bé thích vẽ các con vật.",
+          "hint": "To make a picture with a pen or pencil"
+        }
+      ]
+    },
+    {
+      "id": "days-time",
+      "name": "Days & Time",
+      "name_vi": "Ngày và thời gian",
+      "icon": "📅",
+      "words": [
+        {
+          "word": "Monday",
+          "meaning": "thứ Hai (danh từ)",
+          "phonetic": "/ˈmʌndeɪ/",
+          "image": "📅",
+          "audio": "",
+          "example": "I have English class on Monday.",
+          "example_vi": "Tôi có lớp tiếng Anh vào thứ Hai.",
+          "hint": "The first day of the work week"
+        },
+        {
+          "word": "Tuesday",
+          "meaning": "thứ Ba (danh từ)",
+          "phonetic": "/ˈtuːzdeɪ/",
+          "image": "📅",
+          "audio": "",
+          "example": "We have a meeting on Tuesday.",
+          "example_vi": "Chúng tôi có cuộc họp vào thứ Ba.",
+          "hint": "The day after Monday"
+        },
+        {
+          "word": "Wednesday",
+          "meaning": "thứ Tư (danh từ)",
+          "phonetic": "/ˈwɛnzdeɪ/",
+          "image": "📅",
+          "audio": "",
+          "example": "Wednesday is the middle of the week.",
+          "example_vi": "Thứ Tư là giữa tuần.",
+          "hint": "The day in the middle of the work week"
+        },
+        {
+          "word": "Thursday",
+          "meaning": "thứ Năm (danh từ)",
+          "phonetic": "/ˈθɜːrzdeɪ/",
+          "image": "📅",
+          "audio": "",
+          "example": "We go swimming on Thursday.",
+          "example_vi": "Chúng tôi đi bơi vào thứ Năm.",
+          "hint": "The day before Friday"
+        },
+        {
+          "word": "Friday",
+          "meaning": "thứ Sáu (danh từ)",
+          "phonetic": "/ˈfraɪdeɪ/",
+          "image": "📅",
+          "audio": "",
+          "example": "Friday is the last day of the work week.",
+          "example_vi": "Thứ Sáu là ngày cuối tuần làm việc.",
+          "hint": "The last day of the work week"
+        },
+        {
+          "word": "Saturday",
+          "meaning": "thứ Bảy (danh từ)",
+          "phonetic": "/ˈsætərdeɪ/",
+          "image": "📅",
+          "audio": "",
+          "example": "I visit my grandparents on Saturday.",
+          "example_vi": "Tôi đến thăm ông bà vào thứ Bảy.",
+          "hint": "The first day of the weekend"
+        },
+        {
+          "word": "Sunday",
+          "meaning": "Chủ nhật (danh từ)",
+          "phonetic": "/ˈsʌndeɪ/",
+          "image": "📅",
+          "audio": "",
+          "example": "We rest at home on Sunday.",
+          "example_vi": "Chúng tôi nghỉ ngơi ở nhà vào Chủ nhật.",
+          "hint": "The last day of the weekend"
+        },
+        {
+          "word": "morning",
+          "meaning": "buổi sáng (danh từ)",
+          "phonetic": "/ˈmɔːrnɪŋ/",
+          "image": "🌅",
+          "audio": "",
+          "example": "I drink coffee every morning.",
+          "example_vi": "Tôi uống cà phê mỗi buổi sáng.",
+          "hint": "The early part of the day before noon"
+        },
+        {
+          "word": "afternoon",
+          "meaning": "buổi chiều (danh từ)",
+          "phonetic": "/ˌæftərˈnuːn/",
+          "image": "☀️",
+          "audio": "",
+          "example": "We have lunch in the afternoon.",
+          "example_vi": "Chúng tôi ăn trưa vào buổi chiều.",
+          "hint": "The time between noon and evening"
+        },
+        {
+          "word": "evening",
+          "meaning": "buổi tối (danh từ)",
+          "phonetic": "/ˈiːvnɪŋ/",
+          "image": "🌇",
+          "audio": "",
+          "example": "We watch TV in the evening.",
+          "example_vi": "Chúng tôi xem tivi vào buổi tối.",
+          "hint": "The time between afternoon and night"
+        },
+        {
+          "word": "night",
+          "meaning": "ban đêm (danh từ)",
+          "phonetic": "/naɪt/",
+          "image": "🌙",
+          "audio": "",
+          "example": "The stars come out at night.",
+          "example_vi": "Những ngôi sao xuất hiện vào ban đêm.",
+          "hint": "The dark time when most people sleep"
+        },
+        {
+          "word": "today",
+          "meaning": "hôm nay (trạng từ) — ngày hiện tại đang diễn ra",
+          "phonetic": "/təˈdeɪ/",
+          "image": "📆",
+          "audio": "",
+          "example": "Today is a beautiful day.",
+          "example_vi": "Hôm nay là một ngày đẹp trời.",
+          "hint": "This present day"
+        },
+        {
+          "word": "yesterday",
+          "meaning": "hôm qua (trạng từ) — ngày trước ngày hôm nay",
+          "phonetic": "/ˈjɛstərdeɪ/",
+          "image": "📆",
+          "audio": "",
+          "example": "I saw a movie yesterday.",
+          "example_vi": "Tôi đã xem một bộ phim hôm qua.",
+          "hint": "The day before today"
+        },
+        {
+          "word": "tomorrow",
+          "meaning": "ngày mai (trạng từ) — ngày sau ngày hôm nay",
+          "phonetic": "/təˈmɑːroʊ/",
+          "image": "📆",
+          "audio": "",
+          "example": "We will go to the park tomorrow.",
+          "example_vi": "Chúng tôi sẽ đi công viên ngày mai.",
+          "hint": "The day after today"
+        },
+        {
+          "word": "weekend",
+          "meaning": "cuối tuần (danh từ)",
+          "phonetic": "/ˌwiːkˈɛnd/",
+          "image": "🎉",
+          "audio": "",
+          "example": "I rest at home on the weekend.",
+          "example_vi": "Tôi nghỉ ngơi ở nhà vào cuối tuần.",
+          "hint": "Saturday and Sunday"
+        },
+        {
+          "word": "midnight",
+          "meaning": "nửa đêm (danh từ)",
+          "phonetic": "/ˈmɪdnaɪt/",
+          "image": "🌑",
+          "audio": "",
+          "example": "He went to bed at midnight.",
+          "example_vi": "Anh ấy đi ngủ lúc nửa đêm.",
+          "hint": "Twelve o'clock at night"
+        },
+        {
+          "word": "noon",
+          "meaning": "buổi trưa (danh từ)",
+          "phonetic": "/nuːn/",
+          "image": "🌞",
+          "audio": "",
+          "example": "We eat lunch at noon.",
+          "example_vi": "Chúng tôi ăn trưa vào buổi trưa.",
+          "hint": "Twelve o'clock in the middle of the day"
+        },
+        {
+          "word": "hour",
+          "meaning": "giờ (danh từ) — đơn vị thời gian bằng 60 phút",
+          "phonetic": "/aʊər/",
+          "image": "🕐",
+          "audio": "",
+          "example": "The class is one hour long.",
+          "example_vi": "Buổi học kéo dài một giờ.",
+          "hint": "A unit of time equal to sixty minutes"
+        },
+        {
+          "word": "minute",
+          "meaning": "phút (danh từ) — đơn vị thời gian bằng 60 giây",
+          "phonetic": "/ˈmɪnɪt/",
+          "image": "⏱️",
+          "audio": "",
+          "example": "Please wait for five minutes.",
+          "example_vi": "Xin hãy đợi năm phút.",
+          "hint": "A unit of time equal to sixty seconds"
+        },
+        {
+          "word": "second",
+          "meaning": "giây (danh từ) — đơn vị thời gian nhỏ nhất thông dụng",
+          "phonetic": "/ˈsɛkənd/",
+          "image": "⏱️",
+          "audio": "",
+          "example": "It takes only a few seconds.",
+          "example_vi": "Nó chỉ mất vài giây.",
+          "hint": "A very short unit of time"
+        }
+      ]
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping",
+      "name_vi": "Mua sắm",
+      "icon": "🛒",
+      "words": [
+        {
+          "word": "money",
+          "meaning": "tiền (danh từ)",
+          "phonetic": "/ˈmʌni/",
+          "image": "💵",
+          "audio": "",
+          "example": "I do not have enough money to buy it.",
+          "example_vi": "Tôi không có đủ tiền để mua nó.",
+          "hint": "Coins or notes used to buy things"
+        },
+        {
+          "word": "shop",
+          "meaning": "cửa hàng (danh từ)",
+          "phonetic": "/ʃɑːp/",
+          "image": "🏪",
+          "audio": "",
+          "example": "There is a shop near my house.",
+          "example_vi": "Có một cửa hàng gần nhà tôi.",
+          "hint": "A place where you buy things"
+        },
+        {
+          "word": "buy",
+          "meaning": "mua (động từ) — dùng tiền để đổi lấy hàng hóa",
+          "phonetic": "/baɪ/",
+          "image": "🛍️",
+          "audio": "",
+          "example": "I want to buy a new phone.",
+          "example_vi": "Tôi muốn mua một chiếc điện thoại mới.",
+          "hint": "To get something by paying money"
+        },
+        {
+          "word": "sell",
+          "meaning": "bán (động từ) — đưa hàng hóa để nhận tiền",
+          "phonetic": "/sɛl/",
+          "image": "🏷️",
+          "audio": "",
+          "example": "They sell fresh fruit at the market.",
+          "example_vi": "Họ bán trái cây tươi ở chợ.",
+          "hint": "To give something to someone for money"
+        },
+        {
+          "word": "price",
+          "meaning": "giá cả (danh từ)",
+          "phonetic": "/praɪs/",
+          "image": "💲",
+          "audio": "",
+          "example": "What is the price of this book?",
+          "example_vi": "Giá của cuốn sách này là bao nhiêu?",
+          "hint": "The amount of money something costs"
+        },
+        {
+          "word": "cheap",
+          "meaning": "rẻ (tính từ) — có giá thấp, không tốn nhiều tiền",
+          "phonetic": "/tʃiːp/",
+          "image": "🤑",
+          "audio": "",
+          "example": "This bag is very cheap.",
+          "example_vi": "Chiếc túi này rất rẻ.",
+          "hint": "Not expensive, low in price"
+        },
+        {
+          "word": "expensive",
+          "meaning": "đắt (tính từ) — có giá cao, tốn nhiều tiền",
+          "phonetic": "/ɪkˈspɛnsɪv/",
+          "image": "💎",
+          "audio": "",
+          "example": "That car is too expensive for me.",
+          "example_vi": "Chiếc xe đó quá đắt đối với tôi.",
+          "hint": "Costing a lot of money"
+        },
+        {
+          "word": "market",
+          "meaning": "chợ (danh từ)",
+          "phonetic": "/ˈmɑːrkɪt/",
+          "image": "🏬",
+          "audio": "",
+          "example": "We buy vegetables at the market.",
+          "example_vi": "Chúng tôi mua rau ở chợ.",
+          "hint": "A place where people buy and sell goods"
+        },
+        {
+          "word": "bag",
+          "meaning": "túi / bao (danh từ)",
+          "phonetic": "/bæɡ/",
+          "image": "👜",
+          "audio": "",
+          "example": "She carries her books in a bag.",
+          "example_vi": "Cô ấy mang sách trong túi.",
+          "hint": "A container used for carrying things"
+        },
+        {
+          "word": "pay",
+          "meaning": "trả tiền (động từ) — đưa tiền để thanh toán",
+          "phonetic": "/peɪ/",
+          "image": "💳",
+          "audio": "",
+          "example": "You can pay by card or cash.",
+          "example_vi": "Bạn có thể trả bằng thẻ hoặc tiền mặt.",
+          "hint": "To give money for goods or services"
+        },
+        {
+          "word": "change",
+          "meaning": "tiền thừa (danh từ)",
+          "phonetic": "/tʃeɪndʒ/",
+          "image": "🪙",
+          "audio": "",
+          "example": "Here is your change, two dollars.",
+          "example_vi": "Đây là tiền thừa của bạn, hai đô la.",
+          "hint": "The money you get back after paying more than the price"
+        },
+        {
+          "word": "receipt",
+          "meaning": "hóa đơn / biên lai (danh từ)",
+          "phonetic": "/rɪˈsiːt/",
+          "image": "🧾",
+          "audio": "",
+          "example": "Please keep the receipt for your purchase.",
+          "example_vi": "Xin hãy giữ hóa đơn cho lần mua hàng của bạn.",
+          "hint": "A paper showing what you bought and how much you paid"
+        },
+        {
+          "word": "discount",
+          "meaning": "giảm giá (danh từ)",
+          "phonetic": "/ˈdɪskaʊnt/",
+          "image": "🏷️",
+          "audio": "",
+          "example": "This shirt has a big discount.",
+          "example_vi": "Chiếc áo này được giảm giá nhiều.",
+          "hint": "A lower price than usual"
+        },
+        {
+          "word": "cashier",
+          "meaning": "thu ngân (danh từ)",
+          "phonetic": "/kæˈʃɪr/",
+          "image": "🧑‍💼",
+          "audio": "",
+          "example": "Pay the cashier at the counter.",
+          "example_vi": "Trả tiền cho thu ngân tại quầy.",
+          "hint": "The person who takes your money at a shop"
+        },
+        {
+          "word": "customer",
+          "meaning": "khách hàng (danh từ)",
+          "phonetic": "/ˈkʌstəmər/",
+          "image": "🛒",
+          "audio": "",
+          "example": "The shop has many customers today.",
+          "example_vi": "Cửa hàng có nhiều khách hàng hôm nay.",
+          "hint": "A person who buys things from a shop"
+        },
+        {
+          "word": "wallet",
+          "meaning": "ví (danh từ)",
+          "phonetic": "/ˈwɑːlɪt/",
+          "image": "👛",
+          "audio": "",
+          "example": "My wallet is in my pocket.",
+          "example_vi": "Ví của tôi ở trong túi.",
+          "hint": "A small case for carrying money and cards"
+        },
+        {
+          "word": "coin",
+          "meaning": "đồng xu (danh từ)",
+          "phonetic": "/kɔɪn/",
+          "image": "🪙",
+          "audio": "",
+          "example": "I found a coin on the street.",
+          "example_vi": "Tôi tìm thấy một đồng xu trên đường.",
+          "hint": "A small round piece of metal money"
+        },
+        {
+          "word": "bill",
+          "meaning": "tờ tiền (danh từ)",
+          "phonetic": "/bɪl/",
+          "image": "💵",
+          "audio": "",
+          "example": "He paid with a ten-dollar bill.",
+          "example_vi": "Anh ấy trả bằng một tờ mười đô la.",
+          "hint": "A piece of paper money"
+        },
+        {
+          "word": "credit",
+          "meaning": "tín dụng (danh từ)",
+          "phonetic": "/ˈkrɛdɪt/",
+          "image": "💳",
+          "audio": "",
+          "example": "She pays by credit card.",
+          "example_vi": "Cô ấy trả bằng thẻ tín dụng.",
+          "hint": "A way to buy now and pay later"
+        },
+        {
+          "word": "refund",
+          "meaning": "hoàn tiền (danh từ)",
+          "phonetic": "/ˈriːfʌnd/",
+          "image": "💰",
+          "audio": "",
+          "example": "I asked for a refund for the broken item.",
+          "example_vi": "Tôi yêu cầu hoàn tiền cho món hàng bị hỏng.",
+          "hint": "Money given back when you return something"
+        }
+      ]
+    },
+    {
+      "id": "feelings",
+      "name": "Feelings",
+      "name_vi": "Cảm xúc",
+      "icon": "😊",
+      "words": [
+        {
+          "word": "happy",
+          "meaning": "vui vẻ (tính từ) — cảm thấy hài lòng, phấn khởi",
+          "phonetic": "/ˈhæpi/",
+          "image": "😊",
+          "audio": "",
+          "example": "The children are very happy today.",
+          "example_vi": "Bọn trẻ rất vui vẻ hôm nay.",
+          "hint": "Feeling pleased and content"
+        },
+        {
+          "word": "sad",
+          "meaning": "buồn (tính từ) — cảm thấy không vui, đau lòng",
+          "phonetic": "/sæd/",
+          "image": "😢",
+          "audio": "",
+          "example": "She is sad because her cat is lost.",
+          "example_vi": "Cô ấy buồn vì con mèo bị lạc.",
+          "hint": "Feeling unhappy or sorrowful"
+        },
+        {
+          "word": "angry",
+          "meaning": "tức giận (tính từ) — cảm thấy bực bội, nổi nóng",
+          "phonetic": "/ˈæŋɡri/",
+          "image": "😠",
+          "audio": "",
+          "example": "He is angry because someone took his lunch.",
+          "example_vi": "Anh ấy tức giận vì ai đó lấy bữa trưa của anh ấy.",
+          "hint": "Feeling strong displeasure or annoyance"
+        },
+        {
+          "word": "tired",
+          "meaning": "mệt mỏi (tính từ) — cảm thấy cần nghỉ ngơi",
+          "phonetic": "/taɪərd/",
+          "image": "😫",
+          "audio": "",
+          "example": "I am very tired after working all day.",
+          "example_vi": "Tôi rất mệt mỏi sau khi làm việc cả ngày.",
+          "hint": "Needing rest or sleep"
+        },
+        {
+          "word": "hungry",
+          "meaning": "đói (tính từ) — cảm thấy cần ăn",
+          "phonetic": "/ˈhʌŋɡri/",
+          "image": "😋",
+          "audio": "",
+          "example": "I am hungry, let us eat lunch.",
+          "example_vi": "Tôi đói rồi, chúng ta đi ăn trưa thôi.",
+          "hint": "Wanting or needing food"
+        },
+        {
+          "word": "thirsty",
+          "meaning": "khát (tính từ) — cảm thấy cần uống nước",
+          "phonetic": "/ˈθɜːrsti/",
+          "image": "🥵",
+          "audio": "",
+          "example": "I am thirsty, can I have some water?",
+          "example_vi": "Tôi khát nước, cho tôi xin ít nước được không?",
+          "hint": "Wanting or needing a drink"
+        },
+        {
+          "word": "hot",
+          "meaning": "nóng (tính từ) — có nhiệt độ cao",
+          "phonetic": "/hɑːt/",
+          "image": "🥵",
+          "audio": "",
+          "example": "It is very hot in summer.",
+          "example_vi": "Trời rất nóng vào mùa hè.",
+          "hint": "Having a high temperature"
+        },
+        {
+          "word": "cold",
+          "meaning": "lạnh (tính từ) — có nhiệt độ thấp",
+          "phonetic": "/koʊld/",
+          "image": "🥶",
+          "audio": "",
+          "example": "It is very cold outside today.",
+          "example_vi": "Bên ngoài hôm nay rất lạnh.",
+          "hint": "Having a low temperature"
+        },
+        {
+          "word": "sick",
+          "meaning": "ốm / bệnh (tính từ) — không khỏe, bị bệnh",
+          "phonetic": "/sɪk/",
+          "image": "🤒",
+          "audio": "",
+          "example": "He is sick and cannot go to school.",
+          "example_vi": "Anh ấy bị ốm và không thể đi học.",
+          "hint": "Not well, having an illness"
+        },
+        {
+          "word": "scared",
+          "meaning": "sợ hãi (tính từ) — cảm thấy lo lắng trước nguy hiểm",
+          "phonetic": "/skɛrd/",
+          "image": "😨",
+          "audio": "",
+          "example": "The little girl is scared of the dark.",
+          "example_vi": "Cô bé sợ bóng tối.",
+          "hint": "Feeling afraid or frightened"
+        },
+        {
+          "word": "brave",
+          "meaning": "dũng cảm (tính từ) — không sợ hãi trước nguy hiểm",
+          "phonetic": "/breɪv/",
+          "image": "💪",
+          "audio": "",
+          "example": "The firefighter is very brave.",
+          "example_vi": "Người lính cứu hỏa rất dũng cảm.",
+          "hint": "Not afraid of danger or difficulty"
+        },
+        {
+          "word": "kind",
+          "meaning": "tốt bụng (tính từ) — hay giúp đỡ người khác",
+          "phonetic": "/kaɪnd/",
+          "image": "🤗",
+          "audio": "",
+          "example": "She is a very kind person.",
+          "example_vi": "Cô ấy là một người rất tốt bụng.",
+          "hint": "Friendly, generous, and caring about others"
+        },
+        {
+          "word": "lonely",
+          "meaning": "cô đơn (tính từ) — cảm thấy buồn vì ở một mình",
+          "phonetic": "/ˈloʊnli/",
+          "image": "😞",
+          "audio": "",
+          "example": "She feels lonely without her friends.",
+          "example_vi": "Cô ấy cảm thấy cô đơn khi không có bạn bè.",
+          "hint": "Feeling sad because you are alone"
+        },
+        {
+          "word": "worried",
+          "meaning": "lo lắng (tính từ) — cảm thấy bất an về điều gì đó",
+          "phonetic": "/ˈwɜːrid/",
+          "image": "😟",
+          "audio": "",
+          "example": "She is worried about the exam.",
+          "example_vi": "Cô ấy lo lắng về kỳ thi.",
+          "hint": "Feeling nervous about something bad that might happen"
+        },
+        {
+          "word": "excited",
+          "meaning": "hào hứng (tính từ) — cảm thấy vui và háo hức",
+          "phonetic": "/ɪkˈsaɪtɪd/",
+          "image": "🤩",
+          "audio": "",
+          "example": "The kids are excited about the trip.",
+          "example_vi": "Bọn trẻ rất hào hứng về chuyến đi.",
+          "hint": "Feeling very happy and eager"
+        },
+        {
+          "word": "proud",
+          "meaning": "tự hào (tính từ) — cảm thấy hài lòng về thành tích",
+          "phonetic": "/praʊd/",
+          "image": "😊",
+          "audio": "",
+          "example": "I am proud of my daughter.",
+          "example_vi": "Tôi tự hào về con gái mình.",
+          "hint": "Feeling good about something you or others did"
+        },
+        {
+          "word": "shy",
+          "meaning": "nhút nhát (tính từ) — ngại giao tiếp với người khác",
+          "phonetic": "/ʃaɪ/",
+          "image": "😳",
+          "audio": "",
+          "example": "The boy is too shy to speak.",
+          "example_vi": "Cậu bé quá nhút nhát để nói chuyện.",
+          "hint": "Feeling nervous around other people"
+        },
+        {
+          "word": "bored",
+          "meaning": "chán (tính từ) — cảm thấy không có gì thú vị",
+          "phonetic": "/bɔːrd/",
+          "image": "😐",
+          "audio": "",
+          "example": "I am bored because I have nothing to do.",
+          "example_vi": "Tôi chán vì không có gì để làm.",
+          "hint": "Feeling tired because nothing is interesting"
+        },
+        {
+          "word": "surprised",
+          "meaning": "ngạc nhiên (tính từ) — cảm thấy bất ngờ",
+          "phonetic": "/sərˈpraɪzd/",
+          "image": "😲",
+          "audio": "",
+          "example": "She was surprised by the gift.",
+          "example_vi": "Cô ấy ngạc nhiên vì món quà.",
+          "hint": "Feeling amazed by something unexpected"
+        },
+        {
+          "word": "calm",
+          "meaning": "bình tĩnh (tính từ) — không lo lắng hay bồn chồn",
+          "phonetic": "/kɑːm/",
+          "image": "😌",
+          "audio": "",
+          "example": "Stay calm and take a deep breath.",
+          "example_vi": "Hãy bình tĩnh và hít thở sâu.",
+          "hint": "Feeling peaceful and not worried"
+        }
+      ]
+    },
+    {
+      "id": "nature-basic",
+      "name": "Nature",
+      "name_vi": "Thiên nhiên",
+      "icon": "🌳",
+      "words": [
+        {
+          "word": "tree",
+          "meaning": "cây (danh từ)",
+          "phonetic": "/triː/",
+          "image": "🌳",
+          "audio": "",
+          "example": "There is a big tree in front of the house.",
+          "example_vi": "Có một cây lớn trước nhà.",
+          "hint": "A tall plant with a trunk and branches"
+        },
+        {
+          "word": "flower",
+          "meaning": "hoa (danh từ)",
+          "phonetic": "/ˈflaʊər/",
+          "image": "🌸",
+          "audio": "",
+          "example": "She gave me a beautiful flower.",
+          "example_vi": "Cô ấy tặng tôi một bông hoa đẹp.",
+          "hint": "The colorful part of a plant"
+        },
+        {
+          "word": "sun",
+          "meaning": "mặt trời (danh từ)",
+          "phonetic": "/sʌn/",
+          "image": "☀️",
+          "audio": "",
+          "example": "The sun rises in the east.",
+          "example_vi": "Mặt trời mọc ở phía đông.",
+          "hint": "The star that gives us light and heat"
+        },
+        {
+          "word": "moon",
+          "meaning": "mặt trăng (danh từ)",
+          "phonetic": "/muːn/",
+          "image": "🌙",
+          "audio": "",
+          "example": "The moon is bright tonight.",
+          "example_vi": "Mặt trăng sáng tối nay.",
+          "hint": "The round object you see in the night sky"
+        },
+        {
+          "word": "star",
+          "meaning": "ngôi sao (danh từ)",
+          "phonetic": "/stɑːr/",
+          "image": "⭐",
+          "audio": "",
+          "example": "I can see many stars in the sky.",
+          "example_vi": "Tôi có thể nhìn thấy nhiều ngôi sao trên bầu trời.",
+          "hint": "A small bright light in the night sky"
+        },
+        {
+          "word": "rain",
+          "meaning": "mưa (danh từ)",
+          "phonetic": "/reɪn/",
+          "image": "🌧️",
+          "audio": "",
+          "example": "We cannot go out because of the rain.",
+          "example_vi": "Chúng tôi không thể ra ngoài vì mưa.",
+          "hint": "Water falling from clouds"
+        },
+        {
+          "word": "cloud",
+          "meaning": "đám mây (danh từ)",
+          "phonetic": "/klaʊd/",
+          "image": "☁️",
+          "audio": "",
+          "example": "There are dark clouds in the sky.",
+          "example_vi": "Có những đám mây đen trên bầu trời.",
+          "hint": "A white or grey mass floating in the sky"
+        },
+        {
+          "word": "river",
+          "meaning": "sông (danh từ)",
+          "phonetic": "/ˈrɪvər/",
+          "image": "🏞️",
+          "audio": "",
+          "example": "The river flows through the city.",
+          "example_vi": "Dòng sông chảy qua thành phố.",
+          "hint": "A large natural stream of water"
+        },
+        {
+          "word": "lake",
+          "meaning": "hồ (danh từ)",
+          "phonetic": "/leɪk/",
+          "image": "🏞️",
+          "audio": "",
+          "example": "We went fishing at the lake.",
+          "example_vi": "Chúng tôi đi câu cá ở hồ.",
+          "hint": "A large body of still water surrounded by land"
+        },
+        {
+          "word": "mountain",
+          "meaning": "núi (danh từ)",
+          "phonetic": "/ˈmaʊntən/",
+          "image": "🏔️",
+          "audio": "",
+          "example": "The mountain is covered with snow.",
+          "example_vi": "Ngọn núi được phủ đầy tuyết.",
+          "hint": "A very high hill"
+        },
+        {
+          "word": "sea",
+          "meaning": "biển (danh từ)",
+          "phonetic": "/siː/",
+          "image": "🌊",
+          "audio": "",
+          "example": "We swim in the sea during summer.",
+          "example_vi": "Chúng tôi bơi ở biển vào mùa hè.",
+          "hint": "A large body of salt water"
+        },
+        {
+          "word": "sky",
+          "meaning": "bầu trời (danh từ)",
+          "phonetic": "/skaɪ/",
+          "image": "🌤️",
+          "audio": "",
+          "example": "The sky is blue and clear today.",
+          "example_vi": "Bầu trời trong xanh hôm nay.",
+          "hint": "The space above the earth where you see clouds"
+        },
+        {
+          "word": "ocean",
+          "meaning": "đại dương (danh từ)",
+          "phonetic": "/ˈoʊʃən/",
+          "image": "🌊",
+          "audio": "",
+          "example": "The ocean is very deep and wide.",
+          "example_vi": "Đại dương rất sâu và rộng.",
+          "hint": "A very large area of salt water"
+        },
+        {
+          "word": "hill",
+          "meaning": "đồi (danh từ)",
+          "phonetic": "/hɪl/",
+          "image": "⛰️",
+          "audio": "",
+          "example": "We walk up the hill every morning.",
+          "example_vi": "Chúng tôi đi lên đồi mỗi sáng.",
+          "hint": "A raised area of land, smaller than a mountain"
+        },
+        {
+          "word": "rock",
+          "meaning": "đá (danh từ)",
+          "phonetic": "/rɑːk/",
+          "image": "🪨",
+          "audio": "",
+          "example": "He sits on a big rock by the river.",
+          "example_vi": "Anh ấy ngồi trên một tảng đá lớn bên sông.",
+          "hint": "A hard solid piece of earth"
+        },
+        {
+          "word": "sand",
+          "meaning": "cát (danh từ)",
+          "phonetic": "/sænd/",
+          "image": "🏖️",
+          "audio": "",
+          "example": "The children play in the sand.",
+          "example_vi": "Bọn trẻ chơi trên cát.",
+          "hint": "Tiny grains found on beaches and deserts"
+        },
+        {
+          "word": "wave",
+          "meaning": "sóng (danh từ)",
+          "phonetic": "/weɪv/",
+          "image": "🌊",
+          "audio": "",
+          "example": "The waves are very big today.",
+          "example_vi": "Những con sóng rất lớn hôm nay.",
+          "hint": "Moving water on the surface of the sea"
+        },
+        {
+          "word": "leaf",
+          "meaning": "lá cây (danh từ)",
+          "phonetic": "/liːf/",
+          "image": "🍃",
+          "audio": "",
+          "example": "The leaf falls from the tree.",
+          "example_vi": "Chiếc lá rơi từ trên cây.",
+          "hint": "The flat green part of a plant"
+        },
+        {
+          "word": "grass",
+          "meaning": "cỏ (danh từ)",
+          "phonetic": "/ɡræs/",
+          "image": "🌿",
+          "audio": "",
+          "example": "The children sit on the grass.",
+          "example_vi": "Bọn trẻ ngồi trên cỏ.",
+          "hint": "Green plants that cover the ground"
+        },
+        {
+          "word": "wind",
+          "meaning": "gió (danh từ)",
+          "phonetic": "/wɪnd/",
+          "image": "💨",
+          "audio": "",
+          "example": "The wind is very strong today.",
+          "example_vi": "Gió rất mạnh hôm nay.",
+          "hint": "Air that moves quickly outside"
+        }
+      ]
+    },
+    {
+      "id": "food-basic",
+      "name": "Food & Drinks",
+      "name_vi": "Đồ ăn & thức uống",
+      "icon": "🍽️",
+      "words": [
+        {
+          "word": "bread",
+          "meaning": "bánh mì (danh từ)",
+          "phonetic": "/brɛd/",
+          "image": "🍞",
+          "audio": "",
+          "example": "I eat bread with butter for breakfast.",
+          "example_vi": "Tôi ăn bánh mì với bơ cho bữa sáng.",
+          "hint": "A basic food made from flour and water"
+        },
+        {
+          "word": "milk",
+          "meaning": "sữa (danh từ)",
+          "phonetic": "/mɪlk/",
+          "image": "🥛",
+          "audio": "",
+          "example": "Children should drink milk every day.",
+          "example_vi": "Trẻ em nên uống sữa mỗi ngày.",
+          "hint": "A white liquid from cows"
+        },
+        {
+          "word": "egg",
+          "meaning": "trứng (danh từ)",
+          "phonetic": "/ɛɡ/",
+          "image": "🥚",
+          "audio": "",
+          "example": "She cooks two eggs for breakfast.",
+          "example_vi": "Cô ấy nấu hai quả trứng cho bữa sáng.",
+          "hint": "An oval food that comes from chickens"
+        },
+        {
+          "word": "rice",
+          "meaning": "cơm / gạo (danh từ)",
+          "phonetic": "/raɪs/",
+          "image": "🍚",
+          "audio": "",
+          "example": "We eat rice for lunch and dinner.",
+          "example_vi": "Chúng tôi ăn cơm cho bữa trưa và bữa tối.",
+          "hint": "Small white grains, a staple food in Asia"
+        },
+        {
+          "word": "meat",
+          "meaning": "thịt (danh từ)",
+          "phonetic": "/miːt/",
+          "image": "🥩",
+          "audio": "",
+          "example": "We buy fresh meat from the market.",
+          "example_vi": "Chúng tôi mua thịt tươi từ chợ.",
+          "hint": "Food from the body of an animal"
+        },
+        {
+          "word": "soup",
+          "meaning": "súp / canh (danh từ)",
+          "phonetic": "/suːp/",
+          "image": "🍲",
+          "audio": "",
+          "example": "This chicken soup is very delicious.",
+          "example_vi": "Món súp gà này rất ngon.",
+          "hint": "A liquid food made by boiling ingredients in water"
+        },
+        {
+          "word": "cake",
+          "meaning": "bánh ngọt (danh từ)",
+          "phonetic": "/keɪk/",
+          "image": "🎂",
+          "audio": "",
+          "example": "She made a chocolate cake for the party.",
+          "example_vi": "Cô ấy làm một chiếc bánh sô cô la cho bữa tiệc.",
+          "hint": "A sweet baked food, often for celebrations"
+        },
+        {
+          "word": "coffee",
+          "meaning": "cà phê (danh từ)",
+          "phonetic": "/ˈkɔːfi/",
+          "image": "☕",
+          "audio": "",
+          "example": "He drinks a cup of coffee every morning.",
+          "example_vi": "Anh ấy uống một tách cà phê mỗi sáng.",
+          "hint": "A hot brown drink made from roasted beans"
+        },
+        {
+          "word": "tea",
+          "meaning": "trà (danh từ)",
+          "phonetic": "/tiː/",
+          "image": "🍵",
+          "audio": "",
+          "example": "Would you like a cup of tea?",
+          "example_vi": "Bạn có muốn một tách trà không?",
+          "hint": "A hot drink made by pouring water over dried leaves"
+        },
+        {
+          "word": "fruit",
+          "meaning": "trái cây (danh từ)",
+          "phonetic": "/fruːt/",
+          "image": "🍎",
+          "audio": "",
+          "example": "Eating fruit is good for your health.",
+          "example_vi": "Ăn trái cây tốt cho sức khỏe của bạn.",
+          "hint": "Sweet food that grows on trees or plants"
+        },
+        {
+          "word": "fish",
+          "meaning": "cá (danh từ)",
+          "phonetic": "/fɪʃ/",
+          "image": "🐟",
+          "audio": "",
+          "example": "We had fish for dinner last night.",
+          "example_vi": "Chúng tôi ăn cá cho bữa tối tối qua.",
+          "hint": "An animal that lives in water, often eaten as food"
+        },
+        {
+          "word": "water",
+          "meaning": "nước (danh từ)",
+          "phonetic": "/ˈwɔːtər/",
+          "image": "💧",
+          "audio": "",
+          "example": "Please give me a glass of water.",
+          "example_vi": "Xin hãy cho tôi một ly nước.",
+          "hint": "A clear liquid that all living things need"
+        },
+        {
+          "word": "cheese",
+          "meaning": "phô mai (danh từ)",
+          "phonetic": "/tʃiːz/",
+          "image": "🧀",
+          "audio": "",
+          "example": "I like cheese on my bread.",
+          "example_vi": "Tôi thích phô mai trên bánh mì.",
+          "hint": "A solid food made from milk"
+        },
+        {
+          "word": "chicken",
+          "meaning": "thịt gà (danh từ)",
+          "phonetic": "/ˈtʃɪkɪn/",
+          "image": "🍗",
+          "audio": "",
+          "example": "We have chicken for dinner tonight.",
+          "example_vi": "Chúng tôi ăn thịt gà cho bữa tối nay.",
+          "hint": "Meat from a common farm bird"
+        },
+        {
+          "word": "salad",
+          "meaning": "salad / rau trộn (danh từ)",
+          "phonetic": "/ˈsæləd/",
+          "image": "🥗",
+          "audio": "",
+          "example": "She eats a salad for lunch.",
+          "example_vi": "Cô ấy ăn salad cho bữa trưa.",
+          "hint": "A dish of raw vegetables"
+        },
+        {
+          "word": "chocolate",
+          "meaning": "sô cô la (danh từ)",
+          "phonetic": "/ˈtʃɑːklət/",
+          "image": "🍫",
+          "audio": "",
+          "example": "Children love to eat chocolate.",
+          "example_vi": "Trẻ em thích ăn sô cô la.",
+          "hint": "A sweet brown food made from cacao"
+        },
+        {
+          "word": "juice",
+          "meaning": "nước ép (danh từ)",
+          "phonetic": "/dʒuːs/",
+          "image": "🧃",
+          "audio": "",
+          "example": "I drink orange juice every morning.",
+          "example_vi": "Tôi uống nước cam ép mỗi sáng.",
+          "hint": "A drink made from fruit"
+        },
+        {
+          "word": "butter",
+          "meaning": "bơ (danh từ)",
+          "phonetic": "/ˈbʌtər/",
+          "image": "🧈",
+          "audio": "",
+          "example": "She puts butter on her toast.",
+          "example_vi": "Cô ấy phết bơ lên bánh mì nướng.",
+          "hint": "A soft yellow food made from milk"
+        },
+        {
+          "word": "cookie",
+          "meaning": "bánh quy (danh từ)",
+          "phonetic": "/ˈkʊki/",
+          "image": "🍪",
+          "audio": "",
+          "example": "Would you like a cookie with your tea?",
+          "example_vi": "Bạn có muốn một cái bánh quy với trà không?",
+          "hint": "A small flat sweet baked food"
+        },
+        {
+          "word": "sandwich",
+          "meaning": "bánh mì kẹp (danh từ)",
+          "phonetic": "/ˈsænwɪtʃ/",
+          "image": "🥪",
+          "audio": "",
+          "example": "I made a sandwich for lunch.",
+          "example_vi": "Tôi làm một chiếc bánh mì kẹp cho bữa trưa.",
+          "hint": "Food between two pieces of bread"
+        }
+      ]
+    }
+  ]
+}
