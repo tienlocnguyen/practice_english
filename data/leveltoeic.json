@@ -1,0 +1,1588 @@
+{
+  "level": "TOEIC",
+  "label": "TOEIC",
+  "label_vi": "TOEIC Business English",
+  "description": "Từ vựng chuyên nghiệp thuộc giới văn phòng và giao thương quốc tế ôn luyện kỳ thi TOEIC.",
+  "topics": [
+    {
+      "id": "toeic_office",
+      "name": "Office Communications",
+      "name_vi": "Giao tiếp Văn phòng",
+      "icon": "💼",
+      "words": [
+        {
+          "word": "memo",
+          "meaning": "thông báo nội bộ (danh từ)",
+          "image": "📄",
+          "example": "The HR department sent out a company-wide memo detailing the new dress code.",
+          "example_vi": "Phòng nhân sự đã gửi một thông báo nội bộ toàn công ty chi tiết về quy định trang phục mới.",
+          "hint": "A written proposal or reminder in a business environment.",
+          "phonetic": "/,memə'rændə/",
+          "audio": ""
+        },
+        {
+          "word": "agenda",
+          "meaning": "chương trình nghị sự, lịch trình họp (danh từ)",
+          "image": "📅",
+          "example": "We should review the group agenda before the marketing meeting begins.",
+          "example_vi": "Chúng ta nên xem xét kỹ chương trình nghị sự của nhóm trước khi cuộc họp tiếp thị bắt đầu.",
+          "hint": "A list of items to be discussed at a formal meeting.",
+          "phonetic": "/agenda/",
+          "audio": ""
+        },
+        {
+          "word": "collaborate",
+          "meaning": "hợp tác (động từ)",
+          "image": "🤝",
+          "example": "Our design and development teams collaborate to build beautiful user interfaces.",
+          "example_vi": "Các đội ngũ thiết kế và phát triển của chúng tôi hợp tác để xây dựng giao diện người dùng đẹp mắt.",
+          "hint": "Work jointly on an activity, especially to produce or create something.",
+          "phonetic": "/kə'læbəreit/",
+          "audio": ""
+        },
+        {
+          "word": "extension",
+          "meaning": "số máy lẻ, sự mở rộng (danh từ)",
+          "image": "📞",
+          "example": "Please dial extension 402 to reach the customer finance support representative directly.",
+          "example_vi": "Vui lòng gọi số máy lẻ 402 để kết nối trực tiếp với đại diện hỗ trợ tài chính khách hàng.",
+          "hint": "An additional telephone connected to a main line / an expansion of time.",
+          "phonetic": "/extension/",
+          "audio": ""
+        },
+        {
+          "word": "correspond",
+          "meaning": "trao đổi thư từ, liên lạc (động từ)",
+          "image": "✉️",
+          "example": "We correspond with our international regional sales branches daily via secure email.",
+          "example_vi": "Chúng tôi trao đổi thư từ liên lạc hàng ngày với các chi nhánh bán hàng khu vực quốc tế qua email bảo mật.",
+          "hint": "Communicate by exchanging letters, memos, or emails.",
+          "phonetic": "/correspond/",
+          "audio": ""
+        },
+        {
+          "word": "archive",
+          "meaning": "kho lưu trữ, lưu trữ (danh từ / động từ)",
+          "image": "📦",
+          "example": "Please register and archive old bookkeeping records in the secure basement facility.",
+          "example_vi": "Vui lòng đăng ký và lưu trữ các hồ sơ kế toán cũ trong cơ sở tầng hầm an toàn.",
+          "hint": "A collection of historical documents or records / storing old files.",
+          "phonetic": "attribute",
+          "audio": ""
+        },
+        {
+          "word": "teleconference",
+          "meaning": "hội nghị truyền hình từ xa (danh từ / động từ)",
+          "image": "📡",
+          "example": "The executive board scheduled a teleconference to discuss the merger with Japanese clients.",
+          "example_vi": "Ban điều hành đã lên lịch một cuộc họp từ xa qua điện thoại để thảo luận về việc sáp nhập với khách hàng Nhật Bản.",
+          "hint": "A conference with participants in different locations linked by telecommunication.",
+          "phonetic": "/teleconference/",
+          "audio": ""
+        },
+        {
+          "word": "bulletin",
+          "meaning": "bản tin, thông báo nhanh (danh từ)",
+          "image": "📝",
+          "example": "Remember to pin the local office safety bulletin onto the lobby announcement board.",
+          "example_vi": "Hãy nhớ ghim bản tin an toàn văn phòng địa phương lên bảng thông báo ở sảnh chờ.",
+          "hint": "A brief public notice of an event, investigation, or official matter.",
+          "phonetic": "board",
+          "audio": ""
+        },
+        {
+          "word": "workstation",
+          "meaning": "máy trạm, vị trí làm việc (danh từ)",
+          "image": "💻",
+          "example": "IT support set up a dual-monitor computer workstation for the new senior accountant.",
+          "example_vi": "Bộ phận hỗ trợ CNTT đã thiết lập vị trí máy trạm màn hình kép cho kế toán trưởng mới.",
+          "hint": "A computer intended for individual use, or a designated work area in an office.",
+          "phonetic": "/workstation/",
+          "audio": ""
+        },
+        {
+          "word": "feedback",
+          "meaning": "phản hồi (danh từ)",
+          "image": "💬",
+          "example": "Collecting consumer feedback helps us isolate and fix firmware bugs very fast.",
+          "example_vi": "Thu thập phản hồi của người dùng giúp chúng tôi khoanh vùng và sửa lỗi phần sụn rất nhanh.",
+          "hint": "Information about reactions to a product, a person's performance of a task.",
+          "phonetic": "/feedback/",
+          "audio": ""
+        },
+        {
+          "word": "recipient",
+          "meaning": "người nhận (danh từ)",
+          "image": "👤",
+          "example": "Confirm the billing recipient's physical address before shipping fragile cargo items.",
+          "example_vi": "Xác nhận địa chỉ thực của người nhận hóa đơn trước khi vận chuyển hàng hóa dễ vỡ.",
+          "hint": "A person who receives or is awarded something.",
+          "phonetic": "/ri'sipiənt/",
+          "audio": ""
+        },
+        {
+          "word": "dispatch",
+          "meaning": "gửi đi, điều động, phái đi (động từ / danh từ)",
+          "image": "🚢",
+          "example": "Courier services will dispatch a motorcycle carrier to collect your signature.",
+          "example_vi": "Dịch vụ chuyển phát nhanh sẽ điều động một nhân viên vận chuyển xe máy đến để lấy chữ ký của bạn.",
+          "hint": "Send off to a destination or for a purpose.",
+          "phonetic": "/dispatch/",
+          "audio": ""
+        },
+        {
+          "word": "document",
+          "meaning": "tài liệu, văn bản (danh từ / động từ)",
+          "image": "📂",
+          "example": "You must secure every physical legal document inside lockable filing cabinets.",
+          "example_vi": "Bạn phải bảo mật mọi tài liệu pháp lý vật lý bên trong tủ tài liệu có khóa.",
+          "hint": "A piece of written, printed, or electronic matter that provides information.",
+          "phonetic": "/document/",
+          "audio": ""
+        },
+        {
+          "word": "priority",
+          "meaning": "sự ưu tiên (danh từ)",
+          "image": "⭐",
+          "example": "Resolving customer complaint issues is our absolute number one corporate priority.",
+          "example_vi": "Giải quyết các vấn đề khiếu nại của khách hàng là ưu tiên tuyệt đối số một của doanh nghiệp chúng tôi.",
+          "hint": "The fact or condition of being regarded as more important than others.",
+          "phonetic": "/priority/",
+          "audio": ""
+        },
+        {
+          "word": "response",
+          "meaning": "câu trả lời, phản hồi (danh từ)",
+          "image": "💬",
+          "example": "Our technical support guarantees a helpful response to queries within two hours.",
+          "example_vi": "Đội ngũ kỹ thuật hỗ trợ chúng tôi đảm bảo có câu phản hồi hữu ích cho các thắc mắc trong vòng hai giờ.",
+          "hint": "A verbal or written answer / a reaction to something.",
+          "phonetic": "/ris'pɔns/",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "toeic_market",
+      "name": "Marketing & Public Relations",
+      "name_vi": "Tiếp thị & Quan hệ công chúng",
+      "icon": "📣",
+      "words": [
+        {
+          "word": "brochure",
+          "meaning": "tờ rơi quảng cáo, sách mỏng quảng cáo (danh từ)",
+          "image": "📄",
+          "example": "Our new marketing brochure showcases several of our luxury holiday tourist villas.",
+          "example_vi": "Cuốn sách mỏng quảng cáo tiếp thị mới của chúng tôi giới thiệu một số biệt thự du lịch nghỉ dưỡng sang trọng.",
+          "hint": "A small book or magazine containing pictures and information about a product.",
+          "phonetic": "/'brouʃjuə/",
+          "audio": ""
+        },
+        {
+          "word": "campaign",
+          "meaning": "chiến dịch (danh từ / động từ)",
+          "image": "🚀",
+          "example": "The online advertising campaign increased organic site traffic by forty percent.",
+          "example_vi": "Chiến dịch quảng cáo trực tuyến đã tăng lưu lượng truy cập trang web tự nhiên lên 40 phần trăm.",
+          "hint": "An organized course of action to achieve a particular goal, especially in business.",
+          "phonetic": "/kæm'pein/",
+          "audio": ""
+        },
+        {
+          "word": "consumer",
+          "meaning": "người tiêu dùng (danh từ)",
+          "image": "🛒",
+          "example": "Consumer preferences are rapidly shifting toward eco-friendly and organic grocery products.",
+          "example_vi": "Thị hiếu của người tiêu dùng đang chuyển dịch nhanh chóng sang các sản phẩm tạp hóa hữu cơ thân thiện với môi trường.",
+          "hint": "A person who purchases goods and services for personal use.",
+          "phonetic": "/consumer/",
+          "audio": ""
+        },
+        {
+          "word": "launch",
+          "meaning": "tung ra, khai trương, phát động (động từ / danh từ)",
+          "image": "🚀",
+          "example": "The electronics giant plan to launch its new tablet at the San Francisco seminar.",
+          "example_vi": "Gã khổng lồ điện tử có kế hoạch tung ra chiếc máy tính bảng mới của mình tại hội thảo San Francisco.",
+          "hint": "Start or set in motion an activity or product commercial release.",
+          "phonetic": "/lɔ:ntʃ/",
+          "audio": ""
+        },
+        {
+          "word": "endorse",
+          "meaning": "khuyến nghị, quảng nghị quảng cáo, chứng thực (động từ)",
+          "image": "⭐",
+          "example": "Famous sports athletes are paid millions to endorse professional running shoes.",
+          "example_vi": "Các vận động viên thể thao nổi tiếng được trả hàng triệu đô la để quảng nghị chứng thực cho giày chạy bộ chuyên nghiệp.",
+          "hint": "Declare one's public approval or support of a product in advertising advertisements.",
+          "phonetic": "/in'dɔ:s/",
+          "audio": ""
+        },
+        {
+          "word": "logo",
+          "meaning": "hình biểu trưng, biểu tượng thương hiệu (danh từ)",
+          "image": "🏷️",
+          "example": "The graphic designer crafted a simple yet highly memorable brand logo.",
+          "example_vi": "Nhà thiết kế đồ họa đã tạo ra một biểu tượng thương hiệu logo đơn giản nhưng cực kỳ đáng nhớ.",
+          "hint": "A symbol or other small design adopted by an organization to identify its products.",
+          "phonetic": "/logo/",
+          "audio": ""
+        },
+        {
+          "word": "wholesale",
+          "meaning": "bán sỉ, bán buôn (danh từ / tính từ / phó từ)",
+          "image": "🏢",
+          "example": "Retail outlets buy cargo lots at wholesale prices before marking up the final prices.",
+          "example_vi": "Các cửa hàng bán lẻ mua các lô hàng hóa với giá bán sỉ trước khi tăng giá bán cuối cùng.",
+          "hint": "The selling of goods in large quantities to be retd by others.",
+          "phonetic": "/wholesale/",
+          "audio": ""
+        },
+        {
+          "word": "promote",
+          "meaning": "quảng bá, thúc đẩy, thăng chức (động từ)",
+          "image": "📈",
+          "example": "Companies utilize social media systems to promote their seasonal discount coupons.",
+          "example_vi": "Các công ty sử dụng hệ thống truyền thông xã hội để quảng bá các phiếu giảm giá theo mùa của họ.",
+          "hint": "Support or actively encourage / publicize a product or feature.",
+          "phonetic": "/promote/",
+          "audio": ""
+        },
+        {
+          "word": "demographic",
+          "meaning": "nhóm nhân khẩu học, đối tượng (danh từ / tính từ)",
+          "image": "📊",
+          "example": "Our primary marketing demographic is tech-savvy young professionals aged 20 to 35.",
+          "example_vi": "Nhóm nhân khẩu học tiếp thị chính của chúng tôi là các chuyên gia trẻ hiểu biết công nghệ từ 20 đến 35 tuổi.",
+          "hint": "A particular sector of a population.",
+          "phonetic": "/,di:mə'græfik/",
+          "audio": ""
+        },
+        {
+          "word": "inventory",
+          "meaning": "hàng tồn kho, bảng kiểm kê (danh từ)",
+          "image": "📦",
+          "example": "Store employees close the shop early to perform a complete electronic inventory count.",
+          "example_vi": "Các nhân viên cửa hàng đóng cửa tiệm sớm để thực hiện một cuộc đếm kiểm kê hàng tồn kho điện tử hoàn chỉnh.",
+          "hint": "A complete list of items such as property, goods in stock, or contents of a building.",
+          "phonetic": "/inventory/",
+          "audio": ""
+        },
+        {
+          "word": "advertisement",
+          "meaning": "mục quảng cáo, bài quảng cáo (danh từ)",
+          "image": "📺",
+          "example": "Pinning a graphic advertisement on high-traffic websites boosted our sales numbers.",
+          "example_vi": "Ghim một bài quảng cáo đồ họa trên các trang web có lượng truy cập cao đã thúc đẩy doanh số bán hàng của chúng tôi.",
+          "hint": "A notice or announcement in a public medium promoting a product, service, or event.",
+          "phonetic": "/əd'və:tismənt/",
+          "audio": ""
+        },
+        {
+          "word": "strategy",
+          "meaning": "chiến lược (danh từ)",
+          "image": "💡",
+          "example": "The executive board designed an aggressive marketing strategy to acquire global shares.",
+          "example_vi": "Ban điều hành đã thiết kế một chiến lược tiếp thị tấn công mạnh mẽ để giành cổ phần toàn cầu.",
+          "hint": "A plan of action or policy designed to achieve a major or overall aim.",
+          "phonetic": "/strategy/",
+          "audio": ""
+        },
+        {
+          "word": "target",
+          "meaning": "đối tượng hướng tới, mục tiêu (danh từ / động từ)",
+          "image": "🎯",
+          "example": "It is critical to target regional localized issues during sales communications campaigns.",
+          "example_vi": "Việc hướng tới mục tiêu các vấn đề địa phương hóa khu vực trong các chiến dịch truyền thông bán hàng rất quan trọng.",
+          "hint": "A person, object, or result at which an action, game, or campaign is directed.",
+          "phonetic": "/target/",
+          "audio": ""
+        },
+        {
+          "word": "display",
+          "meaning": "trưng bày, hiển thị (động từ / danh từ)",
+          "image": "🖼️",
+          "example": "The luxury fashion retailer created a beautiful window display in Paris.",
+          "example_vi": "Nhà bán lẻ thời trang xa xỉ đã tạo ra một ô trưng bày cửa sổ tuyệt đẹp ở Paris.",
+          "hint": "Show/exhibit elements for community inspection.",
+          "phonetic": "/display/",
+          "audio": ""
+        },
+        {
+          "word": "questionnaire",
+          "meaning": "bảng câu hỏi khảo sát (danh từ)",
+          "image": "📝",
+          "example": "Please complete this online user satisfaction questionnaire to get a ten-off coupon.",
+          "example_vi": "Vui lòng hoàn thành bảng câu hỏi khảo sát mức độ hài lòng này để nhận phiếu giảm giá mười phần trăm.",
+          "hint": "A set of printed or written questions with a choice of answers, devised for the purposes of a survey.",
+          "phonetic": "/questionnaire/",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "toeic_hr",
+      "name": "Human Resources & Recruiting",
+      "name_vi": "Nhân sự & Tuyển dụng",
+      "icon": "👥",
+      "words": [
+        {
+          "word": "resume",
+          "meaning": "sơ yếu lý lịch (danh từ)",
+          "image": "📄",
+          "example": "Candidates must submit a professional resume highlighting their technical engineering experiences.",
+          "example_vi": "Các ứng viên phải nộp một sơ yếu lý lịch chuyên nghiệp nêu bật kinh nghiệm kỹ thuật công trình của họ.",
+          "hint": "A brief account of a person's education, qualifications, and previous experience.",
+          "phonetic": "/ri'zju:m/",
+          "audio": ""
+        },
+        {
+          "word": "qualified",
+          "meaning": "đủ điều kiện, đạt chuẩn (tính từ)",
+          "image": "✅",
+          "example": "To get hired for the manager role, you must be highly qualified in public relations fields.",
+          "example_vi": "Để được tuyển dụng vào vai trò quản lý, bạn phải cực kỳ đủ điều kiện trong lĩnh vực quan hệ công chúng.",
+          "hint": "Officially recognized as being trained to a particular level or competent to do something.",
+          "phonetic": "/qualified/",
+          "audio": ""
+        },
+        {
+          "word": "candidate",
+          "meaning": "ứng viên (danh từ)",
+          "image": "👤",
+          "example": "The successful candidate will demonstrate excellent bilingual English and Vietnamese skills.",
+          "example_vi": "Ứng viên thành công sẽ chứng tỏ kỹ năng song ngữ tiếng Anh và tiếng Việt xuất sắc.",
+          "hint": "A person who applies for a job or is nominated for an election.",
+          "phonetic": "/'kændidit/",
+          "audio": ""
+        },
+        {
+          "word": "vacancy",
+          "meaning": "vị trí trống, phòng trống (danh từ)",
+          "image": "🏢",
+          "example": "We have an urgent junior developer vacancy open inside our accounting department.",
+          "example_vi": "Chúng tôi có một vị trí trống nhà phát triển cấp thấp khẩn cấp trong bộ phận kế toán của mình.",
+          "hint": "An unoccupied position or job / unoccupied room in a boarding house.",
+          "phonetic": "/vacancy/",
+          "audio": ""
+        },
+        {
+          "word": "pension",
+          "meaning": "lương hưu, tiền hưu trí (danh từ)",
+          "image": "💰",
+          "example": "Corporate employees receive a generous retirement pension plan upon reaching sixty.",
+          "example_vi": "Các nhân viên doanh nghiệp nhận được kế hoạch lương hưu trí hào phóng khi đạt tuổi 60.",
+          "hint": "A regular payment made during a person's retirement from an investment fund.",
+          "phonetic": "fund",
+          "audio": ""
+        },
+        {
+          "word": "benefit",
+          "meaning": "quyền lợi, phúc lợi, lợi ích (danh từ / động từ)",
+          "image": "🏥",
+          "example": "The job offer includes excellent benefits such as medical insurance and flexible holidays.",
+          "example_vi": "Lời đề nghị công việc bao gồm lợi ích phúc lợi tuyệt vời như bảo hiểm y tế và kỳ nghỉ linh hoạt.",
+          "hint": "An advantage or profit gained from something / perks offered by a company.",
+          "phonetic": "principle",
+          "audio": ""
+        },
+        {
+          "word": "payroll",
+          "meaning": "bảng lương, danh sách phát lương (danh từ)",
+          "image": "💵",
+          "example": "HR processors managed to complete the payroll checks on time despite software glitches.",
+          "example_vi": "Người xử lý nhân sự đã quản lý để hoàn thành kiểm tra bảng lương đúng hạn mặc dù có lỗi phần mềm.",
+          "hint": "A list of a company's employees and the amount of money they are to be paid.",
+          "phonetic": "/payroll/",
+          "audio": ""
+        },
+        {
+          "word": "terminate",
+          "meaning": "chấm dứt, sa thải, dừng hợp đồng (động từ)",
+          "image": "❌",
+          "example": "Management decided to terminate the contract of the vendor because of poor maintenance.",
+          "example_vi": "Quản lý quyết định chấm dứt hợp đồng của nhà cung cấp do chế độ bảo trì kém.",
+          "hint": "Bring to an end / dismiss an employee.",
+          "phonetic": "/terminate/",
+          "audio": ""
+        },
+        {
+          "word": "interview",
+          "meaning": "phỏng vấn (danh từ / động từ)",
+          "image": "👥",
+          "example": "Applicants should dress strictly in business attire for their final job interview.",
+          "example_vi": "Các ứng cử viên nên ăn mặc lịch sự trong trang phục công sở cho buổi phỏng vấn việc làm cuối cùng của họ.",
+          "hint": "A meeting of people face to face, especially for consultation or employment recruiting.",
+          "phonetic": "/'intəvju:/",
+          "audio": ""
+        },
+        {
+          "word": "probation",
+          "meaning": "thời gian thử việc (danh từ)",
+          "image": "⏳",
+          "example": "Newly recruited engineers undergo a two-month probation period before receiving a full contract.",
+          "example_vi": "Các kỹ sư mới được tuyển dụng trải qua thời gian thử việc hai tháng trước khi nhận hợp đồng đầy đủ.",
+          "hint": "The release of an offender from detention, subject to a period of good behavior / testing time.",
+          "phonetic": "/probation/",
+          "audio": ""
+        },
+        {
+          "word": "recruit",
+          "meaning": "tuyển dụng, lính mới (động từ / danh từ)",
+          "image": "🏢",
+          "example": "We seek to recruit talented software engineers specializing in network security algorithms.",
+          "example_vi": "Chúng tôi tìm kiếm tuyển dụng các kỹ sư phần mềm tài năng chuyên về thuật toán bảo mật mạng.",
+          "hint": "Enroll someone in the armed forces / hire new staff.",
+          "phonetic": "/ri'kru:t/",
+          "audio": ""
+        },
+        {
+          "word": "supervisor",
+          "meaning": "người giám sát (danh từ)",
+          "image": "👤",
+          "example": "If you need to log overtime hours, you must acquire written permission from your supervisor.",
+          "example_vi": "Nếu bạn cần đăng ký số giờ làm thêm, bạn phải xin chữ ký cấp phép bằng văn bản từ người giám sát của mình.",
+          "hint": "A person who stands over/supervies a person or an activity.",
+          "phonetic": "/'sju:pəvaizə/",
+          "audio": ""
+        },
+        {
+          "word": "application",
+          "meaning": "đơn xin việc, ứng dụng (danh từ)",
+          "image": "📝",
+          "example": "Write a professional cover letter to attach with your employment application.",
+          "example_vi": "Hãy viết một thư xin việc ngắn chuyên nghiệp để đ kèm đơn xin việc của bạn.",
+          "hint": "A formal request to an authority for something / software program.",
+          "phonetic": "/application/",
+          "audio": ""
+        },
+        {
+          "word": "resignation",
+          "meaning": "đơn xin thôi việc, sự từ chức (danh từ)",
+          "image": "📄",
+          "example": "The senior marketing manager submitted his formal resignation sheet to seek other positions.",
+          "example_vi": "Giám đốc tiếp thị cấp cao đã nộp đơn xin thôi việc chính thức để tìm kiếm các vị trí khác.",
+          "hint": "An act of retiring or giving up a position.",
+          "phonetic": "/,rezig'neiʃn/",
+          "audio": ""
+        },
+        {
+          "word": "reference",
+          "meaning": "người giới thiệu, thư giới thiệu, tham chiếu (danh từ)",
+          "image": "📞",
+          "example": "We requested references from her previous university professor to confirm her technical skills.",
+          "example_vi": "Chúng tôi yêu cầu tài liệu thư giới thiệu từ giáo sư đại học cũ của cô ấy để xác minh kỹ năng kỹ thuật của cô ấy.",
+          "hint": "A letter from a previous employer testifying to someone's ability or character.",
+          "phonetic": "room",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "toeic_finance",
+      "name": "Finance, Accounting & Banking",
+      "name_vi": "Tài chính, Ngân hàng & Kế toán",
+      "icon": "💵",
+      "words": [
+        {
+          "word": "audit",
+          "meaning": "kiểm toán, cuộc kiểm toán (danh từ / động từ)",
+          "image": "📊",
+          "example": "An external accounting firm conducted an annual financial audit to ensure transparency.",
+          "example_vi": "Một công ty kế toán bên ngoài đã thực hiện cuộc kiểm toán tài chính hàng năm để đảm bảo tính minh bạch.",
+          "hint": "An official inspection of an individual's or organization's accounts, typically by an independent body.",
+          "phonetic": "/audit/",
+          "audio": ""
+        },
+        {
+          "word": "budget",
+          "meaning": "ngân sách (danh từ / động từ)",
+          "image": "💰",
+          "example": "Managers must restrict department travel expenditure to meet our tight annual budget.",
+          "example_vi": "Các quản lý phải hạn chế chi tiêu đi lại của bộ phận để đáp ứng ngân sách hàng năm eo hẹp của chúng tôi.",
+          "hint": "An estimate of income and expenditure for a set period of time.",
+          "phonetic": "/budget/",
+          "audio": ""
+        },
+        {
+          "word": "bankrupt",
+          "meaning": "phá sản (tính từ / danh từ / động từ)",
+          "image": "📉",
+          "example": "The retail retail supplier went bankrupt after failing to cover its immense credit debts.",
+          "example_vi": "Nhà cung cấp bán lẻ đã phá sản sau khi không thể trang trải khoản nợ tín dụng khổng lồ của mình.",
+          "hint": "Declared by law unable to pay outstanding debts.",
+          "phonetic": "/'bæɳkrəpt/",
+          "audio": ""
+        },
+        {
+          "word": "interest",
+          "meaning": "lãi suất, sự quan tâm, lợi ích (danh từ)",
+          "image": "📈",
+          "example": "Savings accounts in state-directed institutions generate a stable, low annual interest payout.",
+          "example_vi": "Tài khoản tiết kiệm trong tổ chức do nhà nước quản lý tạo ra khoản thanh toán lãi suất hàng năm thấp và ổn định.",
+          "hint": "Money pd regularly at a particular rate for the use of money lent.",
+          "phonetic": "/interest/",
+          "audio": ""
+        },
+        {
+          "word": "transaction",
+          "meaning": "giao dịch (danh từ)",
+          "image": "💵",
+          "example": "The credit card holder received an immediate mobile notification about the transaction.",
+          "example_vi": "Chủ sở hữu thẻ tín dụng đã nhận được thông báo di động ngay lập tức về giao dịch vừa xảy ra.",
+          "hint": "An instance of buying or selling something; a business deal.",
+          "phonetic": "motives",
+          "audio": ""
+        },
+        {
+          "word": "invoice",
+          "meaning": "hóa đơn thanh toán (danh từ / động từ)",
+          "image": "📄",
+          "example": "Please send the client an official legal invoice detailing the cost of shipping supplies.",
+          "example_vi": "Vui lòng gửi cho khách hàng một hóa đơn thanh toán chính thức chi tiết chi phí vật tư vận chuyển.",
+          "hint": "A list of goods sent or services provided, with a statement of the sum due for these.",
+          "phonetic": "/invoice/",
+          "audio": ""
+        },
+        {
+          "word": "portfolio",
+          "meaning": "danh mục đầu tư, hồ sơ năng lực (danh từ)",
+          "image": "📂",
+          "example": "A diversified stock portfolio minimizes financial losses during localized market downturn recessions.",
+          "example_vi": "Một danh mục đầu tư cổ phiếu đa dạng hóa giảm thiểu tổn thất tài chính trong các thời kỳ suy thoái thị trường địa phương.",
+          "hint": "A range of investments held by a person or organization.",
+          "phonetic": "/pɔ:t'fouljou/",
+          "audio": ""
+        },
+        {
+          "word": "revenue",
+          "meaning": "doanh thu (danh từ)",
+          "image": "📈",
+          "example": "The software giant generated bumper revenue following the release of its computer operating codes.",
+          "example_vi": "Gã khổng lồ phần mềm đã tạo ra doanh thu kỷ lục sau khi phát hành các mã điều hành máy tính của mình.",
+          "hint": "Income, especially when of a company or organization and of a substantial nature.",
+          "phonetic": "/revenue/",
+          "audio": ""
+        },
+        {
+          "word": "ledger",
+          "meaning": "sổ cái kế toán (danh từ)",
+          "image": "📖",
+          "example": "Junior bookkeepers record debit and credit transactions manually inside the physical database ledger.",
+          "example_vi": "Các nhân viên ghi sổ cấp thấp ghi nhận các giao dịch nợ và có theo cách thủ công bên trong sổ cái kế toán vật lý.",
+          "hint": "A book or other collection of financial accounts of a particular type.",
+          "phonetic": "/'ledʤə/",
+          "audio": ""
+        },
+        {
+          "word": "credit",
+          "meaning": "tín dụng, lòng tin (danh từ / động từ)",
+          "image": "💳",
+          "example": "Having excellent credit status enables startups to borrow investment capital at lower rates.",
+          "example_vi": "Có trạng thái tín dụng xuất sắc cho phép các công ty khởi nghiệp vay vốn đầu tư với lãi suất thấp hơn.",
+          "hint": "The ability of a customer to obtain goods or services before payment, based on the trust.",
+          "phonetic": "/credit/",
+          "audio": ""
+        },
+        {
+          "word": "asset",
+          "meaning": "tài sản, tài sản quý (danh từ)",
+          "image": "🏢",
+          "example": "Commercial property and industrial warehouses are valuable corporate assets.",
+          "example_vi": "Bất động sản thương mại và nhà kho công nghiệp là những tài sản doanh nghiệp có giá trị.",
+          "hint": "An item of property owned by a person or company, regarded as having value.",
+          "phonetic": "stocks and services flows",
+          "audio": ""
+        },
+        {
+          "word": "liability",
+          "meaning": "khoản nợ phải trả, trách nhiệm pháp lý (danh từ)",
+          "image": "💸",
+          "example": "Outstanding invoice payments and employee payroll checks are listed under short-term liabilities.",
+          "example_vi": "Các khoản hóa đơn thanh toán tồn đọng và chi trả lương cho nhân viên được liệt kê dưới mục nợ phải trả ngắn hạn.",
+          "hint": "The state of being responsible for something, especially by law / a financial debt.",
+          "phonetic": "/liability/",
+          "audio": ""
+        },
+        {
+          "word": "deposit",
+          "meaning": "tiền đặt cọc, tiền gửi ngân hàng (danh từ / động từ)",
+          "image": "💵",
+          "example": "The tenant pd a security deposit equivalent to one month's lease to secure the room.",
+          "example_vi": "Người thuê nhà đã trả một khoản tiền đặt cọc bảo đảm tương đương với một tháng tiền thuê để giữ phòng.",
+          "hint": "A sum of money kept in a bank account, or pd as a first installment on a purchase.",
+          "phonetic": "/deposit/",
+          "audio": ""
+        },
+        {
+          "word": "referee",
+          "meaning": "người giới thiệu, trọng tài (danh từ)",
+          "image": "👤",
+          "example": "The banking candidate listed three distinguished financial referees on her application form.",
+          "example_vi": "Ứng cử viên ngành ngân hàng đã liệt kê ba người tham chiếu tài chính xuất sắc trên đơn xin việc của mình.",
+          "hint": "A person who can testify to your character or skills (in professional applications).",
+          "phonetic": "/referee/",
+          "audio": ""
+        },
+        {
+          "word": "reconcile",
+          "meaning": "đối chiếu, hòa giải (động từ)",
+          "image": "⚖️",
+          "example": "Accountants must reconcile monthly bank statements with internal ledger balances closely.",
+          "example_vi": "Kế toán phải đối chiếu bảng sao kê ngân hàng hàng tháng với số dư sổ cái nội bộ một cách chặt chẽ.",
+          "hint": "Make financial accounts consistent with another / settle relationships.",
+          "phonetic": "/'rekənsail/",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "toeic_travel",
+      "name": "Travel & Hotel Hospitality",
+      "name_vi": "Du lịch & Khách sạn",
+      "icon": "✈️",
+      "words": [
+        {
+          "word": "itinerary",
+          "meaning": "lịch trình chuyến đi (danh từ)",
+          "image": "🗺️",
+          "example": "The travel tourist assistant emailed a complete daily itinerary including domestic flights.",
+          "example_vi": "Trợ lý du lịch lữ hành đã gửi email một lịch trình chuyến đi hàng ngày đầy đủ bao gồm cả các chuyến bay nội địa.",
+          "hint": "A planned route or journey.",
+          "phonetic": "/ai'tinərəri/",
+          "audio": ""
+        },
+        {
+          "word": "boarding",
+          "meaning": "sự lên tàu/lên máy bay (danh từ / tính từ)",
+          "image": "✈️",
+          "example": "Passengers must exhibit their physical boarding pass to airport staff at the terminal gate.",
+          "example_vi": "Hành khách phải xuất trình thẻ lên máy bay vật lý cho nhân viên sân bay tại cửa nhà ga.",
+          "hint": "The action of getting on a ship, plane, or train.",
+          "phonetic": "card",
+          "audio": ""
+        },
+        {
+          "word": "hospitality",
+          "meaning": "lòng hiếu khách, ngành nhà hàng khách sạn (danh từ)",
+          "image": "🏨",
+          "example": "Five-star hotel resorts are celebrated internationally for their unmatched hospitality.",
+          "example_vi": "Các khu nghỉ dưỡng khách sạn năm sao nổi tiếng quốc tế vì lòng hiếu khách chưa từng có của họ.",
+          "hint": "The friendly and generous reception and entertainment of guests.",
+          "phonetic": "/,hɔspi'tæliti/",
+          "audio": ""
+        },
+        {
+          "word": "concierge",
+          "meaning": "quầy phục vụ khách, người hỗ trợ khách hàng (danh từ)",
+          "image": "👤",
+          "example": "Ask the front concierge desk to make dinner reservations at a nearby seafood eatery.",
+          "example_vi": "Hãy hỏi quầy phục vụ khách ở phía trước để đặt chỗ ăn tối tại một quán ăn hải sản gần đó.",
+          "hint": "A hotel employee whose job is to assist guests by booking tours, making theatre reservations.",
+          "phonetic": "/concierge/",
+          "audio": ""
+        },
+        {
+          "word": "delayed",
+          "meaning": "bị trì hoãn, trễ giờ (tính từ / động từ)",
+          "image": "⏳",
+          "example": "Our connecting flight to Tokyo was severely delayed because of heavy winter storms.",
+          "example_vi": "Chuyến bay kết nối của chúng tôi đến Tokyo đã bị trì hoãn nghiêm trọng do bão bão tuyết mùa đông lớn.",
+          "hint": "Late or postponed.",
+          "phonetic": "/delayed/",
+          "audio": ""
+        },
+        {
+          "word": "accommodation",
+          "meaning": "chỗ ở, phòng nghỉ (danh từ)",
+          "image": "🏨",
+          "example": "The business conference package covers physical hotel accommodation and buffet dinner fees.",
+          "example_vi": "Gói hội nghị kinh doanh đài thọ hoàn toàn chỗ ở phòng nghỉ khách sạn và chi phí tiệc ăn tối buffet.",
+          "hint": "Temporary lodging / room and food in a hotel environment.",
+          "phonetic": "ladder",
+          "audio": ""
+        },
+        {
+          "word": "reservation",
+          "meaning": "sự đặt chỗ trước (danh từ)",
+          "image": "📞",
+          "example": "It is critical to call ahead to guarantee a dinner table reservation during weekend hours.",
+          "example_vi": "Quan trọng là cần gọi điện trước để bảo đảm sự đặt chỗ trước bàn ăn tối trong các giờ cuối tuần.",
+          "hint": "An arrangement to have something kept for a particular person's use.",
+          "phonetic": "/reservation/",
+          "audio": ""
+        },
+        {
+          "word": "excursion",
+          "meaning": "chuyến tham quan ngắn, dã ngoại (danh từ)",
+          "image": "🚌",
+          "example": "Guided tours organize an early morning excursion to explore ancient temple ruins.",
+          "example_vi": "Các chuyến tham quan có hướng dẫn tổ chức một chuyến dã ngoại ngắn buổi sáng để khám phá tàn tích đền cổ.",
+          "hint": "A short journey or trip, especially one taken as a leisure activity.",
+          "phonetic": "/iks'kə:ʃn/",
+          "audio": ""
+        },
+        {
+          "word": "luggage",
+          "meaning": "hành lý (danh từ)",
+          "image": "🧳",
+          "example": "Airport clerks weigh passengers' luggage to check if it exceeds standard free cargo weights.",
+          "example_vi": "Các nhân viên sân bay cân hành lý của hành khách để kiểm tra xem nó có vượt quá hạn mức cân nặng miễn phí không.",
+          "hint": "Suitcases and bags containing a traveler's belongings.",
+          "phonetic": "van",
+          "audio": ""
+        },
+        {
+          "word": "terminal",
+          "meaning": "nhà ga sân bay/xe khách, thiết bị cuối (danh từ / tính từ)",
+          "image": "🚇",
+          "example": "A shuttle bus connects the international terminal directly to local train locations.",
+          "example_vi": "Một chuyến xe đưa đón kết nối nhà ga quốc tế trực tiếp với các vị trí ga tàu hỏa địa phương.",
+          "hint": "The end of a railway or other transport line / airport station building.",
+          "phonetic": "/terminal/",
+          "audio": ""
+        },
+        {
+          "word": "destination",
+          "meaning": "điểm đến (danh từ)",
+          "image": "🏖️",
+          "example": "Da Nang remains a highly popular vacation destination for domestic and foreign travelers.",
+          "example_vi": "Đà Nẵng vẫn là điểm đến kỳ nghỉ dưỡng vô cùng nổi tiếng đối với khách du lịch trong và ngoài nước.",
+          "hint": "The place to which someone or something is going or being sent.",
+          "phonetic": "/destination/",
+          "audio": ""
+        },
+        {
+          "word": "departure",
+          "meaning": "giờ khởi hành, sự khởi hành (danh từ)",
+          "image": "🛫",
+          "example": "Confirm your airport boarding gate time on the giant digital departures board.",
+          "example_vi": "Xác nhận giờ khởi hành lên máy bay tại cổng sân bay trên bảng thông tin khởi hành kỹ thuật số khổng lồ.",
+          "hint": "The action of leaving, especially to start a journey.",
+          "phonetic": "/departure/",
+          "audio": ""
+        },
+        {
+          "word": "ticket",
+          "meaning": "vé (danh từ / động từ)",
+          "image": "🎟️",
+          "example": "I purchased an electronic ticket via my mobile wallet helper to avoid waiting lines.",
+          "example_vi": "Tôi đã mua một chiếc vé điện tử qua ứng dụng ví di động của mình để tránh phải xếp hàng chờ đợi.",
+          "hint": "A piece of paper or electronic document showing that the holder is entitled to something.",
+          "phonetic": "/'tikit/",
+          "audio": ""
+        },
+        {
+          "word": "shuttle",
+          "meaning": "xe buýt đưa đón chặng ngắn (danh từ / động từ)",
+          "image": "🚌",
+          "example": "The hotel organizes a complimentary shuttle to transport guests straight to the beach.",
+          "example_vi": "Khách sạn tổ chức một chuyến xe buýt đưa đón miễn phí để chở khách thẳng tới sau bãi biển.",
+          "hint": "A form of transport that travels regularly between two places.",
+          "phonetic": "diplomacy",
+          "audio": ""
+        },
+        {
+          "word": "check-in",
+          "meaning": "thủ tục nhận phòng/lên máy bay, sự đăng nhập (danh từ / động từ)",
+          "image": "🔑",
+          "example": "The standard hotel check-in hour begins at two in the afternoon.",
+          "example_vi": "Giờ làm thủ tục nhận phòng khách sạn tiêu chuẩn bắt đầu vào lúc hai giờ chiều.",
+          "hint": "The act of registering one's arrival, especially at an airport or hotel.",
+          "phonetic": "/check-in/",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "toeic_health",
+      "name": "Health, Medical & Safety",
+      "name_vi": "Sức khỏe & An toàn lao động",
+      "icon": "🏥",
+      "words": [
+        {
+          "word": "prescription",
+          "meaning": "đơn thuốc (danh từ)",
+          "image": "💊",
+          "example": "You must display a valid doctor's prescription before purchasing strong antibiotic pills.",
+          "example_vi": "Bạn phải trình một đơn thuốc hợp lệ của bác sĩ trước khi mua các loại thuốc kháng sinh mạnh.",
+          "hint": "An instruction written by a medical practitioner that authorizes a patient to be provided with a medicine.",
+          "phonetic": "/pris'kripʃn/",
+          "audio": ""
+        },
+        {
+          "word": "physical",
+          "meaning": "thuộc cơ thể, cuộc kiểm tra sức khỏe tổng quát (tính từ / danh từ)",
+          "image": "🏋️",
+          "example": "Corporate safety regulations mandate that all candidates undergo an annual physical exam.",
+          "example_vi": "Các quy định an toàn của doanh nghiệp bắt buộc tất cả các ứng cử viên phải trải qua một cuộc kiểm tra sức khỏe tổng quát hàng năm.",
+          "hint": "Relating to the body as opposed to the mind / general medical checkup.",
+          "phonetic": "and financial capital",
+          "audio": ""
+        },
+        {
+          "word": "clinic",
+          "meaning": "phòng khám (danh từ)",
+          "image": "🏥",
+          "example": "The community clinic provides basic dental care and vaccines at near-free costs.",
+          "example_vi": "Phòng khám cộng đồng cung cấp dịch vụ chăm sóc răng miệng cơ bản và vắc-xin với chi phí gần như miễn phí.",
+          "hint": "An establishment or hospital department where outpatients are given medical treatment.",
+          "phonetic": "/'klinik/",
+          "audio": ""
+        },
+        {
+          "word": "symptom",
+          "meaning": "triệu chứng bệnh (danh từ)",
+          "image": "🌡️",
+          "example": "A persistent dry cough is a classic clinical symptom of common viral lung infections.",
+          "example_vi": "Ho khan kéo dài là triệu chứng lâm sàng kinh điển của tình trạng nhiễm trùng phổi do virus thông thường.",
+          "hint": "A physical or mental feature which is regarded as indicating a condition of disease.",
+          "phonetic": "/symptom/",
+          "audio": ""
+        },
+        {
+          "word": "evacuation",
+          "meaning": "sự sơ tán, sự rút lui (danh từ)",
+          "image": "🚨",
+          "example": "Fire safety officers conducted a complete corporate building evacuation drill yesterday.",
+          "example_vi": "Các nhân viên an toàn phòng cháy chữa cháy đã tiến hành một buổi diễn tập sơ tán tòa nhà doanh nghiệp hoàn chỉnh vào hôm qua.",
+          "hint": "The action of evacuating a person or a place of danger.",
+          "phonetic": "/i,vækju'eiʃn/",
+          "audio": ""
+        },
+        {
+          "word": "hygiene",
+          "meaning": "vệ sinh, vệ sinh phòng dịch (danh từ)",
+          "image": "🧼",
+          "example": "Washing hands regularly maintains basic corporate restaurant hygiene safety benchmarks.",
+          "example_vi": "Rửa tay thường xuyên giúp duy trì các tiêu chuẩn về an toàn vệ sinh cơ bản cho nhà hàng thuộc tập đoàn.",
+          "hint": "Conditions or practices conducive to maintaining health and preventing disease, especially through cleanliness.",
+          "phonetic": "/'haidʤi:n/",
+          "audio": ""
+        },
+        {
+          "word": "workspace",
+          "meaning": "vị trí, không gian làm việc (danh từ)",
+          "image": "💻",
+          "example": "Keeping a tidy, clean workspace limits mental stress and increases creative productivity.",
+          "example_vi": "Giữ gìn không gian làm việc gọn gàng, sạch sẽ giúp giảm căng thẳng tinh thần và tăng năng suất sáng tạo.",
+          "hint": "The area compiled for a single employee workstation.",
+          "phonetic": "/workspace/",
+          "audio": ""
+        },
+        {
+          "word": "wellness",
+          "meaning": "sự khỏe mạnh, thể chất cân bằng (danh từ)",
+          "image": "🍀",
+          "example": "Our corporate wellness program includes complimentary gym passes and nutrition advice classes.",
+          "example_vi": "Chương trình chăm sóc sức khỏe thể chất cân bằng của doanh nghiệp chúng tôi bao gồm thẻ tập thể dục miễn phí và các lớp tư vấn thiết thực về dinh dưỡng.",
+          "hint": "The state of being in good health, especially as an actively pursued goal.",
+          "phonetic": "/wellness/",
+          "audio": ""
+        },
+        {
+          "word": "therapist",
+          "meaning": "nhà vật lý trị liệu, bác sĩ trị liệu (danh từ)",
+          "image": "👤",
+          "example": "The sports therapist designed a personalized training routine to heal the athlete's knee tendon.",
+          "example_vi": "Bác sĩ trị liệu thể thao đã thiết kế một bài tập cá nhân hóa nhằm chữa lành gân kheo đầu gối của vận động viên.",
+          "hint": "A person skilled in a particular type of therapy.",
+          "phonetic": "/therapist/",
+          "audio": ""
+        },
+        {
+          "word": "insurance",
+          "meaning": "bảo hiểm (danh từ)",
+          "image": "🛡️",
+          "example": "Excellent medical insurance covers hospital lodging bills and dental operations completely.",
+          "example_vi": "Chương trình bảo hiểm y tế xuất sắc đài thọ hoàn toàn các hóa đơn nằm viện và phẫu thuật răng miệng.",
+          "hint": "An arrangement by which a company or state guarantees compensation for specified loss, damage, illness.",
+          "phonetic": "/insurance/",
+          "audio": ""
+        },
+        {
+          "word": "hazard",
+          "meaning": "mối nguy hiểm, rủi ro (danh từ / động từ)",
+          "image": "⚠️",
+          "example": "Unplugging overheating machines early avoids major electrical hazard events inside factories.",
+          "example_vi": "Rút phích cắm các loại máy quá nóng sớm giúp tránh các sự cố nguy hiểm về điện nghiêm trọng bên trong nhà máy.",
+          "hint": "A danger or risk.",
+          "phonetic": "/hazard/",
+          "audio": ""
+        },
+        {
+          "word": "emergency",
+          "meaning": "trường hợp khẩn cấp (danh từ / tính từ)",
+          "image": "🚨",
+          "example": "Keep the designated emergency exit stairs completely clear of packaging crates.",
+          "example_vi": "Hãy giữ cho lối rẽ cầu thang thoát hiểm khẩn cấp được chỉ định hoàn toàn trống sạch khỏi các thùng các-tông.",
+          "hint": "A serious, unexpected, and often dangerous situation requiring immediate action.",
+          "phonetic": "/emergency/",
+          "audio": ""
+        },
+        {
+          "word": "prevention",
+          "meaning": "sự phòng ngừa, ngăn chặn (danh từ)",
+          "image": "🛡️",
+          "example": "Regular machinery maintenance is the ultimate key to industrial hazard prevention.",
+          "example_vi": "Bảo trì máy móc thường xuyên là chiếc chìa khóa quan trọng nhất để phòng ngừa các mối nguy hiểm công nghiệp.",
+          "hint": "The action of stopping something from happening or arising.",
+          "phonetic": "/pri'venʃn/",
+          "audio": ""
+        },
+        {
+          "word": "condition",
+          "meaning": "điều kiện, tình trạng sức khỏe (danh từ / động từ)",
+          "image": "📊",
+          "example": "The physical clinic reported that the worker is in excellent medical condition.",
+          "example_vi": "Phòng khám kiểm tra thể chất báo cáo rằng công nhân này đang có điều kiện tình trạng sức khỏe tuyệt vời.",
+          "hint": "The state of something with regard to its appearance, quality, or working order.",
+          "phonetic": "/condition/",
+          "audio": ""
+        },
+        {
+          "word": "medicine",
+          "meaning": "y học, thuốc uống (danh từ)",
+          "image": "💊",
+          "example": "Traditional natural medicine uses ginger roots to settle stomach upset symptoms quickly.",
+          "example_vi": "Y học tự nhiên truyền thống sử dụng củ gừng để làm dịu các triệu chứng rối loạn dạ dày nhanh chóng.",
+          "hint": "The science or practice of the diagnosis, treatment, and prevention of disease / pharmaceutical pills.",
+          "phonetic": "/'medsin/",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "toeic_logistics",
+      "name": "Logistics & Purchasing",
+      "name_vi": "Vận chuyển & Kho vận",
+      "icon": "🚢",
+      "words": [
+        {
+          "word": "cargo",
+          "meaning": "hàng hóa vận chuyển (danh từ)",
+          "image": "🚢",
+          "example": "The massive freight vessel carried thousands of cargo containers from Shanghai.",
+          "example_vi": "Con tàu chở hàng khổng lồ đã vận chuyển hàng ngàn container hàng hóa từ Thượng Hải.",
+          "hint": "Goods carried on a ship, aircraft, or motor vehicle.",
+          "phonetic": "/'kɑ:gou/",
+          "audio": ""
+        },
+        {
+          "word": "carrier",
+          "meaning": "hãng vận tải, người vận chuyển (danh từ)",
+          "image": "🚚",
+          "example": "We contracted an international logistics carrier to handle container shipments to Europe.",
+          "example_vi": "Chúng tôi đã ký hợp đồng với một hãng vận tải hậu cần quốc tế để xử lý các chuyến hàng container đến châu Âu.",
+          "hint": "A person or company that undertakes the professional professional transport of goods, passengers.",
+          "phonetic": "channel",
+          "audio": ""
+        },
+        {
+          "word": "wholesale",
+          "meaning": "bán buôn, bán sỉ (danh từ / tính từ)",
+          "image": "🏢",
+          "example": "Buying wholesale units directly reduces the cost of restaurant ingredients enormously.",
+          "example_vi": "Mua các đơn vị bán buôn trực tiếp làm giảm thiểu đáng kể chi phí nguyên liệu nhà hàng.",
+          "hint": "The business of selling goods in large quantities at low prices.",
+          "phonetic": "/wholesale/",
+          "audio": ""
+        },
+        {
+          "word": "shipment",
+          "meaning": "lô hàng vận chuyển, sự gửi hàng (danh từ)",
+          "image": "📦",
+          "example": "The factory supervisor confirmed that the raw steel shipment was delivered on time.",
+          "example_vi": "Giám sát viên nhà máy xác nhận rằng lô hàng thép thô đã được giao đúng hẹn.",
+          "hint": "A quantity of goods shipped; a cargo.",
+          "phonetic": "/'ʃipmənt/",
+          "audio": ""
+        },
+        {
+          "word": "tariff",
+          "meaning": "thuế quan, biểu thuế xuất nhập khẩu (danh từ)",
+          "image": "💸",
+          "example": "Imposing a strict import tariff protected domestic manufacturers but raised retail prices.",
+          "example_vi": "Việc áp dụng mức thuế quan nhập khẩu nghiêm ngặt đã bảo vệ các nhà sản xuất nội địa nhưng làm tăng giá bán lẻ.",
+          "hint": "A tax or duty to be pd on a particular class of imports or exports.",
+          "phonetic": "/tariff/",
+          "audio": ""
+        },
+        {
+          "word": "courier",
+          "meaning": "nhân viên chuyển phát nhanh (danh từ)",
+          "image": "🏍️",
+          "example": "We sent the original signed building contract via an express courier yesterday morning.",
+          "example_vi": "Chúng tôi đã gửi bản hợp đồng xây dựng có chữ ký gốc qua một nhân viên chuyển phát nhanh sáng hôm qua.",
+          "hint": "A messenger who transports goods, legal archives, documents, packages.",
+          "phonetic": "/'kuriə/",
+          "audio": ""
+        },
+        {
+          "word": "warehouse",
+          "meaning": "nhà kho (danh từ / động từ)",
+          "image": "🏢",
+          "example": "Forklifts transport shipping crates safely inside our modern commercial warehouse.",
+          "example_vi": "Xe nâng bốc xếp các thùng hàng vận chuyển một cách an toàn bên trong nhà kho thương mại hiện đại của chúng tôi.",
+          "hint": "A large building where raw materials or manufactured goods may be stored before export.",
+          "phonetic": "/'weəhaus/",
+          "audio": ""
+        },
+        {
+          "word": "dispatch",
+          "meaning": "gửi đi, điều vận, giải quyết nhanh (động từ / danh từ)",
+          "image": "📦",
+          "example": "Logistics managers must dispatch custom cargo sets within twenty-four hours.",
+          "example_vi": "Các quản lý hậu cần phải gửi đi các lô hàng hàng hóa tùy chỉnh trong vòng hai mươi tư giờ.",
+          "hint": "Send off to a destination or for a purpose.",
+          "phonetic": "/dispatch/",
+          "audio": ""
+        },
+        {
+          "word": "fragile",
+          "meaning": "dễ vỡ, mỏng manh (tính từ)",
+          "image": "🥛",
+          "example": "Attach 'Fragile' warning stickers onto boxes containing glass culinary dining cups.",
+          "example_vi": "Hãy dán nhãn cảnh báo 'Dễ vỡ' lên các hộp giấy chứa cốc chén thủy tinh ăn uống.",
+          "hint": "Easily broken or damaged.",
+          "phonetic": "/'frædʤail/",
+          "audio": ""
+        },
+        {
+          "word": "tracking",
+          "meaning": "theo dõi, định vị lịch trình (danh từ / tính từ)",
+          "image": "📍",
+          "example": "Customers utilize their online tracking code to review delivery updates in real-time.",
+          "example_vi": "Khách hàng sử dụng mã định vị theo dõi trực tuyến để kiểm tra cập nhật giao hàng theo thời gian thực.",
+          "hint": "The monitoring of cargo paths / recording locations of shipment packages.",
+          "phonetic": "station",
+          "audio": ""
+        },
+        {
+          "word": "receipt",
+          "meaning": "hóa đơn nhận tiền, biên lai (danh từ)",
+          "image": "📄",
+          "example": "Please present your purchase receipt to process product refund claims at customer service.",
+          "example_vi": "Vui lòng xuất trình biên lại hóa đơn mua hàng để xử lý các yêu cầu hoàn tiền sản phẩm tại quầy dịch vụ khách hàng.",
+          "hint": "A written statement confirming that money or goods have been received.",
+          "phonetic": "/receipt/",
+          "audio": ""
+        },
+        {
+          "word": "delivery",
+          "meaning": "sự giao hàng (danh từ)",
+          "image": "📦",
+          "example": "Home delivery charges are waived for orders exceeding eighty dollars in value.",
+          "example_vi": "Chi phí phí giao hàng tận nhà được miễn cho các đơn hàng vượt quá giá trị tám mươi đô la.",
+          "hint": "The carrying and turning over of letters, goods, or packages to a recipient.",
+          "phonetic": "/delivery/",
+          "audio": ""
+        },
+        {
+          "word": "transport",
+          "meaning": "vận tải, giao thông (danh từ / động từ)",
+          "image": "🚚",
+          "example": "Public transport networks reduce automobile emissions in crowded metropolitan zones.",
+          "example_vi": "Các mạng lưới giao thông vận tải công cộng cắt giảm lượng khí thải ô tô trong các vùng đô thị đông đúc.",
+          "hint": "Take or carry people or goods from one place to another.",
+          "phonetic": "/transport/",
+          "audio": ""
+        },
+        {
+          "word": "order",
+          "meaning": "đơn đặt hàng, trật tự, gọi món (danh từ / động từ)",
+          "image": "🛒",
+          "example": "The purchaser placed an online order for twenty new computer hardware monitors.",
+          "example_vi": "Nhân viên mua hàng đã đặt một đơn đặt hàng trực tuyến cho hai mươi màn hình phần cứng máy tính mới.",
+          "hint": "An authoritative command / request for supply of goods.",
+          "phonetic": "/order/",
+          "audio": ""
+        },
+        {
+          "word": "supply",
+          "meaning": "nguồn cung, cung cấp (danh từ / động từ)",
+          "image": "📦",
+          "example": "The office manager ordered a semester supply of printing paper and staples.",
+          "example_vi": "Trưởng phòng văn phòng đã đặt một lượng nguồn cung giấy in và ghim dập cho cả một học kỳ.",
+          "hint": "Make something available to someone / a stock of a resource.",
+          "phonetic": "/supply/",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "toeic_restaurant",
+      "name": "Restaurants, Dining & Banquets",
+      "name_vi": "Nhà hàng & Tiệc chiêu đãi",
+      "icon": "🍔",
+      "words": [
+        {
+          "word": "culinary",
+          "meaning": "thuộc bếp núc, nghệ thuật ẩm thực (tính từ)",
+          "image": "🍳",
+          "example": "The executive chef trained at a distinguished culinary art institute in Rome.",
+          "example_vi": "Đầu bếp trưởng điều hành đã học tập tại một viện nghệ thuật ẩm thực xuất sắc ở Rome.",
+          "hint": "Of or relating to rural/specialized cooking or the kitchen.",
+          "phonetic": "/'kʌlinəri/",
+          "audio": ""
+        },
+        {
+          "word": "catering",
+          "meaning": "dịch vụ ăn uống, phục vụ tiệc (danh từ)",
+          "image": "🍽️",
+          "example": "The company hired a local catering vendor to organize the annual wedding banquet.",
+          "example_vi": "Công ty đã thuê một nhà cung cấp dịch vụ phục vụ tiệc địa phương để tổ chức tiệc cưới hàng năm.",
+          "hint": "The provision of food and drink at a social event or other gathering.",
+          "phonetic": "/catering/",
+          "audio": ""
+        },
+        {
+          "word": "reservation",
+          "meaning": "sự đặt chỗ trước (danh từ)",
+          "image": "📞",
+          "example": "Our online reservation calendar allows guests to schedule custom table seating slots.",
+          "example_vi": "Lịch đặt chỗ trước trực tuyến của chúng tôi cho phép khách tự chọn các khung giờ đặt bàn ăn tùy chỉnh.",
+          "hint": "An arrangement to have something kept for a particular person's use.",
+          "phonetic": "/reservation/",
+          "audio": ""
+        },
+        {
+          "word": "recipe",
+          "meaning": "công thức làm món ăn (danh từ)",
+          "image": "📖",
+          "example": "The baker preserves a secret family recipe to make light, crispy croissants.",
+          "example_vi": "Thợ làm bánh lưu giữ một công thức gia đình bí mật để làm ra những chiếc sừng bò nhẹ và giòn nở.",
+          "hint": "A set of instructions for preparing a particular dish, including a list of the ingredients required.",
+          "phonetic": "/'resipi/",
+          "audio": ""
+        },
+        {
+          "word": "gourmet",
+          "meaning": "người sành ăn, món ăn cao cấp sành điệu (danh từ / tính từ)",
+          "image": "🍷",
+          "example": "The hotel restaurant serves a delicious three-course gourmet lunch package.",
+          "example_vi": "Nhà hàng khách sạn phục vụ một gói bữa trưa ba món sành ăn ngon miệng.",
+          "hint": "Relating to high-quality or exotic food, or a person who understands exquisite dining.",
+          "phonetic": "/'guəmei/",
+          "audio": ""
+        },
+        {
+          "word": "chef",
+          "meaning": "đầu bếp, bếp trưởng (danh từ)",
+          "image": "👨‍🍳",
+          "example": "The pastry chef decorated the luxury anniversary chocolate cake beautifully.",
+          "example_vi": "Đầu bếp bánh ngọt đã trang trí chiếc bánh sô-cô-la kỷ niệm sang trọng tuyệt đẹp.",
+          "hint": "A professional cook, typically the chief cook in a restaurant.",
+          "phonetic": "/ʃef/",
+          "audio": ""
+        },
+        {
+          "word": "seating",
+          "meaning": "sự sắp xếp chỗ ngồi, chỗ ngồi (danh từ)",
+          "image": "🪑",
+          "example": "Our wedding banquet hall has comfortable seating capacity for three hundred guests.",
+          "example_vi": "Phòng tổ chức tiệc cưới của chúng tôi có sức chứa chỗ ngồi thoải mái cho ba trăm quan khách.",
+          "hint": "The arrangement of seats in a building, vehicle / collective seats.",
+          "phonetic": "/seating/",
+          "audio": ""
+        },
+        {
+          "word": "dietary",
+          "meaning": "thuộc chế độ ăn uống, kiêng khem (tính từ / danh từ)",
+          "image": "🥗",
+          "example": "Please notify the catering staff about any specific dietary restrictions or allergies.",
+          "example_vi": "Vui lòng thông báo cho nhân viên phục vụ tiệc về bất kỳ hạn chế ăn kiêng hoặc dị ứng cụ thể nào.",
+          "hint": "Relating to diets, food rules, or nutritional patterns.",
+          "phonetic": "law",
+          "audio": ""
+        },
+        {
+          "word": "gratuity",
+          "meaning": "tiền boa, tiền thưởng dịch vụ (danh từ)",
+          "image": "💵",
+          "example": "For group parties exceeding eight guests, an eighteen percent gratuity is added directly.",
+          "example_vi": "Đối với các nhóm họp tiệc vượt quá tám người, một khoản tiền boa mười tám phần trăm được cộng trực tiếp.",
+          "hint": "A tip given to a waiter, taxicab driver, or other service worker.",
+          "phonetic": "/grə'tju:iti/",
+          "audio": ""
+        },
+        {
+          "word": "banquet",
+          "meaning": "bữa tiệc lớn, yến tiệc (danh từ / động từ)",
+          "image": "🍽️",
+          "example": "The prime minister hosted a formal state banquet to honor visiting foreign dignitaries.",
+          "example_vi": "Thủ tướng đã chủ trì một bữa yến tiệc nhà nước trang trọng để vinh danh các quan chức cấp cao nước ngoài đến thăm.",
+          "hint": "An elaborate and formal evening meal for many people.",
+          "phonetic": "/'bæɳkwit/",
+          "audio": ""
+        },
+        {
+          "word": "menu",
+          "meaning": "thực đơn (danh từ)",
+          "image": "📜",
+          "example": "The restaurant updated its autumn menu to include organic pumpkin soup.",
+          "example_vi": "Nhà hàng đã cập nhật thực đơn mùa thu của mình bao gồm món súp bí đỏ hữu cơ.",
+          "hint": "A list of dishes available in a restaurant.",
+          "phonetic": "cost of inflation",
+          "audio": ""
+        },
+        {
+          "word": "beverage",
+          "meaning": "đồ uống, thức uống (danh từ)",
+          "image": "🍹",
+          "example": "Alcohols and soft carbonated sodas are list under beverage charges.",
+          "example_vi": "Các loại rượu bia và soda sủi bọt có ga khác được liệt kê trong phần chi phí đồ uống.",
+          "hint": "A drink other than water.",
+          "phonetic": "/'bəvəridʤ/",
+          "audio": ""
+        },
+        {
+          "word": "dining",
+          "meaning": "sự ăn uống, phòng ăn (danh từ / tính từ)",
+          "image": "🍽️",
+          "example": "We enjoyed a lovely fine dining experience at the ocean-front hotel.",
+          "example_vi": "Chúng tôi đã tận hưởng một trải nghiệm ăn uống cao cấp tuyệt vời tại khách sạn trước biển.",
+          "hint": "The activity of eating dinner / related to meal environments.",
+          "phonetic": "room",
+          "audio": ""
+        },
+        {
+          "word": "buffet",
+          "meaning": "tiệc đứng, tiệc tự chọn (danh từ)",
+          "image": "🥗",
+          "example": "The breakfast buffet offers a wonderful selection of pastries and fresh fruits.",
+          "example_vi": "Quầy tiệc đứng buffet ăn sáng cung cấp một sự lựa chọn tuyệt vời gồm bánh ngọt và trái cây tươi.",
+          "hint": "A meal consisting of several dishes from which guests serve themselves.",
+          "phonetic": "/'bufei/",
+          "audio": ""
+        },
+        {
+          "word": "venue",
+          "meaning": "địa điểm tổ chức sự kiện (danh từ)",
+          "image": "🏢",
+          "example": "Our marketing banquet coordinator picked a scenic lakeside venue for the conference.",
+          "example_vi": "Điều phối viên tiệc tiếp thị của chúng tôi đã chọn một địa điểm tổ chức bên hồ tuyệt đẹp cho hội nghị.",
+          "hint": "The place where something happens, especially an organized event such as a concert or match.",
+          "phonetic": "/'venju:/",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "toeic_support",
+      "name": "Customer Support & Client Relations",
+      "name_vi": "Bảo hành & Hỗ trợ Khách hàng",
+      "icon": "🤝",
+      "words": [
+        {
+          "word": "inquiry",
+          "meaning": "yêu cầu thăm hỏi, yêu cầu giải đáp (danh từ)",
+          "image": "💬",
+          "example": "The customer relations support desk resolves every basic email inquiry within a day.",
+          "example_vi": "Quầy hỗ trợ quan hệ khách hàng giải quyết mọi yêu cầu giải đáp qua email cơ bản trong vòng một ngày.",
+          "hint": "An act of asking for information / official query.",
+          "phonetic": "agent",
+          "audio": ""
+        },
+        {
+          "word": "complaint",
+          "meaning": "khiếu nại, phản nàn (danh từ)",
+          "image": "🗣️",
+          "example": "A formal warranty complaint was filed regarding the broken screen hardware.",
+          "example_vi": "Một khiếu nại chính thức đã được gửi liên quan đến sự cố nứt vỡ phần cứng màn hình.",
+          "hint": "A statement that a situation is unsatisfactory or unacceptable.",
+          "phonetic": "/kəm'pleint/",
+          "audio": ""
+        },
+        {
+          "word": "warranty",
+          "meaning": "sự bảo hành, cam kết bảo hành (danh từ)",
+          "image": "🛡️",
+          "example": "The electronic brand offers a three-year replacement warranty on all laptop hardware.",
+          "example_vi": "Thương hiệu điện tử cung cấp bảo hành thay thế ba năm cho tất cả phần cứng máy tính xách tay.",
+          "hint": "A written guarantee given to the purchaser of a new product promising to repair or replace.",
+          "phonetic": "/warranty/",
+          "audio": ""
+        },
+        {
+          "word": "loyalty",
+          "meaning": "lòng trung thành, sự gắn bó khách hàng (danh từ)",
+          "image": "⭐",
+          "example": "Our supermarket rewards customer loyalty with points redeemable for discount vouchers.",
+          "example_vi": "Siêu thị của chúng tôi phần thưởng lòng trung thành của khách hàng bằng điểm có thể quy đổi ra hóa đơn giảm giá.",
+          "hint": "The quality of being loyal to a brand or community.",
+          "phonetic": "/'lɔiəlti/",
+          "audio": ""
+        },
+        {
+          "word": "troubleshooting",
+          "meaning": "khắc phục sự cố, xử lý lỗi (danh từ / động từ)",
+          "image": "🔧",
+          "example": "Review active steps inside our online troubleshooting guide before calling local agents.",
+          "example_vi": "Hãy đọc xem các bước trong hướng dẫn khắc phục sự cố trực tuyến của chúng tôi trước khi gọi cho đại diện địa phương.",
+          "hint": "Solve problems, especially systemic or technological malfunctions.",
+          "phonetic": "/troubleshooting/",
+          "audio": ""
+        },
+        {
+          "word": "representative",
+          "meaning": "người đại diện, nhân viên bán hàng/CSKH (danh từ)",
+          "image": "👤",
+          "example": "Please remain on the line, a customer service representative will be with you shortly.",
+          "example_vi": "Vui lòng giữ máy, một nhân viên đại diện dịch vụ khách hàng sẽ hỗ trợ bạn sớm.",
+          "hint": "A person chosen or appointed to act or speak for another or group.",
+          "phonetic": "/representative/",
+          "audio": ""
+        },
+        {
+          "word": "press release",
+          "meaning": "thông cáo báo chí (danh từ)",
+          "image": "📄",
+          "example": "The executive director published a press release detailing the new alternative energy vehicle.",
+          "example_vi": "Giám đốc điều hành đã xuất bản một thông cáo báo chí chi tiết về chiếc xe năng lượng thay thế mới.",
+          "hint": "An official statement sent to newspapers giving information on a particular matter.",
+          "phonetic": "/'presri'li:s/",
+          "audio": ""
+        },
+        {
+          "word": "patron",
+          "meaning": "khách hàng quen thuộc, người bảo trợ (danh từ)",
+          "image": "👤",
+          "example": "The local library sent a small thank-you gift to its most generous patrons.",
+          "example_vi": "Thư viện địa phương đã gửi một món quà cảm ơn nhỏ tới những người ủng hộ bảo trợ hào phóng nhất của mình.",
+          "hint": "A customer or supporter, especially a regular traveler or consumer.",
+          "phonetic": "saint",
+          "audio": ""
+        },
+        {
+          "word": "satisfaction",
+          "meaning": "sự hài lòng (danh từ)",
+          "image": "😊",
+          "example": "We conduct annual studies to gauge consumer satisfaction rates with our software upgrades.",
+          "example_vi": "Chúng tôi thực hiện các nghiên cứu hàng năm để đo lường tỷ lệ hài lòng của người dùng đối với các bản nâng cấp phần mềm.",
+          "hint": "Fulfillment of one's wishes, expectations, or needs, or the pleasure derived from this.",
+          "phonetic": "/,sætis'fækʃn/",
+          "audio": ""
+        },
+        {
+          "word": "refund",
+          "meaning": "sự hoàn tiền, trả lại tiền (danh từ / động từ)",
+          "image": "💵",
+          "example": "If the shipping package arrives damaged, you are eligible to claim a full refund.",
+          "example_vi": "Nếu gói hàng vận chuyển đến bị hư hại, bạn có đủ điều kiện để yêu cầu hoàn lại tiền đầy đủ.",
+          "hint": "A repayment of a sum of money, typically to a dissatisfied customer.",
+          "phonetic": "/refund/",
+          "audio": ""
+        },
+        {
+          "word": "assistance",
+          "meaning": "sự hỗ trợ, giúp đỡ (danh từ)",
+          "image": "🤝",
+          "example": "Staff is fully trained to deliver immediate physical assistance to disabled clients.",
+          "example_vi": "Nhân viên được đào tạo đầy đủ để sẵn sàng cung cấp sự hỗ trợ thể chất ngay lập tức cho khách hàng khuyết tật.",
+          "hint": "The provision of money, resources, or help in doing something.",
+          "phonetic": "/ə'sistəns/",
+          "audio": ""
+        },
+        {
+          "word": "contract",
+          "meaning": "hợp đồng, ký kết (danh từ / động từ)",
+          "image": "📄",
+          "example": "Always review the small print inside contracts before appending your official signature.",
+          "example_vi": "Hãy luôn đọc kỹ các điều khoản nhỏ bên trong hợp đồng trước khi ký chữ ký chính thức của bạn.",
+          "hint": "A written or spoken agreement, especially one concerning employment, sales, or tenancy.",
+          "phonetic": "/contract/",
+          "audio": ""
+        },
+        {
+          "word": "client",
+          "meaning": "khách hàng, đối tác (danh từ)",
+          "image": "👤",
+          "example": "The legal consultation firm represents several high-profile corporate clients.",
+          "example_vi": "Công ty tư vấn pháp lý đại diện cho một số đối tác khách hàng doanh nghiệp tầm cỡ lớn.",
+          "hint": "A person or organization using the services of a lawyer or other professional person.",
+          "phonetic": "area",
+          "audio": ""
+        },
+        {
+          "word": "resolution",
+          "meaning": "giải pháp, sự giải quyết, độ phân giải (danh từ)",
+          "image": "✅",
+          "example": "After a brief negotiation meeting, both companies reached a mutually agreeable resolution.",
+          "example_vi": "Sau một cuộc họp đàm phán ngắn, cả hai công ty đã đạt được một giải pháp đồng thuận đôi bên.",
+          "hint": "A firm decision to do or not to do something / sorting out relationship issue.",
+          "phonetic": "/resolution/",
+          "audio": ""
+        },
+        {
+          "word": "support",
+          "meaning": "sự hỗ trợ, ủng hộ (danh từ / động từ)",
+          "image": "🤝",
+          "example": "We hired extra student clerks to deal with customer support operations during holidays.",
+          "example_vi": "Chúng tôi đã tuyển thêm nhân viên hỗ trợ sinh viên để giải quyết các hoạt động chăm sóc khách hàng trong các ngày nghỉ lễ.",
+          "hint": "Bear all or part of the weight of / give assistance to.",
+          "phonetic": "/support/",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "toeic_property",
+      "name": "Real Estate & Facilities",
+      "name_vi": "Bất động sản & Mặt bằng cơ sở",
+      "icon": "🏢",
+      "words": [
+        {
+          "word": "tenant",
+          "meaning": "người thuê nhà/căn hộ (danh từ)",
+          "image": "👤",
+          "example": "Safety rules require that every tenant register their vehicle with the building concierge.",
+          "example_vi": "Các quy tắc an toàn yêu cầu mỗi người thuê nhà phải đăng ký xe của họ với quầy phục vụ tòa nhà.",
+          "hint": "A person who occupies land or property rented from a landlord.",
+          "phonetic": "/'tenənt/",
+          "audio": ""
+        },
+        {
+          "word": "lease",
+          "meaning": "hợp đồng cho thuê, cho thuê (danh từ / động từ)",
+          "image": "📄",
+          "example": "The electronic business firm signed a five-year lease on a new downtown office building.",
+          "example_vi": "Công ty kinh doanh điện tử đã ký hợp đồng cho thuê năm năm đối với một tòa nhà văn phòng mới ở trung tâm thành phố.",
+          "hint": "A contract by which one party conveys land, property, services to another for a specified time.",
+          "phonetic": "/lease/",
+          "audio": ""
+        },
+        {
+          "word": "leasehold",
+          "meaning": "quyền sở hữu tài sản thuê, tài sản thuê (danh từ / tính từ)",
+          "image": "🏡",
+          "example": "They purchased the leasehold apartment rather than buying freehold property.",
+          "example_vi": "Họ đã mua căn hộ có thời hạn thuê thay vì mua tài sản sở hữu vĩnh viễn.",
+          "hint": "The holding of property by lease.",
+          "phonetic": "/'li:should/",
+          "audio": ""
+        },
+        {
+          "word": "utilities",
+          "meaning": "dịch vụ tiện ích công cộng, điện nước gas (danh từ số nhiều)",
+          "image": "🚰",
+          "example": "Monthly rent costs cover public utilities like water and security trash clearance.",
+          "example_vi": "Chi phí thuê nhà hàng tháng đài thọ các dịch vụ tiện ích công cộng như nước và dọn rác bảo vệ bãi đỗ xe.",
+          "hint": "Services such as electricity, gas, water, or public transport that are useful to the community.",
+          "phonetic": "/utilities/",
+          "audio": ""
+        },
+        {
+          "word": "renovation",
+          "meaning": "sự cải tạo, tu sửa (danh từ)",
+          "image": "🔨",
+          "example": "The historic hotel will undergo a multimillion-dollar renovation starting next spring.",
+          "example_vi": "Khách sạn cổ kính sẽ trải qua một cuộc cải tạo trị giá nhiều triệu đô la bắt đầu vào mùa xuân tới.",
+          "hint": "The action of renovating a building or structure.",
+          "phonetic": "/,renou'veiʃn/",
+          "audio": ""
+        },
+        {
+          "word": "property",
+          "meaning": "bất động sản, tài sản sở hữu (danh từ)",
+          "image": "🏢",
+          "example": "Investing in seaside property remains dynamic and highly profitable in dry tourist seasons.",
+          "example_vi": "Đầu tư vào bất động sản ven biển vẫn rất sôi động và có lợi nhuận cao trong các mùa du lịch khô ráo.",
+          "hint": "A thing or things belonging to someone; possessions collectively / land and buildings.",
+          "phonetic": "/property/",
+          "audio": ""
+        },
+        {
+          "word": "landlord",
+          "meaning": "chủ nhà, chủ đất (danh từ)",
+          "image": "👴",
+          "example": "The helpful landlord immediately hired a professional plumber to fix the kitchen utilities.",
+          "example_vi": "Người chủ nhà tốt bụng đã lập tức thuê một thợ sửa ống nước chuyên nghiệp đến để sửa chữa các tiện ích nhà bếp.",
+          "hint": "A person, especially a man, who rents land, a building, or an apartment to a tenant.",
+          "phonetic": "/'lændlɔ:d/",
+          "audio": ""
+        },
+        {
+          "word": "mortgage",
+          "meaning": "khoản thế chấp, thế chấp (danh từ / động từ)",
+          "image": "🏠",
+          "example": "Young couples borrow bank loans to cover their thirty-year home mortgage.",
+          "example_vi": "Các cặp vợ chồng trẻ vay tiền ngân hàng để trang trải khoản thế chấp nhà thời hạn ba mươi năm.",
+          "hint": "A legal agreement by which a bank or other creditor lends money at interest in exchange for taking title.",
+          "phonetic": "/mortgage/",
+          "audio": ""
+        },
+        {
+          "word": "appraisal",
+          "meaning": "sự thẩm định, đánh giá giá trị (danh từ)",
+          "image": "📊",
+          "example": "Arrange an independent appraisal of the property before closing the purchase contract.",
+          "example_vi": "Hãy sắp xếp một cuộc thẩm định độc hại về giá trị bất động sản trước khi khép lại hợp đồng mua bán.",
+          "hint": "An act of assessing something or someone / a formal evaluation of property value or employees.",
+          "phonetic": "/appraisal/",
+          "audio": ""
+        },
+        {
+          "word": "maintenance",
+          "meaning": "sự bảo dưỡng, bảo trì (danh từ)",
+          "image": "🔧",
+          "example": "Regular maintenance of factory machines prevents expensive safety hazard disruptions.",
+          "example_vi": "Việc bảo dưỡng máy móc nhà máy thường xuyên giúp ngăn ngừa gián đoạn về mối nguy hiểm an toàn tốn kém.",
+          "hint": "The process of maintaining or preserving someone or something, especially machinery or buildings.",
+          "phonetic": "/'meintinəns/",
+          "audio": ""
+        },
+        {
+          "word": "estate",
+          "meaning": "bất động sản, di sản điền trang (danh từ)",
+          "image": "🏡",
+          "example": "The family owns a beautiful wine estate located in the south of France.",
+          "example_vi": "Gia đình sở hữu một điền trang rượu vang tuyệt đẹp nằm ở phía nam nước Pháp.",
+          "hint": "An extensive area of land in the country, usually with a large house, owned by one person or family / real estate.",
+          "phonetic": "/estate/",
+          "audio": ""
+        },
+        {
+          "word": "contract",
+          "meaning": "hợp đồng (danh từ / động từ)",
+          "image": "📄",
+          "example": "Read every paragraph inside the tenancy contract before handing over security deposits.",
+          "example_vi": "Hãy đọc kỹ mọi đoạn văn bản bên trong hợp đồng thuê nhà trước khi bàn trả tiền đặt cọc bảo đảm.",
+          "hint": "A written or spoken agreement, especially one concerning employment, sales, or tenancy.",
+          "phonetic": "/contract/",
+          "audio": ""
+        },
+        {
+          "word": "resident",
+          "meaning": "cư dân, người trú ngụ (danh từ / tính từ)",
+          "image": "👤",
+          "example": "Older residents of the community favor preserving the botanical forest garden layout.",
+          "example_vi": "Những cư dân lớn tuổi của cộng đồng ưu tiên việc gìn giữ cảnh quan vườn bách thảo rừng.",
+          "hint": "A person who lives somewhere permanently or on a long-term basis.",
+          "phonetic": "physician",
+          "audio": ""
+        },
+        {
+          "word": "vacancy",
+          "meaning": "vị trí trống, chỗ còn trống (danh từ)",
+          "image": "🏢",
+          "example": "The apartment building manager advertised a new residential vacancy in the newsletter.",
+          "example_vi": "Người quản lý tòa nhà chung cư đã quảng cáo một căn hộ trống còn trống mới trong bản tin tháng.",
+          "hint": "An unoccupied position or job / an unoccupied room or apartment available for rent.",
+          "phonetic": "/vacancy/",
+          "audio": ""
+        },
+        {
+          "word": "furnish",
+          "meaning": "trang bị đồ đạc nội thất, cung cấp (động từ)",
+          "image": "🪑",
+          "example": "The hospitality company decided to brand and furnish all rental apartments with minimalist sofas.",
+          "example_vi": "Công ty khách sạn đã quyết định định hình thương hiệu và trang bị đồ đạc nội thất cho tất cả căn hộ cho thuê bằng ghế sofa tối giản.",
+          "hint": "Provide a house or room with furniture and fittings.",
+          "phonetic": "/'fə:niʃ/",
+          "audio": ""
+        }
+      ]
+    }
+  ]
+}

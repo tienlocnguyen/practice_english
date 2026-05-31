@@ -120,7 +120,7 @@ function renderImageFromWord(area, currentWord, allWords) {
     for (const opt of options) {
         const safeWord = escapeHtml(opt.word);
         optionsHtml += `
-            <div class="image-option" onclick="speedImageAnswer(this, '${safeWord}', '${escapeHtml(currentWord.word)}')">
+            <div class="image-option" data-word="${safeWord}" onclick="speedImageAnswer(this, '${safeWord}', '${escapeHtml(currentWord.word)}')">
                 <span class="option-emoji">${escapeHtml(opt.image)}</span>
             </div>`;
     }
@@ -143,7 +143,7 @@ function renderSpellFirst(area, currentWord) {
             <div class="speed-type-badge">✏️ Đánh vần nhanh</div>
             <div class="fill-image">${escapeHtml(currentWord.image)}</div>
             <p style="font-size:1.2rem;margin-bottom:1rem">💡 ${escapeHtml(currentWord.meaning)}</p>
-            <div style="font-size:1.5rem;font-weight:700;color:var(--primary);margin-bottom:1rem;letter-spacing:3px">
+            <div id="speed-spell-word" style="font-size:1.5rem;font-weight:700;color:var(--primary);margin-bottom:1rem;letter-spacing:3px">
                 ${firstLetter.toUpperCase()} ${restHidden}
             </div>
             <div class="guess-input-area">
@@ -164,8 +164,12 @@ function speedAnswer(btn, selected, correct) {
     gameState.total++;
 
     const buttons = document.querySelectorAll('.option-btn');
-    buttons.forEach(b => b.classList.add('disabled'));
+    buttons.forEach(b => {
+        b.classList.add('disabled');
+        b.disabled = true;
+    });
 
+    let delay = 400;
     if (selected === correct) {
         btn.classList.add('correct');
         gameState.score++;
@@ -179,11 +183,12 @@ function speedAnswer(btn, selected, correct) {
         btn.classList.add('wrong');
         buttons.forEach(b => { if (b.textContent === correct) b.classList.add('correct'); });
         speedState.streak = 0;
+        delay = 1200;
     }
 
     updateSpeedScoreBar();
     gameState.currentIndex++;
-    setTimeout(() => initGameRound(), 400);
+    setTimeout(() => initGameRound(), delay);
 }
 
 function speedImageAnswer(el, selected, correct) {
@@ -191,8 +196,12 @@ function speedImageAnswer(el, selected, correct) {
     gameState.total++;
 
     const cards = document.querySelectorAll('.image-option');
-    cards.forEach(c => c.classList.add('disabled'));
+    cards.forEach(c => {
+        c.classList.add('disabled');
+        c.style.pointerEvents = 'none';
+    });
 
+    let delay = 400;
     if (selected === correct) {
         el.classList.add('correct');
         gameState.score++;
@@ -203,26 +212,37 @@ function speedImageAnswer(el, selected, correct) {
         }
     } else {
         el.classList.add('wrong');
+        cards.forEach(c => {
+            if (c.dataset.word === correct) {
+                c.classList.add('correct');
+            }
+        });
         speedState.streak = 0;
+        delay = 1200;
     }
 
     updateSpeedScoreBar();
     gameState.currentIndex++;
-    setTimeout(() => initGameRound(), 400);
+    setTimeout(() => initGameRound(), delay);
 }
 
 function checkSpeedSpell() {
     if (!gameState.isPlaying) return;
     const input = document.getElementById('speed-input');
-    if (!input) return;
+    if (!input || input.disabled) return;
 
     const guess = input.value.trim().toLowerCase();
     if (!guess) return;
+
+    input.disabled = true;
+    const submitBtn = input.nextElementSibling;
+    if (submitBtn) submitBtn.disabled = true;
 
     const currentWord = gameState.words[gameState.currentIndex];
     const correct = currentWord.word.toLowerCase();
     gameState.total++;
 
+    let delay = 400;
     if (guess === correct) {
         input.style.borderColor = 'var(--success)';
         input.style.background = 'rgba(16, 185, 129, 0.1)';
@@ -236,11 +256,18 @@ function checkSpeedSpell() {
         input.style.borderColor = 'var(--danger)';
         input.style.background = 'rgba(239, 68, 68, 0.1)';
         speedState.streak = 0;
+
+        // Show the correct word on screen
+        const wordDisplay = document.getElementById('speed-spell-word');
+        if (wordDisplay) {
+            wordDisplay.innerHTML = `<span style="color: var(--danger); text-decoration: line-through;">${escapeHtml(guess)}</span> <span style="color: var(--success); font-weight: 700; margin-left: 10px;">${escapeHtml(currentWord.word)}</span>`;
+        }
+        delay = 1500;
     }
 
     updateSpeedScoreBar();
     gameState.currentIndex++;
-    setTimeout(() => initGameRound(), 400);
+    setTimeout(() => initGameRound(), delay);
 }
 
 function endSpeedGame() {

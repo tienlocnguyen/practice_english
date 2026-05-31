@@ -38,14 +38,17 @@ function renderVnToEn(wordData) {
 }
 
 function checkVnToEn() {
+    if (!gameState.isPlaying) return;
     const input = document.getElementById('vte-answer');
-    if (!input) return;
+    if (!input || input.disabled) return;
 
     const userAnswer = input.value.trim().toLowerCase();
     const currentWord = gameState.words[gameState.currentIndex];
     const correct = currentWord.word.trim().toLowerCase();
 
     input.disabled = true;
+    const checkBtn = input.nextElementSibling;
+    if (checkBtn) checkBtn.disabled = true;
 
     const area = document.getElementById('game-area');
     const existingFeedback = area.querySelector('.vte-feedback');

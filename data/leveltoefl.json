@@ -1,1669 +1,1586 @@
 {
   "level": "TOEFL",
   "label": "TOEFL",
-  "description": "Từ vựng học thuật chuẩn bị cho kỳ thi TOEFL — 160 từ / ~5000 từ cần thiết",
+  "label_vi": "TOEFL Academic Prep",
+  "description": "Từ vựng học thuật cao cấp chuẩn bị cho kỳ thi TOEFL — Phân loại chi tiết theo 10 chủ đề khoa học và xã hội.",
   "topics": [
     {
-      "id": "academic-vocab",
-      "name": "Academic Vocabulary",
-      "name_vi": "Từ vựng học thuật",
-      "icon": "🎓",
+      "id": "toefl_bio",
+      "name": "Biological Sciences",
+      "name_vi": "Sinh học & Hệ sinh thái",
+      "icon": "🐾",
       "words": [
         {
-          "word": "elaborate",
-          "meaning": "giải thích cặn kẽ (động từ) — trình bày thêm chi tiết về một vấn đề",
-          "phonetic": "/ɪˈlæb.ə.reɪt/",
-          "image": "🔍",
-          "audio": "",
-          "example": "The professor asked the student to elaborate on her thesis.",
-          "example_vi": "Giáo sư yêu cầu sinh viên giải thích cặn kẽ hơn về luận điểm của cô ấy.",
-          "hint": "To explain something in more detail"
-        },
-        {
-          "word": "comprehensive",
-          "meaning": "toàn diện (tính từ) — bao gồm tất cả hoặc gần như tất cả các yếu tố",
-          "phonetic": "/ˌkɑːm.prɪˈhen.sɪv/",
-          "image": "📋",
-          "audio": "",
-          "example": "The report provides a comprehensive analysis of the economic trends.",
-          "example_vi": "Báo cáo cung cấp một phân tích toàn diện về các xu hướng kinh tế.",
-          "hint": "Including all or nearly all elements"
-        },
-        {
-          "word": "significant",
-          "meaning": "đáng kể (tính từ) — đủ lớn hoặc quan trọng để được chú ý hoặc có ảnh hưởng",
-          "phonetic": "/sɪɡˈnɪf.ɪ.kənt/",
-          "image": "⭐",
-          "audio": "",
-          "example": "There has been a significant increase in enrollment this semester.",
-          "example_vi": "Đã có sự gia tăng đáng kể về số lượng đăng ký trong học kỳ này.",
-          "hint": "Sufficiently great or important to be worthy of attention"
-        },
-        {
-          "word": "phenomenon",
-          "meaning": "hiện tượng (danh từ) — sự kiện hoặc tình huống đáng chú ý",
-          "phonetic": "/fəˈnɑː.mə.nɑːn/",
-          "image": "🌀",
-          "audio": "",
-          "example": "Scientists are studying the phenomenon of climate change.",
-          "example_vi": "Các nhà khoa học đang nghiên cứu hiện tượng biến đổi khí hậu.",
-          "hint": "A remarkable occurrence or event"
-        },
-        {
-          "word": "subsequent",
-          "meaning": "tiếp theo (tính từ) — xảy ra sau một sự kiện hoặc thời điểm cụ thể",
-          "phonetic": "/ˈsʌb.sɪ.kwənt/",
-          "image": "➡️",
-          "audio": "",
-          "example": "The initial experiment and subsequent trials confirmed the hypothesis.",
-          "example_vi": "Thí nghiệm ban đầu và các lần thử nghiệm tiếp theo đã xác nhận giả thuyết.",
-          "hint": "Coming after something in time"
-        },
-        {
-          "word": "predominant",
-          "meaning": "chiếm ưu thế (tính từ) — có ảnh hưởng hoặc tầm quan trọng lớn nhất",
-          "phonetic": "/prɪˈdɑː.mə.nənt/",
-          "image": "👑",
-          "audio": "",
-          "example": "English is the predominant language in international business.",
-          "example_vi": "Tiếng Anh là ngôn ngữ chiếm ưu thế trong kinh doanh quốc tế.",
-          "hint": "Having the most influence or importance"
-        },
-        {
-          "word": "attribute",
-          "meaning": "quy cho (động từ) — coi một điều gì đó là do nguyên nhân hoặc nguồn gốc nào đó",
-          "phonetic": "/əˈtrɪb.juːt/",
-          "image": "🏷️",
-          "audio": "",
-          "example": "Researchers attribute the decline in bee populations to pesticide use.",
-          "example_vi": "Các nhà nghiên cứu quy cho sự suy giảm quần thể ong là do sử dụng thuốc trừ sâu.",
-          "hint": "To regard something as being caused by"
-        },
-        {
-          "word": "coherent",
-          "meaning": "mạch lạc (tính từ) — logic, nhất quán và dễ hiểu",
-          "phonetic": "/koʊˈhɪr.ənt/",
-          "image": "🔗",
-          "audio": "",
-          "example": "The student presented a coherent argument in her essay.",
-          "example_vi": "Sinh viên đã trình bày một lập luận mạch lạc trong bài luận của cô ấy.",
-          "hint": "Logical and consistent"
-        },
-        {
-          "word": "implicit",
-          "meaning": "ngầm hiểu (tính từ) — được gợi ý mà không được nói ra trực tiếp",
-          "phonetic": "/ɪmˈplɪs.ɪt/",
-          "image": "🤫",
-          "audio": "",
-          "example": "There was an implicit agreement between the two parties.",
-          "example_vi": "Có một thỏa thuận ngầm giữa hai bên.",
-          "hint": "Suggested though not directly expressed"
-        },
-        {
-          "word": "explicit",
-          "meaning": "rõ ràng (tính từ) — được nói ra hoặc thể hiện một cách trực tiếp, không mập mờ",
-          "phonetic": "/ɪkˈsplɪs.ɪt/",
-          "image": "📢",
-          "audio": "",
-          "example": "The contract contains explicit terms about payment deadlines.",
-          "example_vi": "Hợp đồng chứa các điều khoản rõ ràng về thời hạn thanh toán.",
-          "hint": "Stated clearly and in detail"
-        },
-        {
-          "word": "empirical",
-          "meaning": "thực nghiệm (tính từ) — dựa trên quan sát hoặc trải nghiệm thực tế thay vì lý thuyết",
-          "phonetic": "/ɪmˈpɪr.ɪ.kəl/",
-          "image": "🧪",
-          "audio": "",
-          "example": "The study is based on empirical evidence collected over five years.",
-          "example_vi": "Nghiên cứu dựa trên bằng chứng thực nghiệm thu thập trong năm năm.",
-          "hint": "Based on observation rather than theory"
-        },
-        {
-          "word": "pragmatic",
-          "meaning": "thực dụng (tính từ) — xử lý vấn đề một cách thực tế thay vì dựa trên lý thuyết",
-          "phonetic": "/præɡˈmæt.ɪk/",
-          "image": "🛠️",
-          "audio": "",
-          "example": "The manager took a pragmatic approach to solving the budget crisis.",
-          "example_vi": "Người quản lý đã áp dụng cách tiếp cận thực dụng để giải quyết khủng hoảng ngân sách.",
-          "hint": "Dealing with things practically"
-        },
-        {
-          "word": "tangible",
-          "meaning": "hữu hình (tính từ) — có thể chạm vào hoặc cảm nhận được; rõ ràng, cụ thể",
-          "phonetic": "/ˈtæn.dʒə.bəl/",
-          "image": "🖐️",
-          "audio": "",
-          "example": "The research produced tangible results that could be applied immediately.",
-          "example_vi": "Nghiên cứu đã tạo ra những kết quả hữu hình có thể được áp dụng ngay lập tức.",
-          "hint": "Something real that can be touched or clearly perceived"
-        },
-        {
-          "word": "pertinent",
-          "meaning": "thích hợp (tính từ) — có liên quan trực tiếp đến vấn đề đang được thảo luận",
-          "phonetic": "/ˈpɜːr.tɪ.nənt/",
-          "image": "🎯",
-          "audio": "",
-          "example": "The committee requested only pertinent information related to the case.",
-          "example_vi": "Ủy ban chỉ yêu cầu thông tin thích hợp liên quan đến vụ việc.",
-          "hint": "Relevant or applicable to a particular matter"
-        },
-        {
-          "word": "elicit",
-          "meaning": "gợi ra (động từ) — khơi gợi phản hồi, câu trả lời hoặc sự thật từ ai đó",
-          "phonetic": "/ɪˈlɪs.ɪt/",
-          "image": "💬",
-          "audio": "",
-          "example": "The survey was designed to elicit honest responses from participants.",
-          "example_vi": "Khảo sát được thiết kế để gợi ra những phản hồi trung thực từ người tham gia.",
-          "hint": "To draw out a response or reaction from someone"
-        },
-        {
-          "word": "concurrent",
-          "meaning": "đồng thời (tính từ) — xảy ra hoặc tồn tại cùng một lúc",
-          "phonetic": "/kənˈkɜːr.ənt/",
-          "image": "⏱️",
-          "audio": "",
-          "example": "The university offered concurrent sessions on linguistics and psychology.",
-          "example_vi": "Trường đại học tổ chức các phiên họp đồng thời về ngôn ngữ học và tâm lý học.",
-          "hint": "Happening at the same time"
-        },
-        {
-          "word": "inherent",
-          "meaning": "vốn có (tính từ) — tồn tại như một phần tự nhiên hoặc cơ bản của điều gì đó",
-          "phonetic": "/ɪnˈhɪr.ənt/",
-          "image": "🧬",
-          "audio": "",
-          "example": "There are inherent challenges in conducting cross-cultural research.",
-          "example_vi": "Có những thách thức vốn có trong việc tiến hành nghiên cứu xuyên văn hóa.",
-          "hint": "Existing as a natural or essential part of something"
-        },
-        {
-          "word": "tentative",
-          "meaning": "thử nghiệm (tính từ) — chưa chắc chắn; mang tính dự kiến, có thể thay đổi",
-          "phonetic": "/ˈten.tə.tɪv/",
-          "image": "❓",
-          "audio": "",
-          "example": "The researchers proposed a tentative conclusion pending further investigation.",
-          "example_vi": "Các nhà nghiên cứu đề xuất một kết luận thử nghiệm trong khi chờ điều tra thêm.",
-          "hint": "Not certain or fixed; provisional"
-        },
-        {
-          "word": "plausible",
-          "meaning": "hợp lý (tính từ) — có vẻ đúng hoặc có thể xảy ra; đáng tin",
-          "phonetic": "/ˈplɑː.zə.bəl/",
-          "image": "✅",
-          "audio": "",
-          "example": "The theory offers a plausible explanation for the observed data.",
-          "example_vi": "Lý thuyết này đưa ra một lời giải thích hợp lý cho dữ liệu quan sát được.",
-          "hint": "Seeming reasonable or probable"
-        },
-        {
-          "word": "contingent",
-          "meaning": "phụ thuộc (tính từ) — xảy ra tùy thuộc vào một điều kiện nào đó chưa chắc chắn",
-          "phonetic": "/kənˈtɪn.dʒənt/",
-          "image": "🔗",
-          "audio": "",
-          "example": "Funding for the project is contingent upon approval from the board.",
-          "example_vi": "Kinh phí cho dự án phụ thuộc vào sự phê duyệt của hội đồng.",
-          "hint": "Dependent on certain conditions being met"
-        }
-      ]
-    },
-    {
-      "id": "science-research",
-      "name": "Science & Research",
-      "name_vi": "Khoa học & Nghiên cứu",
-      "icon": "🔬",
-      "words": [
-        {
-          "word": "correlation",
-          "meaning": "tương quan (danh từ) — mối quan hệ thống kê giữa hai biến số",
-          "phonetic": "/ˌkɔːr.əˈleɪ.ʃən/",
-          "image": "📊",
-          "audio": "",
-          "example": "There is a strong correlation between education level and income.",
-          "example_vi": "Có một mối tương quan mạnh mẽ giữa trình độ học vấn và thu nhập.",
-          "hint": "A mutual relationship between two things"
-        },
-        {
-          "word": "variable",
-          "meaning": "biến số (danh từ) — yếu tố có thể thay đổi trong thí nghiệm hoặc nghiên cứu",
-          "phonetic": "/ˈver.i.ə.bəl/",
-          "image": "🔀",
-          "audio": "",
-          "example": "Temperature was the independent variable in the experiment.",
-          "example_vi": "Nhiệt độ là biến số độc lập trong thí nghiệm.",
-          "hint": "An element that can change in an experiment"
-        },
-        {
-          "word": "hypothesis",
-          "meaning": "giả thuyết (danh từ) — một đề xuất hoặc giải thích tạm thời dựa trên bằng chứng hạn chế",
-          "phonetic": "/haɪˈpɑː.θə.sɪs/",
-          "image": "💡",
-          "audio": "",
-          "example": "The scientist formulated a hypothesis before conducting the experiment.",
-          "example_vi": "Nhà khoa học đã xây dựng một giả thuyết trước khi tiến hành thí nghiệm.",
-          "hint": "A proposed explanation for a phenomenon"
-        },
-        {
-          "word": "methodology",
-          "meaning": "phương pháp luận (danh từ) — hệ thống các phương pháp được sử dụng trong một lĩnh vực nghiên cứu",
-          "phonetic": "/ˌmeθ.əˈdɑː.lə.dʒi/",
-          "image": "📐",
-          "audio": "",
-          "example": "The research methodology was clearly described in the paper.",
-          "example_vi": "Phương pháp luận nghiên cứu đã được mô tả rõ ràng trong bài báo.",
-          "hint": "A system of methods used in a study"
-        },
-        {
-          "word": "quantitative",
-          "meaning": "định lượng (tính từ) — liên quan đến số lượng hoặc có thể đo lường bằng con số",
-          "phonetic": "/ˈkwɑːn.tə.teɪ.tɪv/",
-          "image": "🔢",
-          "audio": "",
-          "example": "Quantitative data was collected through surveys and measurements.",
-          "example_vi": "Dữ liệu định lượng được thu thập thông qua khảo sát và đo lường.",
-          "hint": "Relating to measurable quantities"
-        },
-        {
-          "word": "qualitative",
-          "meaning": "định tính (tính từ) — liên quan đến chất lượng hoặc đặc điểm thay vì số lượng",
-          "phonetic": "/ˈkwɑː.lɪ.teɪ.tɪv/",
-          "image": "📝",
-          "audio": "",
-          "example": "The researchers conducted qualitative interviews with participants.",
-          "example_vi": "Các nhà nghiên cứu đã thực hiện các cuộc phỏng vấn định tính với người tham gia.",
-          "hint": "Relating to quality or character rather than quantity"
-        },
-        {
-          "word": "validity",
-          "meaning": "tính hợp lệ (danh từ) — mức độ chính xác và đáng tin cậy của một phương pháp hoặc kết quả",
-          "phonetic": "/vəˈlɪd.ə.t̬i/",
-          "image": "✅",
-          "audio": "",
-          "example": "The validity of the experiment was confirmed by independent reviewers.",
-          "example_vi": "Tính hợp lệ của thí nghiệm đã được xác nhận bởi các nhà đánh giá độc lập.",
-          "hint": "The quality of being logically sound"
-        },
-        {
-          "word": "replication",
-          "meaning": "sự tái lập (danh từ) — quá trình lặp lại một thí nghiệm để kiểm chứng kết quả",
-          "phonetic": "/ˌrep.lɪˈkeɪ.ʃən/",
-          "image": "🔁",
-          "audio": "",
-          "example": "Replication of the study yielded consistent results.",
-          "example_vi": "Việc tái lập nghiên cứu đã cho ra kết quả nhất quán.",
-          "hint": "Repeating an experiment to verify results"
-        },
-        {
-          "word": "anomaly",
-          "meaning": "sự bất thường (danh từ) — điều gì đó khác biệt so với tiêu chuẩn hoặc kỳ vọng",
-          "phonetic": "/əˈnɑː.mə.li/",
-          "image": "❓",
-          "audio": "",
-          "example": "The data showed an anomaly that could not be easily explained.",
-          "example_vi": "Dữ liệu cho thấy một sự bất thường không thể giải thích dễ dàng.",
-          "hint": "Something that deviates from what is expected"
-        },
-        {
-          "word": "paradigm",
-          "meaning": "mô hình (danh từ) — khuôn mẫu tư duy hoặc hệ thống niềm tin chi phối một lĩnh vực",
-          "phonetic": "/ˈper.ə.daɪm/",
-          "image": "🧩",
-          "audio": "",
-          "example": "The discovery led to a paradigm shift in modern physics.",
-          "example_vi": "Phát hiện này đã dẫn đến sự thay đổi mô hình trong vật lý hiện đại.",
-          "hint": "A typical pattern or model of something"
-        },
-        {
-          "word": "catalyst",
-          "meaning": "chất xúc tác (danh từ) — chất hoặc yếu tố thúc đẩy một quá trình hoặc sự thay đổi",
-          "phonetic": "/ˈkæt̬.əl.ɪst/",
-          "image": "⚡",
-          "audio": "",
-          "example": "The invention of the printing press was a catalyst for social change.",
-          "example_vi": "Sự phát minh ra máy in là chất xúc tác cho sự thay đổi xã hội.",
-          "hint": "Something that causes an important change"
-        },
-        {
-          "word": "synthesis",
-          "meaning": "sự tổng hợp (danh từ) — quá trình kết hợp các thành phần riêng biệt thành một tổng thể",
-          "phonetic": "/ˈsɪn.θə.sɪs/",
-          "image": "🧬",
-          "audio": "",
-          "example": "The paper presents a synthesis of recent findings in neuroscience.",
-          "example_vi": "Bài báo trình bày sự tổng hợp các phát hiện gần đây trong khoa học thần kinh.",
-          "hint": "Combining elements into a unified whole"
-        },
-        {
-          "word": "longitudinal",
-          "meaning": "theo chiều dọc (tính từ) — nghiên cứu kéo dài qua nhiều thời điểm khác nhau",
-          "phonetic": "/ˌlɑːn.dʒəˈtuː.dɪ.nəl/",
-          "image": "📏",
-          "audio": "",
-          "example": "The longitudinal study tracked participants over a period of twenty years.",
-          "example_vi": "Nghiên cứu theo chiều dọc đã theo dõi người tham gia trong khoảng thời gian hai mươi năm.",
-          "hint": "A study conducted over a long period of time"
-        },
-        {
-          "word": "specimen",
-          "meaning": "mẫu vật (danh từ) — một ví dụ riêng lẻ của một loài hoặc chất dùng để nghiên cứu",
-          "phonetic": "/ˈspes.ə.mən/",
-          "image": "🔬",
-          "audio": "",
-          "example": "The biologist collected a rare specimen from the tropical rainforest.",
-          "example_vi": "Nhà sinh vật học đã thu thập một mẫu vật quý hiếm từ rừng nhiệt đới.",
-          "hint": "An individual example used for scientific study"
-        },
-        {
-          "word": "calibration",
-          "meaning": "hiệu chuẩn (danh từ) — quá trình điều chỉnh thiết bị đo lường cho chính xác",
-          "phonetic": "/ˌkæl.ɪˈbreɪ.ʃən/",
-          "image": "⚙️",
-          "audio": "",
-          "example": "Accurate calibration of the instruments is essential before conducting experiments.",
-          "example_vi": "Việc hiệu chuẩn chính xác các thiết bị là cần thiết trước khi tiến hành thí nghiệm.",
-          "hint": "The process of adjusting instruments for accuracy"
-        },
-        {
-          "word": "extrapolation",
-          "meaning": "ngoại suy (danh từ) — suy luận mở rộng từ dữ liệu đã biết sang phạm vi chưa biết",
-          "phonetic": "/ɪkˌstræp.əˈleɪ.ʃən/",
-          "image": "📈",
-          "audio": "",
-          "example": "The extrapolation of current trends suggests a significant rise in temperature.",
-          "example_vi": "Việc ngoại suy các xu hướng hiện tại cho thấy nhiệt độ sẽ tăng đáng kể.",
-          "hint": "Extending known data to predict unknown values"
-        },
-        {
-          "word": "replicate",
-          "meaning": "tái tạo (động từ) — lặp lại một thí nghiệm hoặc nghiên cứu để kiểm chứng kết quả",
-          "phonetic": "/ˈrep.lɪ.keɪt/",
-          "image": "🔄",
-          "audio": "",
-          "example": "Other laboratories were unable to replicate the original findings.",
-          "example_vi": "Các phòng thí nghiệm khác không thể tái tạo được những phát hiện ban đầu.",
-          "hint": "To repeat an experiment to verify results"
-        },
-        {
-          "word": "mitigate",
-          "meaning": "giảm thiểu (động từ) — làm cho điều gì đó bớt nghiêm trọng hoặc bớt đau đớn",
-          "phonetic": "/ˈmɪt.ɪ.ɡeɪt/",
-          "image": "🛡️",
-          "audio": "",
-          "example": "Researchers explored strategies to mitigate the effects of climate change.",
-          "example_vi": "Các nhà nghiên cứu đã khám phá các chiến lược để giảm thiểu tác động của biến đổi khí hậu.",
-          "hint": "To make something less severe or serious"
-        },
-        {
-          "word": "aggregate",
-          "meaning": "tổng hợp (động từ/danh từ) — gộp chung nhiều phần tử thành một tổng thể",
-          "phonetic": "/ˈæɡ.rɪ.ɡeɪt/",
-          "image": "📊",
-          "audio": "",
-          "example": "The researchers aggregated data from multiple sources to strengthen their analysis.",
-          "example_vi": "Các nhà nghiên cứu đã tổng hợp dữ liệu từ nhiều nguồn để củng cố phân tích của họ.",
-          "hint": "To collect or combine into a whole"
-        },
-        {
-          "word": "disparity",
-          "meaning": "sự chênh lệch (danh từ) — sự khác biệt lớn giữa hai hoặc nhiều sự vật",
-          "phonetic": "/dɪˈspær.ə.ti/",
-          "image": "⚖️",
-          "audio": "",
-          "example": "The study revealed a significant disparity in educational outcomes between regions.",
-          "example_vi": "Nghiên cứu cho thấy sự chênh lệch đáng kể về kết quả giáo dục giữa các vùng.",
-          "hint": "A great difference between things"
-        }
-      ]
-    },
-    {
-      "id": "social-sciences",
-      "name": "Social Sciences",
-      "name_vi": "Khoa học xã hội",
-      "icon": "🌐",
-      "words": [
-        {
-          "word": "anthropology",
-          "meaning": "nhân học (danh từ) — ngành khoa học nghiên cứu về con người, xã hội và văn hóa",
-          "phonetic": "/ˌæn.θrəˈpɑː.lə.dʒi/",
-          "image": "🧑‍🤝‍🧑",
-          "audio": "",
-          "example": "She majored in anthropology to study indigenous cultures.",
-          "example_vi": "Cô ấy chuyên ngành nhân học để nghiên cứu các nền văn hóa bản địa.",
-          "hint": "The study of human societies and cultures"
-        },
-        {
-          "word": "sociology",
-          "meaning": "xã hội học (danh từ) — ngành khoa học nghiên cứu về cấu trúc và hoạt động của xã hội",
-          "phonetic": "/ˌsoʊ.siˈɑː.lə.dʒi/",
-          "image": "🏘️",
-          "audio": "",
-          "example": "Sociology examines how social institutions shape individual behavior.",
-          "example_vi": "Xã hội học xem xét cách các thể chế xã hội định hình hành vi cá nhân.",
-          "hint": "The study of society and social behavior"
-        },
-        {
-          "word": "psychology",
-          "meaning": "tâm lý học (danh từ) — ngành khoa học nghiên cứu về tâm trí và hành vi con người",
-          "phonetic": "/saɪˈkɑː.lə.dʒi/",
-          "image": "🧠",
-          "audio": "",
-          "example": "Psychology helps us understand why people behave the way they do.",
-          "example_vi": "Tâm lý học giúp chúng ta hiểu tại sao con người hành xử như vậy.",
-          "hint": "The scientific study of the human mind"
-        },
-        {
-          "word": "demography",
-          "meaning": "nhân khẩu học (danh từ) — ngành nghiên cứu thống kê về dân số và các nhóm người",
-          "phonetic": "/dɪˈmɑː.ɡrə.fi/",
-          "image": "📈",
-          "audio": "",
-          "example": "Demography reveals trends in population growth and migration.",
-          "example_vi": "Nhân khẩu học cho thấy các xu hướng về tăng trưởng dân số và di cư.",
-          "hint": "The statistical study of populations"
-        },
-        {
-          "word": "linguistics",
-          "meaning": "ngôn ngữ học (danh từ) — ngành khoa học nghiên cứu về ngôn ngữ và cấu trúc của nó",
-          "phonetic": "/lɪŋˈɡwɪs.tɪks/",
-          "image": "🗣️",
-          "audio": "",
-          "example": "Linguistics explores how languages evolve over time.",
-          "example_vi": "Ngôn ngữ học khám phá cách các ngôn ngữ phát triển theo thời gian.",
-          "hint": "The scientific study of language"
-        },
-        {
-          "word": "archaeology",
-          "meaning": "khảo cổ học (danh từ) — ngành nghiên cứu lịch sử con người qua các hiện vật và di tích",
-          "phonetic": "/ˌɑːr.kiˈɑː.lə.dʒi/",
-          "image": "⛏️",
-          "audio": "",
-          "example": "Archaeology has uncovered ancient cities buried beneath the sand.",
-          "example_vi": "Khảo cổ học đã phát hiện ra các thành phố cổ đại bị chôn vùi dưới cát.",
-          "hint": "The study of human history through excavation"
-        },
-        {
-          "word": "pedagogy",
-          "meaning": "sư phạm học (danh từ) — phương pháp và thực hành giảng dạy",
-          "phonetic": "/ˈped.ə.ɡɑː.dʒi/",
-          "image": "📚",
-          "audio": "",
-          "example": "Modern pedagogy emphasizes student-centered learning.",
-          "example_vi": "Sư phạm học hiện đại nhấn mạnh việc học tập lấy sinh viên làm trung tâm.",
-          "hint": "The method and practice of teaching"
-        },
-        {
-          "word": "ethnography",
-          "meaning": "dân tộc học (danh từ) — phương pháp nghiên cứu mô tả về các nền văn hóa và dân tộc",
-          "phonetic": "/eθˈnɑː.ɡrə.fi/",
-          "image": "📓",
-          "audio": "",
-          "example": "The researcher used ethnography to study the community's traditions.",
-          "example_vi": "Nhà nghiên cứu đã sử dụng phương pháp dân tộc học để nghiên cứu truyền thống của cộng đồng.",
-          "hint": "The descriptive study of cultures"
-        },
-        {
-          "word": "migration",
-          "meaning": "sự di cư (danh từ) — sự di chuyển của người hoặc động vật từ nơi này sang nơi khác",
-          "phonetic": "/maɪˈɡreɪ.ʃən/",
-          "image": "🦅",
-          "audio": "",
-          "example": "Mass migration from rural to urban areas accelerated in the 20th century.",
-          "example_vi": "Sự di cư hàng loạt từ nông thôn ra thành thị đã tăng tốc trong thế kỷ 20.",
-          "hint": "Movement from one place to another"
-        },
-        {
-          "word": "urbanization",
-          "meaning": "đô thị hóa (danh từ) — quá trình phát triển các khu vực thành thị do dân số di chuyển",
-          "phonetic": "/ˌɝː.bən.əˈzeɪ.ʃən/",
-          "image": "🏙️",
-          "audio": "",
-          "example": "Rapid urbanization has transformed the landscape of developing countries.",
-          "example_vi": "Quá trình đô thị hóa nhanh chóng đã biến đổi cảnh quan của các nước đang phát triển.",
-          "hint": "The process of becoming more urban"
-        },
-        {
-          "word": "stratification",
-          "meaning": "sự phân tầng (danh từ) — sự sắp xếp xã hội thành các tầng lớp hoặc nhóm theo thứ bậc",
-          "phonetic": "/ˌstræt̬.ə.fɪˈkeɪ.ʃən/",
-          "image": "📊",
-          "audio": "",
-          "example": "Social stratification determines access to resources and opportunities.",
-          "example_vi": "Sự phân tầng xã hội quyết định quyền tiếp cận tài nguyên và cơ hội.",
-          "hint": "The arrangement of society into layers"
-        },
-        {
-          "word": "assimilation",
-          "meaning": "sự đồng hóa (danh từ) — quá trình hòa nhập vào một nền văn hóa hoặc nhóm xã hội khác",
-          "phonetic": "/əˌsɪm.əˈleɪ.ʃən/",
-          "image": "🤝",
-          "audio": "",
-          "example": "Cultural assimilation often occurs when immigrants adopt local customs.",
-          "example_vi": "Sự đồng hóa văn hóa thường xảy ra khi người nhập cư tiếp nhận phong tục địa phương.",
-          "hint": "The process of absorbing into a culture"
-        },
-        {
-          "word": "acculturation",
-          "meaning": "tiếp biến văn hóa (danh từ) — quá trình tiếp nhận văn hóa khác khi tiếp xúc lâu dài",
-          "phonetic": "/əˌkʌl.tʃəˈreɪ.ʃən/",
-          "image": "🌍",
-          "audio": "",
-          "example": "Acculturation often leads to changes in language, customs, and values.",
-          "example_vi": "Tiếp biến văn hóa thường dẫn đến những thay đổi về ngôn ngữ, phong tục và giá trị.",
-          "hint": "Cultural change from prolonged contact with another culture"
-        },
-        {
-          "word": "ethnocentrism",
-          "meaning": "chủ nghĩa dân tộc trung tâm (danh từ) — đánh giá văn hóa khác dựa trên tiêu chuẩn văn hóa mình",
-          "phonetic": "/ˌeθ.noʊˈsen.trɪ.zəm/",
-          "image": "🏳️",
-          "audio": "",
-          "example": "Ethnocentrism can hinder objective analysis in cross-cultural studies.",
-          "example_vi": "Chủ nghĩa dân tộc trung tâm có thể cản trở phân tích khách quan trong nghiên cứu xuyên văn hóa.",
-          "hint": "Judging other cultures by your own standards"
-        },
-        {
-          "word": "collectivism",
-          "meaning": "chủ nghĩa tập thể (danh từ) — ưu tiên lợi ích nhóm hơn lợi ích cá nhân",
-          "phonetic": "/kəˈlek.tɪ.vɪ.zəm/",
-          "image": "👥",
-          "audio": "",
-          "example": "Many East Asian societies are characterized by strong collectivism.",
-          "example_vi": "Nhiều xã hội Đông Á được đặc trưng bởi chủ nghĩa tập thể mạnh mẽ.",
-          "hint": "Prioritizing group goals over individual desires"
-        },
-        {
-          "word": "individualism",
-          "meaning": "chủ nghĩa cá nhân (danh từ) — ưu tiên quyền tự do và lợi ích cá nhân",
-          "phonetic": "/ˌɪn.dɪˈvɪdʒ.u.ə.lɪ.zəm/",
-          "image": "🧍",
-          "audio": "",
-          "example": "Western cultures tend to emphasize individualism in social and economic contexts.",
-          "example_vi": "Các nền văn hóa phương Tây có xu hướng nhấn mạnh chủ nghĩa cá nhân trong bối cảnh xã hội và kinh tế.",
-          "hint": "Emphasis on personal freedom and self-reliance"
-        },
-        {
-          "word": "patriarchy",
-          "meaning": "chế độ phụ hệ (danh từ) — hệ thống xã hội trong đó nam giới nắm quyền lực chính",
-          "phonetic": "/ˈpeɪ.tri.ɑːr.ki/",
-          "image": "♂️",
-          "audio": "",
-          "example": "Feminist scholars have extensively critiqued the structures of patriarchy.",
-          "example_vi": "Các học giả nữ quyền đã phê phán rộng rãi các cấu trúc của chế độ phụ hệ.",
-          "hint": "A social system where men hold primary power"
-        },
-        {
-          "word": "matriarchy",
-          "meaning": "chế độ mẫu hệ (danh từ) — hệ thống xã hội trong đó nữ giới nắm quyền lực chính",
-          "phonetic": "/ˈmeɪ.tri.ɑːr.ki/",
-          "image": "♀️",
-          "audio": "",
-          "example": "Some indigenous communities have historically practiced forms of matriarchy.",
-          "example_vi": "Một số cộng đồng bản địa trong lịch sử đã thực hành các hình thức chế độ mẫu hệ.",
-          "hint": "A social system where women hold primary power"
-        },
-        {
-          "word": "egalitarianism",
-          "meaning": "chủ nghĩa bình đẳng (danh từ) — nguyên tắc cho rằng mọi người đều bình đẳng về quyền",
-          "phonetic": "/ɪˌɡæl.ɪˈter.i.ə.nɪ.zəm/",
-          "image": "⚖️",
-          "audio": "",
-          "example": "Egalitarianism is a foundational principle in many democratic societies.",
-          "example_vi": "Chủ nghĩa bình đẳng là nguyên tắc nền tảng trong nhiều xã hội dân chủ.",
-          "hint": "The belief that all people are equal in rights"
-        },
-        {
-          "word": "enculturation",
-          "meaning": "quá trình hội nhập văn hóa (danh từ) — học hỏi văn hóa của chính cộng đồng mình từ nhỏ",
-          "phonetic": "/ɪnˌkʌl.tʃəˈreɪ.ʃən/",
-          "image": "👶",
-          "audio": "",
-          "example": "Enculturation begins at birth as children absorb the norms of their society.",
-          "example_vi": "Quá trình hội nhập văn hóa bắt đầu từ khi sinh ra khi trẻ em tiếp thu các chuẩn mực của xã hội.",
-          "hint": "Learning the culture of one's own society from childhood"
-        }
-      ]
-    },
-    {
-      "id": "arts",
-      "name": "Arts & Humanities",
-      "name_vi": "Nghệ thuật & Nhân văn",
-      "icon": "🎭",
-      "words": [
-        {
-          "word": "renaissance",
-          "meaning": "phục hưng (danh từ) — thời kỳ tái sinh văn hóa, nghệ thuật và tri thức ở châu Âu",
-          "phonetic": "/ˈren.ə.sɑːns/",
-          "image": "🎨",
-          "audio": "",
-          "example": "The Renaissance marked a turning point in European art and science.",
-          "example_vi": "Thời kỳ Phục hưng đánh dấu bước ngoặt trong nghệ thuật và khoa học châu Âu.",
-          "hint": "A period of cultural rebirth in Europe"
-        },
-        {
-          "word": "contemporary",
-          "meaning": "đương đại (tính từ) — thuộc về hoặc xảy ra trong thời kỳ hiện tại",
-          "phonetic": "/kənˈtem.pə.rer.i/",
-          "image": "🖼️",
-          "audio": "",
-          "example": "Contemporary art challenges traditional aesthetic boundaries.",
-          "example_vi": "Nghệ thuật đương đại thách thức các ranh giới thẩm mỹ truyền thống.",
-          "hint": "Belonging to the present time"
-        },
-        {
-          "word": "abstract",
-          "meaning": "trừu tượng (tính từ) — dựa trên ý tưởng tổng quát thay vì sự vật cụ thể",
-          "phonetic": "/ˈæb.strækt/",
-          "image": "🌀",
-          "audio": "",
-          "example": "Abstract paintings do not attempt to represent external reality.",
-          "example_vi": "Các bức tranh trừu tượng không cố gắng thể hiện thực tế bên ngoài.",
-          "hint": "Existing in thought rather than matter"
-        },
-        {
-          "word": "narrative",
-          "meaning": "tường thuật (danh từ) — câu chuyện hoặc cách kể lại một chuỗi sự kiện",
-          "phonetic": "/ˈner.ə.t̬ɪv/",
-          "image": "📖",
-          "audio": "",
-          "example": "The novel uses a first-person narrative to tell the protagonist's story.",
-          "example_vi": "Cuốn tiểu thuyết sử dụng lối tường thuật ngôi thứ nhất để kể câu chuyện của nhân vật chính.",
-          "hint": "A spoken or written account of events"
-        },
-        {
-          "word": "rhetoric",
-          "meaning": "tu từ học (danh từ) — nghệ thuật sử dụng ngôn ngữ hiệu quả để thuyết phục",
-          "phonetic": "/ˈret̬.ər.ɪk/",
-          "image": "🎙️",
-          "audio": "",
-          "example": "Political rhetoric can significantly influence public opinion.",
-          "example_vi": "Tu từ chính trị có thể ảnh hưởng đáng kể đến dư luận.",
-          "hint": "The art of effective persuasion through language"
-        },
-        {
-          "word": "allegory",
-          "meaning": "phúng dụ (danh từ) — câu chuyện hoặc hình ảnh mang ý nghĩa ẩn giấu, thường là đạo đức hoặc chính trị",
-          "phonetic": "/ˈæl.ə.ɡɔːr.i/",
-          "image": "🪞",
-          "audio": "",
-          "example": "George Orwell's 'Animal Farm' is an allegory about totalitarianism.",
-          "example_vi": "'Trại súc vật' của George Orwell là một câu chuyện phúng dụ về chủ nghĩa toàn trị.",
-          "hint": "A story with a hidden moral or political meaning"
-        },
-        {
-          "word": "metaphor",
-          "meaning": "ẩn dụ (danh từ) — biện pháp tu từ so sánh ngầm hai sự vật không giống nhau",
-          "phonetic": "/ˈmet̬.ə.fɔːr/",
-          "image": "🌈",
-          "audio": "",
-          "example": "The poet used the ocean as a metaphor for the unconscious mind.",
-          "example_vi": "Nhà thơ đã sử dụng đại dương như một ẩn dụ cho tâm trí vô thức.",
-          "hint": "A figure of speech making an implicit comparison"
-        },
-        {
-          "word": "aesthetic",
-          "meaning": "thẩm mỹ (tính từ) — liên quan đến cái đẹp hoặc sự cảm thụ nghệ thuật",
-          "phonetic": "/esˈθet̬.ɪk/",
-          "image": "✨",
-          "audio": "",
-          "example": "The building's aesthetic appeal attracts thousands of tourists annually.",
-          "example_vi": "Sức hấp dẫn thẩm mỹ của tòa nhà thu hút hàng ngàn du khách mỗi năm.",
-          "hint": "Concerned with beauty or artistic taste"
-        },
-        {
-          "word": "symbolism",
-          "meaning": "chủ nghĩa tượng trưng (danh từ) — việc sử dụng biểu tượng để thể hiện ý tưởng hoặc phẩm chất",
-          "phonetic": "/ˈsɪm.bəl.ɪ.zəm/",
-          "image": "🕊️",
-          "audio": "",
-          "example": "The use of light and darkness is rich in symbolism throughout the novel.",
-          "example_vi": "Việc sử dụng ánh sáng và bóng tối rất giàu chủ nghĩa tượng trưng xuyên suốt cuốn tiểu thuyết.",
-          "hint": "The use of symbols to represent ideas"
-        },
-        {
-          "word": "genre",
-          "meaning": "thể loại (danh từ) — một loại hoặc phạm trù nghệ thuật, âm nhạc hoặc văn học",
-          "phonetic": "/ˈʒɑːn.rə/",
-          "image": "🎬",
-          "audio": "",
-          "example": "Science fiction is a popular genre in both literature and film.",
-          "example_vi": "Khoa học viễn tưởng là một thể loại phổ biến trong cả văn học và điện ảnh.",
-          "hint": "A category of artistic composition"
-        },
-        {
-          "word": "satire",
-          "meaning": "châm biếm (danh từ) — hình thức sử dụng sự hài hước hoặc mỉa mai để phê phán xã hội",
-          "phonetic": "/ˈsæt̬.aɪr/",
-          "image": "😏",
-          "audio": "",
-          "example": "The TV show is a satire of modern political culture.",
-          "example_vi": "Chương trình truyền hình là sự châm biếm về văn hóa chính trị hiện đại.",
-          "hint": "The use of humor to criticize something"
-        },
-        {
-          "word": "avant-garde",
-          "meaning": "tiên phong (tính từ) — mới lạ và thử nghiệm, đặc biệt trong nghệ thuật và văn hóa",
-          "phonetic": "/ˌæv.ɑːnt ˈɡɑːrd/",
-          "image": "🚀",
-          "audio": "",
-          "example": "The avant-garde movement pushed the boundaries of traditional art forms.",
-          "example_vi": "Phong trào tiên phong đã đẩy xa ranh giới của các hình thức nghệ thuật truyền thống.",
-          "hint": "New and experimental ideas in art"
-        },
-        {
-          "word": "impressionism",
-          "meaning": "trường phái ấn tượng (danh từ) — phong trào nghệ thuật nhấn mạnh ánh sáng và khoảnh khắc",
-          "phonetic": "/ɪmˈpreʃ.ən.ɪ.zəm/",
-          "image": "🎨",
-          "audio": "",
-          "example": "Impressionism revolutionized painting by focusing on light and color.",
-          "example_vi": "Trường phái ấn tượng đã cách mạng hóa hội họa bằng cách tập trung vào ánh sáng và màu sắc.",
-          "hint": "Art movement emphasizing light and fleeting moments"
-        },
-        {
-          "word": "expressionism",
-          "meaning": "trường phái biểu hiện (danh từ) — phong trào nghệ thuật thể hiện cảm xúc chủ quan hơn hiện thực",
-          "phonetic": "/ɪkˈspreʃ.ən.ɪ.zəm/",
-          "image": "😱",
-          "audio": "",
-          "example": "Expressionism in literature often distorts reality to convey emotional experience.",
-          "example_vi": "Trường phái biểu hiện trong văn học thường bóp méo hiện thực để truyền tải trải nghiệm cảm xúc.",
-          "hint": "Art movement prioritizing emotional expression over realism"
-        },
-        {
-          "word": "postmodernism",
-          "meaning": "chủ nghĩa hậu hiện đại (danh từ) — phong trào phản biện các quan điểm tuyệt đối và truyền thống",
-          "phonetic": "/ˌpoʊstˈmɑː.dər.nɪ.zəm/",
-          "image": "🔀",
-          "audio": "",
-          "example": "Postmodernism challenges the notion of a single objective truth in art.",
-          "example_vi": "Chủ nghĩa hậu hiện đại thách thức quan niệm về một sự thật khách quan duy nhất trong nghệ thuật.",
-          "hint": "Movement questioning absolute truths and grand narratives"
-        },
-        {
-          "word": "surrealism",
-          "meaning": "chủ nghĩa siêu thực (danh từ) — phong trào nghệ thuật khám phá tiềm thức và giấc mơ",
-          "phonetic": "/səˈriː.ə.lɪ.zəm/",
-          "image": "🌀",
-          "audio": "",
-          "example": "Surrealism sought to unlock the creative potential of the unconscious mind.",
-          "example_vi": "Chủ nghĩa siêu thực tìm cách giải phóng tiềm năng sáng tạo của tâm trí vô thức.",
-          "hint": "Art movement exploring dreams and the unconscious"
-        },
-        {
-          "word": "cubism",
-          "meaning": "trường phái lập thể (danh từ) — phong trào nghệ thuật mô tả đối tượng từ nhiều góc nhìn",
-          "phonetic": "/ˈkjuː.bɪ.zəm/",
-          "image": "🔷",
-          "audio": "",
-          "example": "Cubism fragmented objects into geometric forms viewed from multiple angles.",
-          "example_vi": "Trường phái lập thể phân mảnh đối tượng thành các hình dạng hình học nhìn từ nhiều góc độ.",
-          "hint": "Art style showing objects from multiple perspectives"
-        },
-        {
-          "word": "minimalism",
-          "meaning": "chủ nghĩa tối giản (danh từ) — phong trào nghệ thuật sử dụng ít yếu tố nhất có thể",
-          "phonetic": "/ˈmɪn.ɪ.mə.lɪ.zəm/",
-          "image": "⬜",
-          "audio": "",
-          "example": "Minimalism in architecture emphasizes simplicity and functional design.",
-          "example_vi": "Chủ nghĩa tối giản trong kiến trúc nhấn mạnh sự đơn giản và thiết kế chức năng.",
-          "hint": "Art movement using the fewest possible elements"
-        },
-        {
-          "word": "romanticism",
-          "meaning": "chủ nghĩa lãng mạn (danh từ) — phong trào nghệ thuật đề cao cảm xúc và thiên nhiên",
-          "phonetic": "/roʊˈmæn.tɪ.sɪ.zəm/",
-          "image": "🌹",
-          "audio": "",
-          "example": "Romanticism celebrated emotion, nature, and individual imagination over rationality.",
-          "example_vi": "Chủ nghĩa lãng mạn tôn vinh cảm xúc, thiên nhiên và trí tưởng tượng cá nhân hơn lý trí.",
-          "hint": "Art movement emphasizing emotion and nature over reason"
-        },
-        {
-          "word": "neoclassicism",
-          "meaning": "trường phái tân cổ điển (danh từ) — phong trào nghệ thuật lấy cảm hứng từ Hy Lạp và La Mã cổ đại",
-          "phonetic": "/ˌniː.oʊˈklæs.ɪ.sɪ.zəm/",
-          "image": "🏛️",
-          "audio": "",
-          "example": "Neoclassicism drew inspiration from the art and culture of ancient Greece and Rome.",
-          "example_vi": "Trường phái tân cổ điển lấy cảm hứng từ nghệ thuật và văn hóa của Hy Lạp và La Mã cổ đại.",
-          "hint": "Art movement inspired by ancient Greek and Roman ideals"
-        }
-      ]
-    },
-    {
-      "id": "ecology",
-      "name": "Ecology & Environment",
-      "name_vi": "Sinh thái & Môi trường",
-      "icon": "🌿",
-      "words": [
-        {
-          "word": "sustainability",
-          "meaning": "tính bền vững (danh từ) — khả năng duy trì cân bằng sinh thái mà không làm cạn kiệt tài nguyên",
-          "phonetic": "/səˌsteɪ.nəˈbɪl.ə.t̬i/",
-          "image": "♻️",
-          "audio": "",
-          "example": "Sustainability is a key goal in modern environmental policy.",
-          "example_vi": "Tính bền vững là mục tiêu chính trong chính sách môi trường hiện đại.",
-          "hint": "Meeting present needs without compromising the future"
-        },
-        {
-          "word": "deforestation",
-          "meaning": "nạn phá rừng (danh từ) — hành động phá bỏ rừng trên diện rộng",
-          "phonetic": "/diːˌfɔːr.əˈsteɪ.ʃən/",
-          "image": "🪓",
-          "audio": "",
-          "example": "Deforestation in the Amazon threatens global biodiversity.",
-          "example_vi": "Nạn phá rừng ở Amazon đe dọa sự đa dạng sinh học toàn cầu.",
-          "hint": "The clearing of forests on a large scale"
-        },
-        {
-          "word": "biodiversity",
-          "meaning": "đa dạng sinh học (danh từ) — sự phong phú của các loài sinh vật trong một môi trường",
-          "phonetic": "/ˌbaɪ.oʊ.daɪˈvɝː.sə.t̬i/",
-          "image": "🦋",
-          "audio": "",
-          "example": "Coral reefs are known for their incredible biodiversity.",
-          "example_vi": "Các rạn san hô được biết đến với sự đa dạng sinh học đáng kinh ngạc.",
-          "hint": "The variety of life in an ecosystem"
-        },
-        {
-          "word": "depletion",
-          "meaning": "sự cạn kiệt (danh từ) — quá trình giảm số lượng hoặc suy yếu nguồn tài nguyên",
-          "phonetic": "/dɪˈpliː.ʃən/",
-          "image": "📉",
-          "audio": "",
-          "example": "The depletion of the ozone layer has raised serious environmental concerns.",
-          "example_vi": "Sự cạn kiệt tầng ozone đã làm dấy lên những lo ngại nghiêm trọng về môi trường.",
-          "hint": "The reduction or exhaustion of a resource"
-        },
-        {
-          "word": "emission",
-          "meaning": "sự phát thải (danh từ) — việc thải ra khí hoặc bức xạ vào khí quyển",
-          "phonetic": "/ɪˈmɪʃ.ən/",
-          "image": "💨",
-          "audio": "",
-          "example": "Carbon emission from factories contributes to global warming.",
-          "example_vi": "Sự phát thải carbon từ các nhà máy góp phần vào sự nóng lên toàn cầu.",
-          "hint": "The release of gas or radiation into the atmosphere"
-        },
-        {
-          "word": "habitat",
-          "meaning": "môi trường sống (danh từ) — nơi sinh sống tự nhiên của một sinh vật",
-          "phonetic": "/ˈhæb.ɪ.tæt/",
-          "image": "🏞️",
-          "audio": "",
-          "example": "Destruction of natural habitat is the leading cause of species decline.",
-          "example_vi": "Sự phá hủy môi trường sống tự nhiên là nguyên nhân hàng đầu gây suy giảm loài.",
-          "hint": "The natural home of an organism"
-        },
-        {
-          "word": "extinction",
-          "meaning": "sự tuyệt chủng (danh từ) — tình trạng không còn tồn tại của một loài sinh vật",
-          "phonetic": "/ɪkˈstɪŋk.ʃən/",
-          "image": "🦤",
-          "audio": "",
-          "example": "Many species are currently facing the threat of extinction.",
-          "example_vi": "Nhiều loài hiện đang đối mặt với nguy cơ tuyệt chủng.",
-          "hint": "The state of a species no longer existing"
-        },
-        {
-          "word": "conservation",
-          "meaning": "sự bảo tồn (danh từ) — hành động bảo vệ và gìn giữ tài nguyên thiên nhiên",
-          "phonetic": "/ˌkɑːn.sɚˈveɪ.ʃən/",
-          "image": "🛡️",
-          "audio": "",
-          "example": "Wildlife conservation efforts have helped restore endangered populations.",
-          "example_vi": "Các nỗ lực bảo tồn động vật hoang dã đã giúp phục hồi các quần thể đang bị đe dọa.",
-          "hint": "The protection of natural resources"
-        },
-        {
-          "word": "photosynthesis",
-          "meaning": "quang hợp (danh từ) — quá trình thực vật chuyển đổi ánh sáng thành năng lượng hóa học",
-          "phonetic": "/ˌfoʊ.t̬oʊˈsɪn.θə.sɪs/",
-          "image": "☀️",
-          "audio": "",
-          "example": "Photosynthesis is the process by which plants convert sunlight into energy.",
-          "example_vi": "Quang hợp là quá trình thực vật chuyển đổi ánh sáng mặt trời thành năng lượng.",
-          "hint": "The process of converting light into chemical energy"
-        },
-        {
-          "word": "erosion",
-          "meaning": "sự xói mòn (danh từ) — quá trình đất hoặc đá bị bào mòn bởi nước, gió hoặc băng",
-          "phonetic": "/ɪˈroʊ.ʒən/",
-          "image": "🌊",
-          "audio": "",
-          "example": "Soil erosion is accelerated by deforestation and poor farming practices.",
-          "example_vi": "Sự xói mòn đất bị đẩy nhanh do nạn phá rừng và canh tác kém.",
-          "hint": "The gradual wearing away of soil or rock"
-        },
-        {
-          "word": "symbiosis",
-          "meaning": "cộng sinh (danh từ) — mối quan hệ tương tác cùng có lợi giữa các sinh vật khác loài",
-          "phonetic": "/ˌsɪm.baɪˈoʊ.sɪs/",
-          "image": "🐠",
-          "audio": "",
-          "example": "The relationship between clownfish and sea anemones is an example of symbiosis.",
-          "example_vi": "Mối quan hệ giữa cá hề và hải quỳ là một ví dụ về cộng sinh.",
-          "hint": "A mutually beneficial relationship between organisms"
+          "word": "evolution",
+          "meaning": "sự tiến hóa (danh từ)",
+          "image": "🐒",
+          "example": "Darwin's theory of evolution explains how species adapt over time.",
+          "example_vi": "Thuyết tiến hóa của Darwin giải thích cách các loài thích nghi theo thời gian.",
+          "hint": "The gradual development of organisms over generations.",
+          "phonetic": "/evolution/",
+          "audio": ""
+        },
+        {
+          "word": "species",
+          "meaning": "loài sinh vật (danh từ)",
+          "image": "🐾",
+          "example": "Hundreds of marine species were discovered during the deep-sea expedition.",
+          "example_vi": "Hàng trăm loài sinh vật biển đã được phát hiện trong cuộc thám hiểm biển sâu.",
+          "hint": "A group of living organisms consisting of similar individuals.",
+          "phonetic": "/species/",
+          "audio": ""
         },
         {
           "word": "adaptation",
-          "meaning": "sự thích nghi (danh từ) — quá trình sinh vật điều chỉnh để phù hợp với môi trường mới",
-          "phonetic": "/ˌæd.æpˈteɪ.ʃən/",
+          "meaning": "sự thích nghi (danh từ)",
           "image": "🦎",
-          "audio": "",
-          "example": "The chameleon's ability to change color is a remarkable adaptation.",
-          "example_vi": "Khả năng đổi màu của tắc kè hoa là một sự thích nghi đáng chú ý.",
-          "hint": "The process of adjusting to new conditions"
+          "example": "The camel's hump is an adaptation for survival in arid desert climates.",
+          "example_vi": "Bướu của lạc đà là một sự thích nghi để sinh tồn trong khí hậu sa mạc khô hạn.",
+          "hint": "A change by which an organism becomes better suited to its environment.",
+          "phonetic": "/adaptation/",
+          "audio": ""
         },
         {
-          "word": "biome",
-          "meaning": "quần xã sinh vật (danh từ) — vùng sinh thái lớn có khí hậu và sinh vật đặc trưng",
-          "phonetic": "/ˈbaɪ.oʊm/",
-          "image": "🌎",
-          "audio": "",
-          "example": "The tundra biome is characterized by extremely cold temperatures and sparse vegetation.",
-          "example_vi": "Quần xã sinh vật lãnh nguyên được đặc trưng bởi nhiệt độ cực lạnh và thảm thực vật thưa thớt.",
-          "hint": "A large ecological area with distinct climate and organisms"
+          "word": "ecosystem",
+          "meaning": "hệ sinh thái (danh từ)",
+          "image": "🌳",
+          "example": "Deforestation can quickly disrupt the balance of the local forest ecosystem.",
+          "example_vi": "Nạn phá rừng có thể nhanh chóng làm gián đoạn sự cân bằng của hệ sinh thái rừng địa phương.",
+          "hint": "A biological community of interacting organisms and their physical environment.",
+          "phonetic": "/ecosystem/",
+          "audio": ""
         },
         {
-          "word": "eutrophication",
-          "meaning": "phú dưỡng hóa (danh từ) — sự tích tụ quá mức chất dinh dưỡng trong nước gây thiếu oxy",
-          "phonetic": "/juːˌtrɒf.ɪˈkeɪ.ʃən/",
-          "image": "🟢",
-          "audio": "",
-          "example": "Eutrophication caused by agricultural runoff has severely impacted the lake ecosystem.",
-          "example_vi": "Phú dưỡng hóa do dòng chảy nông nghiệp đã ảnh hưởng nghiêm trọng đến hệ sinh thái hồ.",
-          "hint": "Excessive nutrient enrichment in water bodies"
+          "word": "habitat",
+          "meaning": "môi trường sống (danh từ)",
+          "image": "🏕️",
+          "example": "Polar bears are losing their natural habitat due to melting sea ice.",
+          "example_vi": "Gấu Bắc Cực đang mất đi môi trường sống tự nhiên do băng biển tan chảy.",
+          "hint": "The natural home or environment of an animal, plant, or other organism.",
+          "phonetic": "/'hæbitæt/",
+          "audio": ""
         },
         {
-          "word": "desertification",
-          "meaning": "sa mạc hóa (danh từ) — quá trình đất đai trở nên khô cằn và mất khả năng canh tác",
-          "phonetic": "/dɪˌzɜːr.tɪ.fɪˈkeɪ.ʃən/",
-          "image": "🏜️",
-          "audio": "",
-          "example": "Desertification threatens the livelihoods of millions of people in sub-Saharan Africa.",
-          "example_vi": "Sa mạc hóa đe dọa sinh kế của hàng triệu người ở vùng hạ Sahara châu Phi.",
-          "hint": "The process of fertile land becoming desert"
+          "word": "photosynthesis",
+          "meaning": "quá trình quang hợp (danh từ)",
+          "image": "🌿",
+          "example": "Plants absorb sunlight to convert water and carbon dioxide into oxygen during photosynthesis.",
+          "example_vi": "Thực vật hấp thụ ánh sáng mặt trời để chuyển đổi nước và carbon dioxide thành oxy trong quá trình quang hợp.",
+          "hint": "Process by which green plants use sunlight to synthesize nutrients.",
+          "phonetic": "/,foutə'sinθisis/",
+          "audio": ""
         },
         {
-          "word": "afforestation",
-          "meaning": "trồng rừng (danh từ) — việc trồng cây trên vùng đất trước đó không có rừng",
-          "phonetic": "/əˌfɒr.ɪˈsteɪ.ʃən/",
-          "image": "🌲",
-          "audio": "",
-          "example": "Afforestation programs have helped restore degraded landscapes in several countries.",
-          "example_vi": "Các chương trình trồng rừng đã giúp phục hồi cảnh quan bị suy thoái ở nhiều quốc gia.",
-          "hint": "Planting trees on land that was not previously forested"
+          "word": "organism",
+          "meaning": "sinh vật, cá thể sống (danh từ)",
+          "image": "🦠",
+          "example": "A single-celled organism can perform all necessary life functions.",
+          "example_vi": "Một sinh vật đơn bào có thể thực hiện tất cả các chức năng sống cần thiết.",
+          "hint": "An individual animal, plant, or single-celled life form.",
+          "phonetic": "/'ɔ:gənizm/",
+          "audio": ""
         },
         {
-          "word": "permafrost",
-          "meaning": "tầng đất đóng băng vĩnh cửu (danh từ) — lớp đất dưới bề mặt đóng băng liên tục",
-          "phonetic": "/ˈpɜːr.mə.frɑːst/",
-          "image": "🧊",
-          "audio": "",
-          "example": "The thawing of permafrost releases large quantities of methane into the atmosphere.",
-          "example_vi": "Sự tan băng của tầng đất đóng băng vĩnh cửu giải phóng lượng lớn khí mê-tan vào khí quyển.",
-          "hint": "Ground that remains frozen for at least two years"
+          "word": "diversity",
+          "meaning": "sự đa dạng (danh từ)",
+          "image": "🌈",
+          "example": "Tropical rainforests are celebrated for their incredible biological diversity.",
+          "example_vi": "Rừng mưa nhiệt đới nổi tiếng vì sự đa dạng sinh học đáng kinh ngạc của chúng.",
+          "hint": "The state of showing a great deal of variety; very different species.",
+          "phonetic": "/dai'və:siti/",
+          "audio": ""
         },
         {
-          "word": "aquifer",
-          "meaning": "tầng ngậm nước (danh từ) — lớp đất đá ngầm chứa và truyền dẫn nước ngầm",
-          "phonetic": "/ˈæk.wɪ.fɜːr/",
-          "image": "💧",
-          "audio": "",
-          "example": "Over-extraction of water from the aquifer has led to severe groundwater depletion.",
-          "example_vi": "Việc khai thác quá mức nước từ tầng ngậm nước đã dẫn đến sự cạn kiệt nước ngầm nghiêm trọng.",
-          "hint": "An underground layer that stores groundwater"
+          "word": "predator",
+          "meaning": "kẻ săn mồi (danh từ)",
+          "image": "🦁",
+          "example": "The lion remains one of the most formidable predators in the African savanna.",
+          "example_vi": "Sư tử vẫn là một trong những loài thú săn mồi đáng sợ nhất ở thảo nguyên châu Phi.",
+          "hint": "An animal that naturally preys on others.",
+          "phonetic": "/'predətə/",
+          "audio": ""
         },
         {
-          "word": "watershed",
-          "meaning": "lưu vực (danh từ) — vùng đất mà tất cả nước mưa chảy vào cùng một con sông",
-          "phonetic": "/ˈwɑː.t̬ɚ.ʃed/",
-          "image": "🏔️",
-          "audio": "",
-          "example": "Protecting the watershed is essential for maintaining clean drinking water supplies.",
-          "example_vi": "Bảo vệ lưu vực là điều cần thiết để duy trì nguồn cung cấp nước uống sạch.",
-          "hint": "An area of land that drains into a particular river"
+          "word": "prey",
+          "meaning": "con mồi (danh từ / động từ)",
+          "image": "🐰",
+          "example": "Hawks rely on their sharp eyesight to spot prey from high in the sky.",
+          "example_vi": "Diều hâu dựa vào thị lực sắc bén để phát hiện con mồi từ trên trời cao.",
+          "hint": "An animal that is hunted and killed by another for food.",
+          "phonetic": "/prei/",
+          "audio": ""
         },
         {
-          "word": "microclimate",
-          "meaning": "vi khí hậu (danh từ) — khí hậu đặc trưng của một khu vực nhỏ khác với vùng xung quanh",
-          "phonetic": "/ˈmaɪ.kroʊˌklaɪ.mət/",
-          "image": "🌡️",
-          "audio": "",
-          "example": "Urban areas often create distinct microclimates due to concrete and asphalt surfaces.",
-          "example_vi": "Các khu vực đô thị thường tạo ra vi khí hậu đặc biệt do bề mặt bê tông và nhựa đường.",
-          "hint": "The climate of a very small area that differs from surroundings"
+          "word": "marine",
+          "meaning": "thuộc về biển (tính từ)",
+          "image": "🐳",
+          "example": "Marine biologists study ocean life to protect coral reefs from warming waters.",
+          "example_vi": "Các nhà sinh học biển nghiên cứu sự sống dưới đại dương để bảo vệ các rạn san hô khỏi vùng nước ấm lên.",
+          "hint": "Relating to or found in the sea.",
+          "phonetic": "/mə'ri:n/",
+          "audio": ""
+        },
+        {
+          "word": "gene",
+          "meaning": "gen di truyền (danh từ)",
+          "image": "🧬",
+          "example": "Researchers identified the specific gene responsible for the plant's resistance to cold.",
+          "example_vi": "Các nhà nghiên cứu đã xác định được loại gen cụ thể giúp cây có khả năng chống chịu lạnh.",
+          "hint": "A unit of heredity passed from parent to offspring.",
+          "phonetic": "/dʤi:n/",
+          "audio": ""
+        },
+        {
+          "word": "mutation",
+          "meaning": "sự đột biến (danh từ)",
+          "image": "🧪",
+          "example": "A genetic mutation caused the flowers to bloom in a bright blue hue.",
+          "example_vi": "Một đột biến di truyền đã khiến những bông hoa nở ra sắc xanh lam rực rỡ.",
+          "hint": "The changing of the structure of a gene, resulting in a variant form.",
+          "phonetic": "/mju:'teiʃn/",
+          "audio": ""
+        },
+        {
+          "word": "hybrid",
+          "meaning": "lai, giống lai (danh từ / tính từ)",
+          "image": "🌾",
+          "example": "This hybrid variety of corn grows much faster and resists pests effectively.",
+          "example_vi": "Giống ngô lai này phát triển nhanh hơn nhiều và kháng sâu bệnh rất hiệu quả.",
+          "hint": "An offspring of two plants or animals of different species or varieties.",
+          "phonetic": "/'haibrid/",
+          "audio": ""
+        },
+        {
+          "word": "offspring",
+          "meaning": "con cái, thế hệ sau (danh từ)",
+          "image": "🐥",
+          "example": "Birds spend a great deal of energy feeding and protecting their vulnerable offspring.",
+          "example_vi": "Chim dành rất nhiều năng lượng để nuôi dưỡng và bảo vệ con non yếu ớt của chúng.",
+          "hint": "A person's child or children / an animal's young.",
+          "phonetic": "/'ɔ:fspriɳ/",
+          "audio": ""
         }
       ]
     },
     {
-      "id": "history",
-      "name": "History & Civilization",
-      "name_vi": "Lịch sử & Văn minh",
-      "icon": "📜",
+      "id": "toefl_hist",
+      "name": "Archaeology & History",
+      "name_vi": "Khảo cổ học & Lịch sử",
+      "icon": "🏛️",
       "words": [
+        {
+          "word": "artifact",
+          "meaning": "cổ vật, di vật (danh từ)",
+          "image": "🏺",
+          "example": "The museum displays a rare golden artifact from the Aztec civilization.",
+          "example_vi": "Bảo tàng trưng bày một cổ vật bằng vàng quý hiếm từ nền văn minh Aztec.",
+          "hint": "An object made by a human being, typically of historical or cultural interest.",
+          "phonetic": "/artifact/",
+          "audio": ""
+        },
         {
           "word": "civilization",
-          "meaning": "nền văn minh (danh từ) — giai đoạn phát triển tiên tiến của xã hội loài người",
-          "phonetic": "/ˌsɪv.əl.əˈzeɪ.ʃən/",
+          "meaning": "nền văn minh (danh từ)",
           "image": "🏛️",
-          "audio": "",
-          "example": "Ancient Egyptian civilization flourished along the Nile River.",
-          "example_vi": "Nền văn minh Ai Cập cổ đại phát triển rực rỡ dọc theo sông Nile.",
-          "hint": "An advanced state of human society"
+          "example": "Ancient Roman civilization laid the groundwork for modern legal structures.",
+          "example_vi": "Nền văn minh La Mã cổ đại đã đặt nền móng cho các cấu trúc luật pháp hiện đại.",
+          "hint": "The stage of human social and cultural development that is considered most advanced.",
+          "phonetic": "/,sivilai'zeiʃn/",
+          "audio": ""
         },
         {
-          "word": "revolution",
-          "meaning": "cuộc cách mạng (danh từ) — sự thay đổi căn bản trong cấu trúc chính trị hoặc xã hội",
-          "phonetic": "/ˌrev.əˈluː.ʃən/",
-          "image": "✊",
-          "audio": "",
-          "example": "The French Revolution transformed the political landscape of Europe.",
-          "example_vi": "Cách mạng Pháp đã biến đổi bối cảnh chính trị của châu Âu.",
-          "hint": "A fundamental change in power or organization"
+          "word": "ancestors",
+          "meaning": "tổ tiên (danh từ)",
+          "image": "👴",
+          "example": "Many families track their family tree to learn where their ancestors migrated from.",
+          "example_vi": "Nhiều gia đình lần theo gia phả để tìm hiểu xem tổ tiên của họ đã di cư từ đâu đến.",
+          "hint": "A person, typically one more remote than a grandparent, from whom one is descended.",
+          "phonetic": "/ancestors/",
+          "audio": ""
         },
         {
-          "word": "colonialism",
-          "meaning": "chủ nghĩa thực dân (danh từ) — chính sách kiểm soát và khai thác các quốc gia khác",
-          "phonetic": "/kəˈloʊ.ni.ə.lɪ.zəm/",
-          "image": "⛵",
-          "audio": "",
-          "example": "Colonialism had lasting effects on the economies of African nations.",
-          "example_vi": "Chủ nghĩa thực dân đã có ảnh hưởng lâu dài đến nền kinh tế các quốc gia châu Phi.",
-          "hint": "The practice of acquiring control over other countries"
+          "word": "era",
+          "meaning": "kỷ nguyên, thời đại (danh từ)",
+          "image": "⏳",
+          "example": "The collapse of the Berlin Wall marked the end of a long geopolitical era.",
+          "example_vi": "Sự sụp đổ của Bức tường Berlin đã đánh dấu sự kết thúc của một kỷ nguyên địa chính trị lâu dài.",
+          "hint": "A long and distinct period of history with a particular feature or characteristic.",
+          "phonetic": "/'iərə/",
+          "audio": ""
         },
         {
-          "word": "industrialization",
-          "meaning": "công nghiệp hóa (danh từ) — quá trình chuyển đổi từ nông nghiệp sang sản xuất công nghiệp",
-          "phonetic": "/ɪnˌdʌs.tri.ə.ləˈzeɪ.ʃən/",
-          "image": "🏭",
-          "audio": "",
-          "example": "Industrialization in the 19th century dramatically changed urban life.",
-          "example_vi": "Công nghiệp hóa trong thế kỷ 19 đã thay đổi đáng kể cuộc sống đô thị.",
-          "hint": "The development of industries on a wide scale"
-        },
-        {
-          "word": "feudalism",
-          "meaning": "chế độ phong kiến (danh từ) — hệ thống xã hội trung cổ dựa trên đất đai và lòng trung thành",
-          "phonetic": "/ˈfjuː.dəl.ɪ.zəm/",
-          "image": "🏰",
-          "audio": "",
-          "example": "Feudalism dominated European political structure during the Middle Ages.",
-          "example_vi": "Chế độ phong kiến chi phối cấu trúc chính trị châu Âu trong thời Trung cổ.",
-          "hint": "A medieval social system based on land ownership"
-        },
-        {
-          "word": "reformation",
-          "meaning": "cải cách (danh từ) — phong trào thay đổi hoặc cải thiện một tổ chức hoặc thực hành",
-          "phonetic": "/ˌref.ɚˈmeɪ.ʃən/",
-          "image": "📜",
-          "audio": "",
-          "example": "The Protestant Reformation reshaped religious practice in Europe.",
-          "example_vi": "Cuộc cải cách Tin Lành đã định hình lại thực hành tôn giáo ở châu Âu.",
-          "hint": "A movement to reform an institution"
-        },
-        {
-          "word": "renaissance",
-          "meaning": "sự phục hưng (danh từ) — sự hồi sinh hoặc quan tâm mới đến một lĩnh vực nào đó",
-          "phonetic": "/ˈren.ə.sɑːns/",
-          "image": "🎭",
-          "audio": "",
-          "example": "The city experienced a cultural renaissance in the late 20th century.",
-          "example_vi": "Thành phố đã trải qua một sự phục hưng văn hóa vào cuối thế kỷ 20.",
-          "hint": "A revival of interest in something"
-        },
-        {
-          "word": "imperialism",
-          "meaning": "chủ nghĩa đế quốc (danh từ) — chính sách mở rộng quyền lực thông qua ngoại giao hoặc quân sự",
-          "phonetic": "/ɪmˈpɪr.i.ə.lɪ.zəm/",
-          "image": "🌍",
-          "audio": "",
-          "example": "European imperialism reshaped the political map of Asia and Africa.",
-          "example_vi": "Chủ nghĩa đế quốc châu Âu đã định hình lại bản đồ chính trị của châu Á và châu Phi.",
-          "hint": "Extending a country's power through diplomacy or force"
-        },
-        {
-          "word": "abolition",
-          "meaning": "sự bãi bỏ (danh từ) — hành động chính thức chấm dứt một hệ thống hoặc thực hành",
-          "phonetic": "/ˌæb.əˈlɪʃ.ən/",
-          "image": "⛓️‍💥",
-          "audio": "",
-          "example": "The abolition of slavery was a major milestone in human rights history.",
-          "example_vi": "Sự bãi bỏ chế độ nô lệ là một cột mốc quan trọng trong lịch sử nhân quyền.",
-          "hint": "The formal ending of a system or practice"
-        },
-        {
-          "word": "democracy",
-          "meaning": "dân chủ (danh từ) — hình thức chính phủ do nhân dân bầu chọn và kiểm soát",
-          "phonetic": "/dɪˈmɑː.krə.si/",
-          "image": "🗳️",
-          "audio": "",
-          "example": "Democracy allows citizens to participate in the political process.",
-          "example_vi": "Dân chủ cho phép công dân tham gia vào quá trình chính trị.",
-          "hint": "A system of government by the people"
-        },
-        {
-          "word": "republic",
-          "meaning": "nền cộng hòa (danh từ) — hình thức nhà nước do đại diện được bầu lãnh đạo",
-          "phonetic": "/rɪˈpʌb.lɪk/",
+          "word": "ancient",
+          "meaning": "cổ xưa, cổ đại (tính từ)",
           "image": "🏛️",
-          "audio": "",
-          "example": "The country transitioned from a monarchy to a republic after the war.",
-          "example_vi": "Đất nước đã chuyển đổi từ chế độ quân chủ sang nền cộng hòa sau chiến tranh.",
-          "hint": "A state governed by elected representatives"
+          "example": "We stood in absolute awe looking at the ancient stones of Stonehenge.",
+          "example_vi": "Chúng tôi đứng kinh ngạc tột độ khi nhìn vào những phiến đá cổ xưa của Stonehenge.",
+          "hint": "Belonging to the very distant past and no longer in existence.",
+          "phonetic": "history",
+          "audio": ""
         },
         {
-          "word": "sovereignty",
-          "meaning": "chủ quyền (danh từ) — quyền lực tối cao và độc lập của một quốc gia",
-          "phonetic": "/ˈsɑːv.rən.t̬i/",
-          "image": "🏴",
-          "audio": "",
-          "example": "The nation fought to defend its sovereignty against foreign invasion.",
-          "example_vi": "Quốc gia đã chiến đấu để bảo vệ chủ quyền trước sự xâm lược nước ngoài.",
-          "hint": "The supreme authority of a state"
+          "word": "fossil",
+          "meaning": "hóa thạch (danh từ)",
+          "image": "🦖",
+          "example": "The fossil of a prehistoric fish was uncovered on the dry mountain slope.",
+          "example_vi": "Hóa thạch của một loài cá tiền sử đã được phát hiện trên sườn núi khô cằn.",
+          "hint": "The remains of a prehistoric organism preserved in petrified form.",
+          "phonetic": "/'fɔsl/",
+          "audio": ""
         },
         {
-          "word": "annexation",
-          "meaning": "sáp nhập (danh từ) — hành động sáp nhập lãnh thổ vào một quốc gia hoặc vùng khác",
-          "phonetic": "/ˌæn.ekˈseɪ.ʃən/",
-          "image": "🗺️",
-          "audio": "",
-          "example": "The annexation of the territory sparked international controversy and debate.",
-          "example_vi": "Việc sáp nhập lãnh thổ đã gây ra tranh cãi và tranh luận quốc tế.",
-          "hint": "The act of incorporating territory into another state"
+          "word": "excavation",
+          "meaning": "sự khai quật (danh từ)",
+          "image": "⛏️",
+          "example": "A delicate archaeological excavation revealed the foundations of a 2000-year-old temple.",
+          "example_vi": "Một cuộc khai quật khảo cổ tỉ mỉ đã làm lộ ra nền móng của một ngôi đền 2000 năm tuổi.",
+          "hint": "The action of excavating something, especially an archaeological site.",
+          "phonetic": "/,ekskə'veiʃn/",
+          "audio": ""
         },
         {
-          "word": "emancipation",
-          "meaning": "giải phóng (danh từ) — việc trao quyền tự do cho người bị áp bức hoặc nô lệ",
-          "phonetic": "/ɪˌmæn.sɪˈpeɪ.ʃən/",
-          "image": "🕊️",
-          "audio": "",
-          "example": "The emancipation of enslaved people marked a turning point in American history.",
-          "example_vi": "Việc giải phóng những người bị nô lệ đánh dấu bước ngoặt trong lịch sử Hoa Kỳ.",
-          "hint": "The act of setting people free from oppression"
+          "word": "primitive",
+          "meaning": "nguyên thủy, thô sơ (tính từ)",
+          "image": "🪵",
+          "example": "They used primitive tools made from stone and bones to build shelter.",
+          "example_vi": "Họ đã sử dụng các công cụ thô sơ làm từ đá và xương để xây dựng nơi trú ẩn.",
+          "hint": "Relating to the character of an early stage in the evolutionary or historical development.",
+          "phonetic": "/primitive/",
+          "audio": ""
         },
         {
-          "word": "mercantilism",
-          "meaning": "chủ nghĩa trọng thương (danh từ) — chính sách kinh tế coi trọng xuất khẩu và tích lũy vàng bạc",
-          "phonetic": "/ˈmɜːr.kən.tɪ.lɪ.zəm/",
-          "image": "💰",
-          "audio": "",
-          "example": "Mercantilism dominated European economic policy from the 16th to 18th centuries.",
-          "example_vi": "Chủ nghĩa trọng thương thống trị chính sách kinh tế châu Âu từ thế kỷ 16 đến 18.",
-          "hint": "Economic policy emphasizing exports and accumulating wealth"
-        },
-        {
-          "word": "theocracy",
-          "meaning": "chính thể thần quyền (danh từ) — hình thức chính phủ do giới tôn giáo cai trị",
-          "phonetic": "/θiˈɑː.krə.si/",
-          "image": "⛪",
-          "audio": "",
-          "example": "Ancient Egypt functioned as a theocracy with the pharaoh serving as both king and god.",
-          "example_vi": "Ai Cập cổ đại hoạt động như một chính thể thần quyền với pharaoh vừa là vua vừa là thần.",
-          "hint": "A government ruled by religious leaders"
-        },
-        {
-          "word": "monarchy",
-          "meaning": "chế độ quân chủ (danh từ) — hình thức chính phủ do vua hoặc nữ hoàng đứng đầu",
-          "phonetic": "/ˈmɑː.nɚ.ki/",
-          "image": "👑",
-          "audio": "",
-          "example": "The constitutional monarchy limits the power of the king through a parliament.",
-          "example_vi": "Chế độ quân chủ lập hiến giới hạn quyền lực của nhà vua thông qua quốc hội.",
-          "hint": "A government headed by a king or queen"
-        },
-        {
-          "word": "dynasty",
-          "meaning": "triều đại (danh từ) — dòng dõi cai trị liên tiếp thuộc cùng một gia tộc",
-          "phonetic": "/ˈdaɪ.nə.sti/",
-          "image": "🏯",
-          "audio": "",
-          "example": "The Ming Dynasty ruled China for nearly three centuries.",
-          "example_vi": "Triều đại nhà Minh cai trị Trung Quốc trong gần ba thế kỷ.",
-          "hint": "A series of rulers from the same family"
-        },
-        {
-          "word": "hegemony",
-          "meaning": "quyền bá chủ (danh từ) — sự thống trị hoặc ảnh hưởng vượt trội của một quốc gia",
-          "phonetic": "/hɪˈdʒem.ə.ni/",
+          "word": "migrate",
+          "meaning": "di cư (động từ)",
           "image": "🦅",
-          "audio": "",
-          "example": "The decline of hegemony often leads to shifts in global power dynamics.",
-          "example_vi": "Sự suy giảm quyền bá chủ thường dẫn đến những thay đổi trong cán cân quyền lực toàn cầu.",
-          "hint": "Dominance or leadership of one state over others"
+          "example": "During winter, thousands of birds migrate south to seek warmer climates.",
+          "example_vi": "Vào mùa đông, hàng ngàn con chim di cư về phía nam để tìm kiếm khí hậu ấm áp hơn.",
+          "hint": "To move from one region or habitat to another, typically according to the season.",
+          "phonetic": "/mai'greit/",
+          "audio": ""
         },
         {
-          "word": "aristocracy",
-          "meaning": "tầng lớp quý tộc (danh từ) — giai cấp xã hội cao nhất, thường nắm giữ đặc quyền chính trị",
-          "phonetic": "/ˌær.ɪˈstɑː.krə.si/",
-          "image": "🎩",
-          "audio": "",
-          "example": "The aristocracy wielded considerable political influence throughout medieval Europe.",
-          "example_vi": "Tầng lớp quý tộc nắm giữ ảnh hưởng chính trị đáng kể trong suốt thời kỳ trung cổ châu Âu.",
-          "hint": "The highest social class with political privileges"
+          "word": "nomadic",
+          "meaning": "du mục (tính từ)",
+          "image": "⛺",
+          "example": "The nomadic tribes of Mongolia travel with their herds across the grasslands.",
+          "example_vi": "Các bộ lạc du mục ở Mông Cổ di chuyển cùng đàn gia súc của họ qua các đồng cỏ.",
+          "hint": "Living the life of a nomad; wandering from place to place.",
+          "phonetic": "/nou'mædik/",
+          "audio": ""
+        },
+        {
+          "word": "medieval",
+          "meaning": "thuộc thời trung cổ (tính từ)",
+          "image": "🏰",
+          "example": "Scholars specialize in analyzing medieval Latin manuscripts found in monasteries.",
+          "example_vi": "Các học giả chuyên phân tích các bản thảo Latinh thời trung cổ được tìm thấy trong các tu viện.",
+          "hint": "Relating to the Middle Ages (approx. 5th to 15th century).",
+          "phonetic": "/,medi'i:vəl/",
+          "audio": ""
+        },
+        {
+          "word": "chronological",
+          "meaning": "theo thứ tự thời gian (tính từ)",
+          "image": "📅",
+          "example": "The textbook arranges the events of the American Revolution in chronological order.",
+          "example_vi": "Sách giáo khoa sắp xếp các sự kiện của Cách mạng Mỹ theo thứ tự thời gian.",
+          "hint": "Starting with the earliest and following the order in which they occurred.",
+          "phonetic": "/,krɔnə'lɔdʤik/",
+          "audio": ""
+        },
+        {
+          "word": "heritage",
+          "meaning": "di sản (danh từ)",
+          "image": "🎭",
+          "example": "Saving the ancient monument preserves a vital piece of the country's cultural heritage.",
+          "example_vi": "Cứu vãn di tích cổ đại giúp bảo tồn một phần thiết yếu trong di sản văn hóa của quốc gia.",
+          "hint": "Property or traditions that are valued and passed down from generation to generation.",
+          "phonetic": "/heritage/",
+          "audio": ""
+        },
+        {
+          "word": "legacy",
+          "meaning": "thừa dư, di sản để lại (danh từ)",
+          "image": "📜",
+          "example": "The Greek philosopher left behind a rich legacy of logical reasoning.",
+          "example_vi": "Triết gia người Hy Lạp đã để lại một di sản phong phú về tư duy logic.",
+          "hint": "An amount of money or property left to someone in a will / output of history.",
+          "phonetic": "/'legəsi/",
+          "audio": ""
+        },
+        {
+          "word": "dynamic",
+          "meaning": "động lực, năng động (tính từ / danh từ)",
+          "image": "⚡",
+          "example": "The historical dynamic between trade policies and immigration is deeply complex.",
+          "example_vi": "Động lực lịch sử giữa chính sách thương mại và nhập cư cực kỳ phức tạp.",
+          "hint": "Constant change, activity, or progress.",
+          "phonetic": "externalities",
+          "audio": ""
         }
       ]
     },
     {
-      "id": "reading",
-      "name": "Reading Comprehension",
-      "name_vi": "Đọc hiểu",
-      "icon": "📖",
+      "id": "toefl_astro",
+      "name": "Astronomy & Physics",
+      "name_vi": "Thiên văn & Vật lý học",
+      "icon": "🚀",
       "words": [
         {
-          "word": "infer",
-          "meaning": "suy luận (động từ) — rút ra kết luận dựa trên bằng chứng và lập luận logic",
-          "phonetic": "/ɪnˈfɝː/",
-          "image": "🧐",
-          "audio": "",
-          "example": "From the evidence presented, we can infer that the climate is changing.",
-          "example_vi": "Từ bằng chứng được trình bày, chúng ta có thể suy luận rằng khí hậu đang thay đổi.",
-          "hint": "To deduce from evidence and reasoning"
+          "word": "asteroid",
+          "meaning": "tiểu hành tinh (danh từ)",
+          "image": "☄️",
+          "example": "A large asteroid collided with Earth millions of years ago, causing mass extinctions.",
+          "example_vi": "Một tiểu hành tinh lớn đã va chạm với Trái đất hàng triệu năm trước, gây ra sự tuyệt chủng hàng loạt.",
+          "hint": "A small rocky body orbiting the sun.",
+          "phonetic": "/asteroid/",
+          "audio": ""
         },
         {
-          "word": "paraphrase",
-          "meaning": "diễn giải (động từ) — diễn đạt lại ý nghĩa của một đoạn văn bằng từ ngữ khác",
-          "phonetic": "/ˈper.ə.freɪz/",
-          "image": "🔄",
-          "audio": "",
-          "example": "The student was asked to paraphrase the main argument of the article.",
-          "example_vi": "Sinh viên được yêu cầu diễn giải lại luận điểm chính của bài báo.",
-          "hint": "To express the meaning using different words"
+          "word": "atmosphere",
+          "meaning": "bầu khí quyển (danh từ)",
+          "image": "☁️",
+          "example": "The dense atmosphere of Venus traps heat, making it the hottest planet.",
+          "example_vi": "Bầu khí quyển dày đặc của sao Kim giữ nhiệt, biến nó thành hành tinh nóng nhất.",
+          "hint": "The envelope of gases surrounding the earth or another planet.",
+          "phonetic": "/atmosphere/",
+          "audio": ""
         },
         {
-          "word": "summarize",
-          "meaning": "tóm tắt (động từ) — trình bày ngắn gọn các điểm chính của một nội dung",
-          "phonetic": "/ˈsʌm.ə.raɪz/",
-          "image": "📋",
-          "audio": "",
-          "example": "Please summarize the key findings of the research paper.",
-          "example_vi": "Vui lòng tóm tắt các phát hiện chính của bài nghiên cứu.",
-          "hint": "To give a brief statement of the main points"
+          "word": "orbit",
+          "meaning": "quỹ đạo (danh từ / động từ)",
+          "image": "🛰️",
+          "example": "Artificial satellites orbit the Earth to transmit telecommunication signals.",
+          "example_vi": "Các vệ tinh nhân tạo quay quanh Trái đất để truyền tín hiệu viễn thông.",
+          "hint": "The curved path of a celestial object or spacecraft around a star, planet, or moon.",
+          "phonetic": "/orbit/",
+          "audio": ""
         },
         {
-          "word": "contradict",
-          "meaning": "mâu thuẫn (động từ) — phủ nhận hoặc đi ngược lại một tuyên bố hoặc ý kiến",
-          "phonetic": "/ˌkɑːn.trəˈdɪkt/",
-          "image": "❌",
-          "audio": "",
-          "example": "The new data seems to contradict the earlier findings.",
-          "example_vi": "Dữ liệu mới dường như mâu thuẫn với các phát hiện trước đó.",
-          "hint": "To deny or go against a statement"
+          "word": "cosmic",
+          "meaning": "thuộc vũ trụ (tính từ)",
+          "image": "🌌",
+          "example": "Spacewalking astronauts are exposed to high doses of dangerous cosmic radiation.",
+          "example_vi": "Các phi hành gia đi bộ ngoài không gian phải tiếp xúc với liều lượng cao bức xạ vũ trụ nguy hiểm.",
+          "hint": "Relating to the universe or cosmos, especially as distinct from earth.",
+          "phonetic": "wave",
+          "audio": ""
         },
         {
-          "word": "refute",
-          "meaning": "bác bỏ (động từ) — chứng minh một tuyên bố hoặc lý thuyết là sai",
-          "phonetic": "/rɪˈfjuːt/",
-          "image": "🚫",
-          "audio": "",
-          "example": "The scientist was able to refute the outdated theory with new evidence.",
-          "example_vi": "Nhà khoa học đã có thể bác bỏ lý thuyết lỗi thời bằng bằng chứng mới.",
-          "hint": "To prove a statement or theory to be wrong"
+          "word": "gravity",
+          "meaning": "trọng lực (danh từ)",
+          "image": "🍎",
+          "example": "The moon has weaker gravity than Earth, which allows astronauts to leap high.",
+          "example_vi": "Mặt trăng có trọng lực yếu hơn Trái đất, cho phép các phi hành gia nhảy rất cao.",
+          "hint": "The force that attracts a body toward the center of the earth, or toward any other physical body.",
+          "phonetic": "/gravity/",
+          "audio": ""
         },
         {
-          "word": "elaborate",
-          "meaning": "giải thích chi tiết (động từ) — cung cấp thêm thông tin hoặc chi tiết về một chủ đề",
-          "phonetic": "/ɪˈlæb.ə.reɪt/",
-          "image": "🔎",
-          "audio": "",
-          "example": "Could you elaborate on the reasons behind your conclusion?",
-          "example_vi": "Bạn có thể giải thích chi tiết hơn về lý do đằng sau kết luận của bạn không?",
-          "hint": "To add more detail to what has been said"
+          "word": "galaxy",
+          "meaning": "thiên hà (danh từ)",
+          "image": "🌀",
+          "example": "Our solar system resides inside the spiral Andromeda-neighboring Milky Way galaxy.",
+          "example_vi": "Hệ mặt trời của chúng ta nằm bên trong thiên hà xoắn ốc Ngân Hà láng giềng Andromeda.",
+          "hint": "A system of millions or billions of stars, together with gas and dust, held together by gravitational attraction.",
+          "phonetic": "/'gæləksi/",
+          "audio": ""
         },
         {
-          "word": "imply",
-          "meaning": "ngụ ý (động từ) — gợi ý một điều gì đó mà không nói trực tiếp",
-          "phonetic": "/ɪmˈplaɪ/",
-          "image": "💭",
-          "audio": "",
-          "example": "The author seems to imply that technology has more drawbacks than benefits.",
-          "example_vi": "Tác giả dường như ngụ ý rằng công nghệ có nhiều nhược điểm hơn lợi ích.",
-          "hint": "To suggest something without directly stating it"
+          "word": "eclipse",
+          "meaning": "sự nhật thực / nguyệt thực (danh từ)",
+          "image": "🌑",
+          "example": "During a total solar eclipse, the moon briefly blocks out the sunlight completely.",
+          "example_vi": "Trong suốt thời gian nhật thực toàn phần, mặt trăng tạm thời chặn hoàn toàn ánh sáng mặt trời.",
+          "hint": "An obscuring of the light from one celestial body by the passage of another.",
+          "phonetic": "/eclipse/",
+          "audio": ""
         },
         {
-          "word": "assert",
-          "meaning": "khẳng định (động từ) — tuyên bố một điều gì đó một cách tự tin và mạnh mẽ",
-          "phonetic": "/əˈsɝːt/",
-          "image": "💪",
-          "audio": "",
-          "example": "The researcher asserts that the results are statistically significant.",
-          "example_vi": "Nhà nghiên cứu khẳng định rằng các kết quả có ý nghĩa thống kê.",
-          "hint": "To state something confidently and forcefully"
+          "word": "friction",
+          "meaning": "lực ma sát (danh từ)",
+          "image": "🛹",
+          "example": "The spacecraft generates intense heat because of air friction during atmospheric reentry.",
+          "example_vi": "Tàu vũ trụ tạo ra nhiệt lượng cực lớn do ma sát không khí khi quay trở lại bầu khí quyển.",
+          "hint": "The resistance that one surface or object encounters when moving over another.",
+          "phonetic": "/friction/",
+          "audio": ""
         },
         {
-          "word": "undermine",
-          "meaning": "làm suy yếu (động từ) — gây tổn hại dần dần đến hiệu quả hoặc sức mạnh của điều gì đó",
-          "phonetic": "/ˌʌn.dɚˈmaɪn/",
-          "image": "⛏️",
-          "audio": "",
-          "example": "Constant criticism can undermine a student's confidence.",
-          "example_vi": "Sự chỉ trích liên tục có thể làm suy yếu sự tự tin của sinh viên.",
-          "hint": "To gradually weaken or damage something"
+          "word": "velocity",
+          "meaning": "vận tốc (danh từ)",
+          "image": "🏃",
+          "example": "To escape Earth's gravity, a rocket must reach an immense escape velocity.",
+          "example_vi": "Để thoát khỏi trọng lực của Trái đất, tên lửa phải đạt được một vận tốc thoát cực lớn.",
+          "hint": "The speed of something in a given direction.",
+          "phonetic": "/velocity/",
+          "audio": ""
         },
         {
-          "word": "substantiate",
-          "meaning": "chứng thực (động từ) — cung cấp bằng chứng để hỗ trợ hoặc chứng minh một tuyên bố",
-          "phonetic": "/səbˈstæn.ʃi.eɪt/",
-          "image": "📑",
-          "audio": "",
-          "example": "The lawyer needed more evidence to substantiate the claim.",
-          "example_vi": "Luật sư cần thêm bằng chứng để chứng thực tuyên bố đó.",
-          "hint": "To provide evidence to support a claim"
+          "word": "thermal",
+          "meaning": "thuộc về nhiệt (tính từ)",
+          "image": "🌡️",
+          "example": "Geothermal power plants tap into hot thermal energy stored deep beneath the surface.",
+          "example_vi": "Các nhà máy điện địa nhiệt khai thác năng lượng nhiệt nóng lưu trữ sâu dưới lòng đất.",
+          "hint": "Relating to heat.",
+          "phonetic": "/thermal/",
+          "audio": ""
         },
         {
-          "word": "ambiguous",
-          "meaning": "mơ hồ (tính từ) — có thể được hiểu theo nhiều cách khác nhau, không rõ ràng",
-          "phonetic": "/æmˈbɪɡ.ju.əs/",
-          "image": "🌫️",
-          "audio": "",
-          "example": "The poem's meaning is deliberately ambiguous to invite multiple interpretations.",
-          "example_vi": "Ý nghĩa của bài thơ cố tình mơ hồ để mời gọi nhiều cách giải thích.",
-          "hint": "Open to more than one interpretation"
+          "word": "radiation",
+          "meaning": "bức xạ (danh từ)",
+          "image": "☢️",
+          "example": "Heavy led shielding is required to protect laboratory technicians from harmful radiation.",
+          "example_vi": "Cần có tấm chắn chì dày để bảo vệ các kỹ thuật viên phòng thí nghiệm khỏi bức xạ có hại.",
+          "hint": "The emission of energy as electromagnetic waves or as subatomic particles.",
+          "phonetic": "/radiation/",
+          "audio": ""
         },
         {
-          "word": "paradox",
-          "meaning": "nghịch lý (danh từ) — tuyên bố mâu thuẫn nhưng có thể chứa đựng sự thật",
-          "phonetic": "/ˈper.ə.dɑːks/",
-          "image": "🔃",
-          "audio": "",
-          "example": "It is a paradox that standing is more tiring than walking.",
-          "example_vi": "Thật là nghịch lý khi đứng lại mệt hơn đi bộ.",
-          "hint": "A seemingly contradictory statement that may be true"
+          "word": "fusion",
+          "meaning": "sự nóng chảy, phản ứng hạt nhân (danh từ)",
+          "image": "💥",
+          "example": "Nuclear fusion in the sun's core fuses hydrogen atoms to generate daylight energy.",
+          "example_vi": "Phản ứng hợp hạch hạt nhân trong lõi mặt trời nung chảy các nguyên tử hydro để tạo ra năng lượng ánh sáng ban ngày.",
+          "hint": "The process of joining two or more things together to form a single entity.",
+          "phonetic": "/fusion/",
+          "audio": ""
+        },
+        {
+          "word": "nebula",
+          "meaning": "tinh vân (danh từ)",
+          "image": "🌌",
+          "example": "A nebula is equivalent to an interstellar nursery where new stars are born from dust.",
+          "example_vi": "Tinh vân tương đương với một vườn ươm giữa các vì sao, nơi những ngôi sao mới được sinh ra từ bụi.",
+          "hint": "A cloud of gas and dust in outer space, visible in the night sky.",
+          "phonetic": "/nebula/",
+          "audio": ""
+        },
+        {
+          "word": "kinetic",
+          "meaning": "thuộc động năng (tính từ)",
+          "image": "⚡",
+          "example": "Wind turbines successfully convert the kinetic energy of wind into clean electricity.",
+          "example_vi": "Các tuabin gió chuyển đổi thành công động năng của gió thành điện sạch.",
+          "hint": "Relating to or resulting from motion.",
+          "phonetic": "/kinetic/",
+          "audio": ""
+        },
+        {
+          "word": "vacuum",
+          "meaning": "chân không (danh từ)",
+          "image": "🌌",
+          "example": "Sound waves cannot travel through the absolute vacuum of outer space.",
+          "example_vi": "Sóng âm thanh không thể truyền qua môi trường chân không tuyệt đối của không gian vũ trụ.",
+          "hint": "A space entirely devoid of matter.",
+          "phonetic": "/vacuum/",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "toefl_earth",
+      "name": "Earth Sciences & Geology",
+      "name_vi": "Địa chất & Khoa học Trái đất",
+      "icon": "🌍",
+      "words": [
+        {
+          "word": "glacier",
+          "meaning": "sông băng (danh từ)",
+          "image": "🏔️",
+          "example": "Scientists monitor the retreat of the glacier to evaluate climate change rates.",
+          "example_vi": "Các nhà khoa học theo dõi sự thu hẹp của sông băng để đánh giá tốc độ biến đổi khí hậu.",
+          "hint": "A slowly moving mass or river of ice formed by the accumulation of snow.",
+          "phonetic": "/'glæsjə/",
+          "audio": ""
+        },
+        {
+          "word": "erosion",
+          "meaning": "sự xói mòn (danh từ)",
+          "image": "🏜️",
+          "example": "Wind and water erosion shaped the stunning rock formations in the Grand Canyon.",
+          "example_vi": "Sự xói mòn do gió và nước đã tạo nên những khối đá tuyệt đẹp ở hẻm núi Grand Canyon.",
+          "hint": "The gradual destruction or diminution of something by wind, water, or other natural agents.",
+          "phonetic": "/i'rouʤn/",
+          "audio": ""
+        },
+        {
+          "word": "seismic",
+          "meaning": "thuộc địa chấn, động đất (tính từ)",
+          "image": "📈",
+          "example": "Delicate seismic sensors detect minor vibrations along tectonic plate fault lines.",
+          "example_vi": "Các cảm biến địa chấn nhạy bén phát hiện các rung động nhỏ dọc theo các đường đứt gãy mảng kiến tạo.",
+          "hint": "Relating to earthquakes or other vibrations of the earth and its objects.",
+          "phonetic": "/'saizməl/",
+          "audio": ""
+        },
+        {
+          "word": "sedimentary",
+          "meaning": "thuộc trầm tích (tính từ)",
+          "image": "🪵",
+          "example": "Fossils are primarily discovered within layers of ancient sedimentary rock.",
+          "example_vi": "Hóa thạch chủ yếu được phát hiện bên trong các lớp đá trầm tích cổ đại.",
+          "hint": "Relating to rock that has formed from sediment deposited by water or air.",
+          "phonetic": "/,sedi'mentəri/",
+          "audio": ""
+        },
+        {
+          "word": "core",
+          "meaning": "lõi, nhân Trái đất (danh từ / tính từ)",
+          "image": "🔴",
+          "example": "The outer core of Earth is composed mainly of liquid iron and nickel.",
+          "example_vi": "Lõi ngoài của Trái đất chủ yếu bao gồm sắt và niken lỏng.",
+          "hint": "The dense central region of a planet.",
+          "phonetic": "/core/",
+          "audio": ""
+        },
+        {
+          "word": "eruption",
+          "meaning": "sự phun trào (danh từ)",
+          "image": "🌋",
+          "example": "The volcanic eruption sent a massive cloud of ash high into the atmosphere.",
+          "example_vi": "Sự phun trào núi lửa đã gửi một đám mây tro bụi khổng lồ lên cao bầu khí quyển.",
+          "hint": "An act of exploding or bursting, especially of active volcanoes.",
+          "phonetic": "/i'rʌpʃn/",
+          "audio": ""
+        },
+        {
+          "word": "continent",
+          "meaning": "lục địa (danh từ)",
+          "image": "🗺️",
+          "example": "Millions of years ago, all seven regions were part of a single giant continent called Pangaea.",
+          "example_vi": "Hàng triệu năm trước, tất cả bảy khu vực đều là một phần của một lục địa khổng lồ duy nhất gọi là Pangaea.",
+          "hint": "Any of the world's main continuous expanses of land.",
+          "phonetic": "/'kɔntinənt/",
+          "audio": ""
+        },
+        {
+          "word": "topography",
+          "meaning": "đại hình, địa hình học (danh từ)",
+          "image": "⛰️",
+          "example": "The complex topography of Norway features tall mountains and deep fjords.",
+          "example_vi": "Địa hình phức tạp của Na Uy nổi bật với những ngọn núi cao và những vịnh hẹp sâu.",
+          "hint": "The arrangement of the natural and artificial physical features of an area.",
+          "phonetic": "/topography/",
+          "audio": ""
+        },
+        {
+          "word": "peninsula",
+          "meaning": "bán đảo (danh từ)",
+          "image": "🏝️",
+          "example": "The Korean Peninsula stretches south from the Asian mainland, bordered by water on three sides.",
+          "example_vi": "Bán đảo Triều Tiên trải dài về phía nam từ lục địa châu Á, ba mặt giáp nước.",
+          "hint": "A piece of land almost surrounded by water or projecting out into a body of water.",
+          "phonetic": "/pi'ninsjulə/",
+          "audio": ""
+        },
+        {
+          "word": "resource",
+          "meaning": "tài nguyên (danh từ)",
+          "image": "💎",
+          "example": "Fresh drinking water is a vital natural resource that remains scarce in some desert areas.",
+          "example_vi": "Nước uống sạch là tài nguyên tự nhiên quan trọng đang trở nên khan hiếm ở một số vùng sa mạc.",
+          "hint": "A stock or supply of materials or assets that can be drawn on by a person or organization.",
+          "phonetic": "/resource/",
+          "audio": ""
+        },
+        {
+          "word": "climate",
+          "meaning": "khí hậu (danh từ)",
+          "image": "☀️",
+          "example": "Global warming causes extreme change patterns in local agricultural climates.",
+          "example_vi": "Sự nóng lên toàn cầu gây ra các mô hình thay đổi khắc nghiệt trong khí hậu nông nghiệp địa phương.",
+          "hint": "The weather conditions prevailing in an area in general or over a long period.",
+          "phonetic": "/'klaimit/",
+          "audio": ""
+        },
+        {
+          "word": "tectonic",
+          "meaning": "thuộc mảng kiến tạo (tính từ)",
+          "image": "🗺️",
+          "example": "The movement of massive tectonic plates can construct valleys or raise mountains.",
+          "example_vi": "Sự di chuyển của các mảng kiến tạo khổng lồ có thể tạo ra các thung lũng hoặc nâng cao các ngọn núi.",
+          "hint": "Relating to the structure of the earth's crust and the large-scale processes which take place within it.",
+          "phonetic": "/tek'tɔnik/",
+          "audio": ""
+        },
+        {
+          "word": "magma",
+          "meaning": "mác-ma, đá nóng chảy (danh từ)",
+          "image": "🌋",
+          "example": "When underground magma breaks through the crust, it is called lava.",
+          "example_vi": "Khi mác-ma dưới lòng đất phun qua lớp vỏ Trái đất, nó được gọi là dung nham.",
+          "hint": "Hot fluid or semi-fluid material below or within the earth's crust.",
+          "phonetic": "/'mægmə/",
+          "audio": ""
+        },
+        {
+          "word": "terrain",
+          "meaning": "địa hình, địa thế (danh từ)",
+          "image": "⛰️",
+          "example": "The rugged terrain made marching search and rescue efforts extremely slow.",
+          "example_vi": "Địa hình hiểm trở khiến cho các nỗ lực hành quân tìm kiếm cứu nạn tiến triển rất chậm.",
+          "hint": "A stretch of land, especially with regard to its physical features.",
+          "phonetic": "/'terein/",
+          "audio": ""
+        },
+        {
+          "word": "mineral",
+          "meaning": "khoáng vật, khoáng chất (danh từ)",
+          "image": "💎",
+          "example": "Geologists examine the atomic structure of the mineral to identify its composition.",
+          "example_vi": "Các nhà địa chất kiểm tra cấu trúc nguyên tử của khoáng vật để xác định thành phần của nó.",
+          "hint": "A solid inorganic substance of natural occurrence.",
+          "phonetic": "/'minərəl/",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "toefl_econ",
+      "name": "Economics & Public Policy",
+      "name_vi": "Kinh tế học & Chính sách công",
+      "icon": "📈",
+      "words": [
+        {
+          "word": "inflation",
+          "meaning": "sự lạm phát (danh từ)",
+          "image": "💸",
+          "example": "High inflation reduces the purchasing power of the national currency.",
+          "example_vi": "Lạm phát cao làm giảm sức mua của đồng nội tệ.",
+          "hint": "A general increase in prices and fall in the purchasing value of money.",
+          "phonetic": "rate",
+          "audio": ""
+        },
+        {
+          "word": "surplus",
+          "meaning": "thặng dư, số dư (danh từ / tính từ)",
+          "image": "📈",
+          "example": "The country maintained a trade surplus by exporting more than it imported.",
+          "example_vi": "Quốc gia này đã duy trì mức thặng dư thương mại bằng cách xuất khẩu nhiều hơn nhập khẩu.",
+          "hint": "An amount of something left over when requirements have been met.",
+          "phonetic": "/surplus/",
+          "audio": ""
+        },
+        {
+          "word": "deficit",
+          "meaning": "sự thâm hụt, thâm hụt ngân sách (danh từ)",
+          "image": "📉",
+          "example": "The government is forced to borrow money to bridge its annual budget deficit.",
+          "example_vi": "Chính phủ buộc phải vay tiền để bù đắp thâm hụt ngân sách hàng năm.",
+          "hint": "The amount by which something, especially a sum of money, is too small.",
+          "phonetic": "units",
+          "audio": ""
+        },
+        {
+          "word": "monopoly",
+          "meaning": "sự độc quyền (danh từ)",
+          "image": "🏢",
+          "example": "Anti-trust regulations strive to break up any firm that establishes a monopoly.",
+          "example_vi": "Các quy định chống độc quyền nỗ lực giải thể bất kỳ công ty nào thiết lập thế độc quyền.",
+          "hint": "The exclusive possession or control of the supply of or trade in a commodity or service.",
+          "phonetic": "profit",
+          "audio": ""
+        },
+        {
+          "word": "tariff",
+          "meaning": "thuế quan, thuế xuất nhập khẩu (danh từ)",
+          "image": "💸",
+          "example": "The president imposed a high tariff on imported steel to protect local mills.",
+          "example_vi": "Tổng thống đã áp đặt mức thuế quan cao đối với thép nhập khẩu để bảo vệ các nhà máy thép địa phương.",
+          "hint": "A tax or duty to be paid on a particular class of imports or exports.",
+          "phonetic": "/tariff/",
+          "audio": ""
+        },
+        {
+          "word": "commodity",
+          "meaning": "hàng hóa, thương phẩm (danh từ)",
+          "image": "📦",
+          "example": "Crude oil is the most heavily traded commodity in the global market.",
+          "example_vi": "Dầu thô là loại hàng hóa được giao dịch nhiều nhất trên thị trường toàn cầu.",
+          "hint": "A raw material or primary agricultural product that can be bought and sold.",
+          "phonetic": "/commodity/",
+          "audio": ""
+        },
+        {
+          "word": "currency",
+          "meaning": "tiền tệ (danh từ)",
+          "image": "💵",
+          "example": "Travelers can exchange their local currency at the airport terminal.",
+          "example_vi": "Du khách có thể đổi đồng tiền tệ địa phương tại nhà ga sân bay.",
+          "hint": "A system of money in common use in a country.",
+          "phonetic": "substitution",
+          "audio": ""
+        },
+        {
+          "word": "capital",
+          "meaning": "vốn, vốn đầu tư (danh từ)",
+          "image": "💰",
+          "example": "Our startup raised several million dollars in venture capital.",
+          "example_vi": "Công ty khởi nghiệp của chúng tôi đã huy động được vài triệu đô la vốn đầu tư mạo hiểm.",
+          "hint": "Wealth in the form of money or other assets owned by a person or organization.",
+          "phonetic": "/capital/",
+          "audio": ""
+        },
+        {
+          "word": "globalization",
+          "meaning": "sự toàn cầu hóa (danh từ)",
+          "image": "🌐",
+          "example": "Globalization accelerates the exchange of cultural and technological ideas.",
+          "example_vi": "Toàn cầu hóa thúc đẩy nhanh sự trao đổi các tư tưởng văn hóa và công nghệ.",
+          "hint": "The process by which businesses or other organizations develop international influence.",
+          "phonetic": "/globalization/",
+          "audio": ""
+        },
+        {
+          "word": "recession",
+          "meaning": "sự suy thoái kinh tế (danh từ)",
+          "image": "📉",
+          "example": "High unemployment rates are a characteristic symptom of an economic recession.",
+          "example_vi": "Tỷ lệ thất nghiệp cao là triệu chứng đặc trưng của một cuộc suy thoái kinh tế.",
+          "hint": "A period of temporary economic decline during which trade and industrial activity are reduced.",
+          "phonetic": "/recession/",
+          "audio": ""
+        },
+        {
+          "word": "taxation",
+          "meaning": "sự đánh thuế, hệ thống thuế (danh từ)",
+          "image": "💸",
+          "example": "The government funds public services like healthcare through progressive taxation.",
+          "example_vi": "Chính phủ tài trợ cho các dịch vụ công như chăm sóc sức khỏe thông qua đánh thuế lũy tiến.",
+          "hint": "The levying of tax by a government.",
+          "phonetic": "/taxation/",
+          "audio": ""
+        },
+        {
+          "word": "subsidy",
+          "meaning": "tiền trợ cấp, bao cấp (danh từ)",
+          "image": "💰",
+          "example": "Farmers receive a financial subsidy to make healthy food affordable for everyone.",
+          "example_vi": "Các nông dân nhận được tiền trợ cấp tài chính để giúp thực phẩm lành mạnh có giá cả phải chăng cho mọi người.",
+          "hint": "A sum of money granted by the state or a public body to help an industry or business.",
+          "phonetic": "/subsidy/",
+          "audio": ""
+        },
+        {
+          "word": "consumer",
+          "meaning": "người tiêu dùng (danh từ)",
+          "image": "🛒",
+          "example": "Consumer confidence rose sharply following the positive employment report.",
+          "example_vi": "Niềm tin của người tiêu dùng đã tăng mạnh sau báo cáo tích cực về việc làm.",
+          "hint": "A person who purchases goods and services for personal use.",
+          "phonetic": "/consumer/",
+          "audio": ""
+        },
+        {
+          "word": "commercial",
+          "meaning": "thuộc thương mại (tính từ)",
+          "image": "🏢",
+          "example": "The area is zoned for commercial development rather than residential housing.",
+          "example_vi": "Khu vực này được quy hoạch cho phát triển thương mại chứ không phải nhà ở dân cư.",
+          "hint": "Concerned with or engaged in commerce.",
+          "phonetic": "/commercial/",
+          "audio": ""
+        },
+        {
+          "word": "trade",
+          "meaning": "giao thương, mậu dịch (danh từ / động từ)",
+          "image": "🚢",
+          "example": "The trade agreement removed heavy tariffs, boosting regional cooperation.",
+          "example_vi": "Hiệp định thương mại đã dỡ bỏ các mức thuế quan cao, thúc đẩy hợp tác khu vực.",
+          "hint": "The action of buying and selling goods and services.",
+          "phonetic": "secret",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "toefl_psych",
+      "name": "Psychology & Neurology",
+      "name_vi": "Tâm lý học & Thần kinh học",
+      "icon": "🧠",
+      "words": [
+        {
+          "word": "cognitive",
+          "meaning": "thuộc nhận thức (tính từ)",
+          "image": "🧠",
+          "example": "Puzzles and reading can maintain cognitive health in absolute old age.",
+          "example_vi": "Trò chơi đố chữ và đọc sách có thể duy trì sức khỏe nhận thức ở tuổi già tuyệt đối.",
+          "hint": "Relating to mental processes of perception, memory, judgment, and reasoning.",
+          "phonetic": "/cognitive/",
+          "audio": ""
+        },
+        {
+          "word": "perception",
+          "meaning": "sự nhận thức, giác quan (danh từ)",
+          "image": "👁️",
+          "example": "Optical illusions demonstrate how easily our visual perception can be deceived.",
+          "example_vi": "Ảo ảnh thị giác chứng minh nhận thức thị giác của chúng ta có thể dễ bị đánh lừa như thế nào.",
+          "hint": "The ability to see, hear, or become aware of something through the senses.",
+          "phonetic": "/pə'sepʃn/",
+          "audio": ""
+        },
+        {
+          "word": "stimulus",
+          "meaning": "tác nhân kích thích (danh từ)",
+          "image": "⚡",
+          "example": "The bright flashing light served as a powerful sensory stimulus for the child.",
+          "example_vi": "Ánh sáng nhấp nháy rực rỡ đóng vai trò là một tác nhân kích thích giác quan mạnh mẽ đối với đứa trẻ.",
+          "hint": "A thing or event that evokes a specific functional reaction in an organ or tissue.",
+          "phonetic": "/'stimjuləs/",
+          "audio": ""
+        },
+        {
+          "word": "behavior",
+          "meaning": "hành vi, cách cư xử (danh từ)",
+          "image": "👤",
+          "example": "Psychologists study human behavior in social groups to understand peer pressure.",
+          "example_vi": "Các nhà tâm lý học nghiên cứu hành vi của con người trong các nhóm xã hội để hiểu về áp lực bạn bè.",
+          "hint": "The way in which one acts or conducts oneself, especially toward others.",
+          "phonetic": "/behavior/",
+          "audio": ""
+        },
+        {
+          "word": "consensus",
+          "meaning": "sự đồng thuận, nhất trí (danh từ)",
+          "image": "🤝",
+          "example": "After hours of heated debate, the board finally reached a broad consensus.",
+          "example_vi": "Sau hàng giờ tranh luận gay gắt, ban quản trị cuối cùng đã đạt được sự đồng thuận rộng rãi.",
+          "hint": "A general agreement.",
+          "phonetic": "/kən'sensəs/",
+          "audio": ""
+        },
+        {
+          "word": "collective",
+          "meaning": "tập thể, chung (tính từ / danh từ)",
+          "image": "👥",
+          "example": "The society's collective memory of the war helps maintain peace.",
+          "example_vi": "Ký ức tập thể của xã hội về chiến tranh giúp duy trì hòa bình.",
+          "hint": "Done by people acting as a group.",
+          "phonetic": "/collective/",
+          "audio": ""
+        },
+        {
+          "word": "anxiety",
+          "meaning": "sự lo âu (danh từ)",
+          "image": "😰",
+          "example": "Exam preparation and early planning can help alleviate students' high anxiety.",
+          "example_vi": "Chuẩn bị ôn thi và lên kế hoạch sớm có thể giúp giảm bớt sự lo âu cao độ của học sinh.",
+          "hint": "A feeling of worry, nervousness, or unease, typically about an imminent event.",
+          "phonetic": "/æɳ'zaiəti/",
+          "audio": ""
+        },
+        {
+          "word": "instinct",
+          "meaning": "bản năng (danh từ)",
+          "image": "🦁",
+          "example": "Many animals rely on instinct rather than learned behavior to avoid predators.",
+          "example_vi": "Nhiều loài động vật dựa vào bản năng thay vì hành vi học được để tránh động vật ăn thịt.",
+          "hint": "An innate, typically fixed pattern of behavior in animals.",
+          "phonetic": "/in'stiɳkt/",
+          "audio": ""
+        },
+        {
+          "word": "conditioning",
+          "meaning": "sự huấn luyện, tạo phản xạ (danh từ)",
+          "image": "🐕",
+          "example": "Pavlov became famous for his pioneering research in salivary conditioning of dogs.",
+          "example_vi": "Pavlov đã trở nên nổi tiếng nhờ nghiên cứu tiên phong của mình về việc tạo phản xạ tiết nước bọt ở chó.",
+          "hint": "The process of training oneself or an animal to behave in a certain way.",
+          "phonetic": "/conditioning/",
+          "audio": ""
+        },
+        {
+          "word": "subconscious",
+          "meaning": "tiềm thức (danh từ / tính từ)",
+          "image": "🧠",
+          "example": "Dreams often provide a fascinating window into our deep subconscious fears.",
+          "example_vi": "Giấc mơ thường mang lại một cửa sổ hấp dẫn mở vào nỗi sợ sâu thẳm trong tiềm thức của chúng ta.",
+          "hint": "Concerning the part of the mind of which one is not fully aware.",
+          "phonetic": "/'sʌb'kɔnʃəs/",
+          "audio": ""
+        },
+        {
+          "word": "emotion",
+          "meaning": "cảm xúc (danh từ)",
+          "image": "❤️",
+          "example": "Fear is a basic primal emotion that triggers our fight-or-flight response.",
+          "example_vi": "Sợ hãi là một cảm xúc nguyên thủy cơ bản kích hoạt phản ứng chiến đấu hoặc bỏ chạy của chúng ta.",
+          "hint": "A natural instinctive state of mind deriving from one's circumstances.",
+          "phonetic": "/i'mouʃn/",
+          "audio": ""
+        },
+        {
+          "word": "empathy",
+          "meaning": "sự thấu cảm (danh từ)",
+          "image": "🤝",
+          "example": "Developing empathy allows therapists to connect deeply with their struggling patients.",
+          "example_vi": "Phát triển sự thấu cảm cho phép các nhà trị liệu kết nối sâu sắc với những bệnh nhân đang gặp khó khăn của họ.",
+          "hint": "The ability to understand and share the feelings of another.",
+          "phonetic": "/'empəθi/",
+          "audio": ""
+        },
+        {
+          "word": "neurosis",
+          "meaning": "bệnh loạn thần kinh (danh từ)",
+          "image": "🧠",
+          "example": "Obsessive handwashing can be a classic manifestation of mild neurosis.",
+          "example_vi": "Rửa tay ám ảnh có thể là biểu hiện kinh điển của bệnh loạn thần kinh nhẹ.",
+          "hint": "A relatively mild mental illness that is not caused by organic disease.",
+          "phonetic": "/njuə'rousis/",
+          "audio": ""
+        },
+        {
+          "word": "trauma",
+          "meaning": "chấn thương tâm lý (danh từ)",
+          "image": "😭",
+          "example": "Childhood trauma can leave deep emotional scars that persist into adulthood.",
+          "example_vi": "Chấn thương tâm lý thời thơ ấu có thể để lại những vết sẹo cảm xúc sâu sắc kéo dài đến tuổi trưởng thành.",
+          "hint": "A deeply distressing or disturbing experience.",
+          "phonetic": "/'trɔ:mə/",
+          "audio": ""
+        },
+        {
+          "word": "sensory",
+          "meaning": "thuộc giác quan (tính từ)",
+          "image": "👁️",
+          "example": "Our sensory receptors carry signals about temperature and pain directly to the brain.",
+          "example_vi": "Các thụ thể giác quan của chúng ta truyền tín hiệu về nhiệt độ và đau đớn trực tiếp đến não.",
+          "hint": "Relating to sensation or the physical senses.",
+          "phonetic": "/'sensəri/",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "toefl_art",
+      "name": "Arts & Literature",
+      "name_vi": "Nghệ thuật & Văn học",
+      "icon": "🎨",
+      "words": [
+        {
+          "word": "masterpiece",
+          "meaning": "kiệt tác (danh từ)",
+          "image": "🖼️",
+          "example": "Leonardo da Vinci's Mona Lisa is widely considered a supreme artistic masterpiece.",
+          "example_vi": "Tác phẩm Mona Lisa của Leonardo da Vinci được coi là một kiệt tác nghệ thuật tối cao.",
+          "hint": "A work of outstanding artistry, skill, or workmanship.",
+          "phonetic": "/'mɑ:stəpi:s/",
+          "audio": ""
+        },
+        {
+          "word": "aesthetic",
+          "meaning": "thống mỹ, tính thẩm mỹ (tính từ / danh từ)",
+          "image": "✨",
+          "example": "Minimalist home designs focus heavily on simple, clean aesthetic appeal.",
+          "example_vi": "Thiết kế nhà tối giản tập trung mạnh mẽ vào sức hấp dẫn thẩm mỹ đơn giản và sạch sẽ.",
+          "hint": "Concerned with beauty or the appreciation of beauty.",
+          "phonetic": "/i:s'θetik/",
+          "audio": ""
+        },
+        {
+          "word": "canvas",
+          "meaning": "vải bạt vẽ tranh (danh từ)",
+          "image": "🎨",
+          "example": "The artist stretched the canvas tightly over the wooden frame before painting.",
+          "example_vi": "Họa sĩ đã kéo căng tấm vải vẽ tranh lên khung gỗ trước khi sơn.",
+          "hint": "A strong, coarse unbleached cloth used as a surface for oil painting.",
+          "phonetic": "/'kænvəs/",
+          "audio": ""
+        },
+        {
+          "word": "genre",
+          "meaning": "thể loại (danh từ)",
+          "image": "📚",
+          "example": "Science fiction remains my favorite literary genre because it sparks the imagination.",
+          "example_vi": "Khoa học viễn tưởng vẫn là thể loại văn học yêu thích của tôi vì nó kích thích trí tưởng tượng.",
+          "hint": "A category of artistic composition characterized by similarities in form, style, or subject matter.",
+          "phonetic": "/genre/",
+          "audio": ""
+        },
+        {
+          "word": "prose",
+          "meaning": "văn xuôi (danh từ)",
+          "image": "📖",
+          "example": "Her elegant prose captures details far better than most formal poetry.",
+          "example_vi": "Văn xuôi thanh lịch của cô ấy ghi lại các chi tiết tốt hơn nhiều so với hầu hết các bài thơ trang trọng.",
+          "hint": "Written or spoken language in its ordinary form, without metrical structure.",
+          "phonetic": "/prose/",
+          "audio": ""
+        },
+        {
+          "word": "protagonist",
+          "meaning": "nhân vật chính (danh từ)",
+          "image": "👤",
+          "example": "In the classical novel, the brave protagonist battles great hardships to save his home.",
+          "example_vi": "Trong cuốn tiểu thuyết cổ điển, nhân vật chính dũng cảm chiến đấu với những khó khăn lớn để cứu ngôi nhà của mình.",
+          "hint": "The leading character or one of the major characters in a drama, movie, novel.",
+          "phonetic": "/protagonist/",
+          "audio": ""
+        },
+        {
+          "word": "sculpture",
+          "meaning": "tác phẩm điêu khắc (danh từ)",
+          "image": "🗿",
+          "example": "A marble sculpture of a Greek goddess stands at the center of the royal museum.",
+          "example_vi": "Một bức tượng điêu khắc bằng đá cẩm thạch của một nữ thần Hy Lạp đứng ở giữa bảo tàng hoàng gia.",
+          "hint": "The art of making two- or three-dimensional representative or abstract forms, especially by carving.",
+          "phonetic": "/'skʌlptʃə/",
+          "audio": ""
+        },
+        {
+          "word": "avant-garde",
+          "meaning": "tiên phong (tính từ / danh từ)",
+          "image": "🚀",
+          "example": "His avant-garde fashion designs challenged standard social norms of dress in 1920.",
+          "example_vi": "Các thiết kế thời trang tiên phong của ông đã thách thức những chuẩn mực xã hội thông thường về trang phục vào năm 1920.",
+          "hint": "Favoring or introducing experimental or unusual ideas.",
+          "phonetic": "/'ævỴ:ɳ'gɑ:d/",
+          "audio": ""
+        },
+        {
+          "word": "folklore",
+          "meaning": "văn hóa dân gian (danh từ)",
+          "image": "🎻",
+          "example": "Generations passes on local history and values through traditional animal folklore.",
+          "example_vi": "Nhiều thế hệ truyền tải lịch sử và giá trị địa phương thông qua truyện dân gian động vật truyền thống.",
+          "hint": "The traditional beliefs, customs, and stories of a community, passed through word of mouth.",
+          "phonetic": "/'flouklɔ:/",
+          "audio": ""
+        },
+        {
+          "word": "metaphor",
+          "meaning": "phép ẩn dụ (danh từ)",
+          "image": "💡",
+          "example": "In speech, the phrase 'time is money' is a widely utilized commercial metaphor.",
+          "example_vi": "Trong văn nói, cụm từ 'thời gian là vàng bạc' là một phép ẩn dụ thương mại được sử dụng rộng rãi.",
+          "hint": "A figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable.",
+          "phonetic": "/'metəfɔ/",
+          "audio": ""
+        },
+        {
+          "word": "exhibition",
+          "meaning": "triển lãm (danh từ)",
+          "image": "🏛️",
+          "example": "My local art student group sponsored a beautiful photography exhibition.",
+          "example_vi": "Nhóm sinh viên nghệ thuật địa phương của tôi đã tài trợ cho một cuộc triển lãm ảnh tuyệt đẹp.",
+          "hint": "A public display of works of art or other items of interest.",
+          "phonetic": "/,eksi'biʃn/",
+          "audio": ""
+        },
+        {
+          "word": "abstract",
+          "meaning": "trừu tượng (tính từ / danh từ)",
+          "image": "🧩",
+          "example": "It is hard to grasp abstract concepts without concrete physical examples.",
+          "example_vi": "Thật khó để nắm bắt các khái niệm trừu tượng nếu không có các ví dụ hình thể cụ thể.",
+          "hint": "Existing in thought or as an idea but not having a physical or concrete existence.",
+          "phonetic": "noun",
+          "audio": ""
+        },
+        {
+          "word": "portray",
+          "meaning": "khắc họa, mô tả (động từ)",
+          "image": "🎭",
+          "example": "The movie strives to portray the hard lives of factory workers in the early industrial era.",
+          "example_vi": "Bộ phim nỗ lực mô tả cuộc sống khó khăn của những công nhân nhà máy trong thời kỳ đầu công nghiệp.",
+          "hint": "Depict (someone or something) in a work of art or literature.",
+          "phonetic": "/pɔ:'trei/",
+          "audio": ""
+        },
+        {
+          "word": "expression",
+          "meaning": "sự biểu đạt, biểu cảm (danh từ)",
+          "image": "😊",
+          "example": "Art is a powerful form of emotional self-expression for troubled teenagers.",
+          "example_vi": "Nghệ thuật là một hình thức biểu đạt bản thân mạnh mẽ về mặt cảm xúc cho thanh thiếu niên gặp khó khăn.",
+          "hint": "The action of making known one's thoughts or feelings.",
+          "phonetic": "/expression/",
+          "audio": ""
+        },
+        {
+          "word": "architecture",
+          "meaning": "kiến trúc (danh từ)",
+          "image": "🏛️",
+          "example": "Gothic architecture is characterized by tall columns, pointed arches, and flying buttresses.",
+          "example_vi": "Kiến trúc Gothic đặc trưng bởi các cột cao, vòm nhọn và cấu trúc chống chịu lực bay.",
+          "hint": "The art or practice of designing and constructing buildings.",
+          "phonetic": "/architecture/",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "toefl_tech",
+      "name": "Technology & Science",
+      "name_vi": "Công nghệ & Đột phá kỹ thuật",
+      "icon": "💻",
+      "words": [
+        {
+          "word": "revolutionize",
+          "meaning": "cách mạng hóa (động từ)",
+          "image": "🚀",
+          "example": "Smartphones successfully managed to revolutionize the way people correspond and work.",
+          "example_vi": "Điện thoại thông minh đã thành công trong việc cách mạng hóa cách mọi người liên lạc và làm việc.",
+          "hint": "Change something radically or fundamentally.",
+          "phonetic": "/,revə'lu:ʃnaiz/",
+          "audio": ""
+        },
+        {
+          "word": "cybernetics",
+          "meaning": "điều khiển học (danh từ)",
+          "image": "🤖",
+          "example": "Cybernetics bridges the gap between mechanical automation and human neural signals.",
+          "example_vi": "Điều khiển học thu hẹp khoảng cách giữa tự động hóa cơ khí và tín hiệu thần kinh của con người.",
+          "hint": "The science of communications and automatic control systems in both machines and living things.",
+          "phonetic": "/cybernetics/",
+          "audio": ""
+        },
+        {
+          "word": "algorithm",
+          "meaning": "thuật toán (danh từ)",
+          "image": "🧮",
+          "example": "The search engine's secret algorithm ranks sites based on user satisfaction and loading speed.",
+          "example_vi": "Thuật toán bí mật của công cụ tìm kiếm xếp hạng các trang web dựa trên sự hài lòng của người dùng và tốc độ tải trang.",
+          "hint": "A process or set of rules to be followed in calculations or other problem-solving operations.",
+          "phonetic": "/algorithm/",
+          "audio": ""
+        },
+        {
+          "word": "database",
+          "meaning": "cơ sở dữ liệu (danh từ)",
+          "image": "📦",
+          "example": "Staff must secure the database containing customers' personal financial credit credentials.",
+          "example_vi": "Nhân viên phải bảo mật cơ sở dữ liệu chứa thông tin tín dụng tài chính cá nhân của khách hàng.",
+          "hint": "A structured set of data held in a computer, especially one that is accessible in various ways.",
+          "phonetic": "system",
+          "audio": ""
+        },
+        {
+          "word": "hardware",
+          "meaning": "phần cứng (danh từ)",
+          "image": "🔌",
+          "example": "Upgrading your computer's memory hardware will accelerate video editing software.",
+          "example_vi": "Nâng cấp phần cứng bộ nhớ máy tính của bạn sẽ tăng tốc phần mềm chỉnh sửa video.",
+          "hint": "The physical parts of a computer.",
+          "phonetic": "/'hɑ:dweə/",
+          "audio": ""
+        },
+        {
+          "word": "automation",
+          "meaning": "sự tự động hóa (danh từ)",
+          "image": "🤖",
+          "example": "Industrial automation increased production metrics while lowering physical labor requirements.",
+          "example_vi": "Tự động hóa công nghiệp đã tăng chỉ số sản xuất đồng thời giảm bớt yêu cầu lao động thể chất.",
+          "hint": "The use of largely automatic equipment in a system of manufacturing or other production process.",
+          "phonetic": "/automation/",
+          "audio": ""
+        },
+        {
+          "word": "network",
+          "meaning": "mạng lưới (danh từ / động từ)",
+          "image": "🌐",
+          "example": "A robust local area network connects all corporate workstations to the central database server.",
+          "example_vi": "Một mạng nội bộ mạnh mẽ kết nối tất cả các máy trạm của doanh nghiệp với máy chủ cơ sở dữ liệu trung tâm.",
+          "hint": "A group of interconnected people or things.",
+          "phonetic": "/network/",
+          "audio": ""
         },
         {
           "word": "synthesize",
-          "meaning": "tổng hợp (động từ) — kết hợp nhiều ý tưởng hoặc thông tin thành một tổng thể mạch lạc",
-          "phonetic": "/ˈsɪn.θə.saɪz/",
-          "image": "🧩",
-          "audio": "",
-          "example": "Students must synthesize information from multiple sources to write an effective essay.",
-          "example_vi": "Sinh viên phải tổng hợp thông tin từ nhiều nguồn để viết một bài luận hiệu quả.",
-          "hint": "To combine ideas from multiple sources into a whole"
+          "meaning": "tổng hợp (động từ)",
+          "image": "🧪",
+          "example": "Chemical engineers synthesize durable polymers inside clean laboratory environments.",
+          "example_vi": "Các kỹ sư hóa học tổng hợp các polyme bền vững bên trong môi trường phòng thí nghiệm sạch mượt.",
+          "hint": "Combine elements or materials in a single entity.",
+          "phonetic": "/synthesize/",
+          "audio": ""
         },
         {
-          "word": "juxtapose",
-          "meaning": "đặt cạnh nhau (động từ) — đặt hai thứ gần nhau để so sánh hoặc đối chiếu",
-          "phonetic": "/ˌdʒʌk.stəˈpoʊz/",
-          "image": "↔️",
-          "audio": "",
-          "example": "The author juxtaposes rural simplicity with urban complexity to highlight contrasts.",
-          "example_vi": "Tác giả đặt cạnh nhau sự giản dị nông thôn với sự phức tạp đô thị để làm nổi bật sự tương phản.",
-          "hint": "To place two things side by side for comparison"
+          "word": "digital",
+          "meaning": "kỹ thuật số (tính từ)",
+          "image": "💾",
+          "example": "The digital revolution replaced vinyl records and legacy tape with streaming data.",
+          "example_vi": "Cuộc cách mạng kỹ thuật số đã thay thế đĩa than và băng đĩa cũ bằng truyền dữ liệu trực tuyến.",
+          "hint": "Expressed as series of the digits 0 and 1, typically represented by values.",
+          "phonetic": "/digital/",
+          "audio": ""
         },
         {
-          "word": "deduce",
-          "meaning": "suy luận (động từ) — rút ra kết luận logic từ các bằng chứng hoặc tiền đề có sẵn",
-          "phonetic": "/dɪˈduːs/",
-          "image": "🧠",
-          "audio": "",
-          "example": "From the evidence presented, readers can deduce the author's underlying argument.",
-          "example_vi": "Từ bằng chứng được trình bày, người đọc có thể suy luận ra lập luận cơ bản của tác giả.",
-          "hint": "To reach a logical conclusion from available evidence"
-        },
-        {
-          "word": "delineate",
-          "meaning": "phác họa (động từ) — mô tả hoặc trình bày chính xác và chi tiết",
-          "phonetic": "/dɪˈlɪn.i.eɪt/",
-          "image": "✏️",
-          "audio": "",
-          "example": "The passage clearly delineates the differences between the two theoretical frameworks.",
-          "example_vi": "Đoạn văn phác họa rõ ràng sự khác biệt giữa hai khung lý thuyết.",
-          "hint": "To describe or portray something precisely"
-        },
-        {
-          "word": "exemplify",
-          "meaning": "minh họa (động từ) — đưa ra ví dụ cụ thể để làm rõ một luận điểm",
-          "phonetic": "/ɪɡˈzem.plɪ.faɪ/",
+          "word": "innovation",
+          "meaning": "sự đổi mới, sáng kiến mới (danh từ)",
           "image": "💡",
-          "audio": "",
-          "example": "The case study exemplifies how economic factors influence social behavior.",
-          "example_vi": "Nghiên cứu điển hình minh họa cách các yếu tố kinh tế ảnh hưởng đến hành vi xã hội.",
-          "hint": "To illustrate with a specific example"
+          "example": "Constant technological innovation keeps the electronics manufacturer ahead of foreign rivals.",
+          "example_vi": "Sự đổi mới công nghệ liên tục giúp nhà sản xuất điện tử đi trước các đối thủ nước ngoài.",
+          "hint": "The action or process of innovating; a new method or idea.",
+          "phonetic": "/,inou'veiʃn/",
+          "audio": ""
         },
         {
-          "word": "recapitulate",
-          "meaning": "tóm tắt lại (động từ) — trình bày lại những điểm chính của một vấn đề",
-          "phonetic": "/ˌriː.kəˈpɪtʃ.ə.leɪt/",
-          "image": "🔁",
-          "audio": "",
-          "example": "The final paragraph recapitulates the key arguments presented in the essay.",
-          "example_vi": "Đoạn cuối tóm tắt lại các lập luận chính được trình bày trong bài luận.",
-          "hint": "To summarize the main points again"
+          "word": "electronic",
+          "meaning": "thuộc về điện tử (tính từ)",
+          "image": "📺",
+          "example": "They manufactured lighter electronic components utilizing carbon nanotubes.",
+          "example_vi": "Họ đã sản xuất các linh kiện điện tử nhẹ hơn bằng cách sử dụng ống nano carbon.",
+          "hint": "Having or operating with components such as microchips.",
+          "phonetic": "/electronic/",
+          "audio": ""
         },
         {
-          "word": "analogize",
-          "meaning": "so sánh tương tự (động từ) — giải thích bằng cách chỉ ra sự tương đồng giữa hai sự vật",
-          "phonetic": "/əˈnæl.ə.dʒaɪz/",
-          "image": "🔄",
-          "audio": "",
-          "example": "The lecturer analogized the human brain to a complex computer network.",
-          "example_vi": "Giảng viên so sánh tương tự bộ não con người với một mạng máy tính phức tạp.",
-          "hint": "To explain by drawing a comparison between two things"
+          "word": "artificial",
+          "meaning": "nhân tạo (tính từ)",
+          "image": "🤖",
+          "example": "Artificial sweeteners mimic sugar but contain zero calories, helping weight loss.",
+          "example_vi": "Chất làm ngọt nhân tạo bắt chước đường nhưng chứa không calo, giúp giảm cân hữu ích.",
+          "hint": "Made or produced by human beings rather than occurring naturally.",
+          "phonetic": "/artificial/",
+          "audio": ""
         },
         {
-          "word": "contextualize",
-          "meaning": "đặt vào bối cảnh (động từ) — giải thích điều gì đó trong mối quan hệ với hoàn cảnh xung quanh",
-          "phonetic": "/kənˈteks.tʃu.ə.laɪz/",
-          "image": "🗂️",
-          "audio": "",
-          "example": "It is important to contextualize historical events within their sociopolitical environment.",
-          "example_vi": "Điều quan trọng là đặt vào bối cảnh các sự kiện lịch sử trong môi trường chính trị xã hội của chúng.",
-          "hint": "To place something within its surrounding circumstances"
+          "word": "transmit",
+          "meaning": "truyền tải, phát sóng (động từ)",
+          "image": "📡",
+          "example": "Fiber optic cables transmit data packages across oceans at absolute speed.",
+          "example_vi": "Cáp quang truyền dữ liệu qua các đại dương với tốc độ tuyệt đối mượt mà.",
+          "hint": "Pass on from one place or person to another.",
+          "phonetic": "/transmit/",
+          "audio": ""
+        },
+        {
+          "word": "program",
+          "meaning": "chương trình, viết chương trình (danh từ / động từ)",
+          "image": "💻",
+          "example": "Students learn to program efficient robotic systems during the summer school seminar.",
+          "example_vi": "Học sinh học cách lập trình các hệ thống robot hiệu quả trong hội thảo trường học mùa hè.",
+          "hint": "A series of coded software instructions to control the operation of a computer.",
+          "phonetic": "/program/",
+          "audio": ""
+        },
+        {
+          "word": "process",
+          "meaning": "quy trình, xử lý (danh từ / động từ)",
+          "image": "🏭",
+          "example": "Computers process millions of operations per second to render complex simulations.",
+          "example_vi": "Máy tính xử lý hàng triệu phép tính mỗi giây để hiển thị mô phỏng phức tạp.",
+          "hint": "A series of actions or steps taken in order to achieve a particular end.",
+          "phonetic": "/process/",
+          "audio": ""
         }
       ]
     },
     {
-      "id": "speaking",
-      "name": "Listening & Speaking",
-      "name_vi": "Nghe & Nói",
-      "icon": "🎤",
+      "id": "toefl_env",
+      "name": "Climate & Environment",
+      "name_vi": "Thời tiết & Bảo vệ Môi trường",
+      "icon": "🍀",
       "words": [
         {
-          "word": "articulate",
-          "meaning": "diễn đạt rõ ràng (động từ) — phát biểu hoặc trình bày ý tưởng một cách mạch lạc",
-          "phonetic": "/ɑːrˈtɪk.jə.leɪt/",
+          "word": "greenhouse",
+          "meaning": "nhà kính (danh từ / tính từ)",
+          "image": "🏡",
+          "example": "The greenhouse effect traps warm heat, which causes global temperatures to rise.",
+          "example_vi": "Hiệu ứng nhà kính giữ lại nhiệt ấm, là nguyên nhân làm tăng nhiệt độ toàn cầu.",
+          "hint": "A glass building in which plants are grown / related to gas trapping heat.",
+          "phonetic": "effect",
+          "audio": ""
+        },
+        {
+          "word": "pollution",
+          "meaning": "sự ô nhiễm (danh từ)",
+          "image": "🏭",
+          "example": "Automobile combustion emissions are a primary source of air pollution in giant cities.",
+          "example_vi": "Khí thải đốt xe ô tô là nguồn gây ô nhiễm không khí hàng đầu ở các thành phố khổng lồ.",
+          "hint": "The presence in or introduction into the environment of a substance or thing that has harmful effects.",
+          "phonetic": "rights",
+          "audio": ""
+        },
+        {
+          "word": "renewable",
+          "meaning": "có thể tái tạo (tính từ)",
+          "image": "☀️",
+          "example": "Transitioning to renewable energy like solar power reduce global carbon footprints.",
+          "example_vi": "Chuyển đổi sang năng lượng tái tạo như điện mặt trời làm giảm lượng khí thải carbon toàn cầu.",
+          "hint": "Not depleted when used, because it is of a source that occurs naturally.",
+          "phonetic": "resource",
+          "audio": ""
+        },
+        {
+          "word": "ozone",
+          "meaning": "tầng ô-zôn (danh từ)",
+          "image": "🛡️",
+          "example": "The ozone layer blocks harmful ultraviolet radiation from reaching Earth's surface.",
+          "example_vi": "Tầng ô-zôn chặn bức xạ cực tím có hại tiếp cận bề mặt Trái đất.",
+          "hint": "A colorless toxic gas with a pungent odor, forming a protective planetary shield.",
+          "phonetic": "layer",
+          "audio": ""
+        },
+        {
+          "word": "conservation",
+          "meaning": "sự bảo tồn, gìn giữ (danh từ)",
+          "image": "🦁",
+          "example": "Marine conservation programs strive to repair damaged coral reefs and protect endangered species.",
+          "example_vi": "Các chương trình bảo tồn biển nỗ lực phục hồi các rạn san hô bị hư hại và bảo vệ các loài có nguy cơ tuyệt chủng.",
+          "hint": "Prevention of wasteful use of a resource / preservation of wildlife.",
+          "phonetic": "/conservation/",
+          "audio": ""
+        },
+        {
+          "word": "biodegradable",
+          "meaning": "có thể phân hủy sinh học (tính từ)",
+          "image": "📦",
+          "example": "Using biodegradable food packaging reduces the amount of plastic in landfills.",
+          "example_vi": "Sử dụng bao bì thực phẩm có thể phân hủy sinh học làm giảm lượng nhựa trong các bãi chôn lấp.",
+          "hint": "Capable of being decomposed by bacteria or other living organisms.",
+          "phonetic": "/biodegradable/",
+          "audio": ""
+        },
+        {
+          "word": "emissions",
+          "meaning": "khí thải (danh từ số nhiều)",
+          "image": "💨",
+          "example": "The international accord mandates a dramatic reduction in carbon emissions by 2030.",
+          "example_vi": "Hiệp ước quốc tế quy định việc cắt giảm mạnh mẽ lượng khí thải carbon vào năm 2030.",
+          "hint": "The production and discharge of something, especially gas or radiation.",
+          "phonetic": "/emissions/",
+          "audio": ""
+        },
+        {
+          "word": "deforestation",
+          "meaning": "nạn phá rừng (danh từ)",
+          "image": "🪵",
+          "example": "Deforestation causes severe habitat loss and contributes significantly to climate change.",
+          "example_vi": "Nạn phá rừng gây mất môi trường sống trầm trọng và đóng góp đáng kể vào biến đổi khí hậu.",
+          "hint": "The action of clearing a wide area of trees.",
+          "phonetic": "/di,fɔris'teiʃn/",
+          "audio": ""
+        },
+        {
+          "word": "sustainable",
+          "meaning": "bền vững (tính từ)",
+          "image": "🌿",
+          "example": "Organic, sustainable farming practices maintain soil fertility without toxic chemicals.",
+          "example_vi": "Các phương pháp canh tác hữu cơ, bền vững duy trì độ phì nhiêu của đất mà không cần hóa chất độc hại.",
+          "hint": "Able to be maintained at a certain rate or level; ecological balance preservation.",
+          "phonetic": "development",
+          "audio": ""
+        },
+        {
+          "word": "precipitation",
+          "meaning": "lượng mưa, sự kết tủa (danh từ)",
+          "image": "🌧️",
+          "example": "The local weather forecast calls for heavy precipitation throughout the entire weekend.",
+          "example_vi": "Dự báo thời tiết địa phương dự đoán lượng mưa lớn trong suốt cả cuối tuần.",
+          "hint": "Rain, snow, sleet, or hail that falls to the ground.",
+          "phonetic": "/pri,sipi'teiʃn/",
+          "audio": ""
+        },
+        {
+          "word": "drought",
+          "meaning": "hạn hán (danh từ)",
+          "image": "🏜️",
+          "example": "A continuous decade of drought caused major rivers in the region to dry up completely.",
+          "example_vi": "Hạn hán kéo dài suốt một thập kỷ liên tục khiến các con sông lớn trong vùng bị cạn kiệt hoàn toàn.",
+          "hint": "A prolonged period of abnormally low rainfall, leading to a shortage of water.",
+          "phonetic": "/draut/",
+          "audio": ""
+        },
+        {
+          "word": "ecology",
+          "meaning": "sinh thái học (danh từ)",
+          "image": "🌳",
+          "example": "The study of forest ecology highlights the cooperative interactions between fungi and trees.",
+          "example_vi": "Nghiên cứu sinh thái học rừng làm nổi bật các tương tác hợp tác giữa nấm và cây thân gỗ.",
+          "hint": "The political or scientific study of the relations of organisms to one another and to physical surroundings.",
+          "phonetic": "/i'kɔlədʤi/",
+          "audio": ""
+        },
+        {
+          "word": "toxic",
+          "meaning": "độc hại (tính từ)",
+          "image": "🧪",
+          "example": "Factory supervisors were heavily fined for dumping toxic waste products into the local river.",
+          "example_vi": "Các giám sát viên nhà máy đã bị phạt nặng vì đổ chất thải độc hại ra dòng sông địa phương.",
+          "hint": "Poisonous or very harmful.",
+          "phonetic": "/'tɔksik/",
+          "audio": ""
+        },
+        {
+          "word": "alternative",
+          "meaning": "thay thế (tính từ / danh từ)",
+          "image": "🔄",
+          "example": "Geothermal and wind are excellent alternative options for standard coal-based electricity plants.",
+          "example_vi": "Địa nhiệt và gió là những tùy chọn thay thế tuyệt vời cho nhà máy điện chạy bằng than tiêu chuẩn.",
+          "hint": "One of two or more available possibilities / alternative power.",
+          "phonetic": "/alternative/",
+          "audio": ""
+        },
+        {
+          "word": "recycle",
+          "meaning": "tái chế (động từ)",
+          "image": "♻️",
+          "example": "Civic programs encourage households to partition and recycle glass, plastic, and paper.",
+          "example_vi": "Các chương trình dân sự khuyến khích các hộ gia đình phân chia và tái chế thủy tinh, nhựa và giấy.",
+          "hint": "Convert waste into reusable material.",
+          "phonetic": "/recycle/",
+          "audio": ""
+        }
+      ]
+    },
+    {
+      "id": "toefl_edu",
+      "name": "Campus Life & Education",
+      "name_vi": "Đời sống Đại học & Giáo dục",
+      "icon": "🎓",
+      "words": [
+        {
+          "word": "syllabus",
+          "meaning": "đề cương môn học (danh từ)",
+          "image": "📖",
+          "example": "The professor distributed the detailed syllabus on the first day of the academic semester.",
+          "example_vi": "Giáo sư đã phát đề cương môn học chi tiết vào ngày đầu tiên của học kỳ học thuật.",
+          "hint": "An outline of the subjects in a course of study or teaching.",
+          "phonetic": "/'siləbəs/",
+          "audio": ""
+        },
+        {
+          "word": "curriculum",
+          "meaning": "chương trình giảng dạy (danh từ)",
+          "image": "📚",
+          "example": "The university math department decided to revise its undergraduate calculus curriculum.",
+          "example_vi": "Khoa toán trường đại học đã quyết định điều chỉnh chương trình giảng dạy giải tích bậc cử nhân của mình.",
+          "hint": "The subjects comprising a course of study in a school or college.",
+          "phonetic": "/kə'rikjuləm/",
+          "audio": ""
+        },
+        {
+          "word": "scholarship",
+          "meaning": "học bổng (danh từ)",
+          "image": "🎓",
+          "example": "She won an academic scholarship that covers tuition and dormitory housing fees completely.",
+          "example_vi": "Cô ấy đã giành được một học bổng học thuật đài thọ hoàn toàn học phí và phí ký túc xá.",
+          "hint": "A grant or payment made to support a student's education, awarded on the basis of academic merit.",
+          "phonetic": "/'skɔləʃip/",
+          "audio": ""
+        },
+        {
+          "word": "faculty",
+          "meaning": "giảng viên, ban giám hiệu (danh từ)",
+          "image": "👤",
+          "example": "The physics faculty consists of distinguished Nobel laureate researchers.",
+          "example_vi": "Đội ngũ giảng viên vật lý bao gồm các nhà nghiên cứu đoạt giải Nobel nổi tiếng.",
+          "hint": "The teaching staff of a university or college.",
+          "phonetic": "/'fækəlti/",
+          "audio": ""
+        },
+        {
+          "word": "registrar",
+          "meaning": "phòng đào tạo, hộ tịch viên (danh từ)",
+          "image": "🏢",
+          "example": "Students must consult the registrar to obtain official copies of academic transcripts.",
+          "example_vi": "Sinh viên phải tham khảo phòng đào tạo để lấy bản sao chính thức của bảng điểm học thuật.",
+          "hint": "An official in an academic institution who handles student registrations and grades.",
+          "phonetic": "/,redʤis'trɑ:/",
+          "audio": ""
+        },
+        {
+          "word": "thesis",
+          "meaning": "luận văn tốt nghiệp (danh từ)",
+          "image": "📖",
+          "example": "To graduate with honors, she must write and defend a 50-page economics thesis.",
+          "example_vi": "Để tốt nghiệp loại ưu, cô ấy phải viết và bảo vệ một luận văn kinh tế học dài 50 trang.",
+          "hint": "A long essay or dissertation involving personal research, written by a candidate for a college degree.",
+          "phonetic": "/'θi:sis/",
+          "audio": ""
+        },
+        {
+          "word": "tuition",
+          "meaning": "học phí (danh từ)",
+          "image": "💵",
+          "example": "College tuition fees are rising faster than standard annual household inflation metrics.",
+          "example_vi": "Phí học phí đại học đang tăng nhanh hơn so với các chỉ số lạm phát hộ gia đình hàng năm tiêu chuẩn.",
+          "hint": "A sum of money charged for teaching or instruction by a school, college, or university.",
+          "phonetic": "/tju:'iʃn/",
+          "audio": ""
+        },
+        {
+          "word": "semester",
+          "meaning": "học kỳ (danh từ)",
+          "image": "📅",
+          "example": "Our university divides the academic calendar year into a fall and a spring semester.",
+          "example_vi": "Trường đại học của chúng tôi chia năm học học thuật thành học kỳ mùa thu và học kỳ mùa xuân.",
+          "hint": "A half-year term in a school or college, typically lasting fifteen to eighteen weeks.",
+          "phonetic": "/si'mestə/",
+          "audio": ""
+        },
+        {
+          "word": "internship",
+          "meaning": "kỳ thực tập, công việc thực tập (danh từ)",
+          "image": "💼",
+          "example": "Getting a summer internship at a software company boosts your employment opportunities.",
+          "example_vi": "Có được một công việc thực tập mùa hè tại công ty phần mềm giúp tăng cơ hội việc làm của bạn.",
+          "hint": "The position of a student or trainee who works in an organization, sometimes without pay, to gain work experience.",
+          "phonetic": "/in'tə:nʃip/",
+          "audio": ""
+        },
+        {
+          "word": "prerequisite",
+          "meaning": "điều kiện tiên quyết (danh từ / tính từ)",
+          "image": "🔑",
+          "example": "Basic algebra is an absolute prerequisite for taking advanced calculus classes.",
+          "example_vi": "Đại số cơ bản là điều kiện tiên quyết tuyệt đối để tham gia các lớp giải tích nâng cao.",
+          "hint": "A thing that is required as a prior condition for something else to happen or exist.",
+          "phonetic": "/'pri:'rekwizit/",
+          "audio": ""
+        },
+        {
+          "word": "major",
+          "meaning": "chuyên ngành (danh từ / động từ)",
+          "image": "🎓",
+          "example": "He decided to major in artificial intelligence and minor in economics.",
+          "example_vi": "Anh ấy quyết định chọn chuyên ngành chính là trí tuệ nhân tạo và chuyên ngành phụ là kinh tế học.",
+          "hint": "The main subject of study for an undergraduate university student.",
+          "phonetic": "/major/",
+          "audio": ""
+        },
+        {
+          "word": "dormitory",
+          "meaning": "ký túc xá (danh từ)",
+          "image": "🏢",
+          "example": "Living in a freshman dormitory helps students make friends and integrate easily.",
+          "example_vi": "Sống trong ký túc xá sinh viên năm nhất giúp sinh viên kết bạn và hòa nhập dễ dàng.",
+          "hint": "A large bedroom for a number of people in a school or institution.",
+          "phonetic": "/'dɔ:mitri/",
+          "audio": ""
+        },
+        {
+          "word": "academic",
+          "meaning": "thuộc học thuật, học viện (tính từ)",
+          "image": "📚",
+          "example": "The academic journal publishes peer-reviewed research papers twice a month.",
+          "example_vi": "Tạp chí học thuật xuất bản các bài báo nghiên cứu được bình duyệt từ chuyên gia hai lần một tháng.",
+          "hint": "Relating to education and scholarship.",
+          "phonetic": "/,ækə'demik/",
+          "audio": ""
+        },
+        {
+          "word": "assignment",
+          "meaning": "bài tập về nhà, nhiệm vụ phân công (danh từ)",
+          "image": "📝",
+          "example": "The physics teacher gave us a challenging research assignment due next Monday.",
+          "example_vi": "Giáo viên vật lý định cho chúng tôi một bài tập nghiên cứu đầy thử thách hạn chót thứ Hai tới.",
+          "hint": "A piece of work or job that someone is given to do.",
+          "phonetic": "/assignment/",
+          "audio": ""
+        },
+        {
+          "word": "lecture",
+          "meaning": "bài giảng, thuyết trình (danh từ / động từ)",
           "image": "🗣️",
-          "audio": "",
-          "example": "She was able to articulate her ideas clearly during the presentation.",
-          "example_vi": "Cô ấy đã có thể diễn đạt rõ ràng ý tưởng của mình trong buổi thuyết trình.",
-          "hint": "To express ideas clearly and fluently"
-        },
-        {
-          "word": "pronounce",
-          "meaning": "phát âm (động từ) — tạo ra âm thanh của một từ hoặc ngôn ngữ",
-          "phonetic": "/prəˈnaʊns/",
-          "image": "👄",
-          "audio": "",
-          "example": "Many English learners find it difficult to pronounce 'th' sounds.",
-          "example_vi": "Nhiều người học tiếng Anh thấy khó phát âm các âm 'th'.",
-          "hint": "To make the sound of a word"
-        },
-        {
-          "word": "enunciate",
-          "meaning": "phát âm rõ ràng (động từ) — nói từng từ một cách rõ ràng và chính xác",
-          "phonetic": "/ɪˈnʌn.si.eɪt/",
-          "image": "🔊",
-          "audio": "",
-          "example": "The speaker enunciated every word so the audience could understand.",
-          "example_vi": "Diễn giả phát âm rõ ràng từng từ để khán giả có thể hiểu được.",
-          "hint": "To say each word clearly and distinctly"
-        },
-        {
-          "word": "fluency",
-          "meaning": "sự trôi chảy (danh từ) — khả năng nói hoặc viết một ngôn ngữ dễ dàng và chính xác",
-          "phonetic": "/ˈfluː.ən.si/",
-          "image": "💧",
-          "audio": "",
-          "example": "Achieving fluency in a second language requires consistent practice.",
-          "example_vi": "Đạt được sự trôi chảy trong ngôn ngữ thứ hai đòi hỏi luyện tập đều đặn.",
-          "hint": "The ability to speak or write easily and accurately"
-        },
-        {
-          "word": "intonation",
-          "meaning": "ngữ điệu (danh từ) — sự lên xuống của giọng nói khi nói",
-          "phonetic": "/ˌɪn.t̬əˈneɪ.ʃən/",
-          "image": "🎵",
-          "audio": "",
-          "example": "Rising intonation at the end of a sentence usually indicates a question.",
-          "example_vi": "Ngữ điệu lên ở cuối câu thường biểu thị một câu hỏi.",
-          "hint": "The rise and fall of the voice in speaking"
-        },
-        {
-          "word": "coherence",
-          "meaning": "tính mạch lạc (danh từ) — chất lượng logic, nhất quán và dễ hiểu của bài nói hoặc viết",
-          "phonetic": "/koʊˈhɪr.əns/",
-          "image": "🔗",
-          "audio": "",
-          "example": "The essay lacked coherence because the ideas were poorly organized.",
-          "example_vi": "Bài luận thiếu tính mạch lạc vì các ý tưởng được sắp xếp kém.",
-          "hint": "The quality of being logical and well-organized"
-        },
-        {
-          "word": "emphasis",
-          "meaning": "sự nhấn mạnh (danh từ) — tầm quan trọng đặc biệt được đặt vào một từ hoặc ý tưởng",
-          "phonetic": "/ˈem.fə.sɪs/",
-          "image": "❗",
-          "audio": "",
-          "example": "The teacher placed emphasis on the importance of critical thinking.",
-          "example_vi": "Giáo viên đặt sự nhấn mạnh vào tầm quan trọng của tư duy phản biện.",
-          "hint": "Special importance given to something"
-        },
-        {
-          "word": "discourse",
-          "meaning": "diễn ngôn (danh từ) — giao tiếp bằng lời nói hoặc văn bản về một chủ đề cụ thể",
-          "phonetic": "/ˈdɪs.kɔːrs/",
-          "image": "💬",
-          "audio": "",
-          "example": "Academic discourse requires the use of formal language and evidence.",
-          "example_vi": "Diễn ngôn học thuật đòi hỏi việc sử dụng ngôn ngữ trang trọng và bằng chứng.",
-          "hint": "Written or spoken communication on a topic"
-        },
-        {
-          "word": "monologue",
-          "meaning": "độc thoại (danh từ) — bài nói dài của một người trong cuộc trò chuyện hoặc biểu diễn",
-          "phonetic": "/ˈmɑː.nə.lɑːɡ/",
-          "image": "🎭",
-          "audio": "",
-          "example": "The actor delivered a powerful monologue about justice and equality.",
-          "example_vi": "Diễn viên đã trình bày một bài độc thoại đầy sức mạnh về công lý và bình đẳng.",
-          "hint": "A long speech by one person"
-        },
-        {
-          "word": "dialogue",
-          "meaning": "đối thoại (danh từ) — cuộc trò chuyện giữa hai hoặc nhiều người",
-          "phonetic": "/ˈdaɪ.ə.lɑːɡ/",
-          "image": "🗨️",
-          "audio": "",
-          "example": "The dialogue between the characters reveals the central conflict of the story.",
-          "example_vi": "Đối thoại giữa các nhân vật hé lộ xung đột trung tâm của câu chuyện.",
-          "hint": "A conversation between two or more people"
-        },
-        {
-          "word": "persuade",
-          "meaning": "thuyết phục (động từ) — khiến ai đó tin hoặc làm điều gì đó thông qua lập luận",
-          "phonetic": "/pɚˈsweɪd/",
-          "image": "🤝",
-          "audio": "",
-          "example": "The debater used strong evidence to persuade the audience.",
-          "example_vi": "Người tranh luận đã sử dụng bằng chứng mạnh mẽ để thuyết phục khán giả.",
-          "hint": "To convince someone to do or believe something"
-        },
-        {
-          "word": "negotiate",
-          "meaning": "đàm phán (động từ) — thảo luận để đạt được thỏa thuận giữa các bên",
-          "phonetic": "/nɪˈɡoʊ.ʃi.eɪt/",
-          "image": "⚖️",
-          "audio": "",
-          "example": "The two countries agreed to negotiate a new trade agreement.",
-          "example_vi": "Hai quốc gia đã đồng ý đàm phán một hiệp định thương mại mới.",
-          "hint": "To discuss in order to reach an agreement"
-        },
-        {
-          "word": "reiterate",
-          "meaning": "nhắc lại (động từ) — nói lại điều gì đó để nhấn mạnh hoặc làm rõ",
-          "phonetic": "/riˈɪt.ə.reɪt/",
-          "image": "🔂",
-          "audio": "",
-          "example": "The speaker reiterated the importance of academic integrity throughout the lecture.",
-          "example_vi": "Diễn giả nhắc lại tầm quan trọng của sự liêm chính học thuật trong suốt bài giảng.",
-          "hint": "To say something again for emphasis or clarity"
-        },
-        {
-          "word": "interject",
-          "meaning": "xen vào (động từ) — chen lời khi người khác đang nói",
-          "phonetic": "/ˌɪn.t̬ɚˈdʒekt/",
-          "image": "🙋",
-          "audio": "",
-          "example": "She politely interjected to ask for clarification during the panel discussion.",
-          "example_vi": "Cô ấy lịch sự xen vào để yêu cầu làm rõ trong buổi thảo luận nhóm.",
-          "hint": "To interrupt with a comment while someone is speaking"
-        },
-        {
-          "word": "digress",
-          "meaning": "lạc đề (động từ) — rời khỏi chủ đề chính trong khi nói hoặc viết",
-          "phonetic": "/daɪˈɡres/",
-          "image": "↪️",
-          "audio": "",
-          "example": "The professor tends to digress from the main topic with interesting anecdotes.",
-          "example_vi": "Giáo sư có xu hướng lạc đề khỏi chủ đề chính bằng những giai thoại thú vị.",
-          "hint": "To stray from the main subject while speaking"
-        },
-        {
-          "word": "improvise",
-          "meaning": "ứng biến (động từ) — nói hoặc làm điều gì đó không có sự chuẩn bị trước",
-          "phonetic": "/ˈɪm.prə.vaɪz/",
-          "image": "🎭",
-          "audio": "",
-          "example": "Good speakers can improvise effectively when unexpected questions arise.",
-          "example_vi": "Những diễn giả giỏi có thể ứng biến hiệu quả khi các câu hỏi bất ngờ phát sinh.",
-          "hint": "To speak or perform without preparation"
-        },
-        {
-          "word": "modulate",
-          "meaning": "điều chỉnh (động từ) — thay đổi cường độ, cao độ hoặc tốc độ giọng nói",
-          "phonetic": "/ˈmɑː.dʒə.leɪt/",
-          "image": "🎚️",
-          "audio": "",
-          "example": "Effective presenters modulate their voice to maintain audience engagement.",
-          "example_vi": "Những người thuyết trình hiệu quả điều chỉnh giọng nói để duy trì sự tập trung của khán giả.",
-          "hint": "To adjust the tone, pitch, or volume of one's voice"
-        },
-        {
-          "word": "inflection",
-          "meaning": "ngữ điệu (danh từ) — sự thay đổi cao độ hoặc âm điệu trong giọng nói",
-          "phonetic": "/ɪnˈflek.ʃən/",
-          "image": "〰️",
-          "audio": "",
-          "example": "A rising inflection at the end of a sentence can indicate a question.",
-          "example_vi": "Ngữ điệu lên cao ở cuối câu có thể chỉ ra một câu hỏi.",
-          "hint": "A change in pitch or tone of the voice"
-        },
-        {
-          "word": "elocution",
-          "meaning": "thuật hùng biện (danh từ) — kỹ năng nói rõ ràng và hiệu quả trước công chúng",
-          "phonetic": "/ˌel.əˈkjuː.ʃən/",
-          "image": "🎤",
-          "audio": "",
-          "example": "Classes in elocution were once a standard part of formal education.",
-          "example_vi": "Các lớp thuật hùng biện từng là một phần tiêu chuẩn của giáo dục chính quy.",
-          "hint": "The skill of clear and expressive public speaking"
-        },
-        {
-          "word": "cadence",
-          "meaning": "nhịp điệu (danh từ) — nhịp và tốc độ tự nhiên của giọng nói hoặc âm thanh",
-          "phonetic": "/ˈkeɪ.dəns/",
-          "image": "🎵",
-          "audio": "",
-          "example": "The cadence of her speech captivated the audience throughout the presentation.",
-          "example_vi": "Nhịp điệu bài phát biểu của cô ấy đã thu hút khán giả trong suốt buổi thuyết trình.",
-          "hint": "The rhythm and pace of spoken language"
+          "example": "The guest speaker delivered an interesting lecture on ancient Mayan astronomy.",
+          "example_vi": "Diễn giả khách mời đã trình bày một bài thuyết trình thú vị về thiên văn học Maya cổ đại.",
+          "hint": "An educational talk to an audience, especially to students in a university.",
+          "phonetic": "/lecture/",
+          "audio": ""
         }
       ]
     }

@@ -85,6 +85,8 @@ function submitGuess() {
     if (!gameState.isPlaying) return;
 
     const input = document.getElementById('guess-input');
+    if (!input || input.disabled) return;
+
     const feedback = document.getElementById('guess-feedback');
     const guess = input.value.trim().toLowerCase();
 
@@ -96,6 +98,8 @@ function submitGuess() {
         feedback.textContent = '✅ Chính xác!';
         feedback.style.color = 'var(--success)';
         input.disabled = true;
+        const submitBtn = input.nextElementSibling;
+        if (submitBtn) submitBtn.disabled = true;
         document.getElementById('guess-img').style.filter = 'blur(0)';
         // Show all hints
         for (let i = 0; i < guessState.maxHints; i++) {
@@ -109,6 +113,8 @@ function submitGuess() {
             feedback.textContent = `❌ Đáp án: ${correct}`;
             feedback.style.color = 'var(--danger)';
             input.disabled = true;
+            const submitBtn = input.nextElementSibling;
+            if (submitBtn) submitBtn.disabled = true;
             document.getElementById('guess-img').style.filter = 'blur(0)';
             onWrongAnswer();
         } else {

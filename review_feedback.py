@@ -45,14 +45,16 @@ def apply_suggestion(data_file, topic_id, word_str, field, suggestion):
     """Apply a suggestion to the original data file. Returns True if successful."""
     data = load_json(data_file)
 
+    VALID_FIELDS = {'word', 'meaning', 'phonetic', 'image', 'audio', 'example', 'example_vi', 'hint'}
+
     for topic in data.get('topics', []):
         if topic['id'] != topic_id:
             continue
         for word_entry in topic.get('words', []):
             if word_entry.get('word') != word_str:
                 continue
-            if field in word_entry:
-                old_val = word_entry[field]
+            if field in word_entry or field in VALID_FIELDS:
+                old_val = word_entry.get(field, None)
                 word_entry[field] = suggestion
                 save_json(data_file, data)
                 return True, old_val

@@ -87,6 +87,15 @@ function checkFillAnswer() {
     if (!gameState.isPlaying) return;
 
     const inputs = document.querySelectorAll('.letter-input');
+    if (inputs.length > 0 && inputs[0].disabled) return;
+
+    const submitBtns = document.querySelectorAll('.fill-submit-area button');
+    submitBtns.forEach(btn => {
+        if (btn.textContent.includes('Kiểm tra')) {
+            btn.disabled = true;
+        }
+    });
+
     let allCorrect = true;
 
     inputs.forEach(input => {
